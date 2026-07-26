@@ -69,13 +69,16 @@ jobs:
             if gh issue list --state open --search "in:title \"Upstream workflow changes need manual review\"" | grep -q .; then
               echo "Reminder issue already open; skipping."
             else
-              gh issue create --title "$title" --body "Upstream changed these files under .github/, which this fork does not auto-sync (daily-digest.yml is customized here):
-
-\`\`\`
-$diff
-\`\`\`
-
-Compare with upstream and merge manually if the changes matter."
+              {
+                echo "Upstream changed these files under .github/, which this fork does not auto-sync (daily-digest.yml is customized here):"
+                echo
+                echo '```'
+                echo "$diff"
+                echo '```'
+                echo
+                echo "Compare with upstream and merge manually if the changes matter."
+              } > /tmp/issue-body.md
+              gh issue create --title "$title" --body-file /tmp/issue-body.md
             fi
           else
             echo "No upstream .github/ changes."
