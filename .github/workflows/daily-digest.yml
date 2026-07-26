@@ -3,6 +3,7 @@ name: Generate Daily Feed
 on:
   schedule:
     - cron: '0 22 * * *'  # UTC 22:00 = Beijing 06:00
+    - cron: '0 10 * * *'  # UTC 10:00 = Beijing 18:00
     - cron: '30 1 * * 1-5'  # arXiv follow-up: Beijing 09:30, after the daily release
   workflow_dispatch:
     inputs:
@@ -84,6 +85,18 @@ jobs:
             python scripts/generate_feed.py --podcasts-only
           else
             python scripts/generate_feed.py
+          fi
+
+      - name: Mirror upstream X feed (fork has no TWITTER_COOKIES)
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/Benboerba620/ai-signal/main/feeds/feed-x.json -o /tmp/feed-x.json \
+            || curl -fsSL https://cdn.jsdelivr.net/gh/Benboerba620/ai-signal@main/feeds/feed-x.json -o /tmp/feed-x.json \
+            || true
+          if [ -s /tmp/feed-x.json ]; then
+            cp /tmp/feed-x.json feeds/feed-x.json
+            echo "Mirrored upstream feed-x.json"
+          else
+            echo "Upstream feed-x.json unreachable; keeping existing file"
           fi
 
       - name: Transcribe selected missing podcast transcripts
