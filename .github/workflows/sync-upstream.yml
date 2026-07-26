@@ -1,0 +1,82 @@
+name: Sync Upstream (monthly)
+
+# Selectively syncs source-code paths from Benboerba620/ai-signal into this
+# fork once a month. feeds/ is NOT synced (this fork generates fresher feeds
+# on its own twice-daily schedule) and .github/ is NOT synced (this fork has
+# a customized daily-digest.yml). If upstream changed anything under its own
+# .github/, an issue is opened so the workflow customizations can be compared
+# and merged by hand.
+
+on:
+  schedule:
+    - cron: '0 2 1 * *'  # 1st of each month, UTC 02:00 = Beijing 10:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+env:
+  UPSTREAM: https://github.com/Benboerba620/ai-signal.git
+  SYNC_PATHS: scripts prompts config docs references tests SKILL.md README.md CHANGELOG.md requirements.txt requirements-central.txt
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream "$UPSTREAM"
+          git fetch upstream main
+
+      - name: Sync source paths from upstream
+        run: |
+          for p in $SYNC_PATHS; do
+            if git cat-file -e "upstream/main:$p" 2>/dev/null; then
+              git checkout upstream/main -- "$p"
+            else
+              echo "Skip $p (not present upstream)"
+            fi
+          done
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- $SYNC_PATHS
+          if git diff --staged --quiet; then
+            echo "Already in sync with upstream."
+          else
+            changed=$(git diff --staged --name-only | head -50)
+            git commit -m "Sync upstream $(date -u +%Y-%m-%d)" -m "$changed"
+            git push
+          fi
+
+      - name: Open issue if upstream workflows changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          base=$(git merge-base HEAD upstream/main)
+          diff=$(git diff --name-only "$base" upstream/main -- .github/ || true)
+          if [ -n "$diff" ]; then
+            title="Upstream workflow changes need manual review ($(date -u +%Y-%m))"
+            if gh issue list --state open --search "in:title \"Upstream workflow changes need manual review\"" | grep -q .; then
+              echo "Reminder issue already open; skipping."
+            else
+              gh issue create --title "$title" --body "Upstream changed these files under .github/, which this fork does not auto-sync (daily-digest.yml is customized here):
+
+\`\`\`
+$diff
+\`\`\`
+
+Compare with upstream and merge manually if the changes matter."
+            fi
+          else
+            echo "No upstream .github/ changes."
+          fi
