@@ -3,6 +3,25 @@
     {
       "channel": "Lenny's Podcast",
       "domain": "ai",
+      "guid": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
+      "title": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
+      "pub_date": "2026-07-27T15:03:21+00:00",
+      "link": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
+      "audio_url": "https://substack-post-media.s3.amazonaws.com/public/images/f3505a78-5a9a-4c2a-a432-ceb4e92894e1_1456x1048.png",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "Your weekly listens from How I AI, part of the Lenny&#8217;s Podcast Network",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/669034f5df8d2b1b9b08c02f.txt",
+      "transcript_chars": 12532
+    },
+    {
+      "channel": "Lenny's Podcast",
+      "domain": "ai",
       "guid": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
       "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
       "pub_date": "2026-07-27T12:04:34+00:00",
@@ -128,45 +147,6 @@
       "transcript_error": null,
       "transcript_path": "feeds/transcripts/e708e4e0d68b671ee4fda188.txt",
       "transcript_chars": 16665
-    },
-    {
-      "channel": "All-In Podcast",
-      "domain": "ai",
-      "guid": "d2e9f5ad-85fb-49f6-bc5c-65f32868b632",
-      "title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
-      "pub_date": "2026-07-24T20:46:00+00:00",
-      "link": "https://allinchamathjason.libsyn.com/the-fight-over-open-source-ai-anthropics-15b-payout-nyc-socialists-evictions-violence",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E282_Ch.mp3?dest-id=1928300",
-      "audio_bytes": 134964123,
-      "duration": "01:33:44",
-      "description": "<p>(0:00) Bestie intros!</p> <p>(0:18) The fight to save open source AI: Kimi K3 panic, Anthropic/OpenAI regulatory capture</p> <p>(27:38) Anthropic/OpenAI historic growth rates, China's long game</p> <p>(48:29) Anthropic's $1.5B piracy settlement and the great IP theft hypocrisy</p> <p>(1:07:12) Google and Tesla stocks tank on surging AI capex</p> <p>(1:17:19) Socialism Corner: \"Evictions = Violence\" and the threat to private property rights</p> <p>Apply for All-In Summit 2026:</p> <p><a href= \"https://allin.com/events\">https://allin.com/events</a></p> <p>Follow the besties:</p> <p><a href=\"https://x.com/chamath\">https://x.com/chamath</a></p> <p><a href=\"https://x.com/Jason\">https://x.com/Jason</a></p> <p><a href= \"https://x.com/DavidSacks\">https://x.com/DavidSacks</a></p> <p><a href= \"https://x.com/friedberg\">https://x.com/friedberg</a></p> <p>Follow on X:</p> <p><a href= \"https://x.com/theallinpod\">https://x.com/theallinpod</a></p> <p>Follow on Instagram:</p> <p><a href= \"https://www.instagram.com/theallinpod\">https://www.instagram.com/theallinpod</a></p> <p>Follow on TikTok:</p> <p><a href= \"https://www.tiktok.com/@allin\">https://www.tiktok.com/@allin</a></p> <p>Follow on LinkedIn:</p> <p><a href= \"https://www.linkedin.com/company/allinpod\">https://www.linkedin.com/company/allinpod</a></p> <p>Intro Music Credit:</p> <p><a href=\"https://rb.gy/tppkzl\">https://rb.gy/tppkzl</a></p> <p><a href= \"https://x.com/yung_spielburg\">https://x.com/yung_spielburg</a></p> <p>Intro Video Credit:</p> <p><a href= \"https://x.com/TheZachEffect\">https://x.com/TheZachEffect</a></p> <p>Referenced in the show:</p> <p><a href= \"https://artificialanalysis.ai/models/kimi-k3?intelligence=artificial-analysis-intelligence-index#intelligence-comparisons\"> https://artificialanalysis.ai/models/kimi-k3?intelligence=artificial-analysis-intelligence-index#intelligence-comparisons</a></p> <p><a href= \"https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\">https://www.axios.com/2026/07/20/ai-",
-      "transcript_available": true,
-      "transcript_source": "volc_asr_auc",
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_chars": 97477,
-      "transcript_request_id": "80fb675c-ddfc-46fb-a6b1-fbe8058f79f6",
-      "transcript_path": "feeds/transcripts/3c2081cd8edcb27a256b9bf3.txt"
-    },
-    {
-      "channel": "Lenny's Podcast",
-      "domain": "ai",
-      "guid": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
-      "title": "Claude Opus 5 review: this model is brilliant (but annoying)",
-      "pub_date": "2026-07-24T17:15:25+00:00",
-      "link": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
-      "audio_url": "https://api.substack.com/feed/podcast/208355131/160ef0b97449c2cbfefb17cbdf9d4dcb.mp3",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Watch now | &#127897;&#65039; I ran Opus 5 through my seven-model benchmark, compared it with six other leading models, and came away with a verdict I genuinely didn&#8217;t expect",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/6f6aef83b20f62c85c16b925.txt",
-      "transcript_chars": 4455
     },
     {
       "channel": "SemiAnalysis",
@@ -330,5 +310,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-27T12:56:15.912117+00:00"
+  "generated_at": "2026-07-27T22:59:06.638037+00:00"
 }

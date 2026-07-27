@@ -8,8 +8,26 @@
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
       "published": "2026-07-27T03:30:00+00:00",
       "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries."
+    },
+    {
+      "id": "https://www.anthropic.com/news/position-open-weights-models",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Our position on open-weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "published": "2026-07-27T00:00:00+00:00",
+      "summary": "Anthropic CEO Dario Amodei on open-weights models"
+    },
+    {
+      "id": "https://www.anthropic.com/news/cognizant-anthropic",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Expanding our partnership with Cognizant | Anthropic",
+      "url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "published": "2026-07-27T00:00:00+00:00",
+      "summary": "Cognizant embeds Claude across its platforms, with 30,000+ associates trained, and becomes a Global Premier Partner in the Claude Partner Network."
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-27T12:56:15.912117+00:00"
+  "generated_at": "2026-07-27T22:59:06.638037+00:00"
 }
