@@ -1,0 +1,153 @@
+🛫 起飞了 | AI Signal - 2026年7月27日
+
+今天最强的信号是开放权重之争被摆上台面:Naval、Demis Hassabis 和 Amjad Masad 几乎同时就"是否该限制开放权重模型"隔空交锋,而英伟达也在同一时间敲定了韩国超过 5000 亿美元的 AI 工厂基建计划。研究端则出现一个共同主题:多篇新论文都在说,LLM agent 的可靠性更取决于"技能"带来的副作用与权限设计,而不是原始能力有多强。
+Today's strongest signal is the open-vs-closed-weight fight going public — Naval, Demis Hassabis, and Amjad Masad are all sparring over whether open-weight models should be restricted, right as NVIDIA locks in a $500B+ AI-factory buildout in Korea. On the research side, a cluster of new papers converges on one theme: LLM agent reliability hinges more on the side effects and permission design of "skills" than on raw model capability.
+
+━━━━━━━━━━
+X / Twitter
+━━━━━━━━━━
+
+X1 | Dylan Patel (dylan522p) · 2026-07-25 07:31 北京时间
+一段哲思型长推:把青铜时代崩溃导致的外部记忆(文字、制度)丧失,类比为如今 LLM 的"测试时计算"(内心独白式推理),并推测下一步可能反过来——文明重新成为人类的外部推理引擎,人类则专精于"问出更好的问题"。
+A philosophical long-form post: frames the Bronze Age collapse's loss of external memory (writing, institutions) as the ancient analogue of today's LLM test-time compute (internal monologue), then speculates the next shift reverses this — civilization becomes humans' external reasoning engine while humans specialize in asking better questions.
+原文/Original: "Many don't know this but the collapse of the Bronze Age is what led humans to developing test-time compute, also known as an internal monologue. When civilization collapsed, writing systems disappeared across much of the eastern Mediterranean. Trade networks broke. Specialized bureaucracies vanished. Knowledge could no longer be offloaded to institutions. Humans increasingly had to simulate, plan, and reason locally rather than rely on civilization as external memory. We replaced external embeddings with internal compute. The next transition may be the reverse: civilization increasingly becomes our external reasoning engine, while humans specialize in asking better questions."
+https://x.com/dylan522p/status/2080797997546590564
+
+X2 | NVIDIA · 2026-07-25 09:51 北京时间
+"这是韩国的黄金时代。" 英伟达宣布与韩国政府、产业界在芯片、前沿 AI、物理 AI/机器人及 AI 工厂等领域全面合作,共建面向韩国与全球的 AI 基础设施。
+"This is the Golden Age of Korea." NVIDIA announces a broad partnership with Korean government and industry across chips, frontier AI, physical AI/robotics, and AI factories to build infrastructure for Korea and the world.
+https://x.com/nvidia/status/2080833379197477226
+
+X3 | Amjad Masad (amasad) · 2026-07-25 10:58 北京时间
+"Anthropic 会不会签?如果你在 Anthropic 工作,值得问问领导层是否愿意就是否支持"封杀开放权重模型"表明立场。"
+"Will Anthropic sign? If you work at Anthropic worth asking your leadership to sign or make their position clear: Are they for banning open weight models?"
+https://x.com/amasad/status/2080850075358826871
+
+X4 | NVIDIA · 2026-07-25 13:24 北京时间
+英伟达与 SK 集团宣布规模超 5000 亿美元的联合计划:SK 电讯将在韩国建设 2 吉瓦级的英伟达 Vera Rubin DSX "AI 工厂",SK 海力士将与英伟达联合开发下一代 AI 内存(含 HBM)。
+NVIDIA and SK Group announce a $500B+ joint initiative: SK Telecom is building a 2-gigawatt NVIDIA Vera Rubin DSX "AI Factory" in Korea, while SK Hynix will codevelop next-generation AI memory (including HBM) with NVIDIA.
+https://x.com/nvidia/status/2080886765146321314
+
+X5 | NVIDIA · 2026-07-25 13:25 北京时间
+Naver、英伟达与 Brookfield 将联手扩建韩国国家级 AI 工厂,Naver 部署英伟达 DSX 平台,以吉瓦级规模向本国创业公司和产业提供全栈、低成本的 AI 基础设施。
+NAVER, NVIDIA, and Brookfield are expanding Korea's national AI-factory buildout; NAVER is deploying the NVIDIA DSX platform to deliver full-stack, lowest-cost AI infrastructure at gigawatt scale for Korea's startups and industries.
+https://x.com/nvidia/status/2080887168793190587
+
+X6 | Demis Hassabis (demishassabis) · 2026-07-25 23:31 北京时间
+"一个强大且安全的开放生态系统,对全世界能否从 AI 中受益至关重要。我们一直大力支持并投入开源与科学——从 Jax、Transformers 到 AlphaFold 再到下载量已超 3 亿次的 Gemma 开放模型。我们提出的标准框架同时支持开放与闭源模型的负责任部署。"
+"A strong and secure open ecosystem is important for the world to benefit from AI. We've always supported and contributed heavily to open source and science from Jax to Transformers to AlphaFold to Gemma open models which have now been downloaded 300M+ times. And the standards framework we've proposed supports responsible deployment of both open and proprietary models."
+https://x.com/demishassabis/status/2081039623422177765
+
+X7 | Amjad Masad (amasad) · 2026-07-26 02:39 北京时间
+"刚部署了一个新国际象棋引擎,预计已达约 1200 Elo。目标是冲到 2000+,但要守住约束:1) 只用一个小型微调 LLM(不做自定义预训练或架构改动);2) 模型必须在没有棋类引擎辅助的情况下自己出招。放宽这些约束会容易很多。"
+"Just deployed a new chess engine; we're closing in on an estimated 1200 Elo. The goal is to get it to 2000+, while keeping the constraints: 1) One small finetuned LLM (no custom pretraining or architecture); 2) The model has to produce the moves with no chess engine assistance. If you relax these constraints, it gets much easier."
+https://x.com/amasad/status/2081086837263937543
+
+X8 | Guillermo Rauch (rauchg) · 2026-07-26 03:47 北京时间
+描述他个人的 agent 工作流:用一个 research/ 文件夹加一份 AGENTS.md 描述格式与最佳实践,再启动 agent 去提问——不需要专门的 App、知识图谱或 UI,文件夹可通过 iCloud、git 等同步;需要分享成果时,让 agent 直接渲染成 HTML 报告并部署到 Vercel。
+Describes his personal agent workflow: a research/ folder plus an AGENTS.md describing format and best practices, then launching an agent to ask questions — no dedicated app, knowledge graph, or UI needed; the folder syncs via iCloud, git, etc. To share an outcome, he has the agent render an HTML report and deploy it to Vercel.
+原文/Original: "I started doing all my research with agent CLIs and the filesystem. A 📁 research/ folder, an AGENTS.md describing the format I like and best practices. Then launch my agent and ask a question. No fancy apps, knowledge graphs, UIs. The agent can be asked to find and correlate knowledge from previous sessions. Scales to infinity. The folder can be synced via iCloud, git, etc. If I want to share some outcome, I can ask the agent to render a cool HTML report and deploy it to Vercel. The 'software' that powers this is English in AGENTS.md."
+https://x.com/rauchg/status/2081103993917649134
+
+X9 | Guillermo Rauch (rauchg) · 2026-07-26 05:03 北京时间
+"（软件）工厂就是产品。你的产品好不好,取决于你搭建的、能自主维护它的那些 agent。这正是马斯克在特斯拉上想明白的事,如今也适用于软件世界。"
+"The (software) factory is the product. Your product is only as good as the agents you set up to autonomously maintain it. This is what @elonmusk figured out about Tesla, and it's now true for the software world."
+https://x.com/rauchg/status/2081123293340520642
+
+X10 | NVIDIA · 2026-07-26 06:21 北京时间
+英伟达宣布在首尔国立大学(SNU)成立"英伟达 AI 技术中心",称韩国不再只是合作伙伴,而是下一波 AI 建设的核心。
+NVIDIA announces the NVIDIA AI Technology Center at Seoul National University (SNU), framing Korea as central to the next wave of AI development, not just a partner.
+https://x.com/nvidia/status/2081142850994229468
+
+X11 | Guillermo Rauch (rauchg) · 2026-07-26 06:48 北京时间
+延续"agent 工厂"的比喻:有了新想法时,不该是"去找个 agent 随手提示一下",而应该去搭建一座能启动、维护并让这个想法成长的"工厂"——他称这比自己团队做过的任何框架都更根本。
+Continuing the "agent factory" metaphor: when you have a new idea, don't ad-hoc prompt an agent — build the factory that starts, maintains, and grows that idea. He calls it more fundamental than any framework his team has built.
+https://x.com/rauchg/status/2081149743368122723
+
+X12 | Naval Ravikant (naval) · 2026-07-27 00:31 北京时间
+"如果开放权重模型里真的藏有后门和偏见,你大可以指望闭源实验室去发现并揭露它们。"(语带讽刺,呼应本轮开放权重之争。)
+"If there were backdoors and biases hidden in open-weight models, you could count on closed-weight labs to find and reveal them." (Read as pointed sarcasm, echoing this round's open-weight debate.)
+https://x.com/naval/status/2081417049935417673
+
+━━━━━━━━━━
+Papers
+━━━━━━━━━━
+
+Paper1 | Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills · 2026-07-25 01:59 北京时间
+Problem 问题：LLM 自我进化训练面临"任务多样性 vs 验证可靠性"的矛盾——限定环境的方法反馈精确但任务面窄,开放式自生成任务面广但缺乏可靠验证,易被误导性奖励污染训练。
+Approach 方法：提出 Skill Self-Play(Skill-SP),由 proposer（出题）、solver（解题）、动态技能控制器组成的共同进化框架,以"技能"作为可验证执行与开放式探索之间的折中点,通过强化学习循环持续扩展技能库。
+Result 结果：在工具使用与推理基准上,Skill-SP 持续拉高强基座模型的能力上限,并能显著扭转最初表现不佳模型的结果。
+https://arxiv.org/abs/2607.22529v1
+
+Paper2 | The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents · 2026-07-25 01:50 北京时间
+Problem 问题：给 agent 加"技能"通常只看平均任务成功率的提升,却掩盖了技能也可能让 agent 变差这一代价。
+Approach 方法：在近 6000 次运行、两个办公自动化基准、三种模型/框架组合上,对比有无技能的表现,区分"回归"(不加技能能做对、加了技能反而失败)与"持续失败"两类,并定位三种回归成因：技能描述的"渗透效应"、"grounding 位移"和"验证位移"。
+Result 结果：表现最好的技能主要靠"更少回归"取胜,而非"更多增益";多数回归和持续失败可通过更好的 grounding 与验证来修复，评估技能应拆解净效应而非只看整体提升。
+https://arxiv.org/abs/2607.22520v1
+
+Paper3 | TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI · 2026-07-25 00:29 北京时间
+Problem 问题：企业级 AI 常用按调用路由模型以平衡成本与质量,但 agent 类长流程任务的质量只由最终任务结果决定,逐次路由无法把反馈正确归因到具体路由决策。
+Approach 方法：TRACE-Router 用上下文老虎机(contextual bandit)在任务准入时一次性把整个任务分配给某个模型,后续调用固定用该模型,并根据任务终态奖励（准确率+延迟）更新策略。
+Result 结果：在三个 agent 基准上持续改善准确率-延迟权衡;在 tau2-Bench 上比按延迟插值的单模型组合高 7-8 个准确率点,在 Terminal-Bench 上比最强单模型基线高 7.1 个准确率点，延迟还低 36%。
+https://arxiv.org/abs/2607.22465v1
+
+Paper4 | Dynamic Capability Scoping for Enterprise AI Agents · 2026-07-25 00:08 北京时间
+Problem 问题：企业 AI agent 通常在配置时就被授予角色可能用到的全部权限,长期处于"过度授权"状态,扩大了攻击面。
+Approach 方法：提出动态最小权限的三源架构——角色权限上限、任务上下文分类器、策略衍生的组合禁令,支持强制模式与仅观测模式,并发布一个基于多部门公司策略、600 条企业任务提示、标注最小所需权限的合成数据集(经人工复核，Cohen's κ 从 0.917 提升到 0.967)。
+Result 结果：数据集与策略互相迭代后,权限上限违规从 46 次降到 3 次,减少 93%，说明合成提示生成可以反过来驱动策略优化。
+https://arxiv.org/abs/2607.22445v1
+
+Paper5 | CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference · 2026-07-25 01:32 北京时间
+Problem 问题：自动化理论研究不仅受限于能否生成候选成果,更受限于能否可靠评估——用 LLM 当"审稿人"并不可靠，检测捏造论文的准确率接近随机。
+Approach 方法：CausalForge 依托 Lean 定理证明助手，结合含 7035 条机器验证声明的因果推理基础库 Causalean,以及自我改进的 agent 流水线 CausalSmith（选题、提出结果、形式化、构造证明），并额外加入"陈述审计"，比对形式化定理与其想表达的非形式化科学主张是否一致。
+Result 结果：论文用已完成的自主研究运行产出的成果对系统进行了评估，代码、形式化库与运行记录均已开源。
+https://arxiv.org/abs/2607.22511v1
+
+Paper6 | κ-LoRA: Condition Numbers Reveal Which LoRA Matrices Worth Updating · 2026-07-25 01:00 北京时间
+Problem 问题：LoRA 微调对所有矩阵一视同仁地更新,计算成本高,对超大模型和边缘/端侧微调场景尤其吃紧。
+Approach 方法：作者发现条件数（最大与最小奇异值之比）小的矩阵已经在各方向上较为均衡、贡献有限，条件数大的矩阵才蕴含真正驱动性能提升的"欠发展方向"；κ-LoRA 据此只更新条件数最大的前 50% 矩阵。
+Result 结果：可训练参数量减半，微调时间平均缩短 16.2%，显存占用降低 4.5%，同时精度与标准 LoRA 持平；训练过程中被选中矩阵的条件数会持续下降，说明效果来自有针对性的"谱重平衡"而非单纯的参数筛选。
+https://arxiv.org/abs/2607.22489v1
+
+Paper7 | On the Identifiability of Controlled World Models · 2026-07-24 23:49 北京时间
+Problem 问题：基于联合嵌入预测架构(JEPA)的动作条件世界模型在视觉控制中表现不错，但何时能同时识别出真实状态与受控动力学，一直是悬而未决的理论问题，在非线性观测与行为策略动作变化有限时尤其容易把"状态自身演化"和"动作影响"搞混。
+Approach 方法：针对高斯潜状态、状态依赖的高斯行为策略，建立联合可辨识性理论，指出两个策略相关条件——可预测信号的谱分离决定表示可辨识性，非退化的条件动作变化决定转移可辨识性；证明两条件同时满足时，JEPA 目标的每个全局最优解都能（在正交变换意义下）识别出潜状态与受控转移。
+Result 结果：进一步给出近似优化下表示/转移可辨识性的定量界，并通过弱激励动作方向上的预测器扰动，揭示动作覆盖不足的代价；非线性观测与行为策略上的实验验证了理论，并说明其对反事实预测和目标条件潜空间规划的影响。
+https://arxiv.org/abs/2607.22430v1
+
+Paper8 | Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science · 2026-07-25 01:32 北京时间
+Problem 问题：商用 LLM 越来越多被当作知识参照，但它们对有争议科学主张的立场既不稳定也不透明。
+Approach 方法：作者测试了 Claude、Grok、GPT、Gemini 四大模型家族，在 2025 年 10 月至 2026 年 2 月的四个时间快照、API 与网页两种接口下，如何评价源自 Frank Salter 生物社会框架的种族民族主义伪科学主张，并设置了基础演化共识与已被推翻的拉马克主义作为对照提示。
+Result 结果：Grok 的 Fast 版本（驱动 X 默认用户体验）持续给出 70-75 的可信度评分，是其他所有模型（15-40）的 2-5 倍，而在对照提示上各模型表现相近；此外还发现一次未公开文档的静默补丁一夜之间让 Grok 表现由"混乱"变为"稳定偏高"，同一模型标识符三个月后在 API 与网页端给出的分数（75 对 5.5）差异巨大，而"拒绝评分"这一最站得住脚的回应，在两个模型家族中出现后又在各自的后续版本中被削弱——说明商用 LLM 的"认知立场"并非模型固有属性，而是系统提示、安全层、接口路由与静默更新共同作用的偶然结果，这一过程对用户和研究者都不透明。
+https://arxiv.org/abs/2607.22513v1
+
+Paper9 | MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation · 2026-07-25 00:39 北京时间
+Problem 问题：基于 LLM 的测试驱动开发（TDD）严重依赖人工编写测试用例，当只有自然语言需求时难以有效运作；已有的自动生成测试方法又忽视了 LLM 输出的随机性，导致错误测试误导代码优化、混合质量的测试给出相互矛盾的评估信号。
+Approach 方法：MineValiCoder 包含三个模块——测试用例质量挖掘（通过自验证过滤错误测试）、并行 TDD 优化（用验证过的测试反馈迭代生成多样化高质量代码候选）、基于二部图的代码-测试互验证（动态建模代码与测试的交互并打分，稳定选出最优代码）。
+Result 结果：在四个 LLM 和主流基准上显著超过现有最优方法，Pass@1 分别达到 HumanEval 96.34%、MBPP 87.40%、APPS 64.00%、LiveCodeBench 51.33%。
+https://arxiv.org/abs/2607.22471v1
+
+Paper10 | Explainable Reinforcement Learning for assisting Air Traffic Controllers · 2026-07-25 01:56 北京时间
+Problem 问题：要把 AI 用进医疗、自动驾驶、航空这类高风险场景，建立信任是关键，而信任又与 AI 的可解释性紧密相关。
+Approach 方法：在一个简化的空中交通管制（ATC）环境中，用强化学习训练 agent 来选择避开禁飞区的备选航线，并引入显著性图（saliency map）作为初步的可解释性方法，观察哪些输入特征对决策影响最大。
+Result 结果：这是一项初步/探索性研究，展示了显著性图能为 agent 决策过程提供一定的可解释洞见，为后续在安全关键场景中建立可解释 RL 打了个样。
+https://arxiv.org/abs/2607.22525v1
+
+Paper11 | Susceptible Reservoir Architectures for Regime-Conditional Volatility Forecasting · 2026-07-25 01:03 北京时间（投资相关）
+Problem 问题：波动率预测长期被"持续性"和测量噪声主导，留给非线性模型发挥的残余结构非常有限。
+Approach 方法：提出"易感架构"（SUSA）这一水库计算（reservoir computing）设计原则，用复值开链/周期水库加"状态条件专家"，分别对应平静、启动、恢复、持续承压四种市场状态；并在 Qiskit 中实现对应的开放系统量子比特版本，统一挂在一个 AR-Ridge 锚点上，用 QLIKE 损失训练有界残差修正。
+Result 结果：在 16 只美股与 ETF 上，用三段互不重叠的训练/验证/测试窗口评估，模型与 GARCH 相比表现有竞争力，在特定资产（IWM、XLP）上 QLIKE 指标有统计显著提升；与 HARQ 类预测互补，堆叠集成后平均 QLIKE 比最强单一成分提升 0.0116，在 75% 的测试场景中胜出。
+https://arxiv.org/abs/2607.22491v1
+
+Paper12 | Robot Learning to Communicate through Projected Visual Abstractions · 2026-07-24 23:52 北京时间
+Problem 问题：人类习惯通过影子、剪影、倒影等身体的"投影抽象"来交流，而机器人目前基本只能靠自身的物理形态来表达。
+Approach 方法：作者用一只 21 自由度的灵巧手（带柔顺软皮肤以减少漏光、获得连贯剪影）加一个可微分的"影子自我模型"，构建了能做动态影子表达的机器人系统；给定目标影子图像或视频，机器人通过对学到的自我模型做基于梯度的搜索来优化手部姿态，再经过考虑碰撞的仿真细化，得到物理上可行的动作，并引入表达区域目标、时间平滑正则化和关键帧优化来保留关键动作线索。
+Result 结果：在模拟和实体实验中，演示了机器人用影子表演手语手势、手影游戏和动物动作模仿，为机器人通过"自身的投影抽象"进行交流和视觉叙事建立了一个框架。
+https://arxiv.org/abs/2607.22434v1
+
+━━━━━━━━━━
+
+想深入了解某一条？直接说"展开 X1"「详细讲讲 Paper5」之类即可。
+Want to go deeper on any item? Just say "expand X1" or "详细讲讲 Paper5" and I'll dig in.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
