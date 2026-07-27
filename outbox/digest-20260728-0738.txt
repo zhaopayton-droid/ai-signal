@@ -1,0 +1,118 @@
+🛫 起飞了 | AI Signal - 2026年7月28日
+
+Today's clearest throughline is open weights meeting AI security: Anthropic finally stakes out its own position on open-weights models right as NVIDIA launches an Open Secure AI Alliance and Vercel's Guillermo Rauch flags new research showing container isolation isn't enough to safely run agents. Underneath it, Anthropic's expanded Cognizant partnership and a NYU endowment CIO's portfolio walkthrough are reminders that the enterprise and institutional-investing sides of AI keep scaling quietly in parallel.
+今天最清晰的一条主线是"开放权重"与"AI 安全"的正面相遇：就在英伟达推出 Open Secure AI Alliance、Vercel 的 Guillermo Rauch 转发新研究指出容器级隔离不足以安全运行 agent 的同时，Anthropic 也终于就开放权重模型亮出了自己的立场。与此同时，Anthropic 与 Cognizant 深化合作，以及 NYU 捐赠基金 CIO 的组合构建复盘，也提醒我们 AI 在企业端和机构投资端的落地，一直在平行地悄悄扩张。
+
+━━━━━━━━━━
+X / Twitter
+━━━━━━━━━━
+
+X1 | NVIDIA on X · 2026-07-27 17:03 北京时间
+AI security advances when the industry builds in the open, together.
+
+We're introducing the Open Secure AI Alliance with industry leaders to develop new techniques and tools to safeguard software and agents.
+
+By sharing models, tooling and research in the open, we can broaden the community of defenders.
+
+Learn more about the founding members' contributions: https://t.co/A16oqxs5Ty
+AI 安全的进步，来自行业共同的开放共建。我们正与业界领军者一起推出 Open Secure AI Alliance（开放安全 AI 联盟），共同开发保护软件与智能体（agent）安全的新技术和新工具。通过公开共享模型、工具和研究，我们可以扩大防御者社区的规模。
+https://x.com/nvidia/status/2081666629264449730
+
+X2 | Guillermo Rauch (rauchg) on X · 2026-07-28 04:41 北京时间
+Kimi's paper underlines the importance of the right security boundary for agents to run in.
+
+tl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics).
+
+Firecracker microVMs (as in Vercel Sandbox) are safe.
+Kimi 的论文强调了为智能体（agent）运行选对安全边界的重要性。一句话总结：容器级别的隔离是不够的——在他们的实验中，agent 甚至通过内核崩溃（kernel panic）搞垮了底层主机。而 Firecracker microVM（比如 Vercel Sandbox 使用的方案）是安全的。
+https://x.com/rauchg/status/2081842439304995169
+
+X3 | Amjad Masad (amasad) on X · 2026-07-27 11:03 北京时间
+Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for attacks as opposed to open models.
+一位前 Anthropic 员工放出的有意思的发现：黑客在发起攻击时，更倾向于使用各大实验室大幅补贴的 AI 订阅服务，而不是开源模型。
+https://x.com/amasad/status/2081576172656456076
+
+X4 | Guillermo Rauch (rauchg) on X · 2026-07-27 09:06 北京时间
+Vercel proudly co-signs the Open Weights and American AI Leadership letter.
+
+Open source, data, protocols & research enable the technological wonders we enjoy every day, enriching our lives and our world.
+
+Open weights are the logical next frontier.
+Vercel 很自豪地联署了《开放权重与美国 AI 领导力》公开信。开源、开放数据、开放协议与开放研究，成就了我们每天享受的技术奇迹，丰富了我们的生活与世界。开放权重是下一个合乎逻辑的前沿方向。
+https://x.com/rauchg/status/2081546513885622760
+
+X5 | NVIDIA on X · 2026-07-27 21:15 北京时间
+Korea's AI moment came to San Francisco last week 🇰🇷
+
+President Lee Jae Myung joined Jensen Huang and some of the biggest names in technology, industry and research to accelerate Korea's full-stack AI ambitions.
+韩国的 AI 高光时刻上周来到了旧金山 🇰🇷 韩国总统李在明与黄仁勋，以及科技、产业和研究领域的多位重量级人物齐聚一堂，共同加速韩国全栈 AI 布局的雄心。
+https://x.com/nvidia/status/2081730105454322151
+
+X6 | Guillermo Rauch (rauchg) on X · 2026-07-27 07:10 北京时间
+I compiled vercel CLI TypeScript to native with scriptc. Incredible.
+
+✓ Resulting binary size: 1.28mb
+✓ Startup overhead: 1.5ms (mean)
+✓ Compiles in 2.94s (mean)
+✓ Uses node:https, node:fs, node:path, node:os, node:crypto
+✓ Highly readable TypeScript
+✓ Code translated by GLM 5.2 Fast
+✓ Deploys like a charm!
+
+No embedded v8 / QuickJS, fully static.
+我用 scriptc 把 vercel CLI 的 TypeScript 编译成了原生代码，效果惊艳：生成的二进制体积 1.28MB，启动开销平均 1.5ms，编译耗时平均 2.94 秒，用到了 node:https、node:fs、node:path、node:os、node:crypto，代码可读性很好，由 GLM 5.2 Fast 转译，部署非常顺畅——完全静态，不内嵌 v8 / QuickJS。
+https://x.com/rauchg/status/2081517519303737559
+
+X7 | insane_analyst on X · 2026-07-27 11:04 北京时间
+"Did you know that the first Matrix was designed to be a perfect human world where none suffered, where everyone would be happy. It was a disaster. No one would accept the program."
+
+There will be no abundance due to AI. Cultists are neither less wrong nor rational.
+「你知道吗，第一版《黑客帝国》母体原本被设计成一个没有人受苦、人人幸福的完美人类世界。结果是一场灾难，没有人愿意接受这个程序。」AI 不会带来丰裕（abundance）。信徒们既不会因此更不容易犯错，也谈不上理性。
+https://x.com/insane_analyst/status/2081576298573685197
+
+━━━━━━━━━━
+Podcasts
+━━━━━━━━━━
+
+P1 | Lenny's Podcast · How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun · 2026-07-27 23:03 北京时间
+Takeaway: This week's "How I AI" roundup bundles a Claude Opus 5 hands-on review, a look at browser use inside Codex, and the previously-covered Cursor + Raspberry Pi hardware-hacking story.
+要点：本周的 "How I AI" 周播合集打包了 Claude Opus 5 的实测体验、Codex 中浏览器操作能力的介绍，以及此前已报道过的 Cursor + 树莓派硬件改造故事。
+Why it matters: A useful weekly pulse-check on how practitioners are actually using the newest coding-agent tools day to day. The official description is thin beyond framing this as a weekly roundup — see the link for the episode itself.
+意义：这是了解从业者日常如何实际使用最新编程 agent 工具的一次周度脉搏检测。官方描述信息有限，仅说明这是一期周播合集，详情请见原文链接。
+https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser
+
+P2 | Capital Allocators · Rebuilding the NYU Endowment – Michelle Knudsen (EP.513) · 2026-07-27 16:00 北京时间
+Takeaway: NYU endowment CIO Michelle Knudsen walks through rebuilding the university's $8B investment office from scratch, covering governance, portfolio strategy, manager selection, venture capital, and hedge funds, with AI discussed as one topic within the broader portfolio conversation.
+要点：NYU 首席投资官 Michelle Knudsen 讲述了如何从零搭建这所大学 80 亿美元捐赠基金的投资办公室，涉及治理架构、组合策略、管理人筛选、风险投资和对冲基金，AI 是其中被提及的一个话题，并非本期主线。
+Why it matters: A general institutional-allocator perspective on how AI is entering portfolio conversations alongside traditional asset classes — useful context, though this is not primarily an AI-focused episode.
+意义：从大型机构配置者的视角看 AI 如何被纳入传统资产类别之外的组合讨论，有一定参考价值，但本期并非以 AI 为主线的节目。
+https://tedseides.libsyn.com/rebuilding-the-nyu-endowment-michelle-knudsen-ep513
+
+━━━━━━━━━━
+Official Blogs
+━━━━━━━━━━
+
+B1 | Anthropic · Our position on open-weights models · 2026-07-27 08:00 北京时间
+What was announced: Anthropic published CEO Dario Amodei's position statement on open-weights AI models.
+公告内容：Anthropic 发布了 CEO Dario Amodei 关于开放权重（open-weights）AI 模型的立场声明。
+Details: The official summary is thin beyond this framing — see the link for Amodei's full argument.
+细节：官方摘要信息有限，具体论述请见原文链接。
+Why it matters: Lands directly in the middle of this week's open-weights/regulation debate playing out on X among Naval, Demis Hassabis, Amjad Masad, and now Vercel's Guillermo Rauch (see X4 above) — Anthropic staking out its own position gives the debate its most consequential lab-side voice yet. Investing angle: how labs position on open weights shapes competitive dynamics against open-model players and can influence policy affecting compute/regulatory costs across the sector.
+意义：这条消息正好切入本周由 Naval、Demis Hassabis、Amjad Masad，以及现在 Vercel 的 Guillermo Rauch（见上方 X4）在 X 上持续的开放权重/监管辩论——Anthropic 亲自表态，为这场辩论带来了目前分量最重的实验室方声音。投资角度：各实验室在开放权重问题上的立场，会影响其与开源模型阵营的竞争格局，也可能左右影响全行业算力/监管成本的政策走向。
+https://www.anthropic.com/news/position-open-weights-models
+
+B2 | Anthropic · Expanding our partnership with Cognizant · 2026-07-27 08:00 北京时间
+What was announced: Anthropic expanded its partnership with Cognizant, embedding Claude across Cognizant's platforms and training over 30,000 Cognizant associates; Cognizant becomes a Global Premier Partner in the Claude Partner Network.
+公告内容：Anthropic 扩大了与 Cognizant 的合作，将 Claude 嵌入 Cognizant 的多个平台，并已培训超过 3 万名 Cognizant 员工；Cognizant 成为 Claude 合作伙伴网络中的全球高级合作伙伴（Global Premier Partner）。
+Details: The official summary doesn't break out specific product integrations or deal size beyond the training figure and partner tier — see the link.
+细节：官方摘要除培训人数和合作伙伴等级外，未披露具体产品整合细节或合作规模，详见原文链接。
+Why it matters: A concrete enterprise-adoption data point for Claude's push into large consulting/IT-services firms, relevant to both Anthropic's revenue trajectory and how enterprise AI adoption scales through systems integrators. Investing angle: signals that systems-integrator/consulting partnerships are a distribution channel gaining traction for Anthropic specifically.
+意义：这是 Claude 打入大型咨询/IT 服务企业的一个具体落地数据点，无论是对 Anthropic 自身营收轨迹，还是对企业 AI 如何通过系统集成商规模化落地，都有参考意义。投资角度：这透露出系统集成商/咨询合作，正成为 Anthropic 一个逐渐见效的企业 AI 分发渠道。
+https://www.anthropic.com/news/cognizant-anthropic
+
+━━━━━━━━━━
+
+想深入了解某一条？直接说"展开 P2"「详细讲讲 B1」之类即可。
+Want to go deeper on any item? Just say "expand P2" or "详细讲讲 B1" and I'll dig in.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
