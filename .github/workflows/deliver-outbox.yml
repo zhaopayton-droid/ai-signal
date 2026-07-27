@@ -1,0 +1,83 @@
+name: Deliver Outbox to Feishu
+
+# Relay: the scheduled cloud digest agent cannot reach open.feishu.cn from
+# its sandbox, so it pushes the finished digest into outbox/ instead. This
+# workflow fires on that push and forwards the text to the Feishu group
+# (webhook stored in the FEISHU_WEBHOOK secret). Messages are split into
+# <=20000-byte chunks and every chunk carries the bot's required keyword.
+
+on:
+  push:
+    branches: [main]
+    paths: ['outbox/**']
+
+permissions:
+  contents: read
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Send new outbox files to Feishu
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, subprocess, sys, time, urllib.request
+
+          before, after = os.environ["BEFORE"], os.environ["AFTER"]
+          zero = "0" * 40
+          if before == zero:
+              cmd = ["git", "show", "--pretty=", "--name-only", "--diff-filter=AM", after, "--", "outbox/"]
+          else:
+              cmd = ["git", "diff", "--name-only", "--diff-filter=AM", before, after, "--", "outbox/"]
+          files = [f for f in subprocess.run(cmd, capture_output=True, text=True).stdout.split()
+                   if f.endswith(".txt")]
+          if not files:
+              print("No new outbox files in this push.")
+              sys.exit(0)
+
+          hook = os.environ["FEISHU_WEBHOOK"]
+          MARK = "起飞了"  # required keyword
+          MAX_BYTES = 20000
+
+          def send(text):
+              payload = json.dumps({"msg_type": "text", "content": {"text": text}}).encode("utf-8")
+              req = urllib.request.Request(hook, data=payload,
+                                           headers={"Content-Type": "application/json"})
+              resp = json.load(urllib.request.urlopen(req, timeout=30))
+              if resp.get("code") != 0:
+                  raise SystemExit(f"Feishu rejected message: {resp}")
+              return resp
+
+          for path in sorted(files):
+              if not os.path.exists(path):
+                  continue
+              text = open(path, encoding="utf-8").read().strip()
+              if not text:
+                  continue
+              chunks, cur = [], ""
+              for line in text.splitlines(keepends=True):
+                  if cur and len((cur + line).encode("utf-8")) > MAX_BYTES:
+                      chunks.append(cur)
+                      cur = line
+                  else:
+                      cur += line
+              if cur:
+                  chunks.append(cur)
+              n = len(chunks)
+              for i, chunk in enumerate(chunks, 1):
+                  body = chunk
+                  if MARK not in chunk:
+                      body = f"{MARK} ({i}/{n})\n" + chunk
+                  print(path, f"chunk {i}/{n}", send(body))
+                  time.sleep(1)
+          EOF
