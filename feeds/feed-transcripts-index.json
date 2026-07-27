@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-07-26T22:57:43.287972+00:00",
+  "generated_at": "2026-07-27T12:56:41.083858+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
+      "link": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
+      "channel": "Lenny's Podcast",
+      "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
+      "pub_date": "2026-07-27T12:04:34+00:00",
+      "transcript_path": "feeds/transcripts/76aa23f99ee1803e38031dbd.txt",
+      "transcript_chars": 5001,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-07-27T12:56:41.083858+00:00",
+      "last_seen_at": "2026-07-27T12:56:41.083858+00:00",
+      "expires_at": "2026-08-10T12:56:41.083858+00:00"
+    },
     {
       "guid": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
       "link": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
@@ -12,8 +25,8 @@
       "transcript_chars": 5676,
       "transcript_source": "episode_page",
       "cached_at": "2026-07-26T15:42:50.952156+00:00",
-      "last_seen_at": "2026-07-26T22:57:43.287972+00:00",
-      "expires_at": "2026-08-09T22:57:43.287972+00:00"
+      "last_seen_at": "2026-07-27T12:56:41.083858+00:00",
+      "expires_at": "2026-08-10T12:56:41.083858+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
@@ -25,8 +38,8 @@
       "transcript_chars": 16665,
       "transcript_source": "episode_page",
       "cached_at": "2026-07-26T15:42:50.952156+00:00",
-      "last_seen_at": "2026-07-26T22:57:43.287972+00:00",
-      "expires_at": "2026-08-09T22:57:43.287972+00:00"
+      "last_seen_at": "2026-07-27T12:56:41.083858+00:00",
+      "expires_at": "2026-08-10T12:56:41.083858+00:00"
     },
     {
       "guid": "d2e9f5ad-85fb-49f6-bc5c-65f32868b632",
@@ -38,8 +51,8 @@
       "transcript_chars": 97477,
       "transcript_source": "volc_asr_auc",
       "cached_at": "2026-07-24T23:04:51.838715+00:00",
-      "last_seen_at": "2026-07-26T22:57:43.287972+00:00",
-      "expires_at": "2026-08-09T22:57:43.287972+00:00"
+      "last_seen_at": "2026-07-27T12:56:41.083858+00:00",
+      "expires_at": "2026-08-10T12:56:41.083858+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
@@ -51,8 +64,8 @@
       "transcript_chars": 4455,
       "transcript_source": "episode_page",
       "cached_at": "2026-07-24T22:57:15.602335+00:00",
-      "last_seen_at": "2026-07-26T22:57:43.287972+00:00",
-      "expires_at": "2026-08-09T22:57:43.287972+00:00"
+      "last_seen_at": "2026-07-27T12:56:41.083858+00:00",
+      "expires_at": "2026-08-10T12:56:41.083858+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
