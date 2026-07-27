@@ -1,0 +1,77 @@
+name: Digest Watchdog
+
+# The scheduled cloud agent occasionally fails silently (no outbox push, so
+# the relay never fires and nothing reaches Feishu). This watchdog runs after
+# each digest slot (07:30 / 19:30 Beijing) and alerts the Feishu group when
+# no digest landed in outbox/ for the most recent slot.
+
+on:
+  schedule:
+    - cron: '15 0 * * *'   # UTC 00:15 = Beijing 08:15 (checks the 07:30 slot)
+    - cron: '15 12 * * *'  # UTC 12:15 = Beijing 20:15 (checks the 19:30 slot)
+  workflow_dispatch:
+    inputs:
+      force_alert:
+        description: 'Send the alert regardless of outbox state (test)'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check outbox for the latest digest slot
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FORCE_ALERT: ${{ inputs.force_alert || 'false' }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, subprocess, sys, urllib.request
+          from datetime import datetime, timedelta, timezone
+
+          beijing = timezone(timedelta(hours=8))
+          now = datetime.now(beijing)
+
+          # Most recent digest slot (07:30 / 19:30 Beijing) at or before now.
+          slots = [now.replace(hour=7, minute=30, second=0, microsecond=0),
+                   now.replace(hour=19, minute=30, second=0, microsecond=0)]
+          past = [s for s in slots + [s - timedelta(days=1) for s in slots] if s <= now]
+          last_slot = max(past)
+
+          since = last_slot.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          log = subprocess.run(
+              ["git", "log", f"--since={since}", "--name-only", "--pretty=", "--", "outbox/"],
+              capture_output=True, text=True).stdout
+          delivered = any(line.startswith("outbox/") and line.endswith(".txt")
+                          for line in log.split())
+
+          force = os.environ.get("FORCE_ALERT") == "true"
+          if delivered and not force:
+              print(f"OK: digest found in outbox since {last_slot:%m-%d %H:%M} Beijing.")
+              sys.exit(0)
+
+          slot_label = f"{last_slot:%m-%d %H:%M}"
+          prefix = "(测试告警,链路正常)" if (delivered and force) else ""
+          text = (f"🛫 起飞了 ⚠️ AI Signal 看门狗{prefix}\n"
+                  f"北京时间 {slot_label} 这一班日报未送达(outbox 无新文件)。\n"
+                  f"可能是云端 routine 会话异常。处理方式:在 Claude Code 里说\n"
+                  f"「重发日报」,或到 https://claude.ai/code/routines 手动 Run 一次。")
+          payload = json.dumps({"msg_type": "text", "content": {"text": text}}).encode("utf-8")
+          req = urllib.request.Request(os.environ["FEISHU_WEBHOOK"], data=payload,
+                                       headers={"Content-Type": "application/json"})
+          resp = json.load(urllib.request.urlopen(req, timeout=30))
+          print("alert sent:", resp)
+          if resp.get("code") != 0:
+              raise SystemExit(f"Feishu rejected alert: {resp}")
+          EOF
