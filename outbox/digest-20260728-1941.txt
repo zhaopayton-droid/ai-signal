@@ -1,0 +1,93 @@
+🛫 起飞了 | AI Signal - 2026年7月28日
+
+Today's freshest signal is entirely on the research side: Moonshot AI dropped the Kimi K3 paper for its 2.8T-parameter open-weight model, claiming a 2.5x scaling-efficiency jump over K2 and frontier-level results that beat every other open model (and most closed ones) it was tested against. Surrounding it is a tight cluster of agent-reliability and agent-security papers — on taint confinement, code-repair reliability, KV-cache eviction, and inference-pipeline attacks — that together read as the field shifting attention from "can agents do the task" to "can we trust and secure them doing it." No new X posts, podcasts, or blog items cleared the dedup filter this cycle; everything below is new arXiv output since the last digest.
+今天最新鲜的信号完全来自研究端：Moonshot AI 放出了 2.8T 参数开源模型 Kimi K3 的论文，宣称相比 K2 整体扩展效率提升 2.5 倍，在评测中全面超越其他开源模型（以及大多数闭源模型）。围绕它的是一组高度集中的 agent 可靠性与安全性论文——涉及权限隔离、代码修复可靠性、KV 缓存驱逐、推理流水线攻击——合在一起读，像是这个领域的关注点正在从"agent 能不能完成任务"转向"能不能信任并保障它安全地完成任务"。本轮没有新的 X 推文、播客或官方博客通过去重筛选，以下全部是自上一期日报以来的新增 arXiv 内容。
+
+━━━━━━━━━━
+Papers
+━━━━━━━━━━
+
+Paper1 | Kimi K3: Open Frontier Intelligence · 2026-07-28 00:50 北京时间
+Problem 问题：开源模型如何在有限的算力预算下持续逼近头部闭源模型的前沿能力。
+Approach 方法：Kimi K3 是一个 2.8T 参数、单 token 激活 1040 亿参数的 MoE 模型，原生支持视觉与 100 万 token 上下文，核心依托 Kimi Delta Attention、Attention Residuals 改善跨长序列/跨层的信息流动，并配合 Stable LatentMoE（896 个路由专家中每次激活 16 个）与改进的训练数据配方；后训练阶段在通用、agentic 与代码等多个领域、多档推理强度上引入强化学习。
+Result 结果：相较 Kimi K2 整体扩展效率提升约 2.5 倍，在长程编码、agentic、知识、推理与视觉任务上达到前沿水平——虽然整体仍落后于 Claude Fable 5 和 GPT-5.6 Sol，但持续超越评测中所有其他开源与闭源模型，且完整权重已开放。
+https://arxiv.org/abs/2607.24653v1
+
+Paper2 | The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation · 2026-07-28 01:55 北京时间
+Problem 问题：基座模型 agent 的多轮长程规划能力至关重要，但现有模型都是在不可控、不透明的互联网数据上训练出来的，很难说清规划能力究竟是如何被习得、塑造和整合的。
+Approach 方法：作者搭建了一个统一、可精确控制的多轮环境，系统研究规划能力在预训练（数据格式/分布/质量、显式世界模型构建）、后训练（GRPO 与 on-policy distillation 塑造规划模式与规划知识）、以及多教师蒸馏整合三个阶段中的演化过程。
+Result 结果：显式的思维链状态转移建模能带来更强的长程泛化，仅靠"原子技能"不足以支撑组合泛化而需要一定量长程数据；on-policy distillation 在低质量、长程场景下比 GRPO 适用范围更广；多教师蒸馏在规划模式兼容时可实现跨环境泛化，模式冲突时则会相互干扰。
+https://arxiv.org/abs/2607.24720v1
+
+Paper3 | DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data · 2026-07-28 01:54 北京时间
+Problem 问题：预训练数据处理通常在语料或领域层面制定统一策略、无差别套用到所有样本，无法适应单条数据各自的实际情况。
+Approach 方法：DataOrchestra 让一个编排器针对每个数据块决定丢弃、保留原样还是清洗，清洗时可选择一种或多种下游操作（从程序化编辑到不同形式的 LLM 改写），并为每步改写生成具体指令交由对应工具模型执行；作者据此从零预训练了 0.5B 到 7B 的模型。
+Result 结果：在 11 个基准上相较单一数据处理方法取得稳定的平均增益，在数学继续预训练场景中也优于更强的处理基线，同时通过跳过不必要的下游操作降低了处理算力开销。
+https://arxiv.org/abs/2607.24717v1
+
+Paper4 | Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents · 2026-07-28 00:19 北京时间
+Problem 问题：处理混合密级数据的自主 LLM agent 面临提示注入和推理错误带来的严重安全风险；传统信息流控制（IFC）一旦读取未经审查的数据，就会永久"污染"agent 的整个上下文，严重限制后续可用性。
+Approach 方法：作者提出 APPA（Agentic Permissions Policy Algebra），在数据获取前就对标签下降和缺失前提做前瞻性评估、生成可执行的补救方案（授权/接受）；检查未审查数据时会派生出一条"标签种子"子轨迹单独承接标签下降，再由可信的净化器把有界的衍生结果返回给不受影响的父上下文，并在双幺半群模型下形式化证明了父标签保持性与合并可控性。
+Result 结果：在跨四个模型的多轮工具链基准上，APPA 把数据外泄成功率从 31%-50% 压低到 0%-7%，且在四个模型中的三个上，分支机制挽回了传统污点追踪牺牲掉的相当一部分可用性。
+https://arxiv.org/abs/2607.24625v1
+
+Paper5 | Looping Is Not Reliability: State-Bound Evidence and Typed Revision Contracts for Agentic Code Repair · 2026-07-28 00:05 北京时间
+Problem 问题：编码 agent 常用"生成-测试-修订"循环，但单纯的重复本身并不能保证可靠性——找到正确补丁和最终保留、验证、提交它之间存在落差。
+Approach 方法：作者在 30 个 HumanEval 修复任务上做了五种子的封闭研究，产生 900 条三轮修订轨迹，并用 2,430 条来自完全相同冻结程序的分支做了两项"共同状态"研究以消除干预后风险集偏差，还在一次预先登记的 14B 模型复现实验及跨 24 个 bug、四套代码生成技术栈的仓库实验中做了验证。
+Result 结果：强制修订下，"当前正确率"在一次修订后为 0.820、两次修订后降到 0.673（尽管"曾经正确"比例提升到 0.847）；陈旧轨迹相比最新轨迹对正确起点的伤害明显更大（14B 复现中 34/135 对 4/135）；一种前瞻性的 540-rollout 策略消除了对已正确起点的伤害，但会牺牲对错误起点的修复能力。作者据此提出一套证据绑定的类型化修订契约及其参考实现。
+https://arxiv.org/abs/2607.24604v1
+
+Paper6 | Efficiency Matters in Autonomous Research · 2026-07-28 00:46 北京时间
+Problem 问题：AI 驱动的自主研究（AR）系统评测长期只看最终结果质量，忽视了搜索过程本身的效率——随着 AR 从数学、编程这类验证成本低的领域扩展到需要昂贵实体实验验证的真实科研场景，搜索效率会越来越关键。
+Approach 方法：作者提出用"帕累托前沿下面积（AUC）"配合最终结果质量来评测 AR 系统，在 12 个系统优化任务上比较爬山法、束搜索、树搜索、进化搜索等多种搜索算法族，并提出一种自适应的"流体搜索"（fluid search），用组合式老虎机在固定评测预算下动态分配给一批并行搜索过程。
+Result 结果：没有任何单一搜索结构能在所有任务上都最高效；搜索效率与最终结果质量是两个独立维度——最终拿到最好结果的方法可能进展缓慢、消耗预算远高于其他方法；fluid search 在所有测试任务上取得最高的整体搜索效率，接近"事先知道每个任务最佳搜索结构"的理论上限。
+https://arxiv.org/abs/2607.24647v1
+
+Paper7 | Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects · 2026-07-28 00:45 北京时间
+Problem 问题：稀疏自编码器（SAE）作为可解释性工具的大规模应用，受限于 SAE 特征与模型实际行为之间关系不稳定——描述清晰的特征可能因果效应很弱或出人意料，转向（steering）效果会随提示变化甚至反向，基于激活值挑特征也可能漏掉真正影响输出的特征。
+Approach 方法：不同于以往研究模型内部的特征几何结构，作者转而研究"移除同一个 SAE 特征在不同上下文下引起的 logit 变化"的几何结构，提出无监督框架 FEGA（Feature-Effect Geometry Analysis），并区分绑定静态信息（如事实属性）的"值型"特征与对应上下文相关操作的"指针型"特征。
+Result 结果：跨多种 SAE 变体，"一致的一维效应"很罕见，只有少数特征表现为可复用的方向；值型特征更常呈现结构化、低维（但通常跨越多个方向）的效应，指针型特征则大多表现为弥散效应——说明一个特征即便可解释、且因果上确实相关，也未必能提供稳定的转向方向。
+https://arxiv.org/abs/2607.24645v1
+
+Paper8 | Eviction as Estimation: A Fixed-Lag Smoothing View of Test-Time Memory, and When Measuring Beats Accumulating · 2026-07-28 01:08 北京时间
+Problem 问题：受限工作记忆的语言模型必须不断决定保留哪些历史信息；现有方法要么在信息刚出现时就基于过去做决定（StreamingLLM、H2O），要么基于对未来的猜测（SnapKV）。
+Approach 方法：作者把"驱逐"重新表述为对"该条目是否会被复用"这一隐藏信号的估计问题，提出介于二者之间的"固定滞后平滑"（fixed-lag smoothing）：等待有限步数，观察一个正确的近未来预测实际关注了哪些条目，再据此提交决定；并将其实现为无需训练的策略 RMM（H2O 的严格泛化）。
+Result 结果：在复用信号内生且时间上可分离的受控场景中，这种"已展示效用"比累积注意力更能准确识别被使用的记忆，让小容量记忆表现得像大容量记忆一样好；但在 NVIDIA KVPress 独立第三方基准上，这一优势基本消失——RMM 在单轮问答上与 H2O 打平，在多轮流式场景中还不如 H2O 和 SnapKV，原因是自然文本中模型对大多数 token 的预测本来就是对的，"正确性加权"几乎不改变结果。作者强调这是一个诚实的适用边界地图，而非新的 SOTA。
+https://arxiv.org/abs/2607.24667v1
+
+Paper9 | Denial of Deadline: Network-Driven Accuracy Collapse in Distributed Inference Pipelines · 2026-07-28 01:34 北京时间
+Problem 问题：现在的推理系统常把"在延迟预算内返回结果的快路径"和"用更强远程算力换取更高精度的慢路径"组合使用，由协调层的路由器与合并器决定是否采纳慢路径结果——但这个新出现的协调层本身可能是新的攻击面。
+Approach 方法：作者证明了一种"整形工作负载攻击"（如 Yo-Yo 突发流量），可以让攻击者在慢路径共享资源上制造拥塞，把良性用户的慢路径预测挤出延迟预算、被合并器丢弃，而快路径仍会按时返回结果，造成"精度坍塌"；并在自动驾驶的边缘-云端多目标跟踪流水线仿真中演示了这一攻击。
+Result 结果：约 4000 个突发请求就能把良性请求的 p99 延迟从 92ms 推高到 2s，几乎抹去慢路径云端推理带来的收益，平均使目标跟踪质量下降 7.0 个 HOTA 点，个别稀有类别（如停车标志）的预测精度损失接近一半——攻击既不需要模型权重也不需要受害者数据。
+https://arxiv.org/abs/2607.24692v1
+
+Paper10 | A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility · 2026-07-28 01:01 北京时间
+Problem 问题：科学用户设施积累了数十年运维知识，分散在电子日志、技术文档、内部 wiki、运维聊天记录、维护记录和实时控制系统数据中，没有任何单一检索系统能覆盖全部。
+Approach 方法：作者构建并部署了 APS-RAG（Advanced Photon Source Retrieval Augmented Generation），用查询类型自适应的互惠排序融合把稠密、稀疏与知识图谱三路检索结果融合，叠加纠错式 agentic 循环，并在 MCP 工具层上跑一个原生工具 ReAct 执行器；同时构建了含 50 道题、答案可审计的 APS-Bench 评测集。
+Result 结果：相比朴素 BM25 基线（63.8%），所有检索增强变体在严格"关键信息召回率"上都有提升，完整的纠错式 Agentic GraphRAG 达到 70.3%；交叉编码器重排序对答案质量贡献显著（去掉后严格召回率骤降 32.8%），而知识图谱通道与纠错循环虽方向正确但增益有限。
+https://arxiv.org/abs/2607.24663v1
+
+Paper11 | MMOE: Modernizing Diffusion Transformers with Efficient Expert Design · 2026-07-28 01:05 北京时间
+Problem 问题：扩散 Transformer 类的 AIGC 基础模型也开始引入稀疏专家（MoE），但大多只是单纯扩大参数量和稀疏率，并未像 LLM 那样引入配套的效率机制，导致生成质量很少与训练/部署成本做真正的平衡。
+Approach 方法：MMOE（ModernMOE）对 SiT 风格的扩散 Transformer 做系统性现代化改造，把路由专家、共享与轻量专家、门控残差路由、注意力残差信息复用等机制适配进 AIGC 生成场景，而非把 MoE 当作简单的即插即用替换；所有实验都在单台 8×H100 节点、batch size 256、训练 40 万步的可负担预算下完成。
+Result 结果：在同等训练/采样条件和预算下，MMOE 在每个检查点的 FID 都低于稠密模型和其他稀疏专家基线（即每步收敛更快），在稀疏变体中综合质量-成本表现最好；路由分析还显示专家分工在深度上保持稳定，轻量路由被大量使用，去噪过程中的路由变化也较为温和。
+https://arxiv.org/abs/2607.24665v1
+
+Paper12 | Reason-Mediated Behavioral Models for Auditing LLM Social Simulators · 2026-07-28 00:47 北京时间
+Problem 问题：LLM 越来越多被当作社会模拟器（比如合成调研受访者），但现有评测大多只看模拟结果是否和人类结果一致，这个标准必要但不够——模拟器可能给出正确答案，却用的是错误的理由推理路径。
+Approach 方法：作者通过一次 94 人的防晒霜概念测试展开研究，每位受访者评估三个产品概念并给出开放式理由；把这些理由映射为带符号的"理由状态"（正号支持采纳、负号阻碍采纳），在固定受访者描述、品类背景和概念处理条件下，检验人类理由是否有助于预测行为，以及 LLM 能否在不看人类理由和结果的情况下模拟出同样的理由状态。
+Result 结果：人类的理由推导确实能显著提升对购买意愿的样本外预测；而 LLM 模拟出的理由更"脆弱"——听起来合理，但常常只是复述产品概念本身，而未能还原受访者真实的接受或拒绝路径，这为社会模拟器提供了一个可解释的审计框架。
+https://arxiv.org/abs/2607.24649v1
+
+Paper13 | Evaluating the Impact of Explainable AI on Trust in AI-Assisted Code Review · 2026-07-28 00:04 北京时间
+Problem 问题：LLM 越来越多被用于自动化代码评审，但其决策背后的推理过程很难理解，开发者难以判断该给 AI 生成的评审意见多少信任。
+Approach 方法：作者对 34 名参与者做了组内用户研究，对比三种可解释性（XAI）程度不同的 LLM 代码评审系统：条件 A（详细解释+评审意见）、条件 B（仅评审意见）、条件 C（无解释），让参与者结合真实代码变更请求评估 AI 生成的评审，测量信任感知、对 AI 建议的认同度、决策理由与耗时。
+Result 结果：解释程度对信任和认同度的影响方向并不一致——完整解释（A）带来最高的信任感（5 分制 3.99 分）但认同度并非最高；中等解释（B）反而认同度最高（89.22%），提示更多解释可能让开发者更频繁地质疑 AI 建议；无解释（C）的信任和认同度都最低；解释程度对评审耗时没有显著影响，代码可读性与正确性是最常被提及的决策依据。
+https://arxiv.org/abs/2607.24601v1
+
+━━━━━━━━━━
+
+想深入了解某一条？直接说"展开 Paper1"「详细讲讲 Paper4」之类即可。
+Want to go deeper on any item? Just say "expand Paper1" or "详细讲讲 Paper4" and I'll dig in.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
