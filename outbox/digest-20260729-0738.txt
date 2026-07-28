@@ -1,0 +1,74 @@
+🛫 起飞了 | AI Signal - 2026年7月29日
+
+⚠️ Data note: the X/Twitter feed hasn't refreshed in about 24 hours (last pulled 2026-07-27 22:55 UTC), so no new tweets cleared dedup this cycle — treat the X section as stale until the next refresh.
+⚠️ 数据延迟提示：X/Twitter 数据源已约24小时未更新（上次抓取于 UTC 2026-07-27 22:55），本轮没有新推文通过去重，X 部分数据暂时滞后，请留意下一轮刷新。
+
+Today's signal is less about new releases and more about the people behind them going long-form: Sam Altman shows up across three separate podcast conversations (compute strategy, AGI and human agency, and startup advice), Dario Amodei sits for a wide-ranging Bloomberg interview, and a Chinese-language show digs into Moonshot AI founder 杨植麟 right as Kimi K3's paper keeps rippling through the industry. Underneath the media cycle, Anthropic quietly shipped research on using Claude to find real cryptographic weaknesses, and OpenAI published a field report on agentic AI in scientific computing — both quieter but more concrete signals than the interview circuit. No new papers or tweets cleared dedup this round; everything below is podcasts and blog posts new since the last digest.
+今天的信号不是新发布，而是各家掌门人集体进行长篇对话：Sam Altman 一口气出现在三场不同的播客里（算力策略、AGI与人的能动性、创业建议），Dario Amodei 接受了 Bloomberg 一次内容广泛的专访，还有一档中文节目深入采访了月之暗面创始人杨植麟——正值 Kimi K3 论文持续在行业里发酵。媒体热闹之下，Anthropic 悄悄放出了用 Claude 发现真实密码学漏洞的研究，OpenAI 也发布了一篇关于科学计算中 agentic AI 应用的实地报告——这两条虽然声量小，但比访谈热潮更实在。本轮没有新推文或论文通过去重，以下全部是自上期日报以来新增的播客与官方博客内容。
+
+━━━━━━━━━━
+Podcasts
+━━━━━━━━━━
+
+P1 | Latent Space | Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI · 2026-07-28 23:26 北京时间
+Takeaway 要点：OpenAI 负责 Codex 的核心产品工程负责人 Akshay Nathan，讲述了 Codex 如何从 0 做到 1000 万用户，以及他们正在构建的 ChatGPT Work。
+Key points 关键内容：节目描述提到的产品面包括 Sites、OpenClaw、Memory、Subagents、Finance、No-Code 等模块，以及相关的产品建设经验。
+Why it matters 为什么重要：这是 OpenAI 把 Codex 的规模化经验直接迁移到企业办公场景（ChatGPT Work）的一手信息，值得关注其产品化路径。
+https://www.latent.space/p/chatgpt-work
+
+P2 | a16z | Fei-Fei Li on Spatial Intelligence and Robotics · 2026-07-28 18:00 北京时间
+Takeaway 要点：World Labs（李飞飞联合创立并任 CEO）近期收购了 SceniX，本期由 Martin Casado 与李飞飞、SceniX 联合创始人兼哥伦比亚大学助理教授 Yunzhu Li 对谈，讨论这次收购背后的逻辑。
+Key points 关键内容：话题覆盖 real-to-sim-to-real 流程、世界模型、机器人基础模型、评测方法、合成数据，以及为什么训练机器人可能需要一套与训练语言模型完全不同的方法。
+Why it matters 为什么重要：李飞飞是 ImageNet 缔造者与空间智能方向的代表人物，这次访谈直接触及"语言之外，AI 如何理解并交互物理世界"这一被认为是 AI 下一个重大未解难题的方向。
+https://a16z.simplecast.com/episodes/fei-fei-li-on-spatial-intelligence-and-robotics-j8HvsWJf
+
+P3 | Invest Like the Best | Sam Altman - How to Make an Abundant Future (EP.484) · 2026-07-28 16:00 北京时间
+Takeaway 要点：Sam Altman 与主持人纵览 OpenAI 从 ChatGPT 起源到现在与未来的发展，涉及 Codex、硬件，以及他们新发布的 Jalapeno 芯片。
+Key points 关键内容：讨论了早期"按当时看不合理的规模"押注算力采购的决定、每周新增一吉瓦算力产能的计划、Kimi 与蒸馏（distillation）话题、Hugging Face 事件对 AI 发展节奏的意义，以及在"智能已然充裕"的世界里养育孩子是什么感受。
+Why it matters 为什么重要：这是 Altman 少见的把算力资本开支节奏、竞争格局判断（如对 Kimi/蒸馏的评价）放在一起讲的长篇访谈，对判断 OpenAI 下一阶段的算力与竞争策略有参考价值。
+https://colossus.com/episode/how-to-make-an-abundant-future/
+
+P4 | Latent Space | [AINews] Much ado about Open Weights · 2026-07-28 14:20 北京时间
+Takeaway 要点：Latent Space 的 AI 新闻日报节目，标题总结为"大家都在写很多东西，但今天真正发布的只有 Kimi K3"。
+Key points 关键内容：官方描述较简短，本期属于当日 AI 新闻速览性质的节目，围绕开放权重（open weights）话题展开。
+Why it matters 为什么重要：作为持续更新的行业风向标节目，反映出当天开源模型话题的热度中心仍集中在 Kimi K3。
+https://www.latent.space/p/ainews-much-ado-about-open-weights
+
+P5 | Y Combinator | Sam Altman: "Never a Better Time to Do a Startup" · 发布时间未验证 pub_date unverified
+Takeaway 要点：回顾 2005 年 Sam Altman 作为斯坦福大二学生、YC 第一期学员，在剑桥一间小办公室里创业的经历（与 Paul Graham 相关，描述被截断）。
+Key points 关键内容：官方描述较简短，聚焦 Altman 早年创业经历与对当下创业时机的看法。
+Why it matters 为什么重要：在 OpenAI 如日中天之际，Altman 回顾自己最初的创业者身份，为当下的创业建议提供背书。
+https://www.youtube.com/watch?v=ZIaOBAjvc38
+
+P6 | 硅谷101 | 对话叶奇意："寻找"月之暗面杨植麟、中国两代AI、十年人才迁徙，与AGI信仰 · 发布时间未验证 pub_date unverified
+Takeaway 要点：Kimi K3 发布后再次震动硅谷，把月之暗面推回全球 AI 竞争中心，本期对话嘉宾叶奇意（Kiwi）自称在 AI 行业"打杂了十年"。
+Key points 关键内容：官方描述提到她亲历了"上一代 AI 四..."（描述被截断），话题围绕中国两代 AI 人才、十年人才迁徙与 AGI 信仰展开。
+Why it matters 为什么重要：正值 Kimi K3 论文持续发酵，这是少见的深入月之暗面创始团队背景与中国 AI 人才脉络的中文一手访谈。
+https://www.youtube.com/watch?v=Hq4jFGd4YxE
+
+P7 | Bloomberg en Español | Dentro de la mente de Dario Amodei, director ejecutivo de Anthropic | The Circuit · 发布时间未验证 pub_date unverified
+Takeaway 要点：Bloomberg 主持人 Emily Chang 对 Anthropic CEO Dario Amodei 进行了一次内容广泛的专访。
+Key points 关键内容：官方描述较简短，未列出具体议题细节。
+Why it matters 为什么重要：作为 Anthropic 掌门人的公开长篇访谈，是了解其当下公开表态口径的一手信息源。
+https://www.youtube.com/watch?v=Ue75Fgo3ilU
+
+━━━━━━━━━━
+Official Blogs
+━━━━━━━━━━
+
+B1 | OpenAI | Scientific computing in the age of agentic AI · 2026-07-29 01:00 北京时间
+What was announced 内容：OpenAI 发布了一份实地报告，展示科学家如何用 AI 编程 agent 来现代化科学计算工作，加速软件开发与科研发现，涵盖基因组学等领域。
+Why it matters 为什么重要：这是 OpenAI 官方给出的"agentic AI 用于科研生产力"的具体案例集，而非泛泛的能力展示，对判断 AI agent 在专业科研场景的落地程度有参考价值。
+https://openai.com/index/scientific-computing-agentic-ai
+
+B2 | Anthropic | Discovering cryptographic weaknesses with Claude · 2026-07-28 08:00 北京时间
+What was announced 内容：Anthropic 研究人员使用 Claude Mythos Preview 发现了密码学算法中的漏洞。
+Why it matters 为什么重要：这是把前沿模型直接用于安全攸关的密码学分析并产出真实发现的案例，对判断当前模型在专业安全研究中的实际能力是一个具体的参考点；官方描述较简短，更多细节可点击链接查看。
+https://www.anthropic.com/research/discovering-cryptographic-weaknesses
+
+━━━━━━━━━━
+
+想深入了解某一条？直接说"展开 P1"「详细讲讲 B2」之类即可。
+Want to go deeper on any item? Just say "expand P1" or "详细讲讲 B2" and I'll dig in.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
