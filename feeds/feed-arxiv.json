@@ -138,6 +138,26 @@
       "comment": "8 pages, 18 pages total, 3 figures"
     },
     {
+      "arxiv_id": "2607.26038v1",
+      "title": "Collaborative System Failure Prognostics via Federated Longitudinal-Survival Modeling",
+      "authors": [
+        "Fan Yang",
+        "Madelyn Weller",
+        "Dimuthu Fernando",
+        "Hila Livneh",
+        "Yuxin Wen"
+      ],
+      "abstract": "Time-to-event modeling provides a systematic framework for estimating time-dependent failure risk, reliability, and remaining useful life (RUL) from longitudinal condition monitoring data. However, applying these models to distributed prognostics remains challenging because sensor trajectories and failure-time records are often stored across organizations or operational sites and cannot be centrally pooled due to privacy or proprietary constraints. Moreover, the classical Cox proportional hazards model relies on a nonseparable partial likelihood involving global risk sets, making direct optimization difficult under standard federated learning protocols. This paper presents a federated longitudinal-survival modeling framework for collaborative system failure prognostics. The proposed framework combines longitudinal sensor representation learning with a client-separable discrete-time hazard objective, enabling multiple clients to collaboratively train a prognostic model without sharing raw sensor measurements or individual failure records. Time-dependent representations extracted from multivariate sensor histories are used to estimate interval-specific failure hazards, reliability curves, and system RUL. Experiments on the four C-MAPSS turbofan engine degradation subsets under simulated decentralized settings demonstrate that the proposed framework consistently improves prognostic performance over isolated local training while maintaining performance comparable to centralized training across heterogeneous operating conditions and failure modes. These results demonstrate the potential of federated longitudinal-survival modeling for collaborative, data-aware condition monitoring and system failure prognostics.",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2607.26038v1",
+      "abs_url": "https://arxiv.org/abs/2607.26038v1",
+      "published": "2026-07-28T17:46:19+00:00",
+      "comment": ""
+    },
+    {
       "arxiv_id": "2607.26034v1",
       "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
       "authors": [
@@ -567,29 +587,8 @@
       "abs_url": "https://arxiv.org/abs/2607.25948v1",
       "published": "2026-07-28T16:34:23+00:00",
       "comment": "Accepted at ICML 2026. Project page: https://modus-multimodal.epfl.ch"
-    },
-    {
-      "arxiv_id": "2607.25947v1",
-      "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
-      "authors": [
-        "Frank Nie",
-        "Ethan B Liu",
-        "Yuan Zhu",
-        "Wei Fan",
-        "Jindong Han"
-      ],
-      "abstract": "Question answering (QA) over irregular clinical time series (ICTS) plays a pivotal role in a wide range of healthcare applications. Although recent multimodal time-series large language models (LLMs) have shown considerable promise in general-purpose time-series QA, they remain poorly equipped to model the sparsity, asynchrony, and irregular sampling patterns of clinical observations. To fill this gap, we propose ClinPRISM, a cost-effective multimodal LLM reasoning framework for question answering over ICTS data. First, we devise an irregularity-aware multi-scale encoder to capture sparse clinical evidence at diverse temporal scales. Then, we propose a temporal evidence distiller to integrate representations across these scales and compress them into a small number of LLM-compatible tokens. Moreover, we introduce a progressive alignment strategy that sequentially aligns the irregular trajectories with the LLM's textual embedding space. To facilitate training, we construct 30,000 clinical time series paired with multi-scale descriptions, together with 41,000 instruction-tuning instances spanning 11 tasks. Using a 4-billion-parameter LLM backbone, ClinPRISM achieves state-of-the-art performance on the held-out evaluation benchmark while using only 16 time-series tokens and achieving an average inference latency of 0.15 seconds per question.",
-      "primary_category": "cs.AI",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2607.25947v1",
-      "abs_url": "https://arxiv.org/abs/2607.25947v1",
-      "published": "2026-07-28T16:33:41+00:00",
-      "comment": ""
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-29T12:02:57.915100+00:00"
+  "generated_at": "2026-07-29T22:57:58.005723+00:00"
 }
