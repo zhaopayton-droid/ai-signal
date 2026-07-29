@@ -1,6 +1,43 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "431ae0f7-c40c-4f00-a2ec-2123c3ca21d5",
+      "title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+      "pub_date": "2026-07-29T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/ai-micro-dramas-generative-media-and-the-future-of-creativity-ZbK1xyzO",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/7fd0c85e-6602-4a74-a5a4-1ae04e7bdcd8/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=7fd0c85e-6602-4a74-a5a4-1ae04e7bdcd8&feed=JGE3yC0V",
+      "audio_bytes": 48998305,
+      "duration": "00:51:02",
+      "description": "<p>Justine Moore, partner at Andreessen Horowitz, joins New Economies to explore the rapid evolution of generative media and why AI-native content is reaching an inflection point. They discuss the rise of AI micro-dramas, how creators are building entirely new forms of entertainment, and why the biggest opportunities may lie not in replacing Hollywood—but in expanding who gets to create.</p>\n<p>They also cover the future of creator tools, AI agents for individuals, generative video, AI \"slop,\" the economics of AI-native studios, and where founders should be building next as consumer AI enters a new phase.</p>\n<p> </p>\n<p>Resources:</p>\n<p>Follow Justine Moore on X:<a href=\"https://x.com/venturetwins\" rel=\"noopener noreferrer\"> https://x.com/venturetwins</a></p>\n<p>Watch the episode on YouTube: <a href=\"https://www.neweconomies.co/p/justine-moore-andreessen-horowitz\" rel=\"noopener noreferrer\">https://www.neweconomies.co/p/justine -moore-andreessen-horowitz</a><br>\n Listen to more from New Economies: <a href=\"https://www.neweconomies.co/\" rel=\"noopener noreferrer\">https://www.neweconomies.co/</a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter.com/eriktorenberg</a></p><p>&nbsp;</p><p>Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in ",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Latent Space",
+      "domain": "ai",
+      "guid": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+      "pub_date": "2026-07-29T00:46:52+00:00",
+      "link": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "audio_url": "https://substackcdn.com/image/fetch/$s_!u8gQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87c30d45-da74-47aa-80c6-77903e4c9cbf_2094x1890.png",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "The Big Pause is coming.",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/586ccf3ecaabf1c389246930.txt",
+      "transcript_chars": 32980
+    },
+    {
       "channel": "Lex Fridman",
       "domain": "ai",
       "guid": "https://lexfridman.com/?p=6474",
@@ -471,8 +508,31 @@
       "transcript_video_id": "XDB5beon4DY",
       "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=XDB5beon4DY! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
+    },
+    {
+      "channel": "老范讲故事",
+      "domain": "ai",
+      "person": "梁文锋",
+      "search_query": "梁文锋 DeepSeek 访谈",
+      "guid": "yt:H7zEWI4997o",
+      "title": "DeepSeek梁文锋4小时会议录音，都泄露了哪些敏感信息？",
+      "pub_date": "",
+      "pub_date_source": "unverified",
+      "publish_date_unverified": true,
+      "first_seen": "2026-07-29T12:03:01.822459+00:00",
+      "link": "https://www.youtube.com/watch?v=H7zEWI4997o",
+      "audio_url": "",
+      "duration": "37:55",
+      "description": "付费频道订阅：https://www.youtube.com/channel/UCUGLhcs3-3y_yhZZsgRzrzw/join 文字版 ...",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "H7zEWI4997o",
+      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=H7zEWI4997o! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "region": "cn",
+      "transcript_chars": 0
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-28T22:55:51.920310+00:00"
+  "generated_at": "2026-07-29T12:02:57.915100+00:00"
 }
