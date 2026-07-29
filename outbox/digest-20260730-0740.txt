@@ -1,0 +1,294 @@
+🛫 起飞了 | AI Signal - 2026年7月30日
+
+⚠️ Data note: the X/Twitter feed hasn't refreshed since 2026-07-29 15:10 Beijing time (about 16 hours ago), so the X section below may be missing very recent posts — treat it as slightly behind the other sources this cycle.
+⚠️ 数据延迟提示：X/Twitter 数据源自北京时间 2026-07-29 15:10 起未再更新（约16小时前），下方 X 部分可能未覆盖最新推文，本轮请将其视为略微滞后于其他信息源。
+
+Today's signal is a clash of two narratives: OpenAI is pushing a "frontier efficiency" story — GPT-5.6 pitched explicitly around more intelligence per dollar, and OpenAI says a simple two-setting change tripled its ARC-AGI-3 score — while almost everywhere else in today's feed the mood runs the opposite way. Dwarkesh Patel's new essay argues compute could get 10x+ more expensive, SemiAnalysis's podcast frames today's market as echoing past hardware bubbles, and Dylan Patel (SemiAnalysis) tweeted flatly that pausing the AI race is wishful thinking. A new behavioral-economics paper adds empirical weight to that tension, showing experimentally that falling behind a rival — not risk appetite — is what actually drives unsafe AI development. Read together, today is less "whose model is better" and more "who can still afford to keep racing."
+今天的信号呈现出两种叙事的对撞：OpenAI 一边在讲"前沿效率"的故事——GPT-5.6 明确围绕"每美元换取更多智能"定位，官方还称仅调整两个 API 设置就让 ARC-AGI-3 得分翻了三倍；而信息流里其他地方几乎都是相反的情绪。Dwarkesh Patel 的最新文章认为算力成本未来可能上涨十倍以上，SemiAnalysis 的播客把当前市场类比为历史上的硬件泡沫，Dylan Patel（SemiAnalysis）在推特上直言"指望 AI 竞赛放缓只是一厢情愿"。一篇新的行为经济学论文用实验数据佐证了这种张力：真正驱动"不安全开发"的不是风险偏好，而是"落后于对手"这件事本身。放在一起看，今天的主题与其说是"谁的模型更强"，不如说是"谁还烧得起这场竞赛"。
+
+━━━━━━━━━━
+X / Twitter
+━━━━━━━━━━
+
+X1 | Dylan Patel (SemiAnalysis) · 2026-07-29 12:24 北京时间
+Slowing down AI is a ultimately wishful thinking
+The genie is out of the bottle
+The most importan competition ever with potentially immeasurable benefits to the winner will not suddenly have people stop and sing kumbaya
+While many lab employees have signed, many more havent.
+Practically none at some labs less than 6 months behind have.
+指望 AI 慢下来终究只是一厢情愿。瓶子里的精灵已经放出来了。这是史上最重要的一场竞赛，胜者可能获得难以估量的收益，不会有人突然停下来手拉手唱《友谊地久天长》。虽然很多实验室员工已经签署（联署信），但更多人没有签；在一些落后头部不到六个月的实验室里，几乎没人签。
+https://x.com/dylan522p/status/2082321388736581641
+
+X2 | Swyx (Shawn Wang) · 2026-07-29 04:20 北京时间
+re: hiring right now
+
+it's a huge bull market for AI-native IC's/player-coaches
+it's a huge bear market for "heads of X" managers
+
+never seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents > 10 years experience managing 10-100 people
+关于当下的招聘市场：对"AI 原生"的一线贡献者/球员教练型人才来说是超级牛市，对纯管理岗的"XX负责人"来说是超级熊市。从没见过如此剧烈的分化——简化地说：管理10个 agent 一年的经验 > 管理10-100人十年的经验。
+https://x.com/swyx/status/2082199414656127010
+
+X3 | Swyx (Shawn Wang) · 2026-07-29 02:04 北京时间
+really grateful to @realbasilchatha for helping me curate a survey of the entire field of Forward Deployed Engineering in one track!
+
+From FDE 101 by @zkevinbai (Anthropic, Palantir, Rippling Founding FDE) to head of FDE practices at:
+
+- Decagon
+- Cursor
+- Sierra
+- Ramp
+- Cognition
+- Factory
+- Kepler
+- Varick (tooling for FDEs)
+
+loving the track drop model for releasing the 30+ tracks from AIEWF. please give them some love and send to friends exploring FDE career paths.
+
+all of the speakers are hiring. naturally.
+真的很感谢 realbasilchatha 帮我把 Forward Deployed Engineering（前线部署工程师）整个领域策划成了一个专场！从 zkevinbai（Anthropic、Palantir、Rippling 的创始 FDE）讲的 FDE 101，到 Decagon、Cursor、Sierra、Ramp、Cognition、Factory、Kepler、Varick（FDE 工具方）等公司 FDE 团队负责人的分享——喜欢这种把 AIEWF 30多个专场逐个放出来的"track drop"模式。欢迎多多支持，也欢迎转发给正在探索 FDE 职业方向的朋友。所有嘉宾所在公司都在招人，不用说也知道。
+https://x.com/swyx/status/2082165420237492346
+
+X4 | NVIDIA · 2026-07-28 07:29 北京时间
+Translation queues and custom integrations can slow global launches.
+
+Our Digital Marketing team built an AI-powered localization platform with NVIDIA Nemotron Speech to change that.
+
+See the results ↓
+翻译排期和定制集成会拖慢全球产品发布的进度。我们的数字营销团队用 NVIDIA Nemotron Speech 搭建了一套 AI 驱动的本地化平台来解决这个问题。效果见下↓
+https://x.com/nvidia/status/2081884835715404071
+
+━━━━━━━━━━
+Podcasts
+━━━━━━━━━━
+
+P1 | SemiAnalysis | Ep. 022 - Market Drawdown, Historic Bubbles, Funding The Buildout, AI Politics (Doug is Back) · 2026-07-30 04:59 北京时间
+Takeaway: A markets-focused SemiAnalysis episode walks through the current AI hardware drawdown by comparing it to historic bubbles in Taiwan and Korea, then works through memory pricing, long-term agreements, demand forecasts, scaling-law economics, and capital constraints on the buildout.
+要点：SemiAnalysis 本期聚焦市场，把当下 AI 硬件板块的回调拿来和台湾、韩国历史上的产业泡沫做对比，再依次讨论内存价格与长期协议（LTA）、AI 需求与模型用量预测、Scaling Law 背后的经济账，以及算力扩建面临的资本约束。
+Key points: Segments cover a market update, bubble-cycle comparisons, memory pricing and LTA dynamics, future AI demand and model usage, scaling laws versus supply constraints, financing and capital constraints on tech expansion, and geopolitical/policy risk to the long-term outlook.
+关键内容：节目按时间轴依次涉及市场行情更新、与历史泡沫周期的对比、内存价格与长期协议动态、未来 AI 需求与模型用量、Scaling Law 与供给约束的关系、科技扩张背后的融资与资本约束，以及地缘政治/政策风险对长期前景的影响。
+Why it matters: It's a direct counterpoint to lab PR about ever-cheaper intelligence — a semiconductor-industry read on whether today's AI capex boom is a bubble, framed with historical precedent rather than vibes.
+为什么重要：这是对实验室"智能越来越便宜"这类公关叙事的直接反面视角——从半导体行业视角出发、借助历史先例而非直觉，来判断当下的 AI 资本开支热潮是不是一场泡沫。
+https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--022---Market-Drawdown--Historic-Bubbles--Funding-The-Buildout--AI-Politics-Doug-is-Back-e3mngbv
+
+P2 | Dwarkesh Patel | Why compute might get 10x+ more expensive in coming years · 2026-07-29 23:01 北京时间
+Takeaway: Dwarkesh Patel argues that if an H100-equivalent chip could run a human-level software engineer, that chip should rent for over $250,000 a year at current software-engineer market rates — about 15x today's spot price for an H100.
+要点：Dwarkesh Patel 提出：如果一块 H100 级别的芯片能跑出人类水平的软件工程师，那么按当前软件工程师的市场薪酬折算，这块芯片理应能以每年25万美元以上的价格租出去——大约是 H100 现货价格的15倍。
+Why it matters: It's a compact argument for why compute prices could rise sharply rather than keep falling as capability per chip increases — directly at odds with the "cheaper intelligence" framing labs are pushing this week.
+为什么重要：这是一个简洁但有力的论证：随着单芯片能力提升，算力价格可能大幅上涨而非持续下降——这与本周各实验室主打的"智能越来越便宜"叙事直接相悖。
+https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive
+
+P3 | a16z | AI Micro Dramas, Generative Media, and the Future of Creativity · 2026-07-29 18:00 北京时间
+Takeaway: a16z partner Justine Moore joins New Economies to discuss the rise of AI micro-dramas and generative media, arguing the biggest opportunity isn't replacing Hollywood but expanding who gets to create.
+要点：a16z 合伙人 Justine Moore 在 New Economies 节目中探讨 AI 微短剧与生成式媒体的兴起，她认为最大的机会不在于取代好莱坞，而在于扩大"谁有能力创作内容"这个范围。
+Key points: Topics include creator tools, AI agents for individual creators, generative video, and the debate around AI "slop."
+关键内容：话题涵盖创作者工具、面向个人创作者的 AI agent、生成式视频，以及围绕 AI "内容垃圾（slop）"的争论。
+Why it matters: A VC-side read on where generative-media investment dollars are flowing, from a firm with direct visibility into the creator-tools startup landscape.
+为什么重要：这是来自 VC 一线视角、对生成式媒体投资资金流向的解读，来自一家对创作者工具创业生态有直接观察渠道的机构。
+https://a16z.simplecast.com/episodes/ai-micro-dramas-generative-media-and-the-future-of-creativity-ZbK1xyzO
+
+P4 | Latent Space | [AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to "Pace" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack · 2026-07-29 08:46 北京时间
+Takeaway: Latent Space's daily AI-news roundup reports that OpenAI, Anthropic, Google DeepMind, Meta, and Thinky Machines have co-signed a letter calling to "pace" AI development, alongside a Hugging Face report detailing a machine-speed offensive cyberattack. The official description is just "The Big Pause is coming," so no further detail beyond the title is available.
+要点：Latent Space 的每日 AI 新闻节目报道称，OpenAI、Anthropic、Google DeepMind、Meta 与 Thinky Machines 联署了一封呼吁"放缓节奏（pace）"AI 发展的公开信，同时 Hugging Face 发布了一份关于"机器速度"进攻性网络攻击的详细报告。官方描述仅有一句"The Big Pause is coming"，标题之外没有更多可核实细节。
+Why it matters: Landing the same day Dylan Patel (X1 above) publicly dismisses pausing the race as wishful thinking, this points to a real fracture between labs' public safety gestures and what insiders on the competitive side actually believe will happen.
+为什么重要：就在同一天，Dylan Patel（见上方 X1）公开表示"指望竞赛放缓是一厢情愿"，两相对照，这揭示了实验室公开的安全表态与竞争一线人士真实判断之间的现实裂痕。
+https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic
+
+P5 | All-In Podcast | The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs · 2026-07-29 04:21 北京时间
+Takeaway: All-In brings together four robotics CEOs — including ANYbotics' Péter Fankhauser and NEO's Bernt Børnich — to debate humanoid robots at home, China's robotics ambitions, and the economics of a "$1/hour worker."
+要点：All-In Podcast 邀请四位机器人公司 CEO——包括 ANYbotics 的 Péter Fankhauser 与 NEO 的 Bernt Børnich——共同讨论家用人形机器人、中国在机器人领域的野心，以及"时薪1美元工人"背后的经济账。
+Key points: Fankhauser explains why ANYbotics bet on four-legged robot dogs over humanoids and calls China's armed robot dogs "stupid and risky"; Børnich says Neo ships in 2026 and will become an open robot platform, with talk of "robots building robots" reaching a hard-takeoff timeline of about three years.
+关键内容：Fankhauser 解释 ANYbotics 为何押注四足机器狗而非人形机器人，并称中国的武装机器狗"愚蠢且危险"；Børnich 表示 NEO 将于2026年出货并成为一个开放的机器人平台，节目还讨论了"机器人造机器人"可能在约三年内进入"硬起飞"阶段的说法。
+Why it matters: A rare multi-CEO cross-comparison of humanoid vs. quadruped robotics bets, with explicit China-competition framing and a concrete shipping timeline from Neo.
+为什么重要：这是少见的多位机器人公司 CEO 同台，对比人形与四足机器人路线押注的节目，并明确带出了中国竞争视角，以及 NEO 的具体出货时间表。
+https://allinchamathjason.libsyn.com/the-1hour-worker-four-robotics-ceos-on-humanoids-at-home-chinas-threat-and-the-end-of-dangerous-jobs
+
+P6 | 老范讲故事 | DeepSeek梁文锋4小时会议录音，都泄露了哪些敏感信息？ · 发布时间未验证 pub_date unverified
+Takeaway: A Chinese-language channel discusses a leaked 4-hour recording reportedly of a DeepSeek meeting involving founder Liang Wenfeng, though the publicly visible description offers no verifiable detail on what was actually disclosed.
+要点：一档中文频道讨论了一段据称是 DeepSeek 创始人梁文锋参与的4小时会议录音泄露事件，但公开可见的节目描述并未给出关于具体泄露内容的可验证细节。
+Why it matters: If genuine, leaked internal DeepSeek discussion would be a notable data point on the company's internal thinking — but treat the claim with caution since the description contains no verifiable specifics and the publication time is unlisted.
+为什么重要：如果录音属实，DeepSeek 内部讨论的泄露将是了解该公司内部想法的一个重要信息点——但由于节目描述未给出任何可核实的具体细节、发布时间也未标注，这一说法需要谨慎对待。
+https://www.youtube.com/watch?v=H7zEWI4997o
+
+━━━━━━━━━━
+Official Blogs
+━━━━━━━━━━
+
+B1 | Google DeepMind | We're launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control · 2026-07-30 00:02 北京时间
+What was announced: Google DeepMind is launching Lyria 3.5 inside Google Flow Music, with the title citing advances in musicality, lyrics, vocals, and creative control; the official summary field was empty at fetch time, so no further detail is available beyond the title.
+内容：Google DeepMind 在 Google Flow Music 中推出了 Lyria 3.5，标题本身提到了在音乐性、歌词、人声与创作可控性方面的进步；抓取时官方摘要字段为空，暂无更多细节，具体信息请点击链接查看。
+Why it matters: A new-generation music-generation model release from DeepMind, positioned directly against the current wave of AI music tools.
+为什么重要：这是 DeepMind 新一代音乐生成模型的发布，正面对位当下这一波 AI 音乐工具热潮。
+https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
+
+B2 | OpenAI | How enabling two settings tripled our scores on the ARC-AGI-3 benchmark · 2026-07-29 23:00 北京时间
+What was announced: OpenAI says enabling two API settings — retaining reasoning and enabling compaction — tripled GPT-5.6's score on the ARC-AGI-3 benchmark while also improving efficiency.
+内容：OpenAI 表示，启用两个 API 设置——保留推理（retaining reasoning）与开启压缩（compaction）——让 GPT-5.6 在 ARC-AGI-3 基准上的得分提升到三倍，同时效率也有提升。
+Why it matters: A concrete efficiency claim that fits directly into today's "frontier intelligence with frontier efficiency" push, though it's a first-party benchmark claim with no independent verification.
+为什么重要：这是一个具体的效率提升案例，正好契合今天"前沿智能 + 前沿效率"的整体叙事；不过这仍是官方自评的基准数据，尚无第三方独立验证。
+https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
+
+B3 | OpenAI | Accelerating scientific discovery with ChatGPT for Academic Researchers · 2026-07-29 18:00 北京时间
+What was announced: OpenAI is giving 100,000 academic researchers free access to its most advanced ChatGPT models, aimed at accelerating scientific research, collaboration, and discovery.
+内容：OpenAI 宣布向10万名学术研究者免费开放其最先进的 ChatGPT 模型，目标是加速科学研究、协作与发现。
+Why it matters: A large-scale, low-cost distribution push into academia — both a goodwill/mindshare play and a way to generate real-world usage data from a technical user base.
+为什么重要：这是一次面向学术界的大规模低成本分发举措——既是一次口碑/心智占领，也是从专业用户群体中获取真实使用数据的方式，具备一定的投资/生态观察价值。
+https://openai.com/index/chatgpt-for-academic-researchers
+
+B4 | OpenAI | How GPT-5.6 fuses frontier intelligence with frontier efficiency · 2026-07-29 08:00 北京时间
+What was announced: OpenAI describes GPT-5.6 as improving efficiency across models, inference, and agentic workflows, framed as delivering more useful intelligence per dollar.
+内容：OpenAI 将 GPT-5.6 定位为在模型本身、推理与 agentic 工作流层面全面提升效率，宣传口径是"每美元换取更多有用的智能"。
+Why it matters: This is the release the rest of today's digest reacts against — the efficiency framing sits in direct tension with the compute-cost and AI-race anxiety showing up across podcasts and X posts today; worth reading as the industry's official counter-narrative.
+为什么重要：今天日报里其他很多条内容其实都是在回应这条发布——它的"效率"叙事与今天播客、推文里普遍出现的算力成本上涨、AI竞赛焦虑情绪形成直接张力，值得当作行业官方的"反叙事"来读。
+https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
+
+━━━━━━━━━━
+Papers
+━━━━━━━━━━
+
+Paper1 | Pass the Baton: Trajectory-Relayed On-Policy Distillation · 2026-07-29 01:59 北京时间
+Problem: On-policy distillation lets a student model's own trajectory ground training, but once the student goes down a wrong reasoning path early on, everything after it is misdirected and wastes compute. Approach: Relay-OPD lets the teacher briefly take over at detected failure points to produce a short "teacher leg," then hands control back to the student, using a limited relay budget to focus intervention on critical early positions. Result: With a Qwen3-4B teacher and 0.6B/1.7B students on eight math-reasoning benchmarks, Relay-OPD beat standard on-policy distillation by +5.73% and the strongest baseline by +1.49% on average, while cutting training trajectory length by over 50%.
+问题：on-policy distillation（同策略蒸馏）让学生模型用自己的生成轨迹来接受监督，但学生一旦在早期走错推理方向，后续所有生成都会被带偏，浪费大量算力。方法：Relay-OPD 在检测到失败点时让教师模型短暂"接管"生成一小段"教师段落"，之后再把控制权交还给学生，并用有限的"接力预算"把干预集中在关键的早期位置。结果：在以 Qwen3-4B 为教师、0.6B/1.7B 为学生的八个数学推理基准上，Relay-OPD 平均比标准同策略蒸馏高出5.73%，比最强基线高1.49%，同时训练轨迹长度缩短超过50%。
+https://arxiv.org/abs/2607.26057v1
+
+Paper2 | πR²: Reactive Real-time Flow Policies · 2026-07-29 01:59 北京时间
+Problem: Generalist robot manipulation policies built on large pretrained flow models run open-loop in chunks, so they can't react to new sensory input mid-execution, and replanning is too slow to fix this. Approach: πR² splits inputs into a fast proprioception channel updated every tick and a slower vision-language channel, plus a latency-adaptive flow schedule that emits one action per denoising step, letting a single trained model adapt to different hardware speeds. Result: Fine-tuned from GR00T-N1.7 on a real xArm6+XHand robot, it replans about 4x faster than the base policy (~25Hz), improving success rate by up to 23% in simulation and 30% in the real world over the strongest baseline.
+问题：基于大型预训练流模型构建的通用机器人操作策略以"动作块"形式开环运行，执行过程中无法对新的传感输入做出反应，而重新规划又太慢，来不及纠正。方法：πR² 把输入拆分为每一时刻都更新的"快速本体感觉通道"和更新较慢的"视觉-语言通道"，并配合一种随硬件延迟自适应的流式调度方案，每次去噪步骤只输出一个动作，使同一个训练好的模型能适配不同硬件的响应速度。结果：在真实的 xArm6+XHand 机器人平台上基于 GR00T-N1.7 微调后，重新规划速度约为基础策略的4倍（约25Hz），相比最强基线，在仿真中成功率提升最高23%，在真实世界中提升最高30%。
+https://arxiv.org/abs/2607.26055v1
+
+Paper3 | Spend Experts Where You Are Unsure: Confidence-Adaptive Routing for Mixture-of-Experts LoRA · 2026-07-29 01:59 北京时间
+Problem: MoE-LoRA setups route every token to a fixed number of experts k, which over-spends compute on easy tokens and under-serves hard ones. Approach: CARE treats the router's own output distribution as a per-token uncertainty signal, activating experts in decreasing weight order until a confidence threshold is reached, with a budget thermostat to hold the average expert count to any target. Result: Across eight commonsense benchmarks plus math, code, and knowledge tasks on LLaMA-3.1-8B and Qwen2.5-7B, CARE beats fixed top-k MoE-LoRA at matched compute and matches a fixed k=4 baseline while activating fewer experts, and the same confidence signal also improves out-of-distribution detection.
+问题：MoE-LoRA 架构通常给每个 token 固定分配 k 个专家，这会在简单 token 上浪费算力、在困难 token 上分配不足。方法：CARE 把路由器自身的输出分布当作逐 token 的不确定性信号，按路由权重从高到低依次激活专家直到累计置信度达到阈值，并用一个"预算调温器"把平均激活专家数控制在任意目标值。结果：在 LLaMA-3.1-8B 与 Qwen2.5-7B 上的八个常识基准以及数学、代码、知识类任务中，CARE 在同等算力下优于固定 top-k 的 MoE-LoRA，在激活更少专家的情况下打平固定 k=4 的基线，同样的置信度信号还能提升分布外检测能力。
+https://arxiv.org/abs/2607.26052v1
+
+Paper4 | Re-thinking Mammography Transfer Learning: The Dataset-Informed Transfer Learning (DITL) Framework · 2026-07-29 01:52 北京时间
+Problem: Standard transfer learning for mammography classification ignores dataset-specific characteristics, and existing neighborhood-informed fixes only work on narrow tasks that don't scale to population-level datasets. Approach: DITL combines a difficulty-weighted cross-entropy loss based on k-nearest-neighbor label purity with a neighborhood-based triplet objective that enforces class separation, requiring no hyperparameter tuning. Result: On the large-scale VinDR-Mammo dataset, DITL sets a new state of the art for breast density classification (accuracy, F1, AUC all improved with p < 0.0001) and also delivers statistically significant gains on smaller lesion-level datasets.
+问题：主流的乳腺钼靶影像分类迁移学习方法往往忽视数据集自身特征，而现有的"邻域感知"改进方案又只适用于狭窄任务，难以扩展到人群级别的大规模数据集。方法：DITL 结合了基于 k 近邻标签纯度的难度加权交叉熵损失，与强制类间分离的邻域三元组目标，且无需超参数调优。结果：在大规模 VinDR-Mammo 数据集上，DITL 在乳腺密度分类任务上取得新的最优结果（准确率、F1、AUC 均显著提升，p < 0.0001），在更小规模的病灶级数据集上也取得了统计显著的提升。
+https://arxiv.org/abs/2607.26043v1
+
+Paper5 | VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening · 2026-07-29 01:50 北京时间
+Problem: Static image-classification models for veterinary screening can't collect additional evidence, invoke other tools, or handle uncertain cases safely. Approach: VetClaw pairs an edge camera device with a cloud vision-language model for zero-shot disease classification, using OpenClaw for edge-side scheduling and tool access and LangGraph to orchestrate the stateful screening workflow, including safety checks and escalation. Result: Image-only VLM prediction alone remains limited, but symptom-guided and multimodal inputs improve zero-shot classification, turning a static predictor into a coordinated, safety-aware screening system.
+问题：静态的图像分类模型用于兽医筛查时，无法主动收集更多证据、调用其他工具，也无法安全地处理不确定病例。方法：VetClaw 将边缘摄像头设备与云端视觉-语言模型结合，用于零样本疾病分类，边缘侧由 OpenClaw 负责调度与工具调用，LangGraph 负责编排包含安全检查与异常升级在内的有状态筛查流程。结果：仅靠图像的 VLM 预测效果仍然有限，但加入症状描述的多模态输入能提升零样本分类效果，把一个静态预测模型变成了一个协同、具备安全意识的筛查系统。
+https://arxiv.org/abs/2607.26042v1
+
+Paper6 | Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions? · 2026-07-29 01:49 北京时间
+Problem: Existing computer-use-agent benchmarks measure end-task success or single-frame grounding, but neither tests whether a model can actually understand the causal transition an action produced — which matters for rejecting stale observations and recovering from failure. Approach: The authors built Desktop-Delta Bench, an offline step-level benchmark with 2,013 human-verified instances across ~15 apps and 50 task domains, testing temporal ordering and before/after action pairs. Result: Across 8 model families, ordering remains unsaturated (best exact-match rates around 65%), task context improves decoy identification but slightly hurts non-decoy accuracy, and models are noticeably better at recognizing clicks (F1 0.96) than drags (F1 0.76).
+问题：现有的计算机使用 agent 基准大多只衡量最终任务是否成功或单帧的定位准确性，都没有单独检验模型是否真正理解一个操作所引发的因果性界面变化——而这对于识别过时观察、从失败中恢复至关重要。方法：作者构建了 Desktop-Delta Bench，一个离线的步骤级基准，包含约15个应用、50个任务域下2013条经人工验证的实例，测试时间顺序判断与操作前后配对识别。结果：在8个模型家族中，顺序判断能力尚未饱和（最佳精确匹配率约65%）；任务上下文能提升干扰项识别能力，但会略微损害非干扰项的准确率；模型识别"点击"操作明显强于"拖拽"（F1 分别为0.96和0.76）。
+https://arxiv.org/abs/2607.26041v1
+
+Paper7 | Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance · 2026-07-29 01:49 北京时间
+Problem: Model-based RL algorithms could benefit from extra supervision beyond rewards, but an existing asymmetric approach called Informed Dreamer has a limitation in how it learns privileged-information representations. Approach: The authors propose a new asymmetric representation-learning objective using latent guidance, resulting in the Reinformed Dreamer algorithm. Result: Across several benchmarks, Reinformed Dreamer shows more consistent improvement over the base Dreamer algorithm than prior asymmetric approaches.
+问题：基于模型的强化学习算法本可以从奖励之外的额外监督信号中受益，但现有的一种非对称方法 Informed Dreamer，在学习"特权信息"表示时存在局限。方法：作者提出了一种基于隐空间引导（latent guidance）的新非对称表示学习目标，由此得到 Reinformed Dreamer 算法。结果：在多个基准测试中，相比此前的非对称方法，Reinformed Dreamer 相对基础版 Dreamer 算法的提升更为稳定一致。
+https://arxiv.org/abs/2607.26040v1
+
+Paper8 | Collaborative System Failure Prognostics via Federated Longitudinal-Survival Modeling · 2026-07-29 01:46 北京时间
+Problem: Predicting equipment failure and remaining useful life from sensor data usually requires pooling data centrally, but that's often blocked by privacy or proprietary constraints across organizations, and the classical Cox hazard model doesn't fit standard federated learning protocols. Approach: The authors combine longitudinal sensor representation learning with a client-separable discrete-time hazard objective, letting multiple clients jointly train a prognostic model without sharing raw data. Result: On the four C-MAPSS turbofan-engine degradation datasets under simulated decentralized settings, the federated framework consistently beats isolated local training and performs comparably to centralized training.
+问题：从传感器数据预测设备故障与剩余寿命通常需要集中汇总数据，但这在不同组织之间常常受限于隐私或专有数据的约束，而经典的 Cox 风险模型又难以直接套用到标准联邦学习协议中。方法：作者将纵向传感器表示学习与一种"客户端可分离"的离散时间风险目标相结合，使多个客户端能在不共享原始数据的前提下协同训练一个预测模型。结果：在模拟去中心化场景下的四个 C-MAPSS 涡扇发动机退化数据集上，该联邦框架的表现持续优于各客户端独立训练，且与集中式训练效果相当。
+https://arxiv.org/abs/2607.26038v1
+
+Paper9 | Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment · 2026-07-29 01:44 北京时间
+Problem: Competitive races are widely argued to push AI developers toward faster, less safety-conscious development, but it's unclear what actually drives that behavior. Approach: The authors ran a behavioral experiment where paired participants repeatedly chose between Safe and Unsafe development, varying the maximum accumulated risk (10%, 60%, or 90%) while holding the competitive structure constant. Result: Risk-level and individual risk preferences didn't predict Unsafe choices; instead, participants were more likely to go Unsafe after their opponent did, being ahead reduced Unsafe play while falling behind increased it, and a supporting evolutionary model shows how this "falling-behind" dynamic — not risk appetite — can be favored by race competition.
+问题：人们普遍认为竞争性的"竞赛"会促使 AI 开发者选择更快、更不注重安全的开发路径，但究竟是什么在真正驱动这种行为并不清楚。方法：作者设计了一个行为实验，让配对参与者反复在"安全"与"不安全"开发之间做选择，并在保持竞争结构不变的前提下，改变可累积的最大风险水平（10%、60%或90%）。结果：风险水平本身与个体风险偏好都未能预测"不安全"选择；真正起作用的是竞赛中的策略态势——对手选择不安全后，己方更倾向于跟着选不安全，领先时会减少不安全行为、落后时则会增加；配套的演化模型显示，正是这种"怕落后"的动态而非风险偏好，会被竞赛结构所偏好。
+https://arxiv.org/abs/2607.26034v1
+
+Paper10 | CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer · 2026-07-29 01:35 北京时间
+Problem: Real-world graphs mix text, images, and other modalities, but zero-shot transfer across multimodal graph domains remains largely unexplored, since existing GNN-based models need downstream adaptation and LLM-based graph methods mostly handle single-modality, single-domain graphs. Approach: CHARM replaces isolated raw nodes with hierarchical graph contexts that capture cross-modal relations, mapping domain-specific patterns to shared high-level concepts via a modality-aware encoder that feeds graph tokens into an LLM. Result: Experiments show consistent improvements on zero-shot multimodal graph tasks compared to existing approaches.
+问题：真实世界的图数据往往混合了文本、图像等多种模态，但跨多模态图领域的零样本迁移在很大程度上仍未被充分研究——现有基于 GNN 的图基础模型需要下游适配，而基于 LLM 的图方法大多只能处理单一模态、单一领域的图。方法：CHARM 用能捕捉跨模态关系的分层图上下文取代孤立的原始节点，通过一个模态感知编码器把领域特定的模式映射到共享的高层概念，再转换为图 token 输入给大语言模型。结果：实验显示，相比现有方法，CHARM 在零样本多模态图任务上取得了持续的提升。
+https://arxiv.org/abs/2607.26023v1
+
+Paper11 | UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams · 2026-07-29 01:28 北京时间
+Problem: LLM agents deployed on evolving, boundary-agnostic task streams face a stability-plasticity dilemma: retrieval-based memory absorbs new evidence but doesn't internalize recurring patterns, while parametric memory is stable but needs explicit task boundaries and fixed budgets. Approach: UniMem uses learnable routing tokens as memory controllers to adaptively route novel or sparse tasks to an episodic buffer and recurring, reliable patterns into expandable parametric memory, without needing task labels at deployment. Result: On long-horizon streaming task sequences, UniMem consistently outperforms baselines, achieving an average gain of 4.0 exact-match points across three backbone models.
+问题：部署在持续演化、无明确边界的任务流上的 LLM agent，面临"稳定性-可塑性"两难：基于检索的记忆能快速吸收新证据，但难以内化反复出现的执行模式；参数化记忆虽然稳定高效，但通常依赖明确的任务边界和固定的参数预算。方法：UniMem 用可学习的路由 token 作为记忆控制器，自适应地把新颖或稀疏的任务留存在情景缓冲区中做检索增强执行，把反复出现且可靠的模式整合进可扩展的参数化记忆，部署时无需任务标签。结果：在长程流式任务序列上，UniMem 持续优于基线方法，在三个骨干模型上平均带来4.0个精确匹配（EM）点的提升。
+https://arxiv.org/abs/2607.26017v1
+
+Paper12 | MDTransformer: A Hardware-Software Co-Design of Mode-Division Photonic Transformer Accelerator · 2026-07-29 01:27 北京时间
+Problem: Photonic transformer accelerators already beat electronic ones on speed and energy efficiency, but state-of-the-art designs rely on expensive multi-wavelength light generation and large dot-product units, making them impractical. Approach: MDTransformer performs matrix operations using spatial-mode interference instead, packing inverse-designed couplers, crossings, and modulators into a compact mode-division photonic tensor core where each guided mode acts as an independent parallel computational lane, running on a single continuous-wave laser. Result: Across DeiT-Tiny/Small/Base and BERT-Base/Large workloads, MDTransformer achieves 40.4% area reduction, 63.6% power savings, and 40.6% energy savings versus the prior state-of-the-art photonic accelerator, at comparable latency.
+问题：光子 Transformer 加速器在速度和能效上已经超越电子加速器，但目前最先进的方案依赖昂贵的多波长光源和体积较大的点积单元，实用性不足。方法：MDTransformer 改用空间模式干涉来实现矩阵运算，把反向设计的耦合器、交叉结构与调制器整合进一个紧凑的"模分复用光子张量核"，其中每个导模都作为独立的并行计算通道，整套系统只需单一连续波激光器驱动。结果：在 DeiT-Tiny/Small/Base 与 BERT-Base/Large 等负载上，相比此前最先进的光子加速器方案，MDTransformer 实现了面积减少40.4%、功耗降低63.6%、能耗降低40.6%，延迟基本相当。
+https://arxiv.org/abs/2607.26016v1
+
+Paper13 | Instruction-Tuned Models Locally Reuse Human Syntax More Than Humans Do · 2026-07-29 01:27 北京时间
+Problem: Human speakers unconsciously converge toward the grammatical patterns of whoever they're talking to, but whether LLMs show analogous syntactic convergence toward humans, relative to a human baseline, was an open question. Approach: The authors measured turn-adjacent reuse of grammar rules across sixteen open-weight Llama and Gemma models (1B-70B) by substituting model output into real human dialogues at over 1,900 matched positions per model. Result: Every model showed more grammar-rule overlap with the preceding human turn than chance, and instruction-tuned models actually overlapped with the prior turn more than the original human response did — but relative to their own pretrained versions, instruction-tuned models also matched unrelated prompts more, suggesting some of this "convergence" is generic imitation rather than targeted adaptation.
+问题：人类说话者会不自觉地向对话对象的语法风格靠拢，但大语言模型相对于人类基线，是否会表现出类似的句法趋同现象，此前一直是个悬而未决的问题。方法：作者通过用模型生成内容替换真实人类对话中一方的发言，在16个开源的 Llama 与 Gemma 模型（1B-70B，含预训练版与指令微调版）上、每个模型约1900个匹配位置处，测量与前一轮人类发言之间语法规则的复用程度。结果：所有模型与前一轮人类发言之间的语法规则重合度都明显高于随机基线，指令微调模型与前一轮发言的重合度甚至超过了它所替换掉的真实人类回复；但相对于各自的预训练版本，指令微调模型同时也更多地"重合"了无关的对照发言，说明这种"趋同"很可能部分只是泛化的模仿，而非针对性的适应。
+https://arxiv.org/abs/2607.26015v1
+
+Paper14 | Pictura: Perspective-View Self-Play at Scale for Driving · 2026-07-29 01:20 北京时间
+Problem: Self-play driving policies are usually trained on privileged, exact-pose observations, which assumes perception is already solved and creates a gap versus a deployed agent that only sees an egocentric camera view; distilling the privileged policy into a camera-input student just teaches it to imitate decisions it can't itself justify. Approach: The authors built Pictura, a GPU-accelerated simulator that renders each agent's own egocentric view at every step (up to 500K agent-steps/s on one H100), and trained a policy called Alberti directly from perspective images via self-play with plain PPO. Result: Trained over 50B agent steps (~35M km of driving), Alberti approaches the performance of its privileged counterpart and, when transferred zero-shot to re-rendered Waymo Open Motion Dataset layouts, actually outperforms privileged vectorized agents.
+问题：自我博弈训练的自动驾驶策略通常依赖"特权"观察（精确位姿等），这默认感知问题已经被解决，与只能看到自车视角摄像头画面的实际部署 agent 之间存在表征差距；把特权策略蒸馏给仅接收摄像头输入的学生模型，只是在教它模仿一些自己视角根本无法证成的决策。方法：作者构建了 Pictura，一个 GPU 加速的模拟器，能在每一步渲染每个 agent 自己的第一视角画面（单张 H100 上可达每秒50万 agent-步），并用朴素 PPO 通过自我博弈直接从第一视角图像训练出名为 Alberti 的策略。结果：经过500亿 agent 步（约3500万公里驾驶里程）的训练，Alberti 的表现已接近其"特权版"对照策略；在零样本迁移到重新渲染的 Waymo Open Motion Dataset 场景后，它的表现甚至超过了使用特权向量化观察的 agent。
+https://arxiv.org/abs/2607.26005v1
+
+Paper15 | Parallel Decoding Distillation for Fast Image and Video Generation · 2026-07-29 01:20 北京时间
+Problem: Video diffusion/flow models are slow due to iterative sampling, and current acceleration methods (variational score distillation, adversarial losses) are hard to optimize and prone to mode collapse, hurting diversity and motion quality. Approach: Parallel Decoding Distillation (PDD) is a simplified, scalable trajectory-based distillation method that predicts multiple denoising steps per network evaluation, learning a mean-velocity representation without needing JVPs or finite-difference derivatives, and works with any pretrained model. Result: PDD achieves state-of-the-art results with just 4-8 function evaluations on LTX-2.3 Text-to-Video/Audio, Wan 14B Text-to-Video, and Qwen-Image Text-to-Image, with a notable improvement in generated video diversity over prior distillation methods.
+问题：视频扩散/流模型因迭代式采样而生成速度缓慢，而目前的加速方法（变分分数蒸馏、对抗损失）优化难度大、容易出现模式坍塌，损害生成多样性和运动质量。方法：Parallel Decoding Distillation（PDD）是一种简化、可扩展的基于轨迹的蒸馏方法，每次网络前向就能预测多个去噪步骤，学习的是一种"平均速度"表示，无需借助 JVP 或有限差分来求导，且可兼容任意预训练模型。结果：PDD 仅用4-8次函数评估，就在 LTX-2.3 文生视频/音频、Wan 14B 文生视频以及 Qwen-Image 文生图上取得了最优结果，相比此前的蒸馏方法，生成视频的多样性也有明显提升。
+https://arxiv.org/abs/2607.26004v1
+
+Paper16 | Sharpness-Aware Minimization and Muon: Robustness under the Spectral Norm · 2026-07-29 01:18 北京时间
+Problem: Sharpness-Aware Minimization (SAM) improves generalization by resisting worst-case parameter perturbations, but which perturbation "geometry" works best in practice has remained unclear, even as matrix-aware optimizers like Muon show that respecting weight-matrix structure helps. Approach: The authors introduce a layerwise spectral inner perturbation for matrix-valued hidden-layer parameters, combined with either AdamW/SGDW or Muon as the outer optimizer. Result: On ImageNet-1K with ViT-Small/16 and ResNet-50, combining the spectral inner step with a Muon outer step performs consistently strongly, achieving the best validation accuracy among all evaluated methods on both models.
+问题：Sharpness-Aware Minimization（SAM）通过对最坏情况下的参数扰动保持不敏感来提升泛化能力，但实际中哪种扰动"几何"效果最好一直不清楚，尽管像 Muon 这样的矩阵感知优化器已经证明，尊重权重矩阵的结构本身就有帮助。方法：作者为隐藏层的矩阵形式参数引入了一种逐层的谱范数内层扰动，并将其与 AdamW/SGDW 或 Muon 作为外层优化器相结合。结果：在 ImageNet-1K 上的 ViT-Small/16 与 ResNet-50 实验中，谱范数内层扰动配合 Muon 外层更新的组合表现持续强劲，在两个模型上都取得了所有对比方法中最好的验证集准确率。
+https://arxiv.org/abs/2607.26001v1
+
+Paper17 | Empirical Evaluation of Out-Of-Distribution Performance of Tabular Foundation Models · 2026-07-29 01:16 北京时间
+Problem: Tabular Foundation Models (TFMs) now rival tree-based ensembles on in-distribution tabular tasks, but they're mostly evaluated on i.i.d. data, and how they behave under real-world distribution shift is barely studied. Approach: The authors empirically evaluate nine TFMs (including TabPFNv2/v2.5/v2.6/v3, TabICL, Mitra, LimiX, and TabFM) on three real-world datasets from the TableShift study covering label, socioeconomic, and geographic distribution shift. Result: All nine TFMs degrade systematically under distribution shift regardless of pretraining strategy (shift gaps of 0.003-0.060), and the higher-performing models also demand memory and compute beyond what standard deployment infrastructure can support.
+问题：表格基础模型（TFM）在同分布任务上的表现已经可以媲美树模型集成方法，但它们大多是在独立同分布数据上评估的，在真实世界分布偏移下的表现研究得很少。方法：作者对九个 TFM（包括 TabPFNv2/v2.5/v2.6/v3、TabICL、Mitra、LimiX、TabFM 等）在 TableShift 研究中的三个真实数据集上做了实证评估，分别涵盖标签偏移、社会经济偏移和地理偏移。结果：无论预训练策略如何，全部九个 TFM 在分布偏移下都出现系统性性能下降（偏移差距在0.003到0.060之间），而表现更好的模型也往往需要超出标准部署基础设施承受能力的显存和算力。
+https://arxiv.org/abs/2607.26000v1
+
+Paper18 | Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches? · 2026-07-29 01:12 北京时间
+Problem: LLMs can auto-generate Kubernetes security patches from scanner findings, but they're prompted with each finding in isolation from the live service call graph — so a technically compliant patch can still break a runtime dependency the model never saw. Approach: The authors built KuTIE, which conditions LLM patch generation on a live cluster context built from Istio call edges, Trivy scanner findings, and service-account bindings, and evaluated it on VulnCare, a purpose-built 36-deployment healthcare cluster with 31 injectable findings. Result: Across 248 trials, adding topology context raised topology-dependent patch correctness from 11.1% to 78.0%, holding across every model tested and six of seven dependency classes, while a topology-independent control showed no such effect — isolating the gain as coming specifically from runtime context, not generic prompt enrichment.
+问题：LLM 已经能根据扫描工具的发现自动生成 Kubernetes 安全补丁，但现有方案是把每条发现孤立地喂给模型、脱离了真实的服务调用图——这意味着一个"技术上合规"的补丁仍可能破坏模型从未见过的运行时依赖关系。方法：作者构建了 KuTIE，让 LLM 补丁生成基于由 Istio 调用边、Trivy 扫描发现和服务账号绑定构成的实时集群上下文，并在一个专门搭建的、包含36个部署的医疗行业集群 VulnCare（含31个可注入发现）上进行评测。结果：在248次实验中，加入拓扑上下文后，"拓扑依赖型"发现的补丁正确率从11.1%提升到78.0%，这一效果在所有测试模型和七类依赖关系中的六类上都成立；而不依赖拓扑的对照组没有出现同样效果，说明提升确实来自运行时上下文本身，而非泛泛的提示词增强。
+https://arxiv.org/abs/2607.25995v1
+
+Paper19 | MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents · 2026-07-29 01:08 北京时间
+Problem: LLM agent memory systems typically treat all user-interaction records the same way, letting redundant, low-impact records pile up in the memory store. Approach: MemLens treats memory records as first-class data objects and provides an interactive analytics dashboard covering the full memory lifecycle, including Shapley-style value evaluation, value-aware storage, and memory-assisted response generation. Result: Through a study-copilot application, MemLens lets users inspect memory value, visualize hierarchical memory structures, and compare memory strategies on response quality, retrieval latency, and token consumption.
+问题：现有的 LLM agent 记忆系统通常一视同仁地处理所有用户交互记录，导致冗余、低价值的记录不断在记忆库中堆积。方法：MemLens 把记忆条目当作一等数据对象来处理，提供覆盖完整记忆生命周期的交互式分析看板，包括类 Shapley 值的记忆价值评估、价值感知存储，以及记忆辅助的回复生成。结果：通过一个学习助手应用，MemLens 让用户能够查看记忆价值、可视化分层记忆结构，并从回复质量、检索延迟和 token 消耗等维度对比不同的记忆管理策略。
+https://arxiv.org/abs/2607.25992v1
+
+Paper20 | Generator-Aligned Representation Interfaces for Diagnostic Soft Equivariance · 2026-07-29 01:06 北京时间
+Problem: Exact-equivariant architectures bake specific group actions into specialized operators, which makes them hard to reuse with generic backbones or across data modalities. Approach: GARI is a representation-level design that exposes selected transformation generators to a generic sequence backbone, and the authors formalize a "soft-equivariance residual" that separates representation consistency from task robustness and exact equivariance, instantiated as GARI-Net. Result: Across genomic sequences, images, and 3D point clouds (testing sequence reversal, rotations/reflections, and axial transfer), the same interface principle supports transformation consistency and generalization to held-out probes without redesigning the backbone for each group.
+问题：精确等变（exact-equivariant）架构会把特定的群作用直接固化进专门的算子中，这使得它们难以复用于通用骨干网络，也难以跨数据模态迁移。方法：GARI 是一种表示层面的设计，把选定的变换生成元暴露给通用的序列骨干网络，作者还形式化了一个"软等变残差"指标，将表示一致性与任务鲁棒性、精确等变区分开来，并将其实例化为 GARI-Net。结果：在基因组序列、图像和三维点云（分别测试序列反转、平面旋转/反射与轴向迁移）上，同一套接口原则都能支持任务相关的变换一致性，并泛化到预先声明的留出探针上，而无需针对每个群重新设计骨干网络。
+https://arxiv.org/abs/2607.25988v1
+
+Paper21 | Physics-Aware End-to-End Deep RL for Quadcopter Control with Actuator Dynamics · 2026-07-29 01:05 北京时间
+Problem: Quadcopters are underactuated (four control inputs governing six degrees of freedom), making autonomous control hard, and many DRL approaches don't properly account for actuator lag and aerodynamic effects. Approach: The authors built a physics-aware, end-to-end DRL setup acting directly on thrust and body torques, closed through a high-fidelity Simulink simulator that models actuator dynamics and gyroscopic coupling, and compared DDPG, TD3, PPO, and SAC on hover and hover-with-translation tasks. Result: SAC and TD3 achieved superior stability and exploration efficiency versus PPO, and the study underscores that modeling actuator lag and aerodynamic moments matters for stable low-level control, providing a reproducible benchmark.
+问题：四旋翼无人机存在欠驱动问题（仅4个控制输入却要支配6个自由度），自主控制难度较大，而许多深度强化学习方法并未恰当地考虑执行器延迟与气动效应。方法：作者构建了一套物理感知的端到端深度强化学习方案，直接作用于总推力与机体力矩，并通过一个高保真 Simulink 仿真环境闭环，其中建模了执行器动力学与陀螺耦合效应，并对比了 DDPG、TD3、PPO、SAC 四种算法在悬停及带平移目标悬停任务上的表现。结果：SAC 和 TD3 在稳定性与探索效率上明显优于 PPO；研究强调，对执行器延迟和气动力矩建模对实现稳定的底层控制至关重要，并提供了一个可复现的四旋翼强化学习基准。
+https://arxiv.org/abs/2607.25985v1
+
+Paper22 | Schrödinger's Cat: Probabilistic Representation and Prediction of Potential Scene Kinematics · 2026-07-29 01:05 北京时间
+Problem: Predicting how a scene might evolve from partial observations requires reasoning about multiple possible futures, but existing approaches either generate appearance-heavy video predictions or sample only a few trajectories without modeling the full distribution of possible motion. Approach: GARFIELD learns a structured spatio-temporal latent representation of the distribution over possible futures given an image, enabling both joint trajectory sampling and direct access to motion density through an efficient deterministic decoder. Result: GARFIELD achieves motion-planning performance competitive with large video generation models while sampling trajectories 97x faster, and estimates motion densities two orders of magnitude faster than Monte Carlo sampling.
+问题：从部分观察预测场景可能如何演变，需要对多种可能的未来进行推理，但现有方法要么生成以画面表现为主的视频预测，要么只采样少量轨迹而没有对可能运动的完整分布建模。方法：GARFIELD 在给定一张图像的条件下，学习一个关于"可能未来分布"的结构化时空隐表示，既能联合采样所有轨迹，也能通过一个高效的确定性密度解码器直接获取底层运动分布。结果：GARFIELD 在运动规划性能上可与大型视频生成模型媲美，同时轨迹采样速度快97倍；相比蒙特卡洛采样，其运动密度估计速度快两个数量级。
+https://arxiv.org/abs/2607.25984v1
+
+Paper23 | Reinforcement Learning for Code Optimization · 2026-07-29 00:52 北京时间
+Problem: RL for code correctness (generate, test against hidden cases, reward passes) is well established, but naively extending it to code optimization by adding execution time to the reward breaks down due to measurement noise, reward sparsity, and GRPO instability. Approach: The authors make execution time learnable in three stages: building DMC-Optim with large optimization tests and a calibrated sandbox, composing correctness and speed into the reward using an offline simulator, and adapting GRPO and evaluation for the sparser, noisier timed-execution setting. Result: On DMC-Optim, the best configuration improves strict top-50% pass@1 from 18.0% to 31.3% on Qwen 2.5 7B and from 30.7% to 50.4% on CWM 32B, and CWM 32B wins up to 83% of median-sample speed comparisons against standard RLVR on LeetCode-style problems.
+问题：用强化学习保证代码正确性（生成程序、跑隐藏测试用例、通过则给奖励）这套方法已经比较成熟，但如果简单地把执行时间也加入奖励来扩展到"代码优化"任务，就会因测量噪声、奖励稀疏和 GRPO 不稳定等问题而失效。方法：作者分三个阶段让"执行时间"变得可学习：构建带有大量优化测试用例和校准过的沙箱环境 DMC-Optim；用离线模拟器把正确性和速度组合进强化学习环境的奖励中；针对更稀疏、更嘈杂的计时执行场景调整 GRPO 与评测方式。结果：在 DMC-Optim 上，最强的优化感知配置把严格 top-50% 的 pass@1 在 Qwen 2.5 7B 上从18.0%提升到31.3%，在 CWM 32B 上从30.7%提升到50.4%；在 LeetCode 风格题目上，CWM 32B 相比标准 RLVR，在中位数样本速度对比中最高能赢下83%。
+https://arxiv.org/abs/2607.25970v1
+
+Paper24 | Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition · 2026-07-29 00:44 北京时间
+Problem: Recognizing ambivalence and hesitancy (states that precede delaying or abandoning a health behavior change) at the video level is hard because the signal comes from disagreement across facial, vocal, linguistic, and bodily modalities, and it looks different for different people. Approach: PRISM-AH aligns frozen vision, audio, and text encoders into short time windows, scores cross-modal dissonance, predicts each next window to expose a "hesitation surprise" signal, and lets a knowledge-guided LLM reason over structured evidence using an expert cue taxonomy, fused in only when it improves validation performance. Result: On a labeled public test set of 525 videos, PRISM-AH reaches a macro F1 of 0.6133, versus a reported zero-shot baseline of 0.2827, with the reasoning gain confirmed to transfer from validation to the larger test set.
+问题：在视频层面识别"矛盾/犹豫"（一种在健康行为改变被推迟或放弃之前出现的情绪状态）很困难，因为其信号来自面部、语音、语言和肢体等多种模态之间及内部的不一致，而且在不同人身上表现也不一样。方法：PRISM-AH 把冻结的视觉、音频、文本编码器对齐到短时间窗口内，评估跨模态的"不协调度"，通过预测下一个时间窗口来暴露"犹豫惊讶"信号，并让一个知识引导的大语言模型基于数据集自带的专家线索分类体系对结构化证据进行推理，只有在验证集上确实提升效果时才将其结果融合进来。结果：在包含525个视频的公开有标注测试集上，PRISM-AH 取得0.6133的宏平均 F1，而报告的零样本基线仅为0.2827；这一由推理带来的提升也被验证能从验证集迁移到更大的测试集上。
+https://arxiv.org/abs/2607.25961v1
+
+Paper25 | Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs · 2026-07-29 00:43 北京时间
+Problem: Wikipedia and Wikidata knowledge is scattered across text, tables, and knowledge graphs that don't always agree, which matters for LLM pretraining and retrieval-augmented generation, but there's no systematic way to detect and explain the conflicts. Approach: The authors introduce a taxonomy of cross-modal knowledge inconsistencies and present Kontrast, a framework using Text-to-SPARQL and LLM reasoning to compare table-based answers against knowledge-graph evidence and categorize the resulting inconsistencies. Result: Experiments on Table-QA datasets show cross-modal inconsistencies are common and informative, revealing real knowledge conflicts as well as missing KG structure and temporal mismatches, though the approach is limited by Text-to-SPARQL errors and noise.
+问题：Wikipedia 与 Wikidata 的知识分散在文本、表格和知识图谱之中，三者并不总是一致，这对 LLM 预训练和检索增强生成都有影响，但目前缺乏系统性的方法来检测和解释这些冲突。方法：作者提出了一套跨模态知识不一致的分类体系，并推出 Kontrast 框架，用 Text-to-SPARQL 和大模型推理，将基于表格得出的答案与知识图谱证据进行比对，并对由此产生的不一致进行归类。结果：在多个 Table-QA 数据集上的实验表明，跨模态不一致现象普遍存在且信息量丰富，既能揭示真实的知识冲突，也能发现知识图谱结构缺失和时间错位等问题，不过该方法本身也受限于 Text-to-SPARQL 转换的误差与噪声。
+https://arxiv.org/abs/2607.25959v1
+
+Paper26 | Large Language Model for Operations Research Formulation Selection in Multi-Warehouse Inventory Allocation · 2026-07-29 00:41 北京时间
+Problem: Multi-warehouse inventory allocation is usually solved as a single mixed-integer programming (MIP) formulation, but no single formulation consistently fits the varied conditions (demand concentration, inventory imbalance, forecast volatility) seen instance by instance. Approach: The authors built a solver-guided LLM framework that selects, per instance, from a library of MIP formulations, training the selector with supervised fine-tuning, solver-evaluated preference optimization, and GRPO with rewards derived from actual solver performance on historical instances. Result: On real multi-warehouse allocation instances from JD.com, GRPO lifted Hit Ratio@1 from 21.45% to 50.42% and Hit Ratio@2 from 70.47% to 82.31%, delivering a 12.57 percentage-point allocation accuracy gain over the incumbent baseline and closing the gap to the ex-post oracle to 4.85 points.
+问题：多仓库库存分配通常被建模为单一的混合整数规划（MIP）问题，但没有哪一种固定的建模方式能持续适配由需求集中度、库存失衡、补货规模、服务约束和预测波动性等因素造成的、逐实例各不相同的情况。方法：作者构建了一个由求解器引导的 LLM 框架，为每个具体实例从一个 MIP 建模方案库中挑选最合适的公式，训练过程结合了监督微调、基于求解器评估的偏好优化，以及用历史实例上求解器实际表现作为奖励来源的 GRPO 训练。结果：在来自京东（JD.com）的真实多仓库分配实例上，GRPO 把 Hit Ratio@1 从21.45%提升到50.42%，Hit Ratio@2 从70.47%提升到82.31%，相比现有基线带来12.57个百分点的分配准确率提升，并把与"事后最优解"之间的差距缩小到4.85个百分点。
+https://arxiv.org/abs/2607.25956v1
+
+Paper27 | Polistemics: Evaluating LLMs as Information Mediators in Politics & Elections · 2026-07-29 00:40 北京时间
+Problem: LLMs increasingly mediate the political information citizens rely on, but there's no standardized way to assess whether they do so responsibly, and prior work has treated this as simple reproduction rather than genuine mediation. Approach: The authors introduce Polistemics, a benchmark grounded in "Epistemic Modesty" (a normative standard derived from citizens' epistemic agency), testing three state-of-the-art LLMs across controlled settings that vary clarity, noise, and consistency of information, applied to the 2025 German and Dutch elections. Result: High aggregate scores mask systematic failures — models mediate reliably under clear evidence but break down under absent, vague, or contradictory information, flatten the intensity of political language, and are influenced by party priors and labels, with no model delivering reliable mediation consistently.
+问题：LLM 正越来越多地充当公民获取政治信息的中介，但目前没有标准化的方法来评估它们是否负责任地承担了这一角色，此前的研究大多把这个问题当作简单的"复述"任务，而非真正意义上的"信息中介"。方法：作者提出了 Polistemics 基准，其评测标准建立在"认知谦逊（Epistemic Modesty）"这一源自公民认知能动性的规范性标准之上，在信息的清晰度、噪声和一致性各不相同的受控场景下，对三个前沿 LLM 进行测试，并应用于2025年德国与荷兰大选场景。结果：较高的综合得分掩盖了系统性的失败——模型在证据清晰时能可靠地中介信息，但在信息缺失、模糊或自相矛盾时就会失灵，还会削弱政治语言本身的强度，并受到政党先验倾向和标签的影响；没有一个模型能持续稳定地提供可靠的信息中介。
+https://arxiv.org/abs/2607.25953v1
+
+Paper28 | MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities · 2026-07-29 00:34 北京时间
+Problem: Any-to-any models that predict any modality from any combination of others are typically trained from scratch with encoder-decoder or diffusion architectures, which stops them from leveraging strong pretrained decoder-only models as a prior. Approach: The authors investigate decoder-only any-to-any multimodal modeling, treating all modalities symmetrically with no modality-specific heads, losses, or task pipelines — resulting in Modus, which since every modality is both an input and output of the same model, can support chained generation through intermediate modalities and cross-modal self-verification. Result: Modus shows strong out-of-the-box performance and is competitive with specialist and multitask baselines using a single model across various benchmarks.
+问题：能从任意模态组合预测任意其他模态的"任意到任意"模型，通常是用编码器-解码器或扩散架构从零训练的，这使它们无法借助强大的、预训练好的纯解码器模型作为先验。方法：作者研究了纯解码器架构的"任意到任意"多模态建模方式，对所有模态一视同仁，不使用任何模态专属的输出头、损失函数或任务流水线——由此得到 Modus 模型；因为每种模态在同一个模型里既是输入也是输出，它能支持通过中间模态进行链式生成，也能用另一种生成出的模态对自身输出做跨模态自我验证。结果：Modus 展现出很强的开箱即用性能，在多个基准上，仅用单一模型就能与专精模型和多任务基线相媲美。
+https://arxiv.org/abs/2607.25948v1
+
+━━━━━━━━━━
+
+想深入了解某一条？直接说"展开 P2"「详细讲讲 Paper9」之类即可。
+Want to go deeper on any item? Just say "expand P2" or "详细讲讲 Paper9" and I'll dig in.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
