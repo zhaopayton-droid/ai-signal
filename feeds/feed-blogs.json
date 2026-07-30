@@ -53,17 +53,8 @@
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "published": "2026-07-28T00:00:00+00:00",
       "summary": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview"
-    },
-    {
-      "id": "https://www.anthropic.com/news/position-open-weights-models",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Our position on open-weights models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "published": "2026-07-27T00:00:00+00:00",
-      "summary": "Anthropic CEO Dario Amodei on open-weights models"
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-29T22:57:58.005723+00:00"
+  "generated_at": "2026-07-30T11:53:56.981516+00:00"
 }
