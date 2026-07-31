@@ -1,0 +1,68 @@
+🛫 起飞了 | AI Signal - 2026年8月1日
+
+⚠️ 数据延迟提示:X/Twitter 数据源最近一次抓取时间为北京时间 2026-07-31 06:59(约24.6小时前),本期未发现新推文可能与该数据源滞后有关,而非当时段确无动态。
+⚠️ Data delay notice: The X/Twitter feed was last refreshed at 2026-07-31 06:59 Beijing time (~24.6 hours ago); the absence of new posts this cycle may reflect that lag rather than an actual quiet period.
+
+本轮周期的信号集中在几篇几乎同时发出的 OpenAI 官方博客,以及两期聚焦企业级 AI 落地与市场情绪的播客:OpenAI 一边披露端掉一个柬埔寨诈骗团伙对 ChatGPT 的滥用,一边发文阐述其在欧盟《AI 法案》推进背景下的负责任 AI 治理立场;Latent Space 的新闻汇总则把今天的 GPT-5.6 降价与"递归自我优化"带来的13倍成本下降联系起来。投资侧,All-In 播客讨论了芯片股抛售与 Leopold Aschenbrenner 旗下 AI 主题基金被强制平仓,同时提到"前沿实验室呼吁放慢 AI 发展"的争论;a16z 则与 Decagon 创始人对谈,给出企业级 AI agent 真正投入生产环境需要什么的具体案例。本轮 arXiv 与 X/Twitter 均无新增去重后的条目。
+This cycle's signal clusters around a handful of near-simultaneous OpenAI blog posts plus two podcasts on enterprise AI deployment and market sentiment: OpenAI disclosed disrupting a Cambodia-based scam operation's abuse of ChatGPT while also publishing its responsible-AI governance stance ahead of EU AI Act milestones, and Latent Space's news roundup ties today's GPT-5.6 price cuts to a claimed 13x cost drop from recursive self-optimization. On the investing side, All-In Podcast covers the chip-stock selloff and the margin call on Leopold Aschenbrenner's AI-focused fund, alongside talk of frontier labs reportedly calling to slow AI down, while a16z's conversation with Decagon's founders offers a grounded case study of what running enterprise AI agents in production actually takes. No new deduplicated items surfaced from arXiv or X/Twitter this cycle.
+
+━━━━━━━━━━
+Podcasts
+━━━━━━━━━━
+
+P1 | Latent Space — [AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization · 2026-07-31 12:40 北京时间
+Takeaway: Latent Space's AI News roundup covers today's 20-80% GPT-5.6 price cuts and, per its title, frames the drop as the result of recursive self-optimization — with the cost of GPT-5.4-level intelligence said to have fallen roughly 13x in four months.
+要点:Latent Space 的 AI News 汇总报道了今天20%-80%的 GPT-5.6 降价,并按标题所述将其归因于"递归自我优化"——达到 GPT-5.4 智能水平的成本据称在四个月内下降了约13倍。
+Why it matters: If that 13x figure holds up, it's a striking data point on how fast equivalent-intelligence inference costs are falling — worth tracking as a trend rather than a one-off promotion.
+为什么重要:如果这一13倍的数字站得住脚,这将是"同等智能水平推理成本下降速度"上一个显著的数据点,值得作为趋势持续关注,而非当作一次性促销新闻看待。
+https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80
+
+P2 | a16z — How Enterprise AI Really Gets Deployed · 2026-07-31 18:00 北京时间
+Takeaway: a16z's Sarah Wang and Kimberly Tan talk with Decagon co-founders Jesse Zhang and Ashwin Sreenivas about why Decagon shifted most of its inference to open-source models and what running enterprise support/sales/ops agents in production actually requires — latency, evaluation, fine-tuning, and forward-deployed engineering.
+要点:a16z 的 Sarah Wang 和 Kimberly Tan 对话 Decagon 联合创始人 Jesse Zhang 与 Ashwin Sreenivas,聊聊 Decagon 为何把大部分推理迁移到开源模型,以及把客服、销售、运营类 agent 真正投入生产环境需要解决延迟、评估、微调、驻场工程等哪些问题。
+Why it matters: A concrete, named-source account of production-grade enterprise AI economics — useful signal for anyone weighing open-source vs. frontier-model dependence at scale, and a reminder that application companies still need heavy engineering on top of foundation models.
+为什么重要:这是关于"生产级企业 AI 经济账"的具体、点名信源说明——对于正在权衡"大规模场景下用开源模型还是依赖前沿模型"的人有参考价值,也提醒人们应用层公司在基础模型之上仍需大量工程投入。
+https://a16z.simplecast.com/episodes/decagons-playbook-for-building-enterprise-ai-applications-VB3G3VC1
+
+P3 | All-In Podcast — Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores · 2026-08-01 06:23 北京时间
+Takeaway: The All-In hosts cover a chip-stock selloff and the margin call on Leopold Aschenbrenner's roughly $20B fund, plus a segment on frontier labs reportedly calling to "slow down AI."
+要点:All-In 主持人讨论了芯片股抛售、Leopold Aschenbrenner 约200亿美元规模基金遭遇追加保证金,以及"前沿实验室呼吁放慢 AI 发展速度"的相关话题。
+Why it matters: Connects this week's AI-adjacent market stress (chip-stock declines, a high-profile AI-focused fund's forced liquidation) with an internal industry debate over development pace — relevant for the investing angle even if the episode ranges into unrelated segments.
+为什么重要:把本周与 AI 相关的市场压力(芯片股下跌、一家知名 AI 主题基金被强制平仓)和行业内部关于"是否应放慢发展节奏"的讨论联系在一起——从投资角度值得关注,尽管本期节目也涉及其他与 AI 无关的话题。
+https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores
+
+P4 | Y Combinator — Boris Cherny: We Cut 80% of Claude Code's Prompt · 发布时间未验证 / publish time unverified
+Takeaway: Fresh off the Opus 5 launch, Claude Code creator Boris Cherny joins Diana Hu at Startup School 2026 to discuss what's changed in Claude Code — the title states the team cut 80% of its system prompt.
+要点:在 Opus 5 发布后不久,Claude Code 创造者 Boris Cherny 在 Startup School 2026 上与 Diana Hu 对谈,讨论 Claude Code 的近期变化——标题提到团队把系统提示词裁剪了80%。
+Why it matters: A named-source account of a major prompt-simplification move in one of the most widely used coding agents — relevant for anyone maintaining long system prompts for their own agents.
+为什么重要:这是一个广泛使用的编码 agent 大幅精简系统提示词的第一手信源说明——对正在为自己的 agent 维护长系统提示词的人有参考价值。
+https://www.youtube.com/watch?v=qyPCVqFUyDo
+
+━━━━━━━━━━
+Official Blogs
+━━━━━━━━━━
+
+B1 | OpenAI — Disrupting a Criminal Scam Operation · 2026-07-31 08:00 北京时间
+What Was Announced: OpenAI disrupted a Cambodia-based scam operation that was using ChatGPT to support investment, romance, gambling, and impersonation schemes.
+已宣布内容:OpenAI 披露并阻断了一个总部位于柬埔寨的诈骗团伙,该团伙曾利用 ChatGPT 支持投资、婚恋、赌博和身份冒充类诈骗。
+Details: The official summary is brief and doesn't go beyond naming the categories of abuse involved; see the link for OpenAI's full writeup.
+细节:官方摘要信息较为简略,仅提及涉及的滥用类别,更多细节请见原文链接。
+Why It Matters: Another entry in OpenAI's ongoing public disclosures of disrupting malicious use of its models — relevant for anyone tracking how labs handle abuse detection and enforcement at scale, including the investing angle on trust-and-safety costs.
+为什么重要:这是 OpenAI 持续公开披露"平台遭恶意滥用后被处置"系列的又一例——对于关注各实验室如何应对大规模滥用与执法问题的人有参考价值,也涉及信任与安全成本的投资角度。
+https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
+
+B2 | OpenAI — Advancing responsible AI across Europe · 2026-07-31 23:00 北京时间
+What Was Announced: OpenAI describes how its safety, security, transparency, and content-provenance practices support responsible AI governance in Europe, framed against the advancing EU AI Act.
+已宣布内容:OpenAI 阐述其在安全、安保、透明度和内容溯源方面的做法如何支持欧洲的负责任 AI 治理,并将其与正在推进的《欧盟 AI 法案》联系起来。
+Details: The post says this work will continue as the EU AI Act advances, but the official summary doesn't specify concrete new commitments beyond that framing — see the link for details.
+细节:文章表示相关工作将随《欧盟 AI 法案》推进而持续,但官方摘要并未给出更具体的新承诺,更多细节请见原文。
+Why It Matters: Regulatory positioning ahead of EU AI Act milestones is worth tracking for anyone assessing compliance risk or lab-regulator dynamics in Europe.
+为什么重要:在《欧盟 AI 法案》关键节点前的监管态度表态,对于评估欧洲合规风险或实验室与监管方互动动态的人值得关注。
+https://openai.com/index/advancing-responsible-ai-across-europe
+
+━━━━━━━━━━
+
+可以在 Claude Code 里说「展开 P2」或「详细讲讲 B1」来深读某一条。
+You can ask to "expand P2" or dig into any item above for more depth.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
