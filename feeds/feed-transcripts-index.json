@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T11:18:52.018522+00:00",
+  "generated_at": "2026-08-01T22:53:13.493369+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 12309,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-01T11:18:52.018522+00:00",
-      "last_seen_at": "2026-08-01T11:18:52.018522+00:00",
-      "expires_at": "2026-08-15T11:18:52.018522+00:00"
+      "last_seen_at": "2026-08-01T22:53:13.493369+00:00",
+      "expires_at": "2026-08-15T22:53:13.493369+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
@@ -25,8 +25,8 @@
       "transcript_chars": 13558,
       "transcript_source": "episode_page",
       "cached_at": "2026-07-31T12:02:26.849298+00:00",
-      "last_seen_at": "2026-08-01T11:18:52.018522+00:00",
-      "expires_at": "2026-08-15T11:18:52.018522+00:00"
+      "last_seen_at": "2026-08-01T22:53:13.493369+00:00",
+      "expires_at": "2026-08-15T22:53:13.493369+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ontologies-agentic-systems",
@@ -38,8 +38,8 @@
       "transcript_chars": 6890,
       "transcript_source": "episode_page",
       "cached_at": "2026-07-30T11:54:31.971215+00:00",
-      "last_seen_at": "2026-08-01T11:18:52.018522+00:00",
-      "expires_at": "2026-08-15T11:18:52.018522+00:00"
+      "last_seen_at": "2026-08-01T22:53:13.493369+00:00",
+      "expires_at": "2026-08-15T22:53:13.493369+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
@@ -51,8 +51,8 @@
       "transcript_chars": 14252,
       "transcript_source": "episode_page",
       "cached_at": "2026-07-30T11:54:31.971215+00:00",
-      "last_seen_at": "2026-08-01T11:18:52.018522+00:00",
-      "expires_at": "2026-08-15T11:18:52.018522+00:00"
+      "last_seen_at": "2026-08-01T22:53:13.493369+00:00",
+      "expires_at": "2026-08-15T22:53:13.493369+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
@@ -417,32 +417,6 @@
       "cached_at": "2026-07-17T22:43:26.409199+00:00",
       "last_seen_at": "2026-07-19T22:46:49.091071+00:00",
       "expires_at": "2026-08-02T22:46:49.091071+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
-      "link": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
-      "channel": "Latent Space",
-      "title": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
-      "pub_date": "2026-07-16T13:30:44+00:00",
-      "transcript_path": "feeds/transcripts/25513cff497f6dc63d061fed.txt",
-      "transcript_chars": 8639,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-16T22:53:21.164853+00:00",
-      "last_seen_at": "2026-07-18T22:51:23.370757+00:00",
-      "expires_at": "2026-08-01T22:51:23.370757+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-      "link": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-      "channel": "Latent Space",
-      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
-      "pub_date": "2026-07-16T06:18:05+00:00",
-      "transcript_path": "feeds/transcripts/3d9ea26c92af95310a58b1c0.txt",
-      "transcript_chars": 16723,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-16T22:53:21.164853+00:00",
-      "last_seen_at": "2026-07-18T22:51:23.370757+00:00",
-      "expires_at": "2026-08-01T22:51:23.370757+00:00"
     }
   ]
 }

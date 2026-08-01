@@ -46,15 +46,6 @@
       "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes."
     },
     {
-      "id": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "published": "2026-07-30T15:00:59+00:00",
-      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
-    },
-    {
       "id": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -65,5 +56,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-01T11:18:15.706230+00:00"
+  "generated_at": "2026-08-01T22:52:31.972735+00:00"
 }
