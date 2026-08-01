@@ -1,0 +1,58 @@
+🛫 起飞了 | AI Signal - 2026年8月2日
+
+这个周期的信号偏"工具与工作流"而非新模型发布:swyx 连续几条推文都在谈 agent 编排本身——为什么"还在用" /loop 和 /goal 反而是对的,以及他今天开始动手做的"forge agents";Guillermo Rauch 则展示了一个基于开源、模型无关的 agentic CRM,呼应同一个方向。唯一的播客新条目是 Lenny's Podcast 的社区问答合集,其中一段专门聊"如何上手开源模型"。
+This cycle's signal is more about tooling and workflow than new model drops: swyx has a run of tweets on agent orchestration itself — why still using /loop and /goal is the right call, and the "forge agents" work he started today — while Guillermo Rauch showcases an open-source, model-agnostic agentic CRM in the same vein. The one new podcast item is Lenny's Podcast's community Q&A grab-bag, which includes a segment on getting started with open source models.
+
+━━━━━━━━━━
+X / Twitter
+━━━━━━━━━━
+
+X1 | swyx (Shawn Wang) · 2026-08-01 14:27 北京时间
+swyx 说自己是少数仍在积极使用 /loop 和 /goal 的 AI 从业者之一,他认为其他人放弃得太早了;在他看来这两个功能在你既想要"可控性与自主性的合适平衡",又想要那种不必事先精确规划路径、能"自我生成循环"的开放式终态时最有用,并举了一个"设定 goal 救了自己"的长推理回合例子。
+swyx says he's still one of a minority of AI practitioners actively using /loop and /goal, and thinks others gave up on them too early; he argues they matter most when you want the right mix of steerability and autonomy, or an open-ended "loop that generates loops" outcome without pre-specifying the path — and points to an example where having a goal set saved him during a very long reasoning turn.
+
+原文 / Original:
+"among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal.... ... and i think all of u guys who stopped using it are wrong - not wrong forever, just giving up on it too early in the g5.6/c5 era now you use it when: 1) you want the right mix of steerability and autonomy 2) you want open ended "loop that generates loops" type end state without deeply specifying path to get there heres an example of when having a goal on saved my ass in a very long action-reasonining turn"
+
+https://x.com/swyx/status/2083439562437673053
+
+X2 | swyx (Shawn Wang) · 2026-08-02 01:47 北京时间
+原文 / Original: "> Google was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google. bookmark for the next vc that asks you "what if <incumbent> builds this?""
+中文翻译:引用一段话——"Google 太紧张而没敢发布它,DeepMind 也被禁止推出可能冲击 Google 自身业务的产品。"收藏起来,留给下一个问你"如果大厂自己做了怎么办"的 VC。
+
+https://x.com/swyx/status/2083610493793845429
+
+X3 | swyx (Shawn Wang) · 2026-08-02 04:41 北京时间
+原文 / Original: "started work on forge agents today"
+中文翻译:今天开始做 forge agents 相关的工作。
+
+https://x.com/swyx/status/2083654369095156219
+
+X4 | Guillermo Rauch (rauchg) · 2026-08-02 06:41 北京时间
+原文 / Original: "Open source agentic CRM built on https://t.co/99eEa13mZ3 and @nextjs. Model-agnostic, self-hostable or serverlessly-deployed, multi-channel, and headless. This is the way."
+中文翻译:一个基于 Next.js 构建的开源 agentic CRM——模型无关、可自托管或无服务器部署、支持多渠道、且是 headless 架构。"这才是正道。"
+
+https://x.com/rauchg/status/2083684679362965605
+
+━━━━━━━━━━
+Podcasts
+━━━━━━━━━━
+
+P1 | Lenny's Podcast — Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can't keep up with product, and more · 2026-08-02 01:25 北京时间
+要点:这是 Lenny's Podcast 的"社区智慧"系列合集(第195期),官方描述仅有"Community Wisdom 195"一句话,信息很薄,以下内容基于标题推断。
+Takeaway: This is Lenny's Podcast's "Community Wisdom" roundup (episode 195); the official description is just "Community Wisdom 195" — very thin — so the following is inferred from the title only.
+要点列表:标题显示本期是多话题问答合集,包括如何开始使用开源模型、如何让一次美国出差更值、如何为可能的裁员做准备、以及当营销跟不上产品节奏时怎么办。
+Key Points: The title indicates a multi-topic Q&A covering getting started with open source models, making a U.S. business trip worthwhile, preparing for a possible layoff, and what to do when marketing can't keep pace with product.
+为什么重要:与本刊相关的主要是"开源模型上手"这一段,反映出从业者对开源模型采纳门槛的持续关注;其余话题(出差、裁员、营销)更偏一般职场内容。
+Why It Matters: The AI-relevant thread here is the open-source-models segment, signaling continued practitioner interest in the adoption bar for open models; the other topics (travel, layoffs, marketing) are more general career content.
+待解问题:具体讨论了哪些开源模型、给出了什么建议,官方元数据未提供,需要展开该集才能确认。
+Open Questions: Which specific open source models were discussed and what advice was given isn't in the metadata — would need to expand this episode to confirm.
+
+https://www.lennysnewsletter.com/p/community-wisdom-getting-started
+
+━━━━━━━━━━
+
+可以在 Claude Code 里说「展开 X1」或「详细讲讲 P1」来深读某一条。
+You can ask to "expand X1" or dig into any item above for more depth.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
