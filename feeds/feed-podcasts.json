@@ -1,6 +1,25 @@
 {
   "podcasts": [
     {
+      "channel": "Latent Space",
+      "domain": "ai",
+      "guid": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "title": "[AINews] not much happened today",
+      "pub_date": "2026-08-01T01:38:09+00:00",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "audio_url": "https://substackcdn.com/image/fetch/$s_!1adH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOiugSLbQAAck-3.jpg",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "apart from DeepSeek V4-Flash 0731, a quiet day.",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/16d6222b2991e2a16989f670.txt",
+      "transcript_chars": 12309
+    },
+    {
       "channel": "All-In Podcast",
       "domain": "ai",
       "guid": "3202bc1f-a7db-4549-a5d1-0632d58fa81d",
@@ -202,43 +221,6 @@
       "transcript_chars": 0
     },
     {
-      "channel": "a16z",
-      "domain": "ai",
-      "guid": "431ae0f7-c40c-4f00-a2ec-2123c3ca21d5",
-      "title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
-      "pub_date": "2026-07-29T10:00:00+00:00",
-      "link": "https://a16z.simplecast.com/episodes/ai-micro-dramas-generative-media-and-the-future-of-creativity-ZbK1xyzO",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/7fd0c85e-6602-4a74-a5a4-1ae04e7bdcd8/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=7fd0c85e-6602-4a74-a5a4-1ae04e7bdcd8&feed=JGE3yC0V",
-      "audio_bytes": 48998305,
-      "duration": "00:51:02",
-      "description": "<p>Justine Moore, partner at Andreessen Horowitz, joins New Economies to explore the rapid evolution of generative media and why AI-native content is reaching an inflection point. They discuss the rise of AI micro-dramas, how creators are building entirely new forms of entertainment, and why the biggest opportunities may lie not in replacing Hollywood—but in expanding who gets to create.</p>\n<p>They also cover the future of creator tools, AI agents for individuals, generative video, AI \"slop,\" the economics of AI-native studios, and where founders should be building next as consumer AI enters a new phase.</p>\n<p> </p>\n<p>Resources:</p>\n<p>Follow Justine Moore on X:<a href=\"https://x.com/venturetwins\" rel=\"noopener noreferrer\"> https://x.com/venturetwins</a></p>\n<p>Watch the episode on YouTube: <a href=\"https://www.neweconomies.co/p/justine-moore-andreessen-horowitz\" rel=\"noopener noreferrer\">https://www.neweconomies.co/p/justine -moore-andreessen-horowitz</a><br>\n Listen to more from New Economies: <a href=\"https://www.neweconomies.co/\" rel=\"noopener noreferrer\">https://www.neweconomies.co/</a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter.com/eriktorenberg</a></p><p>&nbsp;</p><p>Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in ",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "Latent Space",
-      "domain": "ai",
-      "guid": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
-      "pub_date": "2026-07-29T00:46:52+00:00",
-      "link": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "audio_url": "https://substackcdn.com/image/fetch/$s_!u8gQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87c30d45-da74-47aa-80c6-77903e4c9cbf_2094x1890.png",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "The Big Pause is coming.",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/586ccf3ecaabf1c389246930.txt",
-      "transcript_chars": 32980
-    },
-    {
       "channel": "SemiAnalysis",
       "domain": "ai",
       "guid": "b91f7395-78d8-41ee-a9cb-bc54981da44a",
@@ -267,24 +249,6 @@
       "audio_bytes": 48741563,
       "duration": "00:50:46",
       "description": "<p>Coding drives over 70% of lab API revenue, and token austerity policies mostly miss the point. Crystal (@crystalthegg), Max Kan (@maxkan), and Joey Brookhart (@SaasquatchC) break down why blocking teams from Opus saves nothing, while power users at the 99th percentile burn $100k per employee per year. Jordan (@Jordannanos) and the team run break-even math on the Max plans and Anthropic&#39;s margins.</p><p>00:00 Intro00:53 Token Budgeting: Maxing vs Austerity03:05 Coding Eats the Token Market04:49 The ROI Question06:42 Subscriptions vs API Pricing09:08 Break-Even Math on the Max Plans10:42 Anthropic&#39;s Profit Margins12:07 Consumer vs Enterprise Mix16:04 The Two-Horse Race18:45 Codex App vs CLI20:41 Who Comes in Third?23:14 Clawbacks and the SpaceX Playbook26:59 Meta&#39;s NeoCloud Backstop29:58 Token-as-a-Service Market Forecast32:03 Hyperscalers vs Inference Startups38:50 MSL and the RL Scaling Law41:58 How to Build a Five-Figure RL Task47:10 Vibe Checks48:13 The $400B Anthropic BetReferenced:TokenBudgeting: Our Conversations with Enterprises on Token Spend: https://newsletter.semianalysis.com/p/tokenbudgeting-our-conversationsMeta Compute: Everyone Wants To Be A Neocloud: https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-beAnthropic 3Q26 Profit Over $1B: The Anthropic IPO Financials Sneak Peak: https://newsletter.semianalysis.com/p/anthropic-3q26-profit-over-1b-theThe Future of Meta Superintelligence: A 1 Year Progress Update: https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligenceComplete Launch Kit</p>\n",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "SemiAnalysis",
-      "domain": "ai",
-      "guid": "a72ae041-2497-479b-8393-b700a51b4486",
-      "title": "[Emergency Episode] Moonshot’s Kimi K3 has Arrived! China has a Frontier Model",
-      "pub_date": "2026-07-18T01:08:14+00:00",
-      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Emergency-Episode-Moonshots-Kimi-K3-has-Arrived--China-has-a-Frontier-Model-e3m7mra",
-      "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/122984746/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-18%2F428162276-44100-2-455860dce05be.mp3",
-      "audio_bytes": 30461700,
-      "duration": "00:31:43",
-      "description": "<p>A year ago, the big three was OpenAI, Anthropic, and Google. Things have changed.Moonshot's Kimi K3 sits above Gemini on every composite benchmark, and it's open source in 10 days.New episode: what K3 reveals about frontier margins, model sizes, and who's actually still in the game. </p><p><br /></p><p>00:00 Intro</p><p>00:11 Is Kimi K3 the Third Best Model?</p><p>04:04 Why Delay the Weights?</p><p>05:30 2.8T Parameters and Serving Constraints</p><p>06:48 Frontier Margins and the 3x Price Hike</p><p>11:10 New Architecture, What Comes Next</p><p>14:09 Will Open Source Catch Closed?</p><p>19:51 Built for Chinese Accelerators</p><p>22:57 The Harness Is the Product</p><p>28:49 We're Still Early</p>\n",
       "transcript_available": false,
       "transcript_source": null,
       "transcript_url": null,
@@ -516,5 +480,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-31T22:57:20.677311+00:00"
+  "generated_at": "2026-08-01T11:18:15.706230+00:00"
 }
