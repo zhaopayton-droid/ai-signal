@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-02T11:18:39.970252+00:00",
+  "generated_at": "2026-08-02T22:54:15.205429+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+      "link": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+      "channel": "Lenny's Podcast",
+      "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+      "pub_date": "2026-08-02T12:32:02+00:00",
+      "transcript_path": "feeds/transcripts/faa59532c0742701defbd7fb.txt",
+      "transcript_chars": 5552,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-02T22:54:15.205429+00:00",
+      "last_seen_at": "2026-08-02T22:54:15.205429+00:00",
+      "expires_at": "2026-08-16T22:54:15.205429+00:00"
+    },
     {
       "guid": "https://www.latent.space/p/ainews-not-much-happened-today-038",
       "link": "https://www.latent.space/p/ainews-not-much-happened-today-038",
@@ -12,8 +25,8 @@
       "transcript_chars": 12309,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-01T11:18:52.018522+00:00",
-      "last_seen_at": "2026-08-02T11:18:39.970252+00:00",
-      "expires_at": "2026-08-16T11:18:39.970252+00:00"
+      "last_seen_at": "2026-08-02T22:54:15.205429+00:00",
+      "expires_at": "2026-08-16T22:54:15.205429+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
@@ -25,8 +38,8 @@
       "transcript_chars": 13558,
       "transcript_source": "episode_page",
       "cached_at": "2026-07-31T12:02:26.849298+00:00",
-      "last_seen_at": "2026-08-02T11:18:39.970252+00:00",
-      "expires_at": "2026-08-16T11:18:39.970252+00:00"
+      "last_seen_at": "2026-08-02T22:54:15.205429+00:00",
+      "expires_at": "2026-08-16T22:54:15.205429+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ontologies-agentic-systems",
@@ -404,19 +417,6 @@
       "cached_at": "2026-07-18T22:43:21.931357+00:00",
       "last_seen_at": "2026-07-21T03:27:17.056457+00:00",
       "expires_at": "2026-08-04T03:27:17.056457+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-      "link": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-      "channel": "Latent Space",
-      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-      "pub_date": "2026-07-17T01:46:36+00:00",
-      "transcript_path": "feeds/transcripts/fb6785d005035a43478cd609.txt",
-      "transcript_chars": 31942,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-17T22:43:26.409199+00:00",
-      "last_seen_at": "2026-07-19T22:46:49.091071+00:00",
-      "expires_at": "2026-08-02T22:46:49.091071+00:00"
     }
   ]
 }
