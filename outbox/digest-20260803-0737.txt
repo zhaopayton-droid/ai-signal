@@ -1,0 +1,65 @@
+🛫 起飞了 | AI Signal - 2026年8月3日
+
+今天的信号全部来自 X——没有播客、论文或博客新条目通过去重筛选。共同线索是:agent 正在承担越来越"定制化"、以前没人会去做的工作——无论是 Karpathy 用 Opus 5 从零渲染一段 3D 场景做的测试,还是 Rauch 描述的 Vercel 内部 agent 已经接管财务、沟通、工程等职能。swyx 的两条开发者工具笔记,以及一位投资人对 Anthropic 关联基金 SALP 持仓的粗略估算,补齐了今天的内容。
+Today's signal comes entirely from X — no podcast, paper, or blog items cleared dedup. The throughline: agents taking on increasingly bespoke, previously-unthinkable work, whether that's Karpathy testing Opus 5 by having it render a 3D scene from scratch, or Rauch describing an internal Vercel agent that now runs finance, comms, and engineering. Two devtools notes from swyx and one investor's rough math on Anthropic-adjacent fund SALP round out the day.
+
+━━━━━━━━━━
+X / Twitter
+━━━━━━━━━━
+
+X1 | Andrej Karpathy (karpathy) · 2026-08-02 11:00 北京时间
+Karpathy 用 Opus 5 做了个测试:给它《魔戒》开篇一段文字、100万 token(约10美元)预算,让它写 three.js 渲染代码——模型跑了约2小时,写出5500行代码,把故事场景以程序化方式渲染了出来。他认为这代表评测 LLM 的新方向,超越了"画一只骑自行车的鹈鹕"式的老测试:这类任务定制到没人会真去做,但对有耐心的 LLM 来说几乎是"免费"的。他也指出一个弱点——LLM 无法像处理文本那样原生"看到"或审核 3D/视觉输出,验证结果正确性依然很难。
+Karpathy tested Opus 5 by giving it the opening paragraph of Lord of the Rings, a ~$10 (1M token) budget, and asking for a three.js render — the model spent ~2 hours writing 5,500 lines of code to procedurally render the scene. He frames this as a new eval frontier beyond "SVG of a pelican on a bicycle": tasks so custom no human would ever bother, but essentially free for an LLM with enough patience. He also flags a weakness — LLMs can't natively "see" or audit 3D/visual output the way they can text, so verifying correctness stays hard.
+
+原文 / Original:
+"We're starting to leave the territory where you'd test an LLM by e.g. "create an svg of pelican on a bicycle". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.
+
+I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from "no one would ever do this" to "sure, why not, it's ~free". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.
+
+Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive the visual/3D output the way they can read and re-process text."
+
+https://x.com/karpathy/status/2083749667410727319
+
+X2 | Guillermo Rauch (rauchg) · 2026-08-03 06:24 北京时间
+Rauch 透露 Vercel 内部有一个叫"v"的 agent,已经渗透到公司几乎所有职能——财务、沟通、文档、市场、工程、业务分析,其日均交互量和 token 消耗都在指数级增长。它会为每个用户保留记忆和个性化工作流(比如主动提醒他 skills.sh 的技能数突破100万),也是 Vercel 产品 evedev 的设计基础。他的论点是:相比接入某个通用的"大厂 Slack AI 集成",如果 agent 会成为公司运转的基础设施,那从源码、运行时、数据到 token 全链路自己掌控,意义完全不同。
+Rauch says Vercel built an internal agent called "v" that now touches nearly every function — finance, comms, docs, marketing, engineering, and business analytics — with usage growing exponentially in both daily interactions and token spend. It keeps per-user memories and personalized workflows (e.g., proactively reminding him when skills.sh crossed 1M skills), and it's also the design basis for Vercel's evedev product. His pitch: unlike bolting on a generic "BigAI Slack integration," owning the agent end-to-end — source, runtime, data, tokens — matters if agents become the substrate companies run on.
+
+原文 / Original:
+"We built an agent that powers our company's internal operations called @𝚟. Every day-to-day job at Vercel now involves @𝚟. It's growing exponentially both in daily interactions and token use. One can extrapolate to the day AI agents run entire companies from here. It's an expert in finance, comms, docs, marketing, engineering, business analytics. It's seeded by the skills we gave it and we update, but it's also constantly improving. It already keeps memories and personalized workflows and schedules on a per-user basis. For example, I knew skills⁠.sh hit 1M skills and I shared this on these forums because I asked @𝚟 to periodically check and remind me. It's powered by and is also the basis for the design of @evedev_. We built this, it works fantastically well, we think every company should have it. Before you @ me, I know you could also do this by picking your 'BigAI slack integration' du jour. But that's not your agent, that's their agent. If agents become the foundation of (and even synonymous with) modern companies, you being in complete control, from source → runtime → data → token, seems like a pretty big deal to me."
+
+https://x.com/rauchg/status/2084042561690456157
+
+X3 | insane_analyst · 2026-08-02 08:50 北京时间
+Original: "Getting din with finance frnd. Combining rumors and some rough math, SALP...
+1. Presently has $6-7B in private equities?(Anthropic, Fluidstack, MatX)
+2. $3-4B in public equities.
+3. Likely raised $15B in new LP capital 2-3 months ago.
+4. Was $100B long, $60B short recently?"
+中文翻译:和做金融的朋友吃饭,结合一些传闻和粗略估算,SALP 大概情况——1. 目前私募股权持仓约60-70亿美元(Anthropic、Fluidstack、MatX)?2. 公开市场股权持仓约30-40亿美元。3. 大概2-3个月前新募集了约150亿美元的LP资金。4. 近期可能有约1000亿美元多头、600亿美元空头仓位?(发帖者本人也标注这是"传闻+粗略估算",非官方数据。)
+
+https://x.com/insane_analyst/status/2083716949205500403
+
+X4 | swyx (Shawn Wang) · 2026-08-02 11:15 北京时间
+swyx 提到自己主办的会议上有一场讲得特别好的演讲——"以毒攻毒"(fighting slop with slop),主讲人在做一门 AI 原生编程语言。他联想到此前 @btaylor 曾在他的播客上提出希望有人从第一性原理出发设计一门 AI 原生编程语言,并认为让代码"耐受 slop"(容忍 AI 生成代码中的粗糙部分)比"反 slop"要有价值得多。
+swyx flags a talk from the conference he organizes as unusually well-argued: "fighting slop with slop," given by a speaker building an AI-native programming language. He connects it to a request Braden Taylor made on swyx's podcast for someone to design an AI-native language from first principles, and argues being slop-tolerant is far more valuable than being anti-slop.
+
+原文 / Original:
+"one of my curses as organizer is i rarely get to attend the conference i run. so i basically 24/7 watch back talks with everyone else after the show. this one was VERY well paced and argued: fighting slop with slop — @vaibcode, Boundary. @btaylor asked for an ai native programming language on our pod. as a PL fan I'm really glad someone is rethinking how code runs from first principles. Being slop-tolerant is 100x more valuable than being anti-slop"
+
+https://x.com/swyx/status/2083753582160191988
+
+X5 | swyx (Shawn Wang) · 2026-08-03 03:08 北京时间
+swyx 分享了自己做 Forge 项目时的一个技巧:在 OpenAI Codex 里可以 @ 一个线程并排队后续的 @提及,这样如果项目卡在某个平台功能上,就能提前"预埋"任务,等平台那边解除阻塞后自动继续推进。他认为更好的 multi-agent harness 应该能在"平台"和"产品"两层之间无缝调度工作——不过他也承认这是个小众需求,因为大多数人只是在平台之上做应用,而不是同时开发平台和产品。
+swyx shares a workflow trick from building Forge: inside OpenAI Codex you can @ a thread and queue up further @-mentions, so if your project is blocked on a platform feature, you can "pre-move" it to resume automatically once the platform ships the fix. He argues an even better multi-agent harness would seamlessly orchestrate work between platform and product layers — though he admits it's a niche need, since most builders work on top of platforms rather than building both at once.
+
+原文 / Original:
+"one way i'm developing Forge is to use it to host all my projects going forward. so I often find myself having to bounce back and forth between platform and product. sharing neat trick - in @openai codex you can @ a thread + queue up the @, so if your project is blocked on a platform feature, you can actually premove your project to proceed once the platform is unblocked. now of course.. i wasnt actually strictly necessary in this whole process, so an even better multiagent harness would seamlessly orchestrate work back and forth between platform and project... it's just not a very common usecase unless you're building a real platform (which most people dont - most people just build applications on top of platforms, or a small platform with only 1 proudct/application tenant)"
+
+https://x.com/swyx/status/2083993378258288976
+
+━━━━━━━━━━
+
+可以在 Claude Code 里说「展开 X1」来深读某一条。
+You can ask to "expand X1" to dig deeper into any item above.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
