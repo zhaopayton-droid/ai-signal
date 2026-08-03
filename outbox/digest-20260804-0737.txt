@@ -1,0 +1,74 @@
+🛫 起飞了 | AI Signal - 2026年8月4日
+
+今天信号量不大但方向清晰:Vercel 系(rauchg)连发三条,从"用 Vercel Sandbox 自动化浏览器操作"到"v0 已进入大型代理和记录系统公司的生产环境"再到 Next.js 16.3 的"agent-native"设计,勾勒出一条"基础设施为 agent 优化"的产品线;播客这边 Dwarkesh 与嘉宾讨论算力可能变贵10倍、Baseten 在 Latent Space 上拆解推理工程,呼应了同一个主题——AI 越能干活,底层算力和基础设施就越吃紧。
+Today's signal is thin but directionally clear: Vercel's Guillermo Rauch posted three times in a row — automating browsers with Vercel Sandbox, v0 now running in production at large agencies and system-of-record companies, and Next.js 16.3's "agent-native" design — sketching a product line of infrastructure built for agents. On the podcast side, Dwarkesh discusses why compute could get 10x more expensive and Latent Space dissects inference engineering with Baseten, echoing the same theme: as AI does more real work, compute and infra get more strained.
+
+━━━━━━━━━━
+X / Twitter
+━━━━━━━━━━
+
+X1 | Dylan Patel (dylan522p) · 2026-08-03 06:58 北京时间
+Original: "The funny thing about Anthropic and OpenAI people saying they want to slow down AI progress is that this is what Anti Trust mechanisms were built for. It's illegal to collude and slow down AI progress."
+中文翻译:Anthropic 和 OpenAI 的人说想放慢 AI 发展速度,这事挺讽刺的——反垄断机制生来就是管这个的。联手放慢 AI 发展进度本身就是违法的。
+https://x.com/dylan522p/status/2084051253278208138
+
+X2 | Naval (naval) · 2026-08-03 11:22 北京时间
+Original: "Agent Programming Interface."
+中文翻译:Agent 编程接口。
+https://x.com/naval/status/2084117793667178756
+
+X3 | Amanda Askell (AmandaAskell) · 2026-08-04 04:01 北京时间
+Original: "I don't agree with this part. I think the takeaway should be that models (like humans) can behave in aligned ways while still causing harm, e.g. because they're given false information about their situation. There isn't a line between aligned and harmless: they're different axes."
+中文翻译:这部分我不太认同。我觉得更准确的结论是:模型(和人一样)可能行为上是"对齐"的,却仍然造成伤害——比如因为被给了关于自身处境的错误信息。"对齐"和"无害"之间没有一条清晰的界线,它们是两个不同的维度。
+https://x.com/AmandaAskell/status/2084369056765989224
+
+X4 | Guillermo Rauch (rauchg) · 2026-08-04 02:26 北京时间
+Original: "Vercel Sandbox is an excellent choice for automating web browsers in basic scenarios. The remote-agent-browser API makes it delightful: browser.exec('open', url) / browser.exec('click') / browser.screenshot()"
+中文翻译:Vercel Sandbox 是处理基础浏览器自动化场景的绝佳选择。remote-agent-browser API 用起来很顺手:打开页面、点击、截图三行代码搞定。
+https://x.com/rauchg/status/2084345210470097127
+
+X5 | Guillermo Rauch (rauchg) · 2026-08-04 06:04 北京时间
+Original: "v0 as infrastructure. Already in production at the largest agencies and system-of-record companies in the world, as part of their AI software factories."
+中文翻译:v0 正在变成基础设施——已经进入全球最大的一批代理公司和记录系统(system-of-record)公司的生产环境,成为它们"AI 软件工厂"的一部分。
+https://x.com/rauchg/status/2084399936687460754
+
+X6 | Guillermo Rauch (rauchg) · 2026-08-04 06:49 北京时间
+Rauch 宣布 Next.js 16.3,他称之为"迄今为止对 agent 最友好的一次发布"。要点:开发/构建更快(感谢 Fable 的内存优化和增量 `next build` 缓存);"即时导航"(instant navigations)即将成为默认,让 SPA 式跳转成为标配;新增"agent-native DX"——即便选择服务端数据获取的"慢"导航,agent 也能用 `<Suspense fallback>` 搭出即时加载骨架,并自带带版本号的文档;整体在自托管和 serverless 场景下更省成本、类型检查更快。90位贡献者共同完成此次发布。
+Rauch announced Next.js 16.3, calling it their "best release for agents by far." Highlights: faster dev/builds (thanks to Fable's memory-use improvements and the incremental `next build` cache); instant navigations moving toward default, giving SPA-like transitions out of the box; new "agent-native DX" — even when choosing server-side-fetch "slow" navs, an agent can set up a `<Suspense fallback>` for instant loading shells, with built-in versioned docs; overall more cost-efficient to serve (self-hosted and serverless) and faster type-checking. 90 contributors landed the release.
+https://x.com/rauchg/status/2084411344623902994
+
+━━━━━━━━━━
+Podcasts
+━━━━━━━━━━
+
+P1 | Latent Space · 2026-08-04 05:44 北京时间
+《The Inference Engineering Masterclass》— Baseten 的 Philip Kiely 与 Ali Taha 做客。简介提到 Baseten 刚完成 130 亿美元 D 轮/F 轮融资,已成为推理工程领域的头部玩家之一,节目会讲清楚自回归和扩散模型的推理工程要点。以上仅基于节目简介,完整论据需展开后阅读转写。
+"The Inference Engineering Masterclass" with Baseten's Philip Kiely and Ali Taha. Per the description, Baseten just raised a $13B Series F and is now one of the leading players in inference engineering; the episode covers what you need to know for autoregressive and diffusion-model inference engineering. Based on the description only — expand for the full transcript-based take.
+https://www.latent.space/p/inference-eng
+
+P2 | Dwarkesh Patel · 2026-08-04 01:32 北京时间
+《Why smarter AI models could drive up compute prices 10x》。简介只有一句"廉价算力时代要结束了吗?"(The end of cheap compute?),具体论证需要展开阅读转写。
+"Why smarter AI models could drive up compute prices 10x." The description is just one line — "The end of cheap compute?" — the actual argument needs the transcript to expand.
+https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video
+
+P3 | Lenny's Podcast · 2026-08-03 20:04 北京时间(另有预览版 23:02 北京时间)
+《How I AI: ChatGPT Codex Voice + browser + Sites》,嘉宾 Nick Baumann(OpenAI)。简介提到 ChatGPT Voice 现在能同时管理多个对话线程、读取屏幕内容、运行后台任务,Baumann 现场演示了完整工作流。以上仅基于节目简介。
+"How I AI: ChatGPT Codex Voice + browser + Sites" with Nick Baumann (OpenAI). Per the description, ChatGPT Voice now manages multiple threads, reads your screen, and runs background tasks, with Baumann walking through the live workflow. Based on the description only.
+Full: https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser
+Preview: https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites
+
+━━━━━━━━━━
+Official Blogs
+━━━━━━━━━━
+
+B1 | OpenAI · 2026-08-03 15:00 北京时间
+《How we built a realtime system for responsive voice AI in six months》。OpenAI 介绍了 GPT-Live 的实时语音架构:采用"无轮次"(turnless)语音模型 + 低延迟系统设计,让语音对话更快、更自然,官方博客称该系统用六个月时间搭建完成。这是官方第一方说法,尚未有独立验证。
+"How we built a realtime system for responsive voice AI in six months." OpenAI details the GPT-Live real-time voice architecture: a turnless speech model plus a low-latency system design for faster, more natural conversations, built in six months per the post. This is OpenAI's own first-party claim, not independently verified.
+https://openai.com/index/continuous-voice-interaction-with-gpt-live
+
+━━━━━━━━━━
+
+可以在 Claude Code 里说「展开 P1」或「详细讲讲 X6」来深读某一条。
+You can ask to "expand P1" or dig into any item above for more depth.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
