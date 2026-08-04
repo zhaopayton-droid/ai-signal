@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-08-04T12:04:01.347228+00:00",
+  "generated_at": "2026-08-04T23:01:22.809977+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.latent.space/p/unpacking-chatgpt-work",
+      "link": "https://www.latent.space/p/unpacking-chatgpt-work",
+      "channel": "Latent Space",
+      "title": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+      "pub_date": "2026-08-04T18:20:14+00:00",
+      "transcript_path": "feeds/transcripts/4a8307b3b0d3a248e7b2d862.txt",
+      "transcript_chars": 19215,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-04T23:01:22.809977+00:00",
+      "last_seen_at": "2026-08-04T23:01:22.809977+00:00",
+      "expires_at": "2026-08-18T23:01:22.809977+00:00"
+    },
+    {
+      "guid": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
+      "link": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
+      "channel": "Lenny's Podcast",
+      "title": "What if you’re not supposed to have a long-term plan?",
+      "pub_date": "2026-08-04T13:02:53+00:00",
+      "transcript_path": "feeds/transcripts/7d30b9b0e962219c961420c0.txt",
+      "transcript_chars": 18547,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-04T23:01:22.809977+00:00",
+      "last_seen_at": "2026-08-04T23:01:22.809977+00:00",
+      "expires_at": "2026-08-18T23:01:22.809977+00:00"
+    },
     {
       "guid": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
       "link": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
@@ -12,8 +38,8 @@
       "transcript_chars": 38062,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-04T12:04:01.347228+00:00",
-      "last_seen_at": "2026-08-04T12:04:01.347228+00:00",
-      "expires_at": "2026-08-18T12:04:01.347228+00:00"
+      "last_seen_at": "2026-08-04T23:01:22.809977+00:00",
+      "expires_at": "2026-08-18T23:01:22.809977+00:00"
     },
     {
       "guid": "https://www.latent.space/p/inference-eng",
@@ -25,8 +51,8 @@
       "transcript_chars": 131402,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-03T22:58:29.729879+00:00",
-      "last_seen_at": "2026-08-04T12:04:01.347228+00:00",
-      "expires_at": "2026-08-18T12:04:01.347228+00:00"
+      "last_seen_at": "2026-08-04T23:01:22.809977+00:00",
+      "expires_at": "2026-08-18T23:01:22.809977+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
@@ -38,8 +64,8 @@
       "transcript_chars": 1771,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-03T22:58:29.729879+00:00",
-      "last_seen_at": "2026-08-04T12:04:01.347228+00:00",
-      "expires_at": "2026-08-18T12:04:01.347228+00:00"
+      "last_seen_at": "2026-08-04T23:01:22.809977+00:00",
+      "expires_at": "2026-08-18T23:01:22.809977+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser",
@@ -51,8 +77,8 @@
       "transcript_chars": 4872,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-03T22:58:29.729879+00:00",
-      "last_seen_at": "2026-08-04T12:04:01.347228+00:00",
-      "expires_at": "2026-08-18T12:04:01.347228+00:00"
+      "last_seen_at": "2026-08-04T23:01:22.809977+00:00",
+      "expires_at": "2026-08-18T23:01:22.809977+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
@@ -64,8 +90,8 @@
       "transcript_chars": 4471,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-03T12:56:31.088333+00:00",
-      "last_seen_at": "2026-08-04T12:04:01.347228+00:00",
-      "expires_at": "2026-08-18T12:04:01.347228+00:00"
+      "last_seen_at": "2026-08-04T23:01:22.809977+00:00",
+      "expires_at": "2026-08-18T23:01:22.809977+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
@@ -77,8 +103,8 @@
       "transcript_chars": 5552,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-02T22:54:15.205429+00:00",
-      "last_seen_at": "2026-08-04T12:04:01.347228+00:00",
-      "expires_at": "2026-08-18T12:04:01.347228+00:00"
+      "last_seen_at": "2026-08-04T23:01:22.809977+00:00",
+      "expires_at": "2026-08-18T23:01:22.809977+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-not-much-happened-today-038",
@@ -443,19 +469,6 @@
       "cached_at": "2026-07-20T22:56:27.429987+00:00",
       "last_seen_at": "2026-07-22T22:57:24.164029+00:00",
       "expires_at": "2026-08-05T22:57:24.164029+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
-      "link": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
-      "channel": "Lenny's Podcast",
-      "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
-      "pub_date": "2026-07-19T12:31:21+00:00",
-      "transcript_path": "feeds/transcripts/bfd7ece907f6104a009eeb70.txt",
-      "transcript_chars": 5111,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-19T22:46:49.091071+00:00",
-      "last_seen_at": "2026-07-21T22:59:17.628278+00:00",
-      "expires_at": "2026-08-04T22:59:17.628278+00:00"
     }
   ]
 }
