@@ -1,0 +1,67 @@
+🛫 起飞了 | AI Signal - 2026年8月6日
+
+⚠️ Data delay notice: the X/Twitter feed's last snapshot is from ~24.7 hours ago (2026-08-04 22:57 UTC) with no new tweets since — treat the X section as empty for this run rather than "nothing happened." Podcast/paper/blog feeds are fresh (refreshed within the last hour).
+⚠️ 数据延迟提示：X/Twitter feed 最近一次抓取是约 24.7 小时前（UTC 2026-08-04 22:57），期间没有新推文，本期没有 X 板块并非因为筛掉了内容，而是数据本身没更新。播客/论文/官方博客的 feed 都是一小时内刚刷新的，是新鲜的。
+
+This run's real story is the open-vs-closed AI fault line playing out across policy and product at once: Jensen Huang's new Open AI Alliance, an OpenAI–Anthropic DC lobbying pairing, and Kimi K3's global push all surfaced in the same conversation (P5), while a separate episode (P1) shows agentic coding tools like Vercel's Eve quietly becoming daily-use PR reviewers rather than demos.
+这一期真正的看点是开放 vs 闭源 AI 的分歧同时在政策和产品层面展开：Jensen Huang 新成立的 Open AI Alliance、OpenAI 与 Anthropic 在华盛顿的联合游说、以及 Kimi K3 的全球化布局，三条线都出现在同一期节目里（P5）；另一期节目（P1）则展示了 Vercel Eve 这类 agentic coding 工具正从演示走向日常 PR 审查的真实使用场景。
+
+No new X posts, official blog posts, or arXiv papers cleared dedup this cycle — five new podcast episodes did.
+本轮去重后没有新的 X 推文、官方博客或 arXiv 论文——只有五条新播客。
+
+## Podcasts
+
+**P1 — Lenny's Podcast: Build an AI code review bot in 30 minutes with Vercel Eve**
+Link: https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30
+Time (Beijing): 2026-08-05 20:04
+
+Preview: The host builds "Merge Mommy," an AI PR-review bot using Vercel's Eve agents and Codex — it scores risk, auto-approves the easy ones, and pings him in Slack for the rest.
+预告：主播用 Vercel 的 Eve agents 和 Codex 搭了一个叫 "Merge Mommy" 的 AI PR 审查机器人——给风险打分，低风险的自动通过，其余的推送到 Slack。
+
+Why it matters: A concrete, buildable example of agentic coding tools moving from demo to daily workflow — useful reference for teams evaluating AI code-review automation.
+为什么重要：这是 agentic coding 工具从 demo 走向日常工作流的一个具体可复现案例，值得关注 AI 代码审查自动化的团队参考。
+
+**P2 — Latent Space: [AINews] Megakernels are so dead and so back**
+Link: https://www.latent.space/p/ainews-megakernels-are-so-dead-and
+Time (Beijing): 2026-08-05 09:21
+
+Preview: A relatively quiet news day gives room to cover a new Cursor launch and a technical debate around "megakernels" in inference engineering.
+预告：新闻相对平静的一天，节目重点聊了 Cursor 的新发布，以及围绕推理工程中 "megakernel" 的技术争论。
+
+Why it matters: Megakernel design keeps resurfacing as a lever for inference speed — a sign that engineering-level competition below the model layer is still active.
+为什么重要：megakernel 设计反复被提起，说明推理速度优化仍是模型层之下的一个工程竞争焦点。
+
+**P3 — 李出戏: Kimi K3：杨植麟和月之暗面的七年**
+Link: https://www.youtube.com/watch?v=pSgpCL0DMf0
+Time: unverified — feed has no pub_date / 发布时间未验证——feed 中没有 pub_date 字段
+
+Preview: A profile on Kimi K3 and Moonshot AI's seven-year journey — asks why, among many open-source Chinese models (DeepSeek, Qwen, GLM, MiniMax), Kimi K3 is the one that put the industry on edge.
+预告：一期关于 Kimi K3 和月之暗面七年历程的节目——中国不缺开源模型（DeepSeek、千问、GLM、MiniMax），但为什么偏偏是 Kimi K3 让整个行业紧张了一下？
+
+Why it matters: Frames Kimi K3 as a notable competitive signal in China's open-model race.
+为什么重要：把 Kimi K3 定位为中国开源模型竞争中的一个重要信号。
+
+**P4 — TheAIGRID: Sam Altman Confirms We Are In The Singularity**
+Link: https://www.youtube.com/watch?v=RyHpcxmW66g
+Time: unverified — feed has no pub_date / 发布时间未验证——feed 中没有 pub_date 字段
+
+Preview: The title claims Sam Altman said we're "in the singularity"; the available description is only channel-promo copy with no further substantive detail.
+预告：标题称 Sam Altman 表示我们"已经处于奇点"，但目前拿到的 description 只是频道推广文案，没有更多实质内容。
+
+Why it matters: Headline framing like this travels fast — worth checking the source itself before treating it as a verified Altman claim.
+为什么重要：这类标题式表述传播很快，建议核对原始来源后再判断是否是 Altman 的真实说法。
+
+**P5 — Peter H. Diamandis: Jensen Huang Launches an Open AI Alliance, Anthropic & OpenAI Team Up in DC, Kimi K3 Goes Global**
+Link: https://www.youtube.com/watch?v=O70Ff5xBnYo
+Time: unverified — feed has no pub_date / 发布时间未验证——feed 中没有 pub_date 字段
+
+Preview: Covers three threads — the Dario (Anthropic) vs. Jensen (Nvidia) open-vs-closed AI debate, OpenAI and Anthropic reportedly teaming up on DC lobbying, and Kimi K3's global rollout.
+预告：这期节目串起三条线——Dario（Anthropic）与 Jensen（英伟达）关于开放 vs 闭源 AI 的争论、OpenAI 和 Anthropic 据称在华盛顿联合游说，以及 Kimi K3 的全球化布局。
+
+Why it matters: Ties model-openness politics, US AI-policy lobbying, and China's open-model push into one conversation — a useful pulse check on this week's industry fault lines.
+为什么重要：把模型开放性之争、美国 AI 政策游说、中国开源模型出海这三条线放在一起讨论，是本周观察行业分歧的一个不错的切入点。
+
+---
+
+Ask to go deeper on any item, e.g. "expand P5" or "详细讲讲 P1". 想深读某条可以说「展开 P5」或 "expand P1"。
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
