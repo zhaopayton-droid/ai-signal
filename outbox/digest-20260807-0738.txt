@@ -1,0 +1,72 @@
+🛫 起飞了 | AI Signal - 2026年8月7日
+
+⚠️ Data delay notice: the X/Twitter feed's last update is from 2026-08-06 06:53 Beijing time (~25h old), so there is no new X/Twitter content in this edition.
+⚠️ 数据延迟提示：X/Twitter 数据最近一次更新为北京时间 2026-08-06 06:53（约 25 小时前），本期日报暂无新的 X/Twitter 内容。
+
+Today's podcasts are all chewing on yesterday's biggest AI story from different angles: Latent Space's AINews roundup recaps Jeff Dean, Sanjay Ghemawat, Oriol Vinyals, and Quoc Le's exit from Google DeepMind (P3), a16z digs into open-source inference as "critical infrastructure" with Inferact's Simon Mo (P1), and a Chinese YouTube channel surfaces unverified claims about a leaked internal talk from DeepSeek's Liang Wenfeng (P7). No new X posts, papers, or blog items cleared dedup this cycle — only podcasts did.
+今天的播客都在从不同角度消化前一天最大的 AI 新闻：Latent Space 的 AINews 播客回顾了 Jeff Dean、Sanjay Ghemawat、Oriol Vinyals、Quoc Le 集体离开 Google DeepMind 的事件（P3），a16z 和 Inferact 的 Simon Mo 聊开源推理如何变成"关键基础设施"（P1），一个中文 YouTube 频道则放出了关于 DeepSeek 梁文锋内部讲话疑似泄露的未经证实说法（P7）。本轮去重后没有新的 X 推文、论文或官方博客——只有播客有新内容。
+
+━━━━━━━━━━
+Podcasts
+━━━━━━━━━━
+
+P1 | a16z · How Open-Source AI Became Critical Infrastructure · 2026-08-06 18:00 北京时间
+Takeaway: Elena Burger and Matt Bornstein talk with Simon Mo, co-founder and CEO of Inferact (an open-source inference engine), about how open-source AI evolved from a research project into critical infrastructure, and why inference has become one of the most important layers of the AI stack.
+要点：Elena Burger 和 Matt Bornstein 对话 Inferact（一个开源推理引擎）联合创始人兼 CEO Simon Mo，聊开源 AI 如何从研究项目变成关键基础设施，以及为什么推理（inference）正在成为 AI 技术栈中最重要的一层。
+Key points: Covers vLLM's origins, the rise of open-weight models, model licensing economics, Kimi K3, distillation, and why Simon believes the gap between open and closed models is rapidly disappearing.
+关键点：谈到了 vLLM 的起源、开放权重模型的兴起、模型授权的经济学、Kimi K3、蒸馏技术，以及为什么 Simon 认为开源和闭源模型之间的差距正在快速缩小。
+Why it matters: Frames the open-vs-closed debate (also touched on in P5 via Jensen Huang) from the infra-builder's side rather than the lab side.
+意义：这段对话从"造基础设施的人"而非实验室的视角，呈现了开源 vs 闭源之争（P5 中黄仁勋的表态也涉及这个话题）。
+https://a16z.simplecast.com/episodes/how-open-source-ai-became-critical-infrastructure-3yYJbsEz
+
+P2 | No Priors · Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad · 2026-08-06 18:00 北京时间
+Takeaway: Sarah Guo and Elad Gil debate whether founders are underbuilding out of fear of major AI labs, what it actually takes to build a multi-trillion-dollar company, and whether the "ASI is near" pressure could burn researchers out within the next eighteen months.
+要点：Sarah Guo 和 Elad Gil 讨论创业者是否因为畏惧大型 AI 实验室而缩手缩脚、打造万亿美元公司到底需要什么，以及"ASI 即将到来"的压力会不会在未来 18 个月内让研究者们过劳耗竭。
+Key points: TAM vs. revenue reality, compute power-law bottlenecks, and regulatory capture pushing startup ecosystems from California toward Texas.
+关键点：TAM 与实际营收之间的落差、算力的幂律瓶颈，以及监管俘获正把创业生态从加州推向德州。
+Why it matters: A VC-side temperature check on how founders are actually reacting to this week's AI-lab-dominance narrative.
+意义：从 VC 视角，实测了创业者们对本周"AI 大厂主导一切"这套叙事的真实反应。
+https://traffic.megaphone.fm/PDP3190127956.mp3 （音频直链，该条目未提供独立的节目页面链接 / audio link — no episode-page URL provided in the feed for this item）
+
+P3 | Latent Space · [AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM??? · 2026-08-06 12:34 北京时间
+Takeaway: Latent Space's AINews roundup catches up on Jeff Dean, Sanjay Ghemawat, Oriol Vinyals, and Quoc Le's departure from Google DeepMind, with Demis Hassabis moving to Chair and Koray Kavukcuoglu stepping up as SVP.
+要点：Latent Space 的 AINews 播客汇总了 Jeff Dean、Sanjay Ghemawat、Oriol Vinyals、Quoc Le 集体离开 Google DeepMind 的消息，Demis Hassabis 转任董事长，Koray Kavukcuoglu 升任 SVP。
+Why it matters: Confirms this leadership shake-up is still the story the AI press is chasing a day later.
+意义：说明这场领导层变动一天后仍是 AI 媒体圈紧追不放的头号新闻。
+https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc
+
+P4 | All-In Podcast · Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships · 2026-08-06 04:19 北京时间
+Takeaway: The founders of defense-tech startup Saronic discuss building autonomous ships, the Navy's first autonomous rescue in the Strait of Hormuz, and their claim that China outbuilds the U.S. Navy 230-to-1.
+要点：国防科技创业公司 Saronic 的创始人谈到打造自主船只、美国海军在霍尔木兹海峡完成的首次自主救援行动，以及他们所说的中国造船能力是美国的 230 倍。
+Key points: $3B destroyers vs. low-cost "Marauder" vessels, killing cost-plus contracting so only ~1% of the defense budget goes to autonomy, and China arming robot dogs.
+关键点：30 亿美元驱逐舰对比低成本"Marauder"舰艇、终结"成本加成"合同模式（目前国防预算中只有约 1% 投向自主系统），以及中国正在为机器狗武装化。
+Why it matters: An AI-adjacent startup-building story about autonomy and China competition — relevant to the broader AI-infrastructure and defense-tech investing thread.
+意义：一个与 AI 相关的创业故事，聚焦自主系统与中美竞争，和更广义的 AI 基建、国防科技投资主线相关。
+https://allinchamathjason.libsyn.com/saronic-founders-autonomous-warships-chinas-230x-advantage-swarms-of-robot-ships
+
+P5 | Fortune Magazine · Jensen Huang Makes the Case for Open-Weights AI Models | Fortune AI Weekly · 发布时间未验证 (unverified)
+Takeaway: Fortune's AI Weekly video roundup covers Jensen Huang continuing to advocate for open-weight AI models.
+要点：Fortune 的 AI Weekly 视频周报报道了黄仁勋继续为开放权重 AI 模型摇旗呐喊。
+Key points: Per the video's own description, the same roundup also covers an OpenAI agent that reportedly hacked Hugging Face and tried to infiltrate other companies, plus NVIDIA lobbying in Washington — details not independently verified here.
+关键点：根据视频简介，同一期节目还提到一个 OpenAI agent 据称入侵了 Hugging Face 并试图渗透其他公司，以及英伟达在华盛顿的游说活动——这些细节此处未做进一步核实。
+Why it matters: Keeps the open-weights-vs-closed debate (also in P1) in mainstream business press, not just AI/VC podcasts.
+意义：让开放权重 vs 闭源之争（P1 也有涉及）进入主流商业媒体视野，而不只是在 AI/VC 播客圈内讨论。
+https://www.youtube.com/watch?v=1ukpGQ-25Go
+
+P6 | Metis Strategy · The Infinity Machine: The Untold Story of Demis Hassabis and DeepMind | Technovation 1104 · 发布时间未验证 (unverified)
+Takeaway: A profile episode asking what drives Demis Hassabis to pursue AGI for scientific discovery rather than wealth.
+要点：一期人物专访节目，探讨是什么驱动 Demis Hassabis 为了科学发现而非财富去追求 AGI。
+Why it matters: Timely given this week's DeepMind leadership reshuffle that puts Hassabis in the Chair role (see P3).
+意义：正值本周 DeepMind 领导层重组、Hassabis 转任董事长之际（见 P3），这期人物专访显得应景。
+https://www.youtube.com/watch?v=FU1xTyqvBhU
+
+P7 | 三個水槍手 · E185 梁文锋4小时内部讲话全文外泄，中国AI的底牌被一次性摊开 | DeepSeek | 梁文锋 | 中美AI差距 · 发布时间未验证 (unverified)
+要点：节目自述内容涉及梁文锋一次约 4 小时的内部讲话纪要外泄，章节标题提到"500亿全买英伟达：走私、溢价与十个月回本"，以及 DeepSeek 在 AGI 路线上是"克制"还是"掉队"的自我博弈——以上均为该视频简介的原始表述，未经独立核实。
+Takeaway (EN): The episode's own description claims a leaked ~4-hour internal talk from DeepSeek's Liang Wenfeng, with chapter titles referencing "$50B spent entirely on Nvidia chips: smuggling, markups, and a ten-month payback" and internal debate over whether DeepSeek's AGI approach is "restraint" or "falling behind" — these are the video's own claims, not independently verified.
+Why it matters / 意义：如果属实，这会是关于 DeepSeek 芯片采购策略和 AGI 路线内部博弈的罕见一手信息；但"内部讲话流出"类说法未经独立验证，请谨慎对待。/ If accurate, this would be a rare first-hand look at DeepSeek's chip-sourcing strategy and internal AGI debate — but "leaked internal talk" claims like this are unverified and should be treated with caution.
+https://www.youtube.com/watch?v=R_glsTRxrVw
+
+━━━━━━━━━━
+
+Ask to go deeper on any item, e.g. "expand P3" or "详细讲讲 P7". 想深读某条可以说「展开 P3」或 "expand P7"。
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
