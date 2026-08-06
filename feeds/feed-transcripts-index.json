@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-05T22:56:57.989876+00:00",
+  "generated_at": "2026-08-06T12:04:46.980483+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+      "link": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+      "channel": "Latent Space",
+      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
+      "pub_date": "2026-08-06T04:34:11+00:00",
+      "transcript_path": "feeds/transcripts/673402e04aa29dbc7d1416b1.txt",
+      "transcript_chars": 5583,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-06T12:04:46.980483+00:00",
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
+    },
     {
       "guid": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
       "link": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
@@ -12,8 +25,8 @@
       "transcript_chars": 5310,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-05T22:56:57.989876+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "87204ae8-77e7-4f6b-884a-cb9e2e93765a",
@@ -25,8 +38,8 @@
       "transcript_chars": 2036,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-05T12:01:26.447212+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
@@ -38,8 +51,8 @@
       "transcript_chars": 20646,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-05T12:01:26.447212+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.latent.space/p/unpacking-chatgpt-work",
@@ -51,8 +64,8 @@
       "transcript_chars": 19215,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-04T23:01:22.809977+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
@@ -64,8 +77,8 @@
       "transcript_chars": 18547,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-04T23:01:22.809977+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
@@ -77,8 +90,8 @@
       "transcript_chars": 38062,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-04T12:04:01.347228+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.latent.space/p/inference-eng",
@@ -90,8 +103,8 @@
       "transcript_chars": 131402,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-03T22:58:29.729879+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
@@ -103,8 +116,8 @@
       "transcript_chars": 1771,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-03T22:58:29.729879+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser",
@@ -116,8 +129,8 @@
       "transcript_chars": 4872,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-03T22:58:29.729879+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
@@ -129,8 +142,8 @@
       "transcript_chars": 4471,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-03T12:56:31.088333+00:00",
-      "last_seen_at": "2026-08-05T22:56:57.989876+00:00",
-      "expires_at": "2026-08-19T22:56:57.989876+00:00"
+      "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
+      "expires_at": "2026-08-20T12:04:46.980483+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
@@ -432,19 +445,6 @@
       "expires_at": "2026-08-06T22:52:00.865589+00:00"
     },
     {
-      "guid": "d4e4932a-4eb5-4007-8f84-4d386c3a22ce",
-      "link": "https://allinchamathjason.libsyn.com/mark-cuban-on-the-ai-bubble-who-actually-gets-wiped-out",
-      "channel": "All-In Podcast",
-      "title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
-      "pub_date": "2026-07-20T18:51:00+00:00",
-      "transcript_path": "feeds/transcripts/a9a982f9218fab3ae7844173.txt",
-      "transcript_chars": 43661,
-      "transcript_source": "volc_asr_auc",
-      "cached_at": "2026-07-21T22:59:17.628278+00:00",
-      "last_seen_at": "2026-07-22T22:57:24.164029+00:00",
-      "expires_at": "2026-08-05T22:57:24.164029+00:00"
-    },
-    {
       "guid": "https://www.latent.space/p/xaira",
       "link": "https://www.latent.space/p/xaira",
       "channel": "Latent Space",
@@ -482,32 +482,6 @@
       "cached_at": "2026-07-21T22:50:43.417456+00:00",
       "last_seen_at": "2026-07-23T22:52:00.865589+00:00",
       "expires_at": "2026-08-06T22:52:00.865589+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning",
-      "link": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning",
-      "channel": "Lenny's Podcast",
-      "title": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
-      "pub_date": "2026-07-20T15:01:56+00:00",
-      "transcript_path": "feeds/transcripts/dd0b18bc3278a8fe4a2f62d1.txt",
-      "transcript_chars": 5713,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-20T22:56:27.429987+00:00",
-      "last_seen_at": "2026-07-22T22:57:24.164029+00:00",
-      "expires_at": "2026-08-05T22:57:24.164029+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built",
-      "link": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built",
-      "channel": "Lenny's Podcast",
-      "title": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
-      "pub_date": "2026-07-20T12:04:47+00:00",
-      "transcript_path": "feeds/transcripts/52e97f028dbc3597981aa661.txt",
-      "transcript_chars": 5524,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-20T22:56:27.429987+00:00",
-      "last_seen_at": "2026-07-22T22:57:24.164029+00:00",
-      "expires_at": "2026-08-05T22:57:24.164029+00:00"
     }
   ]
 }
