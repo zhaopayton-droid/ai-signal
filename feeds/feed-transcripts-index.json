@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-07T01:30:40.090235+00:00",
+  "generated_at": "2026-08-07T10:55:09.789793+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "link": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "channel": "Latent Space",
+      "title": "[AINews] AMD buys Taalas",
+      "pub_date": "2026-08-07T05:13:46+00:00",
+      "transcript_path": "feeds/transcripts/44481c8feb2dcddafce8ae00.txt",
+      "transcript_chars": 26832,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-07T10:55:09.789793+00:00",
+      "last_seen_at": "2026-08-07T10:55:09.789793+00:00",
+      "expires_at": "2026-08-21T10:55:09.789793+00:00"
+    },
     {
       "guid": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
       "link": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
@@ -12,8 +25,8 @@
       "transcript_chars": 5583,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-06T12:04:46.980483+00:00",
-      "last_seen_at": "2026-08-07T01:30:40.090235+00:00",
-      "expires_at": "2026-08-21T01:30:40.090235+00:00"
+      "last_seen_at": "2026-08-07T10:55:09.789793+00:00",
+      "expires_at": "2026-08-21T10:55:09.789793+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
@@ -25,8 +38,8 @@
       "transcript_chars": 5310,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-05T22:56:57.989876+00:00",
-      "last_seen_at": "2026-08-07T01:30:40.090235+00:00",
-      "expires_at": "2026-08-21T01:30:40.090235+00:00"
+      "last_seen_at": "2026-08-07T10:55:09.789793+00:00",
+      "expires_at": "2026-08-21T10:55:09.789793+00:00"
     },
     {
       "guid": "87204ae8-77e7-4f6b-884a-cb9e2e93765a",
@@ -38,8 +51,8 @@
       "transcript_chars": 2036,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-05T12:01:26.447212+00:00",
-      "last_seen_at": "2026-08-07T01:30:40.090235+00:00",
-      "expires_at": "2026-08-21T01:30:40.090235+00:00"
+      "last_seen_at": "2026-08-07T10:55:09.789793+00:00",
+      "expires_at": "2026-08-21T10:55:09.789793+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
@@ -51,8 +64,8 @@
       "transcript_chars": 20646,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-05T12:01:26.447212+00:00",
-      "last_seen_at": "2026-08-07T01:30:40.090235+00:00",
-      "expires_at": "2026-08-21T01:30:40.090235+00:00"
+      "last_seen_at": "2026-08-07T10:55:09.789793+00:00",
+      "expires_at": "2026-08-21T10:55:09.789793+00:00"
     },
     {
       "guid": "https://www.latent.space/p/unpacking-chatgpt-work",
@@ -64,8 +77,8 @@
       "transcript_chars": 19215,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-04T23:01:22.809977+00:00",
-      "last_seen_at": "2026-08-07T01:30:40.090235+00:00",
-      "expires_at": "2026-08-21T01:30:40.090235+00:00"
+      "last_seen_at": "2026-08-07T10:55:09.789793+00:00",
+      "expires_at": "2026-08-21T10:55:09.789793+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
@@ -77,8 +90,8 @@
       "transcript_chars": 18547,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-04T23:01:22.809977+00:00",
-      "last_seen_at": "2026-08-07T01:30:40.090235+00:00",
-      "expires_at": "2026-08-21T01:30:40.090235+00:00"
+      "last_seen_at": "2026-08-07T10:55:09.789793+00:00",
+      "expires_at": "2026-08-21T10:55:09.789793+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",

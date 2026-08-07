@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/hsp-gruppe",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "published": "2026-08-07T09:00:00+00:00",
+      "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service."
+    },
+    {
+      "id": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Improving Fable 5 Safeguards",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "published": "2026-08-07T00:00:00+00:00",
+      "summary": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks."
+    },
+    {
       "id": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
@@ -38,5 +56,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-07T01:29:53.957470+00:00"
+  "generated_at": "2026-08-07T10:54:29.266217+00:00"
 }

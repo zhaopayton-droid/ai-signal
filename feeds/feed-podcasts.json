@@ -1,6 +1,43 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "90707990-5bff-46f5-a7eb-bf041ec1b5f3",
+      "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+      "pub_date": "2026-08-07T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/the-reality-of-ai-powered-cyberattacks-truffle-security-socket-vbyiWFXA",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/87281352-dde8-4d86-8aca-b732656f750d/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=87281352-dde8-4d86-8aca-b732656f750d&feed=JGE3yC0V",
+      "audio_bytes": 22904277,
+      "duration": "00:23:51",
+      "description": "<p>Joel De La Garza is joined by Dylan Ayrey, co-founder and CEO of Truffle Security, and Feross Aboukhadijeh, founder and CEO of Socket, to discuss one of the biggest shifts happening in cybersecurity: AI models are no longer just finding vulnerabilities—they're exploiting them. As frontier models become increasingly capable of hacking, software security, supply chain attacks, and cyber defense are entering a fundamentally new era.</p>\n<p>The conversation explores AI-powered hacking, software supply chain attacks, leaked credentials, zero-day vulnerabilities, package manager security, and why the path of least resistance for increasingly autonomous AI systems may also be the most dangerous. They also discuss what enterprises, developers, and the open-source ecosystem need to do to adapt as the gap between vulnerability discovery and exploitation continues to shrink.</p>\n<p> </p>\n<p>Resources:</p>\n<p>Follow Dylan Ayrey on X:<a href=\"https://x.com/InsecureNature\" rel=\"noopener noreferrer\"> https://x.com/InsecureNature</a></p>\n<p>Follow Feross Aboukhadijeh on X:<a href=\"https://x.com/Feross\" rel=\"noopener noreferrer\"> https://x.com/Feross</a></p>\n<p>Follow Joel De La Garza on LinkedIn: <a href=\"https://www.linkedin.com/in/3448827723723234/\" rel=\"noopener noreferrer\">https://www.linkedin.com/in/3448827723723234/</a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter.com/eriktorenberg</a></p><p>&nbsp;</p><p>Please note that the conten",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Latent Space",
+      "domain": "ai",
+      "guid": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "title": "[AINews] AMD buys Taalas",
+      "pub_date": "2026-08-07T05:13:46+00:00",
+      "link": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "audio_url": "https://substackcdn.com/image/fetch/$s_!qA0L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3b60b0e-d47f-4723-bb40-be9594e9bab4_786x754.png",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "The Inference Inflection is HEATING up.",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/44481c8feb2dcddafce8ae00.txt",
+      "transcript_chars": 26832
+    },
+    {
       "channel": "No Priors",
       "domain": "ai",
       "guid": "17b96322-915c-11f1-aad7-53d361bc6996",
@@ -221,43 +258,6 @@
       "transcript_error": null,
       "transcript_path": "feeds/transcripts/7d30b9b0e962219c961420c0.txt",
       "transcript_chars": 18547
-    },
-    {
-      "channel": "Invest Like the Best",
-      "domain": "invest",
-      "guid": "c8fca7de-8f77-11f1-ae96-ab857574605f",
-      "title": "Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]",
-      "pub_date": "2026-08-04T08:00:00+00:00",
-      "link": "",
-      "audio_url": "https://traffic.megaphone.fm/CLS6565465184.mp3",
-      "audio_bytes": 0,
-      "duration": "3904",
-      "description": "My guest today is Gavin Baker, founding partner and CIO of Atreides Management. This is our seventh conversation, and just two months after Gavin's last appearance.\n\nIt's about the gap between what the market is doing and what companies are seeing. It's been a tough month or so for public AI names, but there's no sign of a slowdown on the ground in Silicon Valley.\n\nWe discuss the latest moves, contracted vs. spot GPU prices, the game theory of memory supply agreements, and why Claude has become the Walter Cronkite of the stock market. We close on SpaceX, orbital compute, and what Gavin sees as the single biggest risk to all of it.\n\nPlease enjoy this conversation, from the famous table at Benchmark, with my friend Gavin Baker.\n\nFor the full show notes, transcript, and links to mentioned content, check out the episode page here.\n\n-----\n\nBecome a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at colossus.com/subscribe.\n\n-----\n\nRamp's&nbsp;mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to&nbsp;ramp.com/invest to sign up for free and get a $250 welcome bonus.\n\n-----\n\nTrusted by thousands of businesses,&nbsp;Vanta continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to&nbsp;vanta.com/invest.&nbsp;\n\n-----\n\nWorkOS&nbsp;is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel.\n\n-----\n\nRogo&nbsp;is the AI platform for finance. They're building agents for Wall Street that are ",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No episode link; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "Latent Space",
-      "domain": "ai",
-      "guid": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-      "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
-      "pub_date": "2026-08-04T03:49:14+00:00",
-      "link": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-      "audio_url": "https://substackcdn.com/image/fetch/$s_!W0RB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOw1F2ebgAAkpJJ.jpg",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Qwen is so back!",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/aef8c0a711897fb9c2486feb.txt",
-      "transcript_chars": 38062
     },
     {
       "channel": "SemiAnalysis",
@@ -524,5 +524,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-07T01:29:53.957470+00:00"
+  "generated_at": "2026-08-07T10:54:29.266217+00:00"
 }
