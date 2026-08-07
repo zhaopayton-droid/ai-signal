@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "published": "2026-08-07T15:20:00+00:00",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls."
+    },
+    {
       "id": "https://openai.com/index/hsp-gruppe",
       "source": "openai",
       "source_name": "OpenAI",
@@ -56,5 +65,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-07T10:54:29.266217+00:00"
+  "generated_at": "2026-08-07T22:31:54.728758+00:00"
 }
