@@ -1,0 +1,42 @@
+🛫 起飞了 | AI Signal - 2026年8月9日
+
+⚠️ Data note: the X/Twitter feed hasn't refreshed in over 25 hours (last updated 2026-08-07 22:28 UTC), so today's zero new tweets likely reflects a stale feed, not a quiet day on X.
+⚠️ 数据延迟提示:X/Twitter 数据源已超过25小时未更新(最后更新时间 UTC 2026-08-07 22:28),因此今天推文数为零更可能是数据源延迟导致,而不是真的没有新动态。
+
+Two podcast threads stand out this window: a Lenny's Podcast community Q&A that zeroes in on what actually counts as a moat now that anyone can build with AI, and a video built around claims that Microsoft's Satya Nadella is publicly cautioning against blind trust in AI companies, OpenAI included. No new tweets, papers, or lab blog posts cleared the filter this cycle.
+本时段有两条播客线索值得关注:一期 Lenny's Podcast 的社区问答,聚焦"当人人都能用AI开发时,护城河到底是什么";另一条是围绕微软 Satya Nadella 相关言论展开的视频,称其公开警告不应盲目信任AI公司(包括OpenAI)。本轮没有新推文、论文或官方博客内容通过筛选。
+
+## Podcasts
+
+P1 — Lenny's Podcast: 🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more
+Beijing time: 2026-08-09 01:08
+Link: https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach
+
+Takeaway: This is a community Q&A roundup (episode 196) covering practical startup-building questions — writing outreach that doesn't read as spam, finding early design partners, what actually constitutes a moat when building is commoditized, and keeping a product vision coherent as a team scales.
+要点: 这是一期社区问答合集(第196期),聚焦实际的创业与产品问题——如何写出不像群发广告的外联信息、如何找到早期设计合作伙伴、当"人人都能开发"时护城河究竟是什么,以及团队扩张时如何让产品愿景保持一致。
+
+Key points: The episode description only repeats the topic label ("Community Wisdom 196") without further detail; the title itself is the only substantive signal, listing the five threads above.
+要点(中文): 节目描述仅重复了话题标签("Community Wisdom 196"),没有更多细节;标题本身是唯一的实质信息,列出了上述五个话题方向。
+
+Why it matters: For builders and PMs, "what counts as a moat when anyone can build" is one of the sharpest AI-era product questions going — worth a listen if it's live for your team right now.
+为什么重要: 对创业者和产品经理来说,"人人都能开发时护城河是什么"是AI时代最尖锐的产品问题之一——如果你的团队正面临这个问题,值得一听。
+
+P2 — Eli the Computer Guy: Satya Nadella Warns OpenAI is Dangerous - Microsoft Says Don't Trust AI Companies
+Beijing time: unverified (feed has no publish timestamp for this item)
+Link: https://www.youtube.com/watch?v=Ap2_e7DG_o0
+
+Takeaway: A 19-minute video built around comments attributed to Microsoft CEO Satya Nadella, framed as a warning that AI companies — including OpenAI — shouldn't be blindly trusted.
+要点: 一段19分钟的视频,围绕归于微软CEO Satya Nadella的相关言论展开,被包装为"不应盲目信任AI公司(包括OpenAI)"的警告。
+
+Key points: The feed's description is boilerplate podcast-platform links with no further detail on what Nadella actually said; the title is the only substantive claim available from the metadata.
+要点(中文): 该条目描述只是播客平台链接等模板信息,没有关于Nadella具体言论的更多细节;标题是元数据中唯一可用的实质性说法。
+
+Why it matters: If Microsoft's own CEO is publicly flagging trust concerns about AI companies — including its closest partner, OpenAI — that would be a notable signal on the health of the Microsoft-OpenAI relationship. But this framing comes from the channel, not a primary source, so treat it as unverified until you can check Nadella's actual words.
+为什么重要: 如果微软CEO本人公开对AI公司(包括其最紧密的合作伙伴OpenAI)表达信任层面的担忧,这会是Microsoft-OpenAI关系健康度的一个值得关注的信号。但这一说法来自该频道的转述而非一手信源,在核实Nadella原话之前应视为未经证实。
+
+---
+
+Want more depth on either one? Just say "expand P2" or "展开 P1" and I'll pull the full transcript for a deeper read.
+想深入了解某一条?直接说"展开 P2"或"expand P1",我会调取完整转写做进一步解读。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
