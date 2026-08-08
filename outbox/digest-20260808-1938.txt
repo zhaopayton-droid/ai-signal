@@ -1,0 +1,42 @@
+🛫 起飞了 | AI Signal - 2026年8月8日
+
+Today's window was quiet on the wire — no fresh tweets, papers, or lab blog posts cleared in the last 13 hours — but two podcast drops are worth your attention: All-In digs into Google's AI talent exodus and SpaceX's AI-fueled capex boom, while Latent Space connects the dots across recent multi-agent themes.
+今天这个时间窗口在推文、论文和官方博客上都很安静——过去13小时内没有新增内容——但有两条播客值得关注:All-In 深入探讨了 Google 的 AI 人才流失和 SpaceX 由 AI 驱动的资本开支热潮,Latent Space 则梳理了近期多智能体话题之间的联系。
+
+## Podcasts
+
+P1 — All-In Podcast: Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI
+Beijing time: 2026-08-08 08:32
+Link: https://allinchamathjason.libsyn.com/googles-ai-brain-drain-spacexs-huge-quarter-airtables-90-collapse-us-data-fuels-china-ai
+
+Takeaway: Brad Gerstner sits in for Chamath on an episode spanning four threads — Google's AI talent departures, SpaceX's capex and revenue trajectory, Airtable's steep down-round, and Chinese labs sourcing US training data.
+要点: Brad Gerstner 代替 Chamath 主持本期节目,内容涵盖四个话题——Google 的 AI 人才流失、SpaceX 的资本开支与营收走势、Airtable 大幅折价的融资,以及中国实验室采购美国训练数据。
+
+Key points:
+- (2:16) Whether Google's recent AI departures signal a brain drain or a deliberate strategy shift.
+- (20:39) SpaceX's quarter, including its Terafab buildout, AI-related capex, and a discussed $1T revenue projection.
+- (48:01) Airtable reportedly sold at a 90% discount, raised on the show as a possible "SaaSpocalypse" signal.
+- (1:05:56) Chinese AI labs reportedly buying US training data to close the gap.
+
+要点(中文):
+- (2:16) Google 近期的 AI 人才流失,是行业衰退信号还是刻意的战略调整。
+- (20:39) SpaceX 本季度情况,包括 Terafab 建设、AI 相关资本开支,以及节目中提到的 1 万亿美元营收预测。
+- (48:01) 据称 Airtable 以九折价格出售,被主持人拿来作为可能的"SaaS 末日"信号。
+- (1:05:56) 据称中国 AI 实验室正在购买美国训练数据以缩小差距。
+
+Why it matters: If accurate, the SpaceX capex/revenue figures and Airtable's down-round both point to a bifurcating market — infrastructure-heavy AI bets scaling fast while thinner SaaS wrappers get repriced hard. These are claims made on the show, not independently verified.
+为什么重要: 如果这些数字准确,SpaceX 的资本开支/营收数据与 Airtable 的降价融资都指向一个正在分化的市场——重基建的 AI 投资在快速扩张,而较"薄"的 SaaS 应用层正被大幅重新估值。以上均为节目中的说法,并非经过独立核实的事实。
+
+P2 — Latent Space: [AINews] Zawinski's Law of MultiAgents
+Beijing time: 2026-08-08 09:12
+Link: https://www.latent.space/p/ainews-zawinskis-law-of-multiagents
+
+The show describes this as "a quiet news day" used to connect recent multi-agent themes together; the metadata description doesn't specify which threads, so there isn't enough here to summarize further without reading the full piece.
+节目方将本期定位为"一个平静的新闻日",借此把近期多个多智能体相关的话题串联起来;元数据里的描述比较简略,没有更多细节可供总结——如果你关注多智能体方向,建议深读。
+
+---
+
+Want more depth on either one? Just say "expand P2" or "展开 P1" and I'll pull the full transcript for a deeper read.
+想深入了解某一条?直接说"展开 P2"或"expand P1",我会调取完整转写做进一步解读。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
