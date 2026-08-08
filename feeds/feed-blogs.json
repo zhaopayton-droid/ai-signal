@@ -26,17 +26,8 @@
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "published": "2026-08-07T00:00:00+00:00",
       "summary": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks."
-    },
-    {
-      "id": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "published": "2026-08-06T15:06:15+00:00",
-      "summary": ""
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-08T10:36:13.835358+00:00"
+  "generated_at": "2026-08-08T22:25:36.149320+00:00"
 }
