@@ -1,6 +1,43 @@
 {
   "podcasts": [
     {
+      "channel": "SemiAnalysis",
+      "domain": "ai",
+      "guid": "4d59eed8-de80-4c59-8417-cfffb5f75779",
+      "title": "Ep. 024 - SpaceX's 10GW Plan Drives $300B ARR by 2027 (Datacenter, Energy) | Reyk Knuhtsen, Jeremie Eliahou Ontiveros, Jordan Nanos",
+      "pub_date": "2026-08-09T14:00:00+00:00",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--024---SpaceXs-10GW-Plan-Drives-300B-ARR-by-2027-Datacenter--Energy--Reyk-Knuhtsen--Jeremie-Eliahou-Ontiveros--Jordan-Nanos-e3n5srq",
+      "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/123973946/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-9%2F429505048-44100-2-e0c7877f71a11.mp3",
+      "audio_bytes": 48058199,
+      "duration": "00:50:03",
+      "description": "<p>OpenAI and Anthropic are adding close to $30 billion of ARR per month, and the driver is gross margin expansion, not new compute. Jeremie Eliahou Ontiveros (@JeremieEO) and Reyk Knuhtsen (@robotknower) join Jordan Nanos (@JordanNanos) to trace the $100 million per megawatt per year figure from real inference workloads on GB200 and GB300 up through SemiAnalysis simulation. The Google deal prices GB300 capacity near $14 an hour against a $3 average, a premium justified by a 90 day cancellation clause and the ability to turn on megawatts immediately.</p><p>From there the conversation moves to SpaceX&#39;s 10 gigawatt ambition, the sites and supply chain needed to hit it, the permitting playbook, and why Microsoft becomes the largest offtaker. The bull and bear cases both get airtime, followed by a Hugging Face security scare to close. Subscribe for weekly coverage of tokenomics, datacenter energy, and AI compute economics.</p><p><br></p><p>CHAPTERS:</p><p>0:00 – Intro<br>0:47 – The $100M Thesis<br>3:59 – Pricing &amp; Google&#39;s Deal<br>10:38 – Training vs Inference<br>13:21 – Sites &amp; Supply Chain<br>20:55 – Permitting Playbook<br>25:40 – Microsoft&#39;s Role<br>33:31 – Paying For It<br>41:01 – Bull vs Bear<br>43:29 – Hugging Face Security Scare &amp; Wrap-Up</p><p>Referenced:<br>SpaceX 10GW in 2027 – Why It&#39;s Real, Will Drive $300B ARR for SpaceX, and Why Microsoft Will Be the Largest Offtaker: <a href=\"https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real\">https://newsletter.semianalysis.com/p/spacex-10gw-in-2027-why-its-real</a></p><p><br></p><p><br></p>\n",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Lenny's Podcast",
+      "domain": "ai",
+      "guid": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
+      "pub_date": "2026-08-09T12:31:29+00:00",
+      "link": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "audio_url": "https://api.substack.com/feed/podcast/209025209/a266314f944e73b52dd2625cb49642a9.mp3",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "Listen now | Cursor&#8217;s Adam Ward on &#8220;funnel of doom&#8221; hiring, treating every hire like an executive search, and why caring is the biggest unfair advantage in recruiting",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/e5f48b73d0f20a04e3be9153.txt",
+      "transcript_chars": 5092
+    },
+    {
       "channel": "Lenny's Podcast",
       "domain": "ai",
       "guid": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
@@ -394,5 +431,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-09T10:36:52.275574+00:00"
+  "generated_at": "2026-08-09T22:27:29.616014+00:00"
 }
