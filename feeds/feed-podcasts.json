@@ -1,10 +1,48 @@
 {
   "podcasts": [
     {
+      "channel": "Lenny's Podcast",
+      "domain": "ai",
+      "guid": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
+      "title": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
+      "pub_date": "2026-08-10T15:01:49+00:00",
+      "link": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
+      "audio_url": "https://substack-post-media.s3.amazonaws.com/public/images/347cb3d0-f0ab-4f9c-8574-b7c60b248320_1456x1048.png",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/412f043cdcb3ab3aa7f1f623.txt",
+      "transcript_chars": 10401
+    },
+    {
+      "channel": "Lenny's Podcast",
+      "domain": "ai",
+      "guid": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
+      "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+      "pub_date": "2026-08-10T12:01:44+00:00",
+      "link": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
+      "audio_url": "https://api.substack.com/feed/podcast/210264025/50984fb3525ea5f0b892afa589754e02.mp3",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "Listen now | &#127897;&#65039; Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/8956ade0f890e5e9bbc19239.txt",
+      "transcript_chars": 5269
+    },
+    {
       "channel": "a16z",
       "domain": "ai",
       "guid": "70162548-bc1e-4524-b6d0-580a4bf81281",
-      "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
+      "title": "The Self-Improving Company | Kavak's AI Playbook",
       "pub_date": "2026-08-10T10:00:00+00:00",
       "link": "https://a16z.simplecast.com/episodes/how-kavak-rebuilt-itself-around-ai-agents-alejandro-maza-ayala-lp7LuwGh",
       "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/64ca2d41-4e29-406a-b05e-d686b57f1a61/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=64ca2d41-4e29-406a-b05e-d686b57f1a61&feed=JGE3yC0V",
@@ -145,25 +183,6 @@
       "transcript_video_id": null,
       "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
       "transcript_chars": 0
-    },
-    {
-      "channel": "Dwarkesh Patel",
-      "domain": "ai",
-      "guid": "https://www.dwarkesh.com/p/era-of-continual-learning",
-      "title": "8 Predictions for the Era of Continual Learning",
-      "pub_date": "2026-08-07T17:17:40+00:00",
-      "link": "https://www.dwarkesh.com/p/era-of-continual-learning",
-      "audio_url": "https://api.substack.com/feed/podcast/210233020/894c362b5c1abb4be2eb88cb11e97d63.mp3",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Locking in AI safety regulation now is a mistake.",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.dwarkesh.com/p/era-of-continual-learning",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/d408f9adc99c9d316b83d689.txt",
-      "transcript_chars": 9251
     },
     {
       "channel": "SemiAnalysis",
@@ -471,8 +490,30 @@
       "transcript_video_id": "UaWAVuK9U5o",
       "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=UaWAVuK9U5o! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
+    },
+    {
+      "channel": "The Information",
+      "domain": "ai",
+      "person": "Dario Amodei",
+      "search_query": "Dario Amodei interview",
+      "guid": "yt:LWlt43M3tRM",
+      "title": "Inside the World of Dario Amodei",
+      "pub_date": "",
+      "pub_date_source": "unverified",
+      "publish_date_unverified": true,
+      "first_seen": "2026-08-10T22:34:30.299563+00:00",
+      "link": "https://www.youtube.com/watch?v=LWlt43M3tRM",
+      "audio_url": "",
+      "duration": "17:27",
+      "description": "The Information Senior Reporter Cory Weinberg explains why years of reporting suggest Anthropic CEO Dario Amodei genuinely ...",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "LWlt43M3tRM",
+      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=LWlt43M3tRM! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_chars": 0
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-10T11:10:58.536112+00:00"
+  "generated_at": "2026-08-10T22:34:27.172916+00:00"
 }
