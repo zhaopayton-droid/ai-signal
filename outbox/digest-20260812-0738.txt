@@ -1,0 +1,58 @@
+🛫 起飞了 | AI Signal - 2026年8月12日
+
+⚠️ 数据延迟提示:X/Twitter 数据源自 2026-08-10 22:31 UTC(北京时间 8月11日 06:31)起未再更新,已超过 25 小时,本期不含新推文。
+⚠️ Data delay notice: The X/Twitter feed has not refreshed since 2026-08-10 22:31 UTC (06:31 Beijing time, Aug 11) — over 25 hours ago — so this edition has no new tweets.
+
+OpenAI just took its first concrete step toward monetizing ChatGPT's free tier with ads, even as a fresh Dwarkesh Podcast debate asks whether human-level AI could spin up runaway superintelligence by 2032 — commercialization and safety timelines racing on the same clock.
+OpenAI 今天迈出了用广告为 ChatGPT 免费版变现的第一步,而与此同时 Dwarkesh 播客上一场关于「2032 年人类水平 AI 是否会催生失控超级智能」的辩论提醒我们:商业化节奏和安全时间线正在同步赛跑。
+
+Today's signal set is thin — no new tweets or papers cleared dedup — but pharma's growing appetite for Bio×AI tools (Chai Discovery) adds a third data point: AI value capture is spreading beyond chatbots into science and enterprise security.
+今天的信号量偏少——没有新推文或论文通过去重——但制药行业对 Bio×AI 工具日益增长的付费意愿(Chai Discovery)提供了第三个数据点:AI 的价值捕获正从聊天机器人扩散到科学研究和企业安全领域。
+
+## Podcasts
+
+**P1 | 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery**
+Latent Space · 2026-08-12 05:03 北京时间
+Takeaway: Pharma companies are now paying for Bio×AI tools, with Chai Discovery closing four deals this summer, per cofounder Matt McPartlon and product lead Neil Patil.
+要点:制药公司开始为 Bio×AI 工具付费,Chai Discovery 联合创始人 Matt McPartlon 和产品负责人 Neil Patil 透露公司今年夏天已签下四笔交易。
+Why it matters: A concrete commercial signal that AI-for-drug-discovery is moving from research hype to paid enterprise adoption.
+意义:这是 AI 制药从研究热潮走向企业付费采用的一个具体商业信号。
+https://www.latent.space/p/chai-discovery
+
+**P2 | Ryan Greenblatt – Human level AIs might build runaway superintelligences by 2032**
+Dwarkesh Patel · 2026-08-12 00:31 北京时间
+Takeaway: The episode centers on a debate over recursive self-improvement, framed around whether human-level AI could trigger runaway superintelligence by 2032.
+要点:本期节目围绕「递归自我改进」展开辩论,核心问题是人类水平的 AI 是否可能在 2032 年前催生失控的超级智能。
+Why it matters: Timelines for self-improving AI remain one of the most consequential open questions shaping how labs, regulators, and investors think about AI risk and pacing.
+意义:自我改进 AI 的时间线仍是塑造实验室、监管者和投资者对 AI 风险与节奏判断的关键悬而未决问题之一。
+https://www.dwarkesh.com/p/ryan-greenblatt
+
+**P3 | How to make people care about your startup**
+Lenny's Podcast · 2026-08-11 21:31 北京时间
+Takeaway: Covers three founder archetypes and how each can turn their origin story into a communications strategy.
+要点:节目介绍了三种创始人原型,以及如何将各自的创业故事转化为传播策略。
+Why it matters: Narrative and positioning are an increasing differentiator for AI-era startups competing for attention in a crowded market.
+意义:在竞争激烈的 AI 创业市场中,叙事和定位正成为越来越重要的差异化因素。
+https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your
+
+## Official Blogs
+
+**B1 | OpenAI: Testing ads in ChatGPT**
+What was announced: OpenAI has begun testing ads in ChatGPT to help support free access, with clear labeling, answer independence from ads, strong privacy protections, and user control.
+公告内容:OpenAI 开始在 ChatGPT 中测试广告,以支持免费版的可持续运营,并强调清晰标注、答案不受广告影响、隐私保护和用户控制。
+Why it matters: This is OpenAI's first concrete move toward ad-based monetization of its free tier — worth watching for consumer-AI unit economics and how it positions against ad-supported rivals like Google and Perplexity.
+意义:这是 OpenAI 首次明确尝试用广告为免费版变现,值得关注其对消费级 AI 商业模式的影响,以及与 Google、Perplexity 等广告驱动型对手的竞争态势。
+https://openai.com/index/testing-ads-in-chatgpt
+
+**B2 | OpenAI: Daybreak models are now available on AWS**
+What was announced: OpenAI's Daybreak cybersecurity capabilities are now available through Amazon Bedrock to support enterprise security workflows.
+公告内容:OpenAI 的 Daybreak 网络安全能力现已通过 Amazon Bedrock 提供,用于支持企业安全工作流。
+Why it matters: Signals OpenAI's continued push into vertical enterprise offerings distributed via major cloud marketplaces, expanding its enterprise footprint alongside AWS.
+意义:体现 OpenAI 持续拓展垂直企业市场,并通过主流云平台分发,与 AWS 一同扩大其企业业务版图。
+https://openai.com/index/daybreak-models-are-now-available-on-aws
+
+---
+可以在 Claude Code 里说「展开 P2」或 "expand B1" 来深读某一条。
+You can ask to "expand P2" or 展开 B1 for a deeper read on any item.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
