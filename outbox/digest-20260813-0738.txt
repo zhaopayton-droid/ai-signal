@@ -1,0 +1,78 @@
+🛫 起飞了 | AI Signal - 2026年8月13日
+
+The cost curve for frontier intelligence keeps bending down: Gavin Baker calls Grok 4.6 "Pareto dominant" against Fable 5 Max at an 85% blended discount, and previews a Cerebras interview probing how compute providers actually monetize gigawatts against the DRAM shortage. Meanwhile OpenAI's own enterprise research shows the frontier moving from AI assistance to AI execution — the same shift Vercel is betting on with "self-maintaining software" for its AI SDK.
+前沿智能的成本曲线还在持续下探:Gavin Baker 称 Grok 4.6 相比 Fable 5 Max「帕累托占优」——性能相当,价格却低了 85%;他还预告了对 Cerebras 的专访,探讨算力提供商在 DRAM 短缺背景下究竟如何为吉瓦级产能变现。与此同时,OpenAI 自己的企业研究显示,前沿正在从「AI 辅助」转向「AI 执行」——这也正是 Vercel 押注 AI SDK「自我维护软件」方向的同一个趋势。
+
+## X / Twitter
+
+**X1 | Gavin Baker (Atreides Management)** — 2026-08-12 23:49 北京时间
+Grok 4.6 is roughly the same performance as Fable 5 Max at an 85% discount. 80% cheaper for input tokens and 88% cheaper for output tokens.
+
+Pareto dominant.
+
+Grok 4.7 will be significantly better as is a much larger model with the Cursor and SpaceX data included in pretraining.
+「Grok 4.6 性能与 Fable 5 Max 大致相当,价格却便宜 85%——输入 token 便宜 80%,输出 token 便宜 88%,是『帕累托占优』的存在。Baker 认为 Grok 4.7 会明显更强,因为它是规模更大的模型,预训练数据还纳入了 Cursor 和 SpaceX 的数据。」
+https://x.com/GavinSBaker/status/2087567239423676519
+
+**X2 | Gavin Baker (Atreides Management)** — 2026-08-13 04:57 北京时间
+Baker previews interviewing Cerebras CEO Andrew Feldman at the Tomorrow-X Summit in Austin (Nov 17-18), framing scale-up networking and SRAM acceleration as the best answers to the DRAM shortage. He notes Nebius monetizes long-term contracts at $20-25 per megawatt, and — even applying a healthy haircut for the "take or pay" nature of Cerebras's OpenAI contract — estimates the 600 megawatts Cerebras has under contract for end-2027 implies roughly $10B in exiting cloud ARR, with further upside possible from hardware sales, the AMD and AWS partnerships, and its multi-gigawatt power pipeline.
+Baker 预告将在 11 月 17-18 日奥斯汀 Tomorrow-X 峰会上采访 Cerebras CEO Andrew Feldman,他认为「扩展级组网」与「SRAM 加速」是应对 DRAM 短缺的最佳方案。他提到 Nebius 长期合约的变现价格约为每兆瓦 20-25 美元;即便考虑到 Cerebras 与 OpenAI 合约中「照付不议」条款需要打折扣,他估算 Cerebras 到 2027 年底签约的 600 兆瓦产能对应约 100 亿美元的退出期云端 ARR,加上硬件销售、AMD 与 AWS 合作以及数吉瓦级的电力储备管线,还有进一步上行空间。
+https://x.com/GavinSBaker/status/2087644672273650119
+
+**X3 | Irrational Analysis** — 2026-08-12 07:34 北京时间
+Lumentum earnings call has unbelievable alpha. Rush post tonight.
+
+Hint: External laser vs co-integration with optical engine has complex tradeoffs.
+「Lumentum 财报电话会信息量巨大,今晚会赶发一篇分析。提示:外置激光器与光引擎共封装之间存在复杂的权衡取舍。」这是光模块/光互联赛道(AI 数据中心关键供应链)的一条投资线索,细节留待作者后续文章展开。
+https://x.com/insane_analyst/status/2087321692544880751
+
+**X4 | Guillermo Rauch (Vercel)** — 2026-08-13 00:18 北京时间
+Rauch calls it "a must read" on how Vercel balances quality and autonomy while developing the AI SDK, one of the most widely used open-source AI libraries, framing the direction as building toward self-maintaining software.
+Rauch 称这是一篇「必读」文章,讲述 Vercel 在开发 AI SDK(全球使用最广的开源 AI 库之一)时如何平衡「质量」与「自主性」,方向是迈向「自我维护的软件」。
+https://x.com/rauchg/status/2087574374706761892
+
+**X5 | Guillermo Rauch (Vercel)** — 2026-08-13 04:04 北京时间
+Seedance 2.5 on Vercel AI Gateway 🐇
+「Seedance 2.5(视频生成模型)已上线 Vercel AI Gateway。」
+https://x.com/rauchg/status/2087631388359242050
+
+**X6 | Guillermo Rauch (Vercel)** — 2026-08-13 02:22 北京时间
+Rauch shares that Vercel is now powering the new, "agent-native" relaunch of Digg, calling it one of his favorite Web 2.0-era sites growing up.
+Rauch 分享 Vercel 正在为「agent-native(智能体原生)」重新上线的 Digg 提供技术支持——他称 Digg 是自己成长过程中最喜欢的 Web 2.0 时代网站之一。
+https://x.com/rauchg/status/2087605691158827499
+
+## Official Blogs
+
+**B1 | OpenAI: From assistance to execution: How enterprises put AI to work**
+What was announced: New OpenAI research on how enterprises are adopting agentic AI via ChatGPT and Codex, finding that frontier-adopter firms are pulling further ahead of the pack in AI adoption.
+公告内容:OpenAI 发布最新研究,分析企业如何通过 ChatGPT 和 Codex 采用智能体化 AI,发现「前沿采用者」企业正在与其他企业进一步拉开差距。
+Why it matters: The assistance-to-execution framing matches what Vercel and others are building toward (see X4) — and the adoption gap between leaders and laggards is becoming a real competitive-advantage story worth tracking for enterprise-AI investing.
+意义:「从辅助到执行」的框架与 Vercel 等公司正在推进的方向(见 X4)相呼应;领先者与落后者之间的采用差距正在变成一个值得关注的企业级 AI 投资叙事。
+https://openai.com/index/how-enterprises-put-ai-to-work
+
+**B2 | OpenAI: How RingCentral builds AI-native work from engineering to ops**
+What was announced: A case study on how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.
+公告内容:一篇案例研究,介绍 RingCentral 如何用 ChatGPT Work 和 Codex 加速 AI 产品开发,并在工程与运营团队之间集中化运营智能。
+Why it matters: A concrete production example backing up B1's enterprise-adoption thesis — real usage of the ChatGPT Work + Codex bundle inside a public company's engineering and ops stack.
+意义:这是支撑 B1 企业采用论点的一个具体落地案例——ChatGPT Work 加 Codex 的组合已被一家上市公司真实用于工程与运营体系中。
+https://openai.com/index/ringcentral
+
+**B3 | Anthropic: How well do job retraining programs work?**
+What was announced: An evidence review from Anthropic's Economic Research team on the effectiveness of job retraining programs. The source description does not detail specific findings beyond the review's existence — follow the link for the full analysis.
+公告内容:Anthropic 经济研究团队发布了一篇关于「职业再培训项目效果如何」的证据综述。信息源本身未透露具体结论,完整分析请点击链接查看。
+Why it matters: Continues Anthropic's economic-research track on AI's labor-market impact, relevant to the ongoing AI-and-jobs policy and investing debate.
+意义:延续了 Anthropic 在「AI 对劳动力市场影响」方向的经济研究工作,与当前 AI 与就业的政策及投资讨论相关。
+https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs
+
+**B4 | Google DeepMind: Putting sign language AI into users' hands**
+What was announced: DeepMind introduced SL2T (sign-language-to-text), a new model powering sign language features for Deaf and hard-of-hearing users.
+公告内容:DeepMind 推出 SL2T(手语转文本)模型,为聋人及听障用户提供新的手语功能支持。
+Why it matters: An applied, accessibility-focused product launch that extends DeepMind's model work beyond core LLM/agent territory into assistive multimodal tools.
+意义:这是一次面向无障碍场景的应用型产品发布,体现 DeepMind 将模型能力从核心 LLM/智能体领域延伸至辅助性多模态工具。
+https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
+
+---
+可以在 Claude Code 里说「展开 X2」或 "expand B1" 来深读某一条。
+You can ask to "expand X2" or 展开 B1 for a deeper read on any item.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
