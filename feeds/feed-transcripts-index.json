@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T11:02:29.196069+00:00",
+  "generated_at": "2026-08-13T22:38:44.825615+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 19241,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-13T11:02:29.196069+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
+      "last_seen_at": "2026-08-13T22:38:44.825615+00:00",
+      "expires_at": "2026-08-27T22:38:44.825615+00:00"
     },
     {
       "guid": "https://lexfridman.com/?p=6494",
@@ -25,8 +25,8 @@
       "transcript_chars": 177054,
       "transcript_source": "description_transcript_link",
       "cached_at": "2026-08-12T22:37:43.564694+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
+      "last_seen_at": "2026-08-13T22:38:44.825615+00:00",
+      "expires_at": "2026-08-27T22:38:44.825615+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
@@ -38,8 +38,8 @@
       "transcript_chars": 27391,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-12T11:01:49.238779+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
+      "last_seen_at": "2026-08-13T22:38:44.825615+00:00",
+      "expires_at": "2026-08-27T22:38:44.825615+00:00"
     },
     {
       "guid": "https://www.latent.space/p/chai-discovery",
@@ -51,8 +51,8 @@
       "transcript_chars": 8283,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-11T22:39:08.870360+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
+      "last_seen_at": "2026-08-13T22:38:44.825615+00:00",
+      "expires_at": "2026-08-27T22:38:44.825615+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/ryan-greenblatt",
@@ -64,8 +64,8 @@
       "transcript_chars": 144899,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-11T22:39:08.870360+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
+      "last_seen_at": "2026-08-13T22:38:44.825615+00:00",
+      "expires_at": "2026-08-27T22:38:44.825615+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
@@ -77,8 +77,8 @@
       "transcript_chars": 26794,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-11T22:39:08.870360+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
+      "last_seen_at": "2026-08-13T22:38:44.825615+00:00",
+      "expires_at": "2026-08-27T22:38:44.825615+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
@@ -90,8 +90,8 @@
       "transcript_chars": 16993,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-11T10:53:00.104931+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
+      "last_seen_at": "2026-08-13T22:38:44.825615+00:00",
+      "expires_at": "2026-08-27T22:38:44.825615+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
@@ -443,32 +443,6 @@
       "cached_at": "2026-07-28T11:59:53.771259+00:00",
       "last_seen_at": "2026-07-30T23:04:13.315397+00:00",
       "expires_at": "2026-08-13T23:04:13.315397+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
-      "link": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
-      "channel": "Lenny's Podcast",
-      "title": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
-      "pub_date": "2026-07-27T15:03:21+00:00",
-      "transcript_path": "feeds/transcripts/669034f5df8d2b1b9b08c02f.txt",
-      "transcript_chars": 12532,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-27T22:59:32.814313+00:00",
-      "last_seen_at": "2026-07-30T11:54:31.971215+00:00",
-      "expires_at": "2026-08-13T11:54:31.971215+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
-      "link": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
-      "channel": "Lenny's Podcast",
-      "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
-      "pub_date": "2026-07-27T12:04:34+00:00",
-      "transcript_path": "feeds/transcripts/76aa23f99ee1803e38031dbd.txt",
-      "transcript_chars": 5001,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-27T12:56:41.083858+00:00",
-      "last_seen_at": "2026-07-30T11:54:31.971215+00:00",
-      "expires_at": "2026-08-13T11:54:31.971215+00:00"
     }
   ]
 }
