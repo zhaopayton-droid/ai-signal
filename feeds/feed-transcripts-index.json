@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-12T22:37:43.564694+00:00",
+  "generated_at": "2026-08-13T11:02:29.196069+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+      "link": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+      "channel": "Latent Space",
+      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+      "pub_date": "2026-08-13T01:53:47+00:00",
+      "transcript_path": "feeds/transcripts/0ca714a85119256f832dd9da.txt",
+      "transcript_chars": 19241,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-13T11:02:29.196069+00:00",
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
+    },
     {
       "guid": "https://lexfridman.com/?p=6494",
       "link": "https://lexfridman.com/khabib-nurmagomedov/?utm_source=rss&utm_medium=rss&utm_campaign=khabib-nurmagomedov",
@@ -12,8 +25,8 @@
       "transcript_chars": 177054,
       "transcript_source": "description_transcript_link",
       "cached_at": "2026-08-12T22:37:43.564694+00:00",
-      "last_seen_at": "2026-08-12T22:37:43.564694+00:00",
-      "expires_at": "2026-08-26T22:37:43.564694+00:00"
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
@@ -25,8 +38,8 @@
       "transcript_chars": 27391,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-12T11:01:49.238779+00:00",
-      "last_seen_at": "2026-08-12T22:37:43.564694+00:00",
-      "expires_at": "2026-08-26T22:37:43.564694+00:00"
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     },
     {
       "guid": "https://www.latent.space/p/chai-discovery",
@@ -38,8 +51,8 @@
       "transcript_chars": 8283,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-11T22:39:08.870360+00:00",
-      "last_seen_at": "2026-08-12T22:37:43.564694+00:00",
-      "expires_at": "2026-08-26T22:37:43.564694+00:00"
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/ryan-greenblatt",
@@ -51,8 +64,8 @@
       "transcript_chars": 144899,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-11T22:39:08.870360+00:00",
-      "last_seen_at": "2026-08-12T22:37:43.564694+00:00",
-      "expires_at": "2026-08-26T22:37:43.564694+00:00"
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
@@ -64,8 +77,8 @@
       "transcript_chars": 26794,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-11T22:39:08.870360+00:00",
-      "last_seen_at": "2026-08-12T22:37:43.564694+00:00",
-      "expires_at": "2026-08-26T22:37:43.564694+00:00"
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
@@ -77,8 +90,8 @@
       "transcript_chars": 16993,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-11T10:53:00.104931+00:00",
-      "last_seen_at": "2026-08-12T22:37:43.564694+00:00",
-      "expires_at": "2026-08-26T22:37:43.564694+00:00"
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
@@ -90,8 +103,8 @@
       "transcript_chars": 10401,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-10T22:35:22.460070+00:00",
-      "last_seen_at": "2026-08-12T22:37:43.564694+00:00",
-      "expires_at": "2026-08-26T22:37:43.564694+00:00"
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
@@ -103,8 +116,8 @@
       "transcript_chars": 5269,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-10T22:35:22.460070+00:00",
-      "last_seen_at": "2026-08-12T22:37:43.564694+00:00",
-      "expires_at": "2026-08-26T22:37:43.564694+00:00"
+      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
+      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
