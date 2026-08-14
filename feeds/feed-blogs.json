@@ -55,15 +55,6 @@
       "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
     },
     {
-      "id": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "published": "2026-08-12T06:00:00+00:00",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption."
-    },
-    {
       "id": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -71,17 +62,8 @@
       "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "published": "2026-08-12T00:00:00+00:00",
       "summary": "An evidence review from Anthropic's Economic Research team"
-    },
-    {
-      "id": "https://openai.com/index/ringcentral",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "url": "https://openai.com/index/ringcentral",
-      "published": "2026-08-12T00:00:00+00:00",
-      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-13T22:38:16.836232+00:00"
+  "generated_at": "2026-08-14T10:59:27.962711+00:00"
 }
