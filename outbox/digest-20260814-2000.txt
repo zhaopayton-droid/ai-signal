@@ -1,0 +1,190 @@
+🛫 起飞了 | AI Signal - 2026年8月14日
+
+Today's strongest signal is on arXiv, not X: a wave of new papers pushes AI agents from "can they act" to "can they be trusted" — formally verified code repos, deterministic multi-agent clinical pipelines, and self-improving design harnesses all landed within the same hour. On the podcast side, Travis Kalanick and Ben Horowitz argue the next industrial revolution runs on AI moving into physical industries like food, mining, and manufacturing.
+今天最强的信号不在 X,而在 arXiv:大量新论文把 AI agent 的重心从"能不能行动"推进到"能不能被信任"——形式化验证的代码仓库、确定性的多智能体临床流程、能自我改进的设计框架,几乎在同一个小时内集中出现。播客方面,Travis Kalanick 与 Ben Horowitz 谈到下一轮工业革命将由 AI 深入食品、采矿、制造等实体行业驱动。
+
+(No new X/Twitter posts this cycle — the X feed hasn't refreshed since ~13 hours ago.)
+(本时段 X/Twitter 没有新增推文——X 数据源约 13 小时未更新。)
+
+## Podcasts
+
+P1 · a16z — Ben Horowitz and Travis Kalanick on Building Again
+Source time: 2026-08-14 18:00 (Beijing) · https://a16z.simplecast.com/episodes/ben-horowitz-and-travis-kalanick-on-building-again-o4RgblCd
+Takeaway: Recorded at Atoms' launch event, this is a fireside chat where Kalanick argues the next industrial revolution will be AI-powered, and where Horowitz and Kalanick revisit Uber-era lessons (including the decision not to acquire Lyft) alongside Atoms' bet on bringing software into physical industries.
+要点:这是在 Atoms 发布会上录制的炉边对话,Kalanick 认为下一轮工业革命将由 AI 驱动;两人回顾了 Uber 时代的经验(包括当年没有收购 Lyft 的决定),并谈到 Atoms 押注把软件带入食品、采矿、制造等实体产业。
+Why it matters: A signal that top-tier VC/founder attention is shifting from pure software AI toward "physical-world AI" as the next big platform bet.
+为什么重要:顶级投资人和创始人的关注点正从纯软件 AI 转向"物理世界 AI",释放出下一代平台级机会的信号。
+
+P2 · Latent Space — [AINews] Gemini 3.7 Flash brings GDM back to the forefront
+Source time: 2026-08-14 13:30 (Beijing) · https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm
+Preview: The available description is thin ("Down, but not out!"); the headline signals a Gemini 3.7 Flash release repositioning Google DeepMind competitively. Say "展开 P2" / "expand P2" for a deeper read once transcript/content is available.
+预览:目前拿到的简介很短("Down, but not out!"),标题暗示 Gemini 3.7 Flash 的发布让 Google DeepMind 重新回到竞争前列。如需深读可回复"展开 P2"。
+
+P3 · Deep Signal (feat. Lex Fridman Podcast) — Demis Hassabis: Is the Universe Really Made of Information?
+Source time: unverified (no pub_date in feed) · https://www.youtube.com/watch?v=vAjOEJKJxas
+Preview: Demis Hassabis appearing on the Lex Fridman Podcast; description is a short excerpt only, no further claims available without the transcript.
+预览:Demis Hassabis 做客 Lex Fridman Podcast,当前简介仅为片段,若需了解具体论点需展开转写。
+
+## Papers
+
+Ten headline papers today, all from the same arXiv batch (submitted 2026-08-13, ~01:00–02:00 Beijing time on 08-14) — heavy focus on making AI agents verifiable, self-improving, and scientifically grounded.
+今天有十篇重点论文,均来自同一批 arXiv 提交(2026-08-13 提交,北京时间 08-14 凌晨 01:00–02:00 左右)——主题高度集中在让 AI agent 变得可验证、可自我改进、有科学依据。
+
+Paper1 · AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design
+2026-08-14 01:59 (Beijing) · https://arxiv.org/abs/2608.13560v1
+Problem: Existing agent "harness" systems (the scaffolding around a model) are static and don't accumulate reusable experience.
+问题:现有 agent 的"harness"(围绕模型的脚手架系统)是静态的,无法积累可复用的经验。
+Approach: A meta-harness optimizer guides a code agent to recursively improve its own harness from rollout feedback, tested on a new paper-to-poster benchmark (PosterBench, 100 papers across 5 disciplines).
+方法:一个元框架优化器引导代码 agent 根据 rollout 反馈递归改进自身的 harness,在新的论文转海报基准 PosterBench(100 篇论文、5 个学科)上验证。
+Result: AutoDesign scores 78.32 on PosterBench Main Track, beating the closed-source commercial system "Claude Design" by 7.45 points, and lifts average scores across seven agent configurations from 54.99 to 67.39 (+12.4%) — a full autonomous run costs under $3.
+结果:AutoDesign 在 PosterBench 主赛道得分 78.32,比闭源商业系统"Claude Design"高 7.45 分;在七种 agent 配置上把平均分从 54.99 提升到 67.39(+12.4%);一次完整自主运行成本不到 3 美元。
+Why it matters: A concrete data point on self-improving agent scaffolding outperforming a named commercial competitor — worth watching for anyone building agent infrastructure.
+为什么重要:这是"自我改进的 agent 脚手架"跑赢一个具名商业竞品的具体数据点,值得关注 agent 基础设施方向的人留意。
+
+Paper2 · OmniScientist: An Omni-Modal Omni-Discipline AI Scientist
+2026-08-14 01:59 (Beijing) · https://arxiv.org/abs/2608.13558v1
+Problem: AI-scientist systems automate research workflows but usually reason only over text/code/precomputed summaries, missing raw spatial, temporal, and cross-channel evidence.
+问题:现有"AI 科学家"系统能自动化研究流程,但通常只能处理文本、代码或预计算的摘要,丢失了原始的空间、时间、跨通道证据。
+Approach: OmniScientist adds a perception layer plus three autonomous agents (ideation, experiment, writeup) that reason directly over raw multimodal evidence (images, signals, audio, video, 3D structures, etc.), with built-in novelty, statistical-validity, and provenance checks.
+方法:OmniScientist 加入感知层和三个自主 agent(选题、实验、写作),直接处理图像、信号、音频、视频、3D 结构等原始多模态证据,并内置新颖性、统计有效性和溯源检查。
+Result: Across 36 real-data cases in 5 discipline families, it completes the full raw-data-to-manuscript pipeline every time, scores 6.3 on average, and wins 85% of head-to-head comparisons against a variant that only sees precomputed features.
+结果:在 5 个学科、36 个真实数据案例中,系统全部完成从原始数据到成稿的全流程,平均得分 6.3;相比只能看到预计算特征的对照版本,在 85% 的正面比较中胜出。
+Why it matters: Reinforces that direct perception of raw evidence — not just text summaries — is becoming a prerequisite for credible "AI scientist" claims.
+为什么重要:说明直接感知原始证据(而非仅靠文本摘要)正成为"AI 科学家"是否可信的关键前提。
+
+Paper3 · Vero: Can AI Agents Build Formally Verified Software Repositories?
+2026-08-14 01:41 (Beijing) · https://arxiv.org/abs/2608.13522v1
+Problem: AI coding agents give no correctness guarantees, and it's unclear whether they can keep implementation and formal proofs coherent across a whole multi-module repository, not just one function.
+问题:AI 编程 agent 无法保证代码正确性,目前也不清楚它们能否在整个多模块代码仓库(而非单个函数)层面保持实现与形式化证明的一致性。
+Approach: Vero introduces 43 multi-module benchmark instances (Python, Dafny, Verus, Coq → Lean 4) with curated specs and reference implementations, evaluating joint code-and-proof synthesis at repo scale.
+方法:Vero 构建了 43 个多模块基准实例(涉及 Python、Dafny、Verus、Coq,统一转为 Lean 4),配有人工整理的规范和参考实现,评估仓库级别的代码与证明联合生成能力。
+Result: The strongest frontier agent fully solves only 27 of 43 instances and closes zero specifications on the hardest repositories.
+结果:目前最强的前沿 agent 也只能完全解决 43 个实例中的 27 个,在最难的仓库上一条规范都无法闭合。
+Why it matters: A sober benchmark showing repo-scale verified code generation is still an open problem — relevant to anyone betting on "trustworthy AI-written software" timelines.
+为什么重要:这个基准清楚显示仓库级别的可验证代码生成仍是未解难题,对判断"可信 AI 写代码"的时间线有参考价值。
+
+Paper4 · DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data
+2026-08-14 01:37 (Beijing) · https://arxiv.org/abs/2608.13517v1
+Problem: Frontier LLM development typically relies on massive, often non-permissibly-sourced datasets, which blocks fully open/ethical replication.
+问题:前沿 LLM 的开发通常依赖海量、且来源常不合规的数据集,这使得完全开放、合乎伦理的复现变得困难。
+Approach: Mimir v1 is a 1B-parameter Hierarchical Reasoning Model trained from scratch on a mixture of 161 datasets, using only permissible post-training data.
+方法:Mimir v1 是一个从零训练的 10 亿参数分层推理模型(HRM),训练数据混合了 161 个数据集,且全部为合规的后训练数据。
+Result: It outperforms the original HRM-Text 1B, sets a new state of the art for Danish, and competes with larger models like Qwen 3.5 4B and Gemma 4 E2B across 20 benchmarks.
+结果:该模型优于原版 HRM-Text 1B,在丹麦语上创下新的 SOTA,并在 20 个基准上可与规模更大的 Qwen 3.5 4B、Gemma 4 E2B 竞争。
+Why it matters: Evidence that small, fully-permissible-data models can still hit frontier-competitive performance for a given language — relevant to the "data licensing risk" conversation in AI investing.
+为什么重要:证明了在合规数据下训练的小模型也能在特定语言上达到接近前沿的表现,对 AI 投资中"数据合规风险"的讨论有参考价值。
+
+Paper5 · Intern-S2-Preview: Scientific Agentic Foundation Model
+2026-08-14 01:31 (Beijing) · https://arxiv.org/abs/2608.13505v1
+Problem: Scientific discovery needs AI that can reason across heterogeneous modalities, use scientific tools, and sustain long task horizons — capabilities general foundation models don't fully cover.
+问题:科学发现需要能跨异构模态推理、使用科研工具、并维持长任务跨度的 AI,而通用基础模型并不完全具备这些能力。
+Approach: Intern-S2-Preview-397B combines scientific multimodal pretraining with a post-training pipeline of SFT, multi-task RL, agentic RL, and on-policy distillation, plus a separate Memory Decoder module for fast specialization without touching the frozen backbone.
+方法:Intern-S2-Preview-397B 结合科学多模态预训练与包含 SFT、多任务 RL、agentic RL、on-policy 蒸馏的后训练流程,并用独立的 Memory Decoder 模块在不改动冻结主干的情况下实现快速领域专精。
+Result: Achieves competitive-to-leading results across scientific, multimodal, agentic, and general benchmarks; the added Intern-MemDec-4B module raises the Biology-Instructions average score from 56.92 to 60.32.
+结果:在科学、多模态、agentic 及通用基准上取得有竞争力乃至领先的成绩;新增的 Intern-MemDec-4B 模块将 Biology-Instructions 平均分从 56.92 提升到 60.32。
+Why it matters: Another large lab-scale push toward domain-specialized "scientist" foundation models, following the same agentic-science trend as OmniScientist.
+为什么重要:与 OmniScientist 呼应,这是又一次面向"科学家型"领域基础模型的大规模投入,体现出 agentic science 正成为趋势。
+
+Paper6 · Synthetic Persona Pretraining: Alignment from Token Zero
+2026-08-14 01:12 (Beijing) · https://arxiv.org/abs/2608.13482v1
+Problem: Alignment and assistant identity are usually bolted on after pretraining, making values a "thin overlay" that's easier to break.
+问题:对齐和助手身份通常是在预训练之后才加上去的,这让价值观成为一层"薄薄的覆盖",更容易被破坏。
+Approach: Synthetic Persona Pretraining (SPP) annotates pretraining documents with value-aligned first-person reflections and trains on them from token zero, then binds the resulting persona to the assistant identity in post-training.
+方法:Synthetic Persona Pretraining(SPP)在预训练文档上标注符合价值观的第一人称反思内容,从训练一开始就学习这些内容,再在后训练阶段把由此形成的人格绑定到助手身份上。
+Result: On models up to 3B parameters / 500B tokens, SPP improves constitution-following and jailbreak robustness and reduces misalignment in out-of-distribution moral dilemmas, without hurting capabilities; the effect grows with pretraining budget and is weaker if applied only late in pretraining.
+结果:在最高 3B 参数、500B token 规模的模型上,SPP 提升了宪法遵循度和越狱鲁棒性,减少了分布外道德困境中的失调行为,且不损失能力;这一效果随预训练算力增大而增强,若只在预训练后期引入则效果减弱。
+Why it matters: A direct, data-backed argument for doing alignment work earlier and deeper in the training pipeline rather than as a post-hoc patch.
+为什么重要:这是一个有数据支撑的直接论据——对齐工作应该更早、更深地嵌入训练流程,而不是事后打补丁。
+
+Paper7 · DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees
+2026-08-14 01:43 (Beijing) · https://arxiv.org/abs/2608.13524v1
+Problem: Diffusion-based speculative decoders speed up LLM inference but their draft distributions aren't properly conditioned on tokens already selected along a draft path, capping speedup.
+问题:基于扩散模型的推测解码能加速 LLM 推理,但其草稿分布没有很好地基于草稿路径上已选 token 进行条件化,限制了加速效果。
+Approach: DARTree is a training-free method that extends an autoregressive correction head from single draft chains to full draft trees, using single-batch tree expansion plus best-first pruning.
+方法:DARTree 是一种无需训练的方法,把自回归校正头从单一草稿链扩展到完整的草稿树,通过单批次树扩展加最佳优先剪枝实现。
+Result: Across seven math/code/chat benchmarks it gets the best acceptance length and speedup in all tested configurations, accepting up to 12.97 tokens per round (98.6% more than DFlash, 27.9% more than Domino) and up to 9.73x lossless speedup.
+结果:在七个数学/代码/对话基准上,所有测试配置中都取得最佳接受长度和加速比,单轮最多接受 12.97 个 token(比 DFlash 多 98.6%,比 Domino 多 27.9%),最高可实现 9.73 倍的无损加速。
+Why it matters: Inference-cost reduction of this magnitude is directly relevant to anyone tracking AI infra/serving-cost economics.
+为什么重要:这种量级的推理成本下降,对关注 AI 基础设施和推理服务成本经济学的人直接相关。
+
+Paper8 · MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination
+2026-08-14 01:00 (Beijing) · https://arxiv.org/abs/2608.13476v1
+Problem: Monolithic single-prompt LLM use in clinical reasoning makes failures hard to trace and requires heavy manual prompt engineering.
+问题:在临床推理中使用单体式、单一 prompt 的 LLM 方案,导致失败难以追溯,并需要大量人工 prompt 工程。
+Approach: MARC replaces this with deterministic multi-agent orchestration — role-specialized agents for extraction, reasoning, answer generation, and evaluation with explicit context passing — plus a Decomposer module that auto-generates task-specific agent prompts from plain-language descriptions.
+方法:MARC 用确定性的多智能体编排取而代之——针对抽取、推理、生成答案、评估设置角色专属 agent,并显式传递上下文;还引入 Decomposer 模块,能根据自然语言描述自动生成任务专属的 agent prompt。
+Result: An open-source, YAML-configurable framework supporting both API-based and local CPU-compatible deployment, released at github.com/Penn-RAIL/MARC-v1.
+结果:这是一个开源、可通过 YAML 配置的框架,支持 API 部署和本地 CPU 部署,已在 github.com/Penn-RAIL/MARC-v1 发布。
+Why it matters: A concrete open-source template for deterministic, auditable multi-agent orchestration in a high-stakes domain (clinical) — a pattern likely to spread to other regulated industries.
+为什么重要:这是一个面向高风险领域(临床)的确定性、可审计多智能体编排的具体开源模板,这种模式很可能扩散到其他受监管行业。
+
+Paper9 · AlayaWorld: Interactive Long-Horizon World Modeling (Full Technical Report v1.1)
+2026-08-14 01:21 (Beijing) · https://arxiv.org/abs/2608.13492v1
+Problem: In interactive video world models, conditioning signals (camera/motion/spatial memory) often don't match the generated content's representation or temporal structure, hurting long-horizon consistency.
+问题:在交互式视频世界模型中,条件信号(相机、运动、空间记忆)的表示和时间结构常常与生成内容不匹配,影响长时程一致性。
+Approach: This update replaces depth-warping-based spatial memory with a streaming 3D point-cache renderer, re-encodes conditioning in the same causal-VAE latent space as the generated video, and removes the separate camera-conditioning branch in favor of pure re-rendered spatial conditioning.
+方法:此次更新用流式 3D 点云缓存渲染器替换了原来基于深度扭曲的空间记忆,把条件信号重新编码到与生成视频相同的因果 VAE 潜空间中,并移除了独立的相机条件分支,改为完全依赖重渲染的空间条件。
+Result: A technical-report-level architecture revision (no new benchmark numbers reported in the abstract); the backbone, generation scheme, and training data are unchanged from the prior release.
+结果:这是一次技术报告级别的架构改进(摘要中未给出新的基准数据);主干架构、生成方式和训练数据与上一版保持不变。
+Why it matters: World models are a key building block for both robotics/embodied AI and long video generation — worth tracking as an infra layer.
+为什么重要:世界模型是机器人/具身智能和长视频生成的关键基础组件,值得作为一层基础设施持续关注。
+
+Paper10 · Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity
+2026-08-14 01:13 (Beijing) · https://arxiv.org/abs/2608.13484v1
+Problem: When asked about things outside their knowledge, LLMs tend to fabricate specific plausible-sounding details instead of retreating to safer, more general claims.
+问题:当被问及超出自身知识边界的内容时,LLM 往往会编造看似合理的具体细节,而不是退回到更安全、更笼统的表述。
+Approach: Using a T-REx-based benchmark varying entity familiarity and referent specificity, the authors probe whether model activations encode knowledge-boundary awareness and anticipate referent specificity before generation.
+方法:作者基于 T-REx 构建了一个改变实体熟悉度与指称具体度的基准,探测模型的激活是否编码了知识边界意识,以及是否能在生成前预判指称的具体程度。
+Result: Both signals are present in the activations, but models still overwhelmingly generate specific referents even for unknown entities, even when correct generic alternatives are offered — the "retreat" mechanism exists but isn't used.
+结果:两种信号在激活中都存在,但模型在面对未知实体时仍然压倒性地倾向生成具体指称,即便有正确的泛化表述可选——"退避"机制存在,却没有被使用。
+Why it matters: A precise mechanistic account of why hallucination persists even when models "know" they don't know — useful for anyone building hallucination-mitigation techniques.
+为什么重要:这为"模型明明知道自己不知道,却仍然产生幻觉"提供了精确的机制解释,对做幻觉缓解技术的人有参考价值。
+
+More papers from the same batch (brief, same relevance filter applied):
+同一批次的其他相关论文(简要,已按相同相关性标准筛选):
+
+Paper11 · HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark — 2026-08-14 01:59 (Beijing) · https://arxiv.org/abs/2608.13555v1
+A new benchmark for humanoid motion-tracking evaluation that scores physical plausibility (e.g. foot skating, mistimed contacts) rather than just per-frame pose error, aimed at teleoperation and whole-body imitation.
+一个新的人形机器人动作跟踪评测基准,关注物理合理性(如脚滑、接触时序错误)而不仅是逐帧姿态误差,面向遥操作和全身模仿场景。
+
+Paper12 · QuoteBench: How Matched Scores Can Hide Command-Path Failures — 2026-08-14 01:57 (Beijing) · https://arxiv.org/abs/2608.13547v1
+A benchmark showing that standard "matched execution score" metrics for LLM coding agents can hide bugs introduced after code generation, in how commands get serialized/reparsed before execution.
+该基准显示,评估 LLM 编程 agent 常用的"匹配执行分数"指标,可能掩盖了代码生成之后、命令被序列化/重新解析执行时引入的错误。
+
+Paper13 · LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure — 2026-08-14 01:56 (Beijing) · https://arxiv.org/abs/2608.13545v1
+Trains a 5B-parameter model from scratch on an 88B-token corpus limited to U.S. elementary-school-level material, to study knowledge/skill acquisition under controlled exposure rather than uncharacterized web-scale data.
+在一个限定为美国小学水平内容、共 88B token 的语料上从零训练一个 50 亿参数模型,用于在可控知识暴露条件下研究知识与技能习得,而非难以刻画的网络级数据。
+
+Paper14 · SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization — 2026-08-14 01:54 (Beijing) · https://arxiv.org/abs/2608.13538v1
+Instead of inferring what a sparse-autoencoder feature means from observed behavior, this injects the feature's decoder direction into the model and fine-tunes it to describe the feature in natural language directly.
+不再依靠观察行为反推稀疏自编码器特征的含义,而是把特征的解码方向直接注入模型,并微调模型让它用自然语言直接描述该特征。
+
+Paper15 · Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology — 2026-08-14 01:38 (Beijing) · https://arxiv.org/abs/2608.13518v1
+Models post-surgery cardiology recovery as an irregular, time-ordered trajectory of events rather than a single baseline-to-outcome mapping, using a structured latent patient state.
+将心脏手术后的康复过程建模为不规则、按时间排列的事件轨迹,而非单一的"基线到结果"映射,使用结构化的潜在患者状态表示。
+
+Paper16 · Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining — 2026-08-14 01:36 (Beijing) · https://arxiv.org/abs/2608.13515v1
+Proposes a way to measure how much a training example influenced a model's final parameters, without needing to pick a specific downstream task or validation set as the attribution target.
+提出一种衡量训练样本对模型最终参数影响程度的方法,无需选定特定下游任务或验证集作为归因目标。
+
+Paper17 · TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval — 2026-08-14 01:24 (Beijing) · https://arxiv.org/abs/2608.13495v1
+A multimodal embedding approach for retrieving driving-log clips that emphasizes motion-centric events (like turns), addressing a weakness of general-purpose embedding models that over-rely on static scene context.
+一种面向自动驾驶日志检索的多模态向量嵌入方法,强调转弯等以运动为中心的事件,弥补通用嵌入模型过度依赖静态场景信息的弱点。
+
+Paper18 · AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models — 2026-08-14 00:57 (Beijing) · https://arxiv.org/abs/2608.13472v1
+An LLM-based framework that unifies analog circuit topology generation and sizing, addressing prior fragmented approaches that handle only one stage and are prone to hallucination.
+一个基于 LLM 的模拟电路设计框架,统一了电路拓扑生成与器件尺寸设计两个环节,解决以往方法只处理单一环节、容易产生幻觉的问题。
+
+Paper19 · Concept Drift Detection and Adaptive Retraining of Malware Classification Models — 2026-08-14 00:47 (Beijing) · https://arxiv.org/abs/2608.13465v1
+Compares two concept-drift-detection approaches (One-Class SVM vs. Minibatch K-Means) for keeping ML-based malware classifiers accurate as attackers keep modifying malware.
+比较两种概念漂移检测方法(单类 SVM 与 Minibatch K-Means),用于在攻击者不断变化恶意软件的情况下保持基于 ML 的恶意软件分类器的准确性。
+
+Paper20 · MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification — 2026-08-14 00:45 (Beijing) · https://arxiv.org/abs/2608.13463v1
+ARMDIL uses a multimodal LLM agent to dynamically route each image to the best-suited vision backbone within an ensemble of CNNs, self-supervised models, and vision-language models, to improve cross-domain generalization.
+ARMDIL 用多模态 LLM agent 动态地把每张图片路由到集成中最合适的视觉主干网络(涵盖 CNN、自监督模型、视觉语言模型),以提升跨领域泛化能力。
+
+---
+Ask for "expand P2" / "展开 P2" or "详细讲讲 Paper1" / "这条 Paper3 为什么重要" for a deeper read on any item.
+如需深读,可回复"expand P2"/"展开 P2"或"详细讲讲 Paper1"/"这条 Paper3 为什么重要"。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
