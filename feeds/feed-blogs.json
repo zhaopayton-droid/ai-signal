@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://www.anthropic.com/news/claude-text-watermark",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "How Claude's text watermarking works",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "published": "2026-08-14T00:00:00+00:00",
+      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act. In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change."
+    },
+    {
       "id": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
@@ -46,15 +55,6 @@
       "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety."
     },
     {
-      "id": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Putting sign language AI into users’ hands",
-      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "published": "2026-08-12T14:01:59+00:00",
-      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
-    },
-    {
       "id": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -65,5 +65,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-14T10:59:27.962711+00:00"
+  "generated_at": "2026-08-14T22:19:29.027715+00:00"
 }
