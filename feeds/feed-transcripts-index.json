@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:20:52.728235+00:00",
+  "generated_at": "2026-08-15T10:25:47.814615+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 19241,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-13T11:02:29.196069+00:00",
-      "last_seen_at": "2026-08-14T22:20:52.728235+00:00",
-      "expires_at": "2026-08-28T22:20:52.728235+00:00"
+      "last_seen_at": "2026-08-15T10:25:47.814615+00:00",
+      "expires_at": "2026-08-29T10:25:47.814615+00:00"
     },
     {
       "guid": "https://lexfridman.com/?p=6494",
@@ -25,8 +25,8 @@
       "transcript_chars": 177054,
       "transcript_source": "description_transcript_link",
       "cached_at": "2026-08-12T22:37:43.564694+00:00",
-      "last_seen_at": "2026-08-14T22:20:52.728235+00:00",
-      "expires_at": "2026-08-28T22:20:52.728235+00:00"
+      "last_seen_at": "2026-08-15T10:25:47.814615+00:00",
+      "expires_at": "2026-08-29T10:25:47.814615+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
@@ -378,19 +378,6 @@
       "cached_at": "2026-07-30T11:54:31.971215+00:00",
       "last_seen_at": "2026-08-01T22:53:13.493369+00:00",
       "expires_at": "2026-08-15T22:53:13.493369+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "link": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "channel": "Latent Space",
-      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
-      "pub_date": "2026-07-29T00:46:52+00:00",
-      "transcript_path": "feeds/transcripts/586ccf3ecaabf1c389246930.txt",
-      "transcript_chars": 32980,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-29T12:03:39.193313+00:00",
-      "last_seen_at": "2026-07-31T22:58:03.570269+00:00",
-      "expires_at": "2026-08-14T22:58:03.570269+00:00"
     }
   ]
 }

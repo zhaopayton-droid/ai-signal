@@ -105,7 +105,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "episode_page: The read operation timed out; youtube: No YouTube video id in link",
+      "transcript_error": "episode_page: text too sparse to be a transcript (2521 chars for 71 min); youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -163,25 +163,6 @@
       "transcript_video_id": null,
       "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
       "transcript_chars": 0
-    },
-    {
-      "channel": "Latent Space",
-      "domain": "ai",
-      "guid": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-      "title": "[AINews] How to steal a Reasoning Trace",
-      "pub_date": "2026-08-12T07:11:08+00:00",
-      "link": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-      "audio_url": "https://substackcdn.com/image/fetch/$s_!nQZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPcJLMtagAAx07t.jpg",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Speculative Decoding by any other name would distil as sweet",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/95535ce824ed2c9cb88c1c56.txt",
-      "transcript_chars": 27391
     },
     {
       "channel": "SemiAnalysis",
@@ -375,5 +356,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-14T22:19:29.027715+00:00"
+  "generated_at": "2026-08-15T10:25:10.362573+00:00"
 }
