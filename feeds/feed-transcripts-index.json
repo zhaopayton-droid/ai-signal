@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-15T10:25:47.814615+00:00",
+  "generated_at": "2026-08-15T22:19:12.495591+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.latent.space/p/flue-2",
+      "link": "https://www.latent.space/p/flue-2",
+      "channel": "Latent Space",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "pub_date": "2026-08-15T15:46:22+00:00",
+      "transcript_path": "feeds/transcripts/fbfee43c72ee10da13765506.txt",
+      "transcript_chars": 9134,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-15T22:19:12.495591+00:00",
+      "last_seen_at": "2026-08-15T22:19:12.495591+00:00",
+      "expires_at": "2026-08-29T22:19:12.495591+00:00"
+    },
     {
       "guid": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
       "link": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
@@ -12,8 +25,8 @@
       "transcript_chars": 19241,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-13T11:02:29.196069+00:00",
-      "last_seen_at": "2026-08-15T10:25:47.814615+00:00",
-      "expires_at": "2026-08-29T10:25:47.814615+00:00"
+      "last_seen_at": "2026-08-15T22:19:12.495591+00:00",
+      "expires_at": "2026-08-29T22:19:12.495591+00:00"
     },
     {
       "guid": "https://lexfridman.com/?p=6494",

@@ -10,24 +10,15 @@
       "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act. In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change."
     },
     {
-      "id": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "published": "2026-08-13T17:04:18+00:00",
-      "summary": "Gemini 3.7 Flash is our most intelligent workhorse model yet for coding and agents."
-    },
-    {
-      "id": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "published": "2026-08-13T11:00:00+00:00",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities."
+      "id": "https://www.anthropic.com/research/multiagent-systems",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Patterns and problems in multiagent systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "published": "2026-08-13T00:00:00+00:00",
+      "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety."
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-15T10:25:10.362573+00:00"
+  "generated_at": "2026-08-15T22:18:39.379381+00:00"
 }
