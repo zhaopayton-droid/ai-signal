@@ -1,0 +1,63 @@
+🛫 起飞了 | AI Signal - 2026年8月15日
+
+Today's clearest thread is coding-agent infrastructure consolidating around configuration rather than new models: Guillermo Rauch says a single command can now wire up model choice, uptime, cost and zero-data-retention across existing harnesses like Claude Code and Codex, while Gavin Baker previews Cognition's enterprise-scale Devin ahead of a November interview with CEO Scott Wu. Alongside that, Google's Josh Woodward shipped a small but telling policy move — letting users toggle visible AI watermarks on Gemini/Flow outputs — echoing yesterday's Anthropic watermarking post as labs keep working out how AI content-provenance rules actually ship in product.
+今天最清晰的一条线索,是编程智能体的基础设施正在向"配置层"而非"新模型"方向收敛:Guillermo Rauch 提到,现在一条命令就能在 Claude Code、Codex 等现有工具上统一配置模型选择、可用性、成本和零数据留存(ZDR);与此同时,Gavin Baker 在 11 月采访 Cognition CEO Scott Wu 之前,预告了 Devin 在企业级场景的最新进展。此外,Google 的 Josh Woodward 上线了一个不起眼但值得关注的策略调整——允许用户在 Gemini/Flow 中自由开关可见 AI 水印,这与昨天 Anthropic 关于文本水印的博客文章形成呼应,反映出各大实验室仍在摸索如何把"AI 内容溯源"规则真正落到产品体验里。
+
+## X / Twitter
+
+**X1 | Guillermo Rauch (Vercel)** — 2026-08-14 03:18 北京时间
+"Try https://t.co/L9YIua3HSf with 🆓 GLM 5.2 @ up to 500TPS from @blackboxai"
+「试试用 blackboxai 提供的免费 GLM 5.2,速度最高可达 500TPS:https://t.co/L9YIua3HSf」
+https://x.com/rauchg/status/2087982033499042205
+
+**X2 | Guillermo Rauch (Vercel)** — 2026-08-14 05:51 北京时间
+Rauch predicts a single unifying "token" command will become the default way to run coding AI at scale — without switching tools — layering in uptime, model choice, lower costs, observability and zero-data-retention (ZDR) on top of existing harnesses like Claude Code and Codex.
+Rauch 认为,一条统一的"token"命令将成为大规模使用编程 AI 的默认方式——不需要更换现有工具(如 Claude Code 和 Codex),就能一并获得高可用性、模型可选、更低成本、可观测性和零数据留存(ZDR)等能力。
+"One command to rule them all (tokens). I predict that this will become the default way of using coding AI at scale. Uptime, model choice, lower costs, observability, ZDR… The cool thing is that this command configures every *existing* coding harness, like Claude Code & Codex!"
+https://x.com/rauchg/status/2088020529039180204
+
+**X3 | Gavin Baker (Atreides Management)** — 2026-08-14 07:20 北京时间
+Ahead of interviewing Cognition CEO Scott Wu at the Tomorrow-X Summit in Austin this November, Baker recaps Cognition's progress with Devin — its autonomous AI engineering agent, deployed at firms like Goldman Sachs and Mercedes-Benz — pointing to the multi-model "Devin Fusion" harness, its own SWE-1.7 model, and a new AI Productivity Guarantee worth up to $10M.
+在 11 月于奥斯汀举行的 Tomorrow-X Summit 上采访 Cognition 联合创始人兼 CEO Scott Wu 之前,Gavin Baker 回顾了 Cognition 旗下自主 AI 工程智能体 Devin 的最新进展——已在高盛、梅赛德斯-奔驰等机构落地,核心能力包括多模型编排的"Devin Fusion"框架、自研的 SWE-1.7 模型,以及最高可达 1000 万美元的全新"AI Productivity Guarantee"(AI 生产力保障)。
+"Cognition operates Devin, the first autonomous AI engineering agent which is deployed at some of the largest institutions in the world including Goldman Sachs and Mercedes-Benz. Devin continues to push the frontier of performance at dramatically lower costs for software development through a combination of Devin Fusion (multi-model harness) as well as its own 1P models such as SWE-1.7. As a testament to their conviction in their AI agent advancements, Cognition has introduced an AI Productivity Guarantee up to $10M."
+https://x.com/GavinSBaker/status/2088043165244854436
+
+**X4 | swyx** — 2026-08-14 07:44 北京时间
+swyx marks the close of his run advising Arize AI, now grown into Dynarize — which he describes as a $14B AI observability company that just added one of the strongest AI-native teams in the industry — and points to AI Engineer NYC this fall, where Dynarize will be the first non-hyperscaler presenting sponsor.
+swyx 宣布自己为 Arize AI 提供顾问服务的阶段告一段落,该公司现已发展为 Dynarize——他形容其为估值 140 亿美元的 AI 可观测性平台,并刚吸纳了业内最强的 AI 原生团队之一;他同时预告了今秋在纽约举行的 AI Engineer 大会,Dynarize 将成为首家非大云厂商的冠名赞助商。
+"it's been a huge huge pleasure to serve @arizeai these past years with AIE, and this could not happen to better people. Dynarize is now a globally trusted $14B observability powerhouse that just got one of the best AI-native US teams in this business."
+https://x.com/swyx/status/2088049159509344265
+
+**X5 | swyx** — 2026-08-14 09:22 北京时间
+swyx describes a new "/align-me" workflow tweak, inspired by conversations with Matt Pocock and trq212, that batches multiple clarifying questions together instead of asking one at a time — the same intuition as speculative decoding, looking several steps ahead to cut costly back-and-forth with a human — and says it works especially well for open-ended design exploration.
+swyx 分享了一个新的"/align-me"工作流改造:受 Matt Pocock 和 trq212 的启发,把原本一轮一轮问的澄清问题改成批量提问,思路类似投机解码(speculative decoding)——提前看几步以减少代价高昂的人机来回沟通——他表示这种方式在开放式设计探索场景中效果尤其好。
+"human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for batches of questions instead of round-by-round. same intuition as spec decoding, you speed up by looking ahead 2-10 steps. works INCREDIBLY for design explorations"
+https://x.com/swyx/status/2088073777779515615
+
+**X6 | Jie Tang (Zhipu AI / GLM)** — 2026-08-14 13:28 北京时间
+"GLM-5.3 is coming. focusing on coding."
+「GLM-5.3 即将到来,重点聚焦编程能力。」
+https://x.com/jietang/status/2088135673597534246
+
+**X7 | Josh Woodward (Google)** — 2026-08-14 21:39 北京时间
+Google's Josh Woodward announced a fix letting users toggle visible watermarks on or off across Gemini and Flow outputs — images (Nano Banana), video (Omni) and music (Lyria) — with search support coming next, except in countries where visible watermarks are legally required.
+Google 的 Josh Woodward 宣布修复了一个体验问题:用户现在可以在 Gemini 和 Flow 中自由开关可见水印,覆盖图片(Nano Banana)、视频(Omni)和音乐(Lyria)生成内容,搜索场景的支持也将陆续上线;在法律要求保留可见水印的国家/地区除外。
+"✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next. This applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it's required by law to keep them."
+https://x.com/joshwoodward/status/2088259242423968162
+
+**X8 | Gavin Baker (Atreides Management)** — 2026-08-15 00:17 北京时间
+Baker highlights Matic, a home-cleaning robot that responds to voice commands like "Hey Matic, go clean the kitchen," calling out its first 10/10 product rating from Wired in a decade and noting his firm Atreides Management is an investor.
+Gavin Baker 力荐家庭清洁机器人 Matic——可以直接对它说"嘿 Matic,去打扫厨房"——并指出它拿到了 Wired 十年来罕见的满分(10/10)产品评测,他所在的 Atreides Management 也是这家公司的投资方。
+"Really does work as advertised. 'Hey Matic go clean the kitchen.' First 10/10 product rating from Wired in a decade. And kids love it for some strange reason. Happy that @Atreidesmgmt is an investor."
+https://x.com/GavinSBaker/status/2088298923693596767
+
+**X9 | Guillermo Rauch (Vercel)** — 2026-08-15 01:54 北京时间
+"Vercel is the fastest [AI Gateway] infrastructure in the world"
+「Vercel 是全球最快的 AI Gateway 基础设施。」
+https://x.com/rauchg/status/2088323451132199338
+
+---
+You can ask to go deeper on any item, e.g. "展开 X3" or "expand X7".
+如需深度解读某一条,可以说「展开 X3」或「expand X7」。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
