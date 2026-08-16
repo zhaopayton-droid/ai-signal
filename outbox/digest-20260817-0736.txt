@@ -1,0 +1,49 @@
+🛫 起飞了 | AI Signal - 2026年8月17日
+
+Dario Amodei broke his usual silence on social media with a long, careful reply to Gavin Baker's critique, laying out why he thinks AI concentrates power for structural reasons (scaling laws), not because of regulation itself — and why Anthropic keeps designing its policy asks to favor smaller challengers over frontier labs. Dario Amodei 罕见地在 X 上公开回应 Gavin Baker 的批评,详细阐述了他认为 AI 集中权力的根源是规模法则等结构性因素,而非监管本身,并解释 Anthropic 为何总是设计对中小挑战者更有利、而非偏袒头部实验室的政策主张。Elsewhere, DeepSeek V4 Flash quietly showed up running fast on Vercel's AI Gateway, and Lenny's Podcast talked to OpenAI's head of design about what AI is doing to design work.
+另外,DeepSeek V4 Flash 悄悄登陆 Vercel AI Gateway 并跑出很快的速度;Lenny's Podcast 也采访了 OpenAI 设计负责人,聊了聊 AI 正在如何改变设计这份工作。
+
+━━━━━━━━━━
+X / Twitter
+━━━━━━━━━━
+
+X1 · Dario Amodei (@DarioAmodei on X) · 2026-08-16 06:44 (北京时间)
+https://x.com/DarioAmodei/status/2088758816376807762
+
+In a reply to Gavin Baker (who had argued Dario "lost the argument" on AI regulation), Dario lays out his fullest public case yet: he rejects the framing that the only choice is "concentrate power via regulation" vs. "distribute it widely," calling that a false binary. He argues Anthropic has deliberately designed its policy proposals (SB53, SB1047, the CAISI/White House testing framework, the "Pacing the Frontier" letter) to exempt smaller companies and burden frontier labs more — i.e., to help challengers, not entrench Anthropic. His core claim: AI concentrates power structurally, because of scaling laws, not because of regulation — and open-weights models don't fully solve this since they just shift concentration toward whoever has the most compute. He says he supports the Trump administration's reported approach (pre-deployment testing for frontier models, testing of open-weights models as they near the frontier) and Demis Hassabis's idea of a FINRA-like AI oversight body.
+
+在回应 Gavin Baker(此前评价 Dario 在 AI 监管问题上"输掉了争论")时,Dario 给出了迄今为止最完整的公开表态:他反对"要么靠监管把权力集中到少数公司和政客手里,要么彻底放开分散权力"这种非此即彼的框架,认为这是伪二选一。他表示 Anthropic 一直刻意把政策主张(SB53、SB1047、CAISI/白宫的测试框架、"Pacing the Frontier" 联名信)设计成豁免中小公司、给头部实验室加更多约束——也就是说这些提案是在帮挑战者,而不是巩固 Anthropic 自身地位。他的核心论点是:AI 集中权力是结构性的,根源在于规模法则(scaling laws),而不是监管造成的;开源权重模型也不能完全解决这个问题,因为它只是把集中效应转移给了算力最多的一方。他表示支持特朗普政府据报道正在采取的路径(对前沿模型做部署前测试,对逐渐接近前沿水平的开源模型也进行测试),也支持 Demis Hassabis 提出的、类似 FINRA 的 AI 监管机构构想。
+
+X2 · Guillermo Rauch / rauchg on X · 2026-08-16 09:32 (北京时间)
+https://x.com/rauchg/status/2088801077659635715
+
+Original: "Impressive" — quote-tweeting @wafer_ai's post: "Deepseek V4 Flash 0731 Fast⚡️ on @vercel AI Gateway"
+原文:"Impressive"(令人印象深刻)——引用了 @wafer_ai 的帖子:"Deepseek V4 Flash 0731 Fast⚡️ on @vercel AI Gateway"(DeepSeek V4 Flash 0731 版本在 Vercel AI Gateway 上跑得很快)
+Vercel CEO 转发了一条关于 DeepSeek V4 Flash 模型在 Vercel AI Gateway 上表现出高速推理的帖子,未附具体数据,但作为平台方的正面表态本身是个信号。
+
+━━━━━━━━━━
+Podcasts
+━━━━━━━━━━
+
+P1 · Lenny's Podcast · "OpenAI's Head of Design: This is the best time in history to be a designer | Ian Silber" · 2026-08-16 20:31 (北京时间)
+https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the
+
+Takeaway: OpenAI's head of product design, Ian Silber, argues this is the best moment in history to be a designer — the episode is framed around where AI still can't beat humans on design work, and how to avoid being overwhelmed by the pace of change.
+要点:OpenAI 产品设计负责人 Ian Silber 认为现在是设计师职业生涯最好的时代——本期节目围绕"AI 目前在设计上还比不过人类的地方",以及"如何在变化节奏中不被淹没"展开。
+
+Why it matters: As AI-generated design and prototyping tools spread fast, a hands-on account from inside OpenAI's own design org is a useful read on where the human edge still holds — relevant for both product teams and anyone investing around AI-native design/dev tooling.
+为什么重要:随着 AI 生成式设计和原型工具快速普及,来自 OpenAI 设计团队内部的一手视角,能帮助判断人类设计师的优势到底还剩在哪里——这对产品团队和关注 AI 原生设计/开发工具赛道的投资者都有参考价值。
+
+(Metadata/description only for the daily digest — say "展开 P1" for a deeper transcript-based read once you want more detail.)
+(日报仅使用元数据和简介,未读取完整转写——如需深度解读可回复"展开 P1"。)
+
+━━━━━━━━━━
+
+No new Official Blog posts or arXiv papers in this cycle.
+本时段无新的官方博客文章或 arXiv 论文更新。
+
+━━━━━━━━━━
+
+You can ask to go deeper on any item — e.g. "expand P1" or "展开 P1", "这条 X1 为什么重要？". 你可以让我针对任意一条深入展开,比如"expand P1"或"展开 P1"、"这条 X1 为什么重要？"。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
