@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:19:12.495591+00:00",
+  "generated_at": "2026-08-16T10:25:30.354304+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 9134,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-15T22:19:12.495591+00:00",
-      "last_seen_at": "2026-08-15T22:19:12.495591+00:00",
-      "expires_at": "2026-08-29T22:19:12.495591+00:00"
+      "last_seen_at": "2026-08-16T10:25:30.354304+00:00",
+      "expires_at": "2026-08-30T10:25:30.354304+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
@@ -365,32 +365,6 @@
       "cached_at": "2026-07-31T12:02:26.849298+00:00",
       "last_seen_at": "2026-08-02T22:54:15.205429+00:00",
       "expires_at": "2026-08-16T22:54:15.205429+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ontologies-agentic-systems",
-      "link": "https://www.latent.space/p/ontologies-agentic-systems",
-      "channel": "Latent Space",
-      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
-      "pub_date": "2026-07-30T11:17:55+00:00",
-      "transcript_path": "feeds/transcripts/dba7688fc4973fc1fce117a5.txt",
-      "transcript_chars": 6890,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-30T11:54:31.971215+00:00",
-      "last_seen_at": "2026-08-01T22:53:13.493369+00:00",
-      "expires_at": "2026-08-15T22:53:13.493369+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
-      "link": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
-      "channel": "Latent Space",
-      "title": "[AINews] AI is eating Finance; AIE NYC now open",
-      "pub_date": "2026-07-29T23:32:12+00:00",
-      "transcript_path": "feeds/transcripts/2486ea5306aa9021c5620533.txt",
-      "transcript_chars": 14252,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-30T11:54:31.971215+00:00",
-      "last_seen_at": "2026-08-01T22:53:13.493369+00:00",
-      "expires_at": "2026-08-15T22:53:13.493369+00:00"
     }
   ]
 }
