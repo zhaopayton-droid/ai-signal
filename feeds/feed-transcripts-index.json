@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:18:24.752962+00:00",
+  "generated_at": "2026-08-17T10:34:44.550487+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 5779,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-16T22:18:24.752962+00:00",
-      "last_seen_at": "2026-08-16T22:18:24.752962+00:00",
-      "expires_at": "2026-08-30T22:18:24.752962+00:00"
+      "last_seen_at": "2026-08-17T10:34:44.550487+00:00",
+      "expires_at": "2026-08-31T10:34:44.550487+00:00"
     },
     {
       "guid": "https://www.latent.space/p/flue-2",
@@ -25,8 +25,8 @@
       "transcript_chars": 9134,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-15T22:19:12.495591+00:00",
-      "last_seen_at": "2026-08-16T22:18:24.752962+00:00",
-      "expires_at": "2026-08-30T22:18:24.752962+00:00"
+      "last_seen_at": "2026-08-17T10:34:44.550487+00:00",
+      "expires_at": "2026-08-31T10:34:44.550487+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
@@ -365,19 +365,6 @@
       "cached_at": "2026-08-01T11:18:52.018522+00:00",
       "last_seen_at": "2026-08-03T22:58:29.729879+00:00",
       "expires_at": "2026-08-17T22:58:29.729879+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-      "link": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-      "channel": "Latent Space",
-      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-      "pub_date": "2026-07-31T04:40:54+00:00",
-      "transcript_path": "feeds/transcripts/afb5e0fc7fe1e48c12fcc306.txt",
-      "transcript_chars": 13558,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-07-31T12:02:26.849298+00:00",
-      "last_seen_at": "2026-08-02T22:54:15.205429+00:00",
-      "expires_at": "2026-08-16T22:54:15.205429+00:00"
     }
   ]
 }
