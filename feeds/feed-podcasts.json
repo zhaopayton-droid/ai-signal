@@ -1,6 +1,62 @@
 {
   "podcasts": [
     {
+      "channel": "Latent Space",
+      "domain": "ai",
+      "guid": "https://www.latent.space/p/glean-model-routing",
+      "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+      "pub_date": "2026-08-18T21:41:10+00:00",
+      "link": "https://www.latent.space/p/glean-model-routing",
+      "audio_url": "https://substackcdn.com/image/fetch/$s_!mpso!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ac64fa7-87ce-4106-816c-5811822047e1_1280x720.png",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Lenny's Podcast",
+      "domain": "ai",
+      "guid": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+      "pub_date": "2026-08-18T21:30:31+00:00",
+      "link": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+      "audio_url": "https://api.substack.com/feed/podcast/211737019/7311da6f6320066679f24efa88a18a57.mp3",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "Watch now | &#127897;&#65039; I tested Grok Bot, Cursor Origin, and Grok 4.6 head-to-head against my favorite models and ranked them on the Claire Index: here's what actually moved the needle",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/eddd6665c6a4b6ce7a108211.txt",
+      "transcript_chars": 4700
+    },
+    {
+      "channel": "Lenny's Podcast",
+      "domain": "ai",
+      "guid": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+      "pub_date": "2026-08-18T15:40:06+00:00",
+      "link": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+      "audio_url": "https://substackcdn.com/image/fetch/$s_!PFZn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f696879-6374-42d6-a171-47933f6eb126_1456x970.png",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/e6144fc713f98d0f75a19a9d.txt",
+      "transcript_chars": 6308
+    },
+    {
       "channel": "a16z",
       "domain": "ai",
       "guid": "293ae091-1596-474c-bc94-7403bc58a375",
@@ -33,7 +89,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "episode_page: Client error '404 Not Found' for url 'https://colossus.com/episode/winners-losers-ai-era/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; youtube: No YouTube video id in link",
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -162,7 +218,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "episode_page: The read operation timed out; youtube: No YouTube video id in link",
+      "transcript_error": "episode_page: text too sparse to be a transcript (2758 chars for 48 min); youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -183,43 +239,6 @@
       "transcript_error": null,
       "transcript_path": "feeds/transcripts/cefbd24e71a4c8554d61d89c.txt",
       "transcript_chars": 5779
-    },
-    {
-      "channel": "Lenny's Podcast",
-      "domain": "ai",
-      "guid": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
-      "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
-      "pub_date": "2026-08-15T17:01:13+00:00",
-      "link": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
-      "audio_url": "https://substackcdn.com/image/fetch/$s_!KxHU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Community Wisdom 197",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "Latent Space",
-      "domain": "ai",
-      "guid": "https://www.latent.space/p/flue-2",
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-      "pub_date": "2026-08-15T15:46:22+00:00",
-      "link": "https://www.latent.space/p/flue-2",
-      "audio_url": "https://substackcdn.com/image/fetch/$s_!Osie!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F131d402d-63bf-4895-b5e7-b8990972a14c_1280x720.png",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.latent.space/p/flue-2",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/fbfee43c72ee10da13765506.txt",
-      "transcript_chars": 9134
     },
     {
       "channel": "SemiAnalysis",
@@ -348,5 +367,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-18T10:31:00.491665+00:00"
+  "generated_at": "2026-08-18T22:19:28.417967+00:00"
 }
