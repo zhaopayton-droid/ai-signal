@@ -1,0 +1,163 @@
+🛫 起飞了 | AI Signal - 2026年8月19日
+
+Today's single biggest signal is Sam Altman publicly announcing that OpenAI has paused some frontier RL training runs to catch up on alignment, security and monitoring — a rare admission that capability is outrunning safety infrastructure, landing the same day Gavin Baker is dissecting a rumored $65B Anthropic ARR figure as IPO-roadshow positioning. Underneath that, arXiv delivered a fully refreshed batch of papers probing exactly the reliability gap this implies: self-improving agents that are far more fragile (and order-dependent) than advertised, a risk-controlled framework for LLM judges, and Claude Opus 4.8 quietly taking a gold-medal-equivalent score on a linguistics-reasoning olympiad.
+今天最大的单条信号,是 Sam Altman 公开宣布 OpenAI 已暂停部分前沿强化学习训练,以补齐对齐、安全与监控方面的建设——这是一次颇为罕见的公开承认:模型能力的推进速度已经超过了安全基础设施的建设速度。同一天,Gavin Baker 也在拆解一个传闻中的 Anthropic 650 亿美元 ARR 数字,认为这更像是为即将到来的 IPO 路演造势。与此同时,arXiv 这一批全新论文恰好在探讨这种"能力与可靠性脱节"的具体表现:自我改进型智能体远比宣传的更脆弱、也更依赖任务顺序;一套给 LLM 裁判加风险控制的框架;以及 Claude Opus 4.8 在一场语言学推理奥林匹克竞赛中悄悄拿到了相当于金牌的成绩。
+
+## X / Twitter
+
+**X1 | Sam Altman (OpenAI)** — 2026-08-19 02:53 北京时间
+Altman says OpenAI has paused some frontier RL training to make sure alignment, security and monitoring can keep pace with the new level of model capability, framing this as following through on a standing commitment to act unilaterally if capabilities start outrunning safety work. He says the field will need shared safety standards over time, and that OpenAI remains committed to keeping frontier capabilities widely available.
+Altman 表示 OpenAI 已暂停部分前沿强化学习训练,以确保对齐、安全与监控能力能跟上新一软模型能力的发展——他将此定性为兑现此前的承诺:一旦感到模型能力超出安全与对齐工作的进度,就会采取行动。他说整个行业长期需要共同的安全标准,同时强调 OpenAI 仍致力于让前沿能力保持广泛可用。
+https://x.com/sama/status/2089787807611195475
+
+**X2 | Gavin Baker (Atreides Management)** — 2026-08-18 23:02 北京时间
+Baker unpacks a reported $65B Anthropic ARR figure, reading it as timed to help Anthropic's forthcoming IPO roadshow — the idea being Anthropic can later say ARR jumped further after adding capacity through Q3. He predicts OpenAI will counter with its own leaked growth numbers (noting Codex users have nearly tripled in five weeks) and calls the whole IPO run-up "so much gamesmanship," while reading the $65B figure as impressive given Anthropic's capacity constraints even as he thinks OpenAI, open source, and Grok are all taking share from Anthropic on the margin.
+Baker 分析了一个据称是 Anthropic 650 亿美元年化收入(ARR)的数字,认为这个时间点是为了配合 Anthropic 即将启动的 IPO 路演——逻辑是:等三季度产能上线后,Anthropic 可以再讲一个"ARR 进一步跳升"的故事。他预计 OpenAI 会用自己的增长数据反击(并提到 Codex 用户数五周内几乎翻了三倍),称整场 IPO 前哨战"全是博弈";他认为考虑到 Anthropic 自身产能有限,650 亿美元这个数字已经相当亮眼,但同时也认为在边际上,OpenAI、开源模型和 Grok 都在从 Anthropic 手里抢份额。
+https://x.com/GavinSBaker/status/2089729629695234462
+
+**X3 | Irrational Analysis (SemiAnalysis)** — 2026-08-18 14:31 北京时间
+A chart visually comparing how VCs annualize Anthropic's ARR using "last day of the month" versus "trailing 28 days" methodology — no further text commentary provided.
+一张图表,直观对比风险投资人用"月末单日"与"过去 28 天滚动平均"两种口径来年化 Anthropic 收入时得出的不同结果——推文本身没有附加文字解读。
+https://x.com/insane_analyst/status/2089601068170973324
+
+**X4 | Irrational Analysis (SemiAnalysis)** — 2026-08-18 04:48 北京时间
+"Hearing stronger rumors Google rejected the 'differentiated' Coherent liquid crystal OCS. (its differentiated by being bad with huge optical insertion loss)"
+「听到更多传闻称,Google 拒绝了 Coherent 那款所谓『差异化』的液晶光路交换机(OCS)。(它的『差异化』其实是插入损耗过大、表现不佳。)」
+https://x.com/insane_analyst/status/2089454332345536870
+
+**X5 | Guillermo Rauch (Vercel)** — 2026-08-19 00:13 北京时间
+Vercel is putting $1M toward publicly testing the security of Vercel Sandbox, inviting anyone to try to escape its Firecracker microVM or defeat its host-side network boundary, with bounties up to $50k per report via HackerOne. Rauch frames this as bringing transparency to what frontier models can and cannot actually break out of, and commits to patching and sharing findings publicly.
+Vercel 拿出 100 万美元,公开邀请任何人测试 Vercel Sandbox 的安全性——尝试逃逸其 Firecracker 微虚拟机,或突破主机侧网络边界,单个漏洞报告最高可获 5 万美元奖励(通过 HackerOne 发放)。Rauch 表示这是为了让"前沿模型到底能不能真正突破沙箱护栏"这件事变得透明,并承诺会公开修补和分享发现。
+https://x.com/rauchg/status/2089747453004468339
+
+**X6 | Guillermo Rauch (Vercel)** — 2026-08-19 05:45 北京时间
+Rauch says he's now daily-driving Vercel Labs' newly open-sourced "fx" — a tiny (6.3MiB), native coding-agent CLI written in Zig that cold-starts in 10 microseconds, is 10-20x smaller than major coding CLIs, and is embeddable anywhere including via WebAssembly in a browser. It's open source and model-agnostic, positioned as an experiment in "how fast can a coding agent be."
+Rauch 表示自己已经把 Vercel Labs 新开源的 "fx" 作为日常主力工具——这是一个用 Zig 编写的极小型(6.3MB)原生编程智能体 CLI,冷启动仅需 10 微秒,体积比主流编程 CLI 小 10-20 倍,还可以通过 WebAssembly 嵌入浏览器等任意环境。它开源、且不绑定特定模型,定位是探索"编程智能体到底能做到多快"。
+https://x.com/rauchg/status/2089831055373316274
+
+**X7 | Guillermo Rauch (Vercel)** — 2026-08-19 04:00 北京时间
+"Your software factory should be a monorepo. All your company context (design, marketing, sales, engineering, support…) in one place for agents to build upon" — quoting Turborepo's framing of itself as "the build system for agentic coding."
+「你的软件工厂应该是一个单体仓库(monorepo)。把公司的全部上下文(设计、市场、销售、工程、支持……)都放在同一个地方,供智能体在此基础上构建。」——引用 Turborepo 对自身的定位:"面向智能体编程的构建系统"。
+https://x.com/rauchg/status/2089804717337817514
+
+**X8 | Boris Cherny (Claude Code)** — 2026-08-18 10:20 / 10:24 北京时间
+Cherny highlighted two Claude Code updates from the ClaudeDevs account: a new `/design` skill (research preview) that brings Claude Design's editable-artboard workflow into the CLI and Desktop — pick an artboard, tweak it, have Claude implement it — and a performance fix that halves Claude Code CLI's p99 CPU usage by having Bun's garbage collector wait for idle time instead of firing on a fixed timer mid-turn.
+Cherny 转发了 ClaudeDevs 账号发布的两项 Claude Code 更新:一是全新的 `/design` 技能(研究预览版),把 Claude Design 那套"可编辑画板"工作流带入 CLI 和桌面端——选一个画板方案、微调,再让 Claude 实现;二是一项性能修复,把 Claude Code CLI 的 p99 CPU 占用降低了一半,做法是让 Bun 的垃圾回收器改为在空闲时才触发,而不是按固定周期在任务进行中触发。
+https://x.com/bcherny/status/2089537919795212565 / https://x.com/bcherny/status/2089538781909332210
+
+**X9 | Josh Woodward (Google Labs)** — 2026-08-18 09:12 北京时间
+Woodward posts a roadmap update on Gemini improvements he'd promised to follow up on: revamped Workspace tools testing in 1-2 weeks, tool-calling improvements from 3.7 Flash with more coming, a finished new "Projects" design now being implemented, 49 (and growing) supported connectors, and several other items marked done — including fixes for the "biggest over-triggering bugs."
+Woodward 发布了此前承诺跟进的 Gemini 改进路线图:重制版 Workspace 工具将在 1-2 周内测试;3.7 Flash 在工具调用方面有所改进,后续还会有更多;全新"Projects"设计已完成、正在实现;目前已支持 49 个(且还在增加的)连接器;还有若干项已标记为完成,包括修复了"最严重的误触发问题"。
+https://x.com/joshwoodward/status/2089520767281324112
+
+## Podcasts
+
+**P1 | Latent Space — 2026-08-19 16:44 北京时间**
+[AINews] Memory prices up 500% in 12 months
+https://www.latent.space/p/ainews-memory-prices-up-500-in-12
+
+Note: the feed only carries a title and a one-line description for this item ("the Memory crunch continues - Moore's Law reversed to 2007 levels") — no further detail is available, so the summary below is limited to what's in that line.
+说明:该条目在信息源中只有标题和一句话描述("内存危机仍在持续——摩尔定律倒退回了 2007 年的水平"),没有更多细节,以下摘要仅基于这一句话。
+
+Takeaway: Per the headline and one-line summary, DRAM/memory pricing has risen roughly 500% over the past year, described as a reversal of Moore's Law back to 2007-era cost/density levels.
+要点:据标题与简介所述,过去一年 DRAM/内存价格上涨了约 500%,被形容为摩尔定律"倒退"回了 2007 年前后的成本与密度水平。
+Why it matters: Memory pricing is a direct input cost for AI training and inference infrastructure — a 500% spike (if accurate) would be a major, underappreciated cost pressure on every AI lab and cloud provider building out capacity, and connects to X4's rumor about optical-switching component choices in the same buildout.
+为什么重要:内存价格是 AI 训练与推理基础设施的直接成本项——如果这个 500% 的涨幅属实,将对所有正在扩产的 AI 实验室与云厂商构成一个重大但尚未被充分重视的成本压力,也与 X4 中关于同一轮基建里光交换元件选型的传闻形成呼应。
+
+## Official Blogs
+
+**B1 | OpenAI: ChatGPT Ads expands across Europe**
+What was announced: ChatGPT Ads is expanding to 31 European markets, per the official summary, aimed at letting advertisers reach people as they explore, compare options, and make purchase decisions inside ChatGPT.
+公告内容:据官方说明,ChatGPT Ads 广告业务已扩展至 31 个欧洲市场,目的是让广告主能够在用户使用 ChatGPT 探索、比较和做购买决策的过程中触达用户。
+Why it matters: A concrete step in OpenAI's ad-monetization build-out beyond the US, relevant to anyone tracking how ChatGPT's business model is diversifying and how it might compete with Google/Meta for ad budgets in Europe.
+为什么重要:这是 OpenAI 广告变现业务在美国以外市场的一次具体扩张,对于关注 ChatGPT 商业模式多元化、以及它未来如何在欧洲与 Google、Meta 争夺广告预算的人有参考价值。
+https://openai.com/index/chatgpt-ads-expands-across-europe
+
+## Papers
+
+**Paper1 | On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification — 2026-08-19 01:55 北京时间**
+https://arxiv.org/abs/2608.18066v1
+
+Problem: Memory-based self-improving agents (which learn from a stream of tasks by maintaining a textual memory bank) are promoted as a promising direction, but their reliability had not been rigorously stress-tested.
+问题:基于记忆的自我改进型智能体(通过维护文本记忆库、从任务流中持续学习)被视为很有前景的方向,但此前很少有人严格测试过它们的可靠性。
+Approach: The authors re-evaluate two memory-based methods across multiple runs (to measure variance) and with randomly shuffled task orders (to test order-dependence), then examine agent memories to probe whether task/environment underspecification explains the fragility, testing this by adding detailed rubrics and environment feedback.
+方法:作者对两种基于记忆的方法进行了多次重复实验(以衡量方差),并对任务顺序做随机打乱(以检验对顺序的依赖性),随后检查智能体的记忆内容,验证"任务/环境描述不充分"是否是脆弱性的根源——具体做法是在记忆构建中加入更详细的评分细则和环境反馈。
+Result: Agent evaluation is inherently noisy and self-improvement loops amplify that noise; performance is highly order-dependent because prior default task orderings act as a hidden curriculum; adding better specification partially closes the gap but significant fragility remains unexplained.
+结果:智能体评估本身就存在较大噪声,而自我改进循环会进一步放大这种噪声;智能体的表现高度依赖任务顺序,因为此前默认的任务排列实际上充当了一种隐藏的"课程安排";加入更充分的任务说明能部分缓解性能下降,但仍有相当一部分脆弱性无法解释。
+
+**Paper2 | TokEval: A Tokenizer Evaluation Suite — 2026-08-19 01:52 北京时间**
+https://arxiv.org/abs/2608.18062v1
+
+Problem: LLM tokenizers are usually chosen with minimal evaluation even though their design directly affects downstream model capability, partly because it's unclear which tokenizer properties actually predict which downstream abilities.
+问题:LLM 分词器的选择通常缺乏严格评估,尽管其设计会直接影响模型下游能力——部分原因是目前尚不清楚哪些分词器内在属性能够预测哪些具体的下游能力。
+Approach: TokEval introduces evaluation metrics beyond fertility/compression rate — e.g. UTF-8 boundary integrity, digit place-value alignment for math — and validates them via controlled pretraining runs that vary only tokenizer training data, pretokenization, and training algorithm.
+方法:TokEval 提出了超越"fertility(分词率)"与压缩率的新评估指标——例如 UTF-8 字符边界完整性、面向数学的数字位值对齐等——并通过只改变分词器训练数据、预分词策略与训练算法的受控预训练实验来验证这些指标的有效性。
+Result: Information-theoretic metrics predict language-modeling ability well (Spearman rho up to 0.80), while structure-sensitive metrics (digit/line-break handling) correlate with task accuracy instead — suggesting intrinsic tokenizer measurement could replace some pretraining sweeps.
+结果:信息论类指标能较好地预测语言建模能力(斯皮尔曼相关系数最高达 0.80),而结构敏感型指标(如数字、换行处理)则与任务准确率相关性更强——这说明分词器的内在度量指标在某些情况下可以替代成本高昂的预训练扫描实验。
+
+**Paper3 | StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents — 2026-08-19 01:44 北京时间**
+https://arxiv.org/abs/2608.18050v1
+
+Problem: AI agents doing knowledge work (editing docs, spreadsheets, slides, code) often operate on parsed views, native files, review diffs, and submitted artifacts that silently drift out of sync with each other, unlike coding agents which have explicit repository contracts for this.
+问题:从事知识工作的 AI 智能体(编辑文档、表格、幻灯片、代码等)所依赖的"解析视图""原生文件""审阅差异""提交产物"之间常常悄悄不同步——而编程智能体已经有明确的仓库(repository)契约来处理这个问题,其他知识工作场景却缺少类似机制。
+Approach: StagedWorkspace introduces a versioned workspace that binds parsed records and review diffs to content hashes of the native files as they change, tested via fixed-harness ablations on the OfficeQA Pro and APEX-Agents benchmarks.
+方法:StagedWorkspace 提出一个"带版本的工作区",将解析记录与审阅差异同原生文件变化时的内容哈希绑定在一起,并在固定执行框架下用 OfficeQA Pro 和 APEX-Agents 两个基准做消融实验验证。
+Result: Dual parsed/native access improves OfficeQA Pass@1 by 8.3-12.1 points and APEX mean rubric score by 4.7-9.2 points over a single-view baseline; the resulting SW-Agent scores 63.9% (Gemini 3.1 Pro) on OfficeQA and 42.1 (GPT-5.4 Nano) on APEX, versus published same-model scores of 29.3% and 25.5.
+结果:相比单一视图基线,"解析视图+原生文件"双重访问让 OfficeQA 的 Pass@1 提升 8.3-12.1 个百分点,APEX 平均评分提升 4.7-9.2 分;由此得到的 SW-Agent 在 OfficeQA 上(Gemini 3.1 Pro)得分 63.9%,在 APEX 上(GPT-5.4 Nano)得分 42.1,而此前公开报道的同模型分数分别只有 29.3% 和 25.5。
+
+**Paper4 | Chain-of-Experience for Continual LLM Improvement — 2026-08-19 01:22 北京时间**
+https://arxiv.org/abs/2608.18027v1
+
+Problem: Standard LLM evaluations are zero-shot and ignore whether a model can improve through iterative, inference-time interaction the way humans learn from experience.
+问题:标准的 LLM 评估方式基本都是零样本测试,忽略了模型是否能像人类从经验中学习那样,通过推理阶段的多轮交互不断改进。
+Approach: The authors define "Chain-of-Experience" (CoE), where models accumulate experiential traces from self-feedback or environmental signals (correctness, test pass rates) across iterations, tested with 8 LLMs (including GPT-5, Gemini-2.5 Pro, Claude-4.5 Sonnet) on math, coding, and knowledge tasks.
+方法:作者提出"经验链"(Chain-of-Experience, CoE)概念,让模型在多轮迭代中通过自我反馈或环境信号(正确性、测试通过率等)不断积累经验轨迹,并在数学、代码和知识类任务上用 8 个 LLM(包括 GPT-5、Gemini-2.5 Pro、Claude-4.5 Sonnet)进行了测试。
+Result: Iterative experience consistently beats feedback-free baselines, with self-feedback alone yielding substantial gains, a 5.6% overall improvement and 19% lower API cost across tasks/models, and combining feedback channels (e.g. model + correctness signals) producing further gains.
+结果:利用迭代经验的效果持续优于无反馈基线;仅靠模型自我反馈就能带来明显提升,在所有任务和模型上平均提升 5.6%、API 成本降低 19%;同时使用多种反馈通道(如模型反馈加正确性信号)还能带来进一步增益。
+
+**Paper5 | The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning — 2026-08-19 01:00 北京时间**
+https://arxiv.org/abs/2608.18011v1
+
+Problem: LLM reasoning is mostly studied in domains with pre-given rules (math, code); linguistic puzzles invert this by requiring the solver to first discover the underlying rule system before reasoning within it.
+问题:目前对 LLM 推理能力的研究大多集中在数学、代码这类"规则已知"的领域;而语言学谜题恰好相反——求解者必须先自己发现背后的规则系统,才能在其中进行推理。
+Approach: The authors ran the IOL-AI Challenge on unseen 2026 International Linguistics Olympiad problems, judged both automatically and — for the first time — by the official IOL Jury under the same rubric used for human contestants, drawing 731 submissions from 46 teams under a strict compute budget, plus a separate benchmark of 15 unconstrained frontier and open models.
+方法:作者在 2026 年国际语言学奥林匹克竞赛(IOL)的未公开赛题上举办了 IOL-AI 挑战赛,评分方式既有自动评测,也首次邀请官方 IOL 评委按照人类选手同样的评分标准打分;比赛在严格算力预算下吸引了 46 支队伍共 731 份提交,另外还单独对 15 个不受算力限制的前沿及开源模型做了基准测试。
+Result: Claude Opus 4.8 earned a jury score equivalent to a gold medal among the unconstrained models, while the compute-constrained submitted systems scored in the bottom 5% of contestants; capability wasn't purely scale-driven (some 14B models beat models twice their size), and prior knowledge of a problem language didn't meaningfully help solve the reasoning tasks.
+结果:在不受算力限制的模型中,Claude Opus 4.8 拿到了相当于金牌水平的评委评分;而受算力预算限制提交的系统,得分则排在人类选手的后 5%。模型能力并非单纯由参数规模决定——部分 140 亿参数模型的表现超过了体量两倍于它的模型;此外,模型对某种语言的先验知识,对解决语言学推理题本身并没有带来明显帮助。
+
+**Paper6 | Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents — 2026-08-19 00:55 北京时间**
+https://arxiv.org/abs/2608.18008v1
+
+Problem: Combining LLMs with reinforcement learning is increasingly common, but the theoretical soundness of using LLM-derived signals as reward is often left implicit and unverified.
+问题:将 LLM 与强化学习结合的做法越来越常见,但把 LLM 输出的信号当作奖励使用,其理论上的合理性往往没有被明确验证过。
+Approach: The authors formalize the hybrid LLM-planner + RL-controller setup as a Goal-Augmented Markov Decision Process, using the LLM's per-state progress score as a bounded potential function for reward shaping, and verify the result numerically on a small MDP under four potential configurations (including an adversarial one scaled to 20x the base reward).
+方法:作者将"LLM 做规划、RL 做控制"的混合架构形式化为一个"目标增强马尔可夫决策过程",把 LLM 给出的逐状态进度评分作为有界势函数用于奖励塑形,并在一个小型 MDP 上、四种势函数配置(包括一种被放大到基础奖励 20 倍的对抗性配置)下做了数值验证。
+Result: When the LLM score is used as a bounded potential function, the resulting reward-shaping term provably preserves the optimal policy set even when the LLM's scores are inaccurate — a stronger guarantee than general LLM-as-reward approaches provide.
+结果:当 LLM 评分被用作有界势函数时,由此产生的奖励塑形项可以在理论上证明——即便 LLM 评分不准确,也不会改变最优策略集合,这比一般的"LLM 直接充当奖励"方法能提供更强的保证。
+
+**Paper7 | Traceable Trust for Action-Ready Artificial Intelligence in Bioscience — 2026-08-19 00:44 北京时间**
+https://arxiv.org/abs/2608.17997v1
+
+Problem: AI is increasingly embedded in bioscience workflows (predicting structures, designing proteins, ranking variants, recommending strains), but the decision to let an AI output drive real lab action lacks a defined, reviewable process.
+问题:AI 正越来越多地嵌入生物科学的工作流程中(预测分子结构、设计蛋白质、对变异进行排序、推荐菌株等),但"是否让 AI 输出的结果直接指导实验室实际操作"这一决策,目前缺乏一套明确、可审查的流程。
+Approach: The authors propose "Traceable Trust," a proportionate assessment-and-design framework for this output-to-action boundary, asking what evidence supports the output, what capability is claimed, what agency is delegated, what authorizes action, who can override it, and how outcomes feed back — illustrated via three case studies spanning ecosystem resources, project design, and lab action.
+方法:作者提出"可追溯信任"(Traceable Trust)框架,针对"AI 输出到实际行动"这一边界给出一套相称的评估与设计方法:追问该输出有何证据支撑、宣称具备什么能力、被授予了多大的自主权、什么条件才能授权行动、谁可以否决它,以及结果又将如何反馈进后续决策;并通过涵盖生态资源、项目设计与实验室行动三个案例研究进行了说明。
+Result: The framework shows how trust in AI-guided lab decisions can be explicitly documented across the case studies, offering a reviewable process rather than a scoring system — the paper is a governance framework, not a performance benchmark.
+结果:通过这些案例,该框架展示了如何将"AI 指导的实验室决策"背后的信任依据明确记录下来——它提供的是一套可审查的流程,而非一个打分系统;这篇论文本质上是治理框架,而非性能基准测试。
+
+**Paper8 | Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees — 2026-08-19 00:42 北京时间**
+https://arxiv.org/abs/2608.17994v1
+
+Problem: LLM-as-judge is now standard for scaled evaluation, but for objective (reference-free) tasks, judges relying on parametric knowledge can hallucinate, while tool-augmented judges add cost and lack a principled way to control the risk of accepted verdicts.
+问题:"LLM 当裁判"已成为大规模评估的标准做法,但对于没有标准答案的客观任务,仅依赖模型内部知识的裁判容易产生幻觉,而依赖外部工具增强的裁判又会增加成本,且缺乏一套原则性的方法来控制"被采纳裁决"的风险。
+Approach: The authors propose a risk-controlled framework that calibrates uncertainty thresholds on a held-out set (using finite-sample Clopper-Pearson intervals) so the false discovery rate among accepted verdicts stays below a user-set level α with high probability; low-confidence cases route to a retrieval-augmented second pass under a second calibrated threshold.
+方法:作者提出一个风险可控的框架,在留出集上用有限样本 Clopper-Pearson 区间校准不确定性阈值,使得"被采纳裁决"中的错误发现率能以高概率控制在用户设定的 α 水平以下;对置信度不足的样本,会路由到检索增强的第二轮判断,并使用第二个校准阈值。
+Result: Tested across open-domain QA benchmarks and judges of varying scale, the framework maintains the target error rate while achieving substantially higher coverage than single-mode (pure parametric or pure retrieval) baselines, and the finite-sample guarantee carries over to the two-threshold routing setup.
+结果:在多个开放域问答基准和不同规模的裁判模型上测试,该框架在保持目标错误率的同时,覆盖率显著高于单一模式(纯参数或纯检索)基线,且原本的有限样本保证在双阈值路由方案下依然成立。
+
+---
+
+想深入了解某一条?直接说"展开 X1"/"expand P1"/"详细讲讲 Paper3" 就行——播客类问题会读取对应的转写,其他类会用相应的原始数据回答。
+Want to go deeper on anything above? Just say "expand X1" / "展开 P1" / "详细讲讲 Paper3" — for podcasts I'll pull the matching transcript, for everything else I'll use the underlying source data.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
