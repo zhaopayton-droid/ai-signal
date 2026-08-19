@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "published": "2026-08-19T19:00:00+00:00",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
+    },
+    {
+      "id": "https://openai.com/index/replit",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "published": "2026-08-19T07:00:00+00:00",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs."
+    },
+    {
       "id": "https://openai.com/index/chatgpt-ads-expands-across-europe",
       "source": "openai",
       "source_name": "OpenAI",
@@ -28,24 +46,6 @@
       "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly."
     },
     {
-      "id": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "published": "2026-08-18T11:00:00+00:00",
-      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development."
-    },
-    {
-      "id": "https://openai.com/index/chatgpt-for-teens",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "url": "https://openai.com/index/chatgpt-for-teens",
-      "published": "2026-08-18T11:00:00+00:00",
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
-    },
-    {
       "id": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -56,5 +56,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-19T10:31:13.538471+00:00"
+  "generated_at": "2026-08-19T22:21:02.083851+00:00"
 }

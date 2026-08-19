@@ -259,25 +259,6 @@
       "transcript_chars": 0
     },
     {
-      "channel": "Lenny's Podcast",
-      "domain": "ai",
-      "guid": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
-      "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
-      "pub_date": "2026-08-16T12:31:42+00:00",
-      "link": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
-      "audio_url": "https://api.substack.com/feed/podcast/209801560/52b8b8dcb7b2a7754107eef06aa02f4a.mp3",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Listen now | OpenAI&#8217;s head of product design on why this is the best time in history to be a designer, where humans still beat AI, and how to escape the overwhelm",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/cefbd24e71a4c8554d61d89c.txt",
-      "transcript_chars": 5779
-    },
-    {
       "channel": "SemiAnalysis",
       "domain": "ai",
       "guid": "4d59eed8-de80-4c59-8417-cfffb5f75779",
@@ -382,5 +363,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-19T10:31:13.538471+00:00"
+  "generated_at": "2026-08-19T22:21:02.083851+00:00"
 }

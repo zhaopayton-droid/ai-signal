@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:31:38.292000+00:00",
+  "generated_at": "2026-08-19T22:21:33.024852+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 12689,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-19T10:31:38.292000+00:00",
-      "last_seen_at": "2026-08-19T10:31:38.292000+00:00",
-      "expires_at": "2026-09-02T10:31:38.292000+00:00"
+      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
+      "expires_at": "2026-09-02T22:21:33.024852+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
@@ -25,8 +25,8 @@
       "transcript_chars": 4700,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-18T22:19:57.019326+00:00",
-      "last_seen_at": "2026-08-19T10:31:38.292000+00:00",
-      "expires_at": "2026-09-02T10:31:38.292000+00:00"
+      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
+      "expires_at": "2026-09-02T22:21:33.024852+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
@@ -38,8 +38,8 @@
       "transcript_chars": 6308,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-18T22:19:57.019326+00:00",
-      "last_seen_at": "2026-08-19T10:31:38.292000+00:00",
-      "expires_at": "2026-09-02T10:31:38.292000+00:00"
+      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
+      "expires_at": "2026-09-02T22:21:33.024852+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
@@ -51,8 +51,8 @@
       "transcript_chars": 28346,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-18T10:32:08.802436+00:00",
-      "last_seen_at": "2026-08-19T10:31:38.292000+00:00",
-      "expires_at": "2026-09-02T10:31:38.292000+00:00"
+      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
+      "expires_at": "2026-09-02T22:21:33.024852+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
@@ -64,8 +64,8 @@
       "transcript_chars": 5078,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-17T22:22:11.778000+00:00",
-      "last_seen_at": "2026-08-19T10:31:38.292000+00:00",
-      "expires_at": "2026-09-02T10:31:38.292000+00:00"
+      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
+      "expires_at": "2026-09-02T22:21:33.024852+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
@@ -77,8 +77,8 @@
       "transcript_chars": 5452,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-17T22:22:11.778000+00:00",
-      "last_seen_at": "2026-08-19T10:31:38.292000+00:00",
-      "expires_at": "2026-09-02T10:31:38.292000+00:00"
+      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
+      "expires_at": "2026-09-02T22:21:33.024852+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
@@ -417,19 +417,6 @@
       "cached_at": "2026-08-03T12:56:31.088333+00:00",
       "last_seen_at": "2026-08-06T12:04:46.980483+00:00",
       "expires_at": "2026-08-20T12:04:46.980483+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
-      "link": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
-      "channel": "Lenny's Podcast",
-      "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
-      "pub_date": "2026-08-02T12:32:02+00:00",
-      "transcript_path": "feeds/transcripts/faa59532c0742701defbd7fb.txt",
-      "transcript_chars": 5552,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-02T22:54:15.205429+00:00",
-      "last_seen_at": "2026-08-05T12:01:26.447212+00:00",
-      "expires_at": "2026-08-19T12:01:26.447212+00:00"
     }
   ]
 }
