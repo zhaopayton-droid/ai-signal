@@ -1,0 +1,30 @@
+🛫 起飞了 | AI Signal - 2026年8月20日
+
+Data note: the X/Twitter feed hasn't refreshed in about 25 hours (last update 2026-08-18 22:16 UTC / 2026-08-19 06:16 北京时间), so there are no new tweets, podcasts, or papers in this window — today's signal comes entirely from OpenAI's official blog.
+数据延迟提示:X/Twitter 数据源已约 25 小时未更新(最近一次更新为 UTC 2026-08-18 22:16 / 北京时间 2026-08-19 06:16),本时段没有新推文、播客或论文——今天的信号全部来自 OpenAI 官方博客。
+
+OpenAI shipped two announcements in the same window: a reaffirmation of Zero Data Retention plus a preview of "Private Safety Processing" aimed at doing advanced safety checks without compromising customer data privacy, and a Replit partnership push — Free Mode powered by GPT-5.6 Luna — meant to let anyone build software without worrying about token costs.
+OpenAI 在同一时段发布了两条消息:一是重申 Zero Data Retention(零数据留存)政策,并预告了名为"Private Safety Processing"的新机制,意在不牺牲客户数据隐私的前提下完成更高级的安全检查;二是与 Replit 合作推出由 GPT-5.6 Luna 驱动的 Free Mode,让任何人都能在不担心 token 成本的情况下构建软件。
+
+## Official Blogs
+
+**B1 | OpenAI** — 2026-08-20 03:00 北京时间
+What was announced: OpenAI reaffirmed Zero Data Retention for eligible API customers and previewed "Private Safety Processing," a mechanism for advanced AI safety checks that doesn't compromise data privacy.
+发布内容:OpenAI 重申了面向符合条件的 API 客户的 Zero Data Retention(零数据留存)政策,并预告了"Private Safety Processing"机制——在不牺牲数据隐私的前提下进行更高级的 AI 安全检查。
+Why it matters: A trust signal aimed squarely at enterprise/regulated customers who need both strict data-handling guarantees and assurance that safety monitoring isn't quietly reading their data — relevant to enterprise AI adoption and compliance-sensitive verticals.
+为什么重要:这是面向企业和受监管行业客户的信任信号——他们既需要严格的数据处理保证,也需要确认安全监控不会悄悄读取自己的数据,对企业级 AI 采用和合规敏感行业有参考意义。
+https://openai.com/index/offering-zero-data-retention-for-frontier-models
+
+**B2 | OpenAI** — 2026-08-19 15:00 北京时间
+What was announced: OpenAI and Replit are launching Free Mode, powered by GPT-5.6 Luna, letting anyone turn ideas into working software without worrying about token costs.
+发布内容:OpenAI 与 Replit 联合推出由 GPT-5.6 Luna 驱动的 Free Mode,让任何人都能把想法变成可运行的软件,而不必担心 token 消耗成本。
+Why it matters: Lowers the cost barrier to vibe-coding/no-code app building on Replit and doubles as a distribution push for GPT-5.6 Luna — worth watching for consumer coding-tool adoption and OpenAI's model-distribution strategy via partners.
+为什么重要:降低了在 Replit 上"氛围编程"/低代码构建应用的成本门槛,同时也是 GPT-5.6 Luna 的一次分发推广——值得关注消费级编程工具的采用情况,以及 OpenAI 通过合作伙伴分发模型的策略。
+https://openai.com/index/replit
+
+---
+
+想深入了解某一条?直接说"展开 B1"/"expand B2" 就行——我会用相应的原始数据回答。
+Want to go deeper on anything above? Just say "expand B1" / "展开 B2" — I'll use the underlying source data.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
