@@ -1,6 +1,43 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "05dbb55e-33ef-4251-883f-74cd5ec26640",
+      "title": "How Whatnot Built a Global Marketplace",
+      "pub_date": "2026-08-19T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/how-whatnot-built-a-global-marketplace-DoonwHjN",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/c41c8a47-7d80-4f00-88b2-37e4a98c04c1/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=c41c8a47-7d80-4f00-88b2-37e4a98c04c1&feed=JGE3yC0V",
+      "audio_bytes": 40958434,
+      "duration": "00:42:39",
+      "description": "<p>a16z General Partner David George is joined by Grant LaFontaine, co-founder of Whatnot, to unpack how a marketplace that started with collectibles evolved into one of the world's leading live shopping platforms.</p>\n<p>Grant traces the company's origins from selling Pokémon cards online as a kid to discovering live commerce by watching Whatnot's earliest customers hack together sales on social media. They discuss why Whatnot thinks less like a traditional e-commerce marketplace and more like a digital shopping mall, where discovery, entertainment, community, and commerce all happen at once. Today, users spend roughly 95 minutes a day on the platform, and most aren't even buying something on a given day.</p>\n<p>They also explore how Whatnot is enabling small businesses to reach global audiences, expanding from collectibles into categories like fashion, food, and golf, and using AI to make sellers more efficient without replacing the human connection at the center of the experience.</p>\n<p> </p>\n<p>Resources:</p>\n<p>Follow Grant LaFontaine on X: <a href=\"https://x.com/GrantLaFontaine\" rel=\"noopener noreferrer\">https://x.com/GrantLaFontaine</a></p>\n<p>Follow David George on X:<a href=\"https://x.com/DavidGeorge83\" rel=\"noopener noreferrer\"> https://x.com/DavidGeorge83</a></p>\n<p>Follow Whatnot on X:<a href=\"https://x.com/whatnot\" rel=\"noopener noreferrer\"> https://x.com/whatnot</a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Latent Space",
+      "domain": "ai",
+      "guid": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+      "title": "[AINews] Memory prices up 500% in 12 months",
+      "pub_date": "2026-08-19T08:44:52+00:00",
+      "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+      "audio_url": "https://substackcdn.com/image/fetch/$s_!-PTb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95b5b0b3-9bd4-4c08-9c91-ad68807850fc_2272x1434.png",
+      "audio_bytes": 0,
+      "duration": "",
+      "description": "the Memory crunch continues - Moore&#8217;s Law reversed to 2007 levels",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/3bfbbff7124d6d46843914d0.txt",
+      "transcript_chars": 12689
+    },
+    {
       "channel": "Latent Space",
       "domain": "ai",
       "guid": "https://www.latent.space/p/glean-model-routing",
@@ -277,28 +314,6 @@
       "transcript_chars": 0
     },
     {
-      "channel": "Invest Like The Best",
-      "domain": "invest",
-      "person": "Gavin Baker",
-      "search_query": "Gavin Baker AI interview",
-      "guid": "yt:NGsi2PC4y68",
-      "title": "Why the Markets Are Pricing AI Wrong | Gavin Baker",
-      "pub_date": "",
-      "pub_date_source": "unverified",
-      "publish_date_unverified": true,
-      "first_seen": "2026-08-11T22:38:23.812364+00:00",
-      "link": "https://www.youtube.com/watch?v=NGsi2PC4y68",
-      "audio_url": "",
-      "duration": "1:18:45",
-      "description": "In this episode of Invest Like the Best, Patrick O'Shaughnessy sits down with Gavin Baker to dissect the intense AI and ...",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": "NGsi2PC4y68",
-      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=NGsi2PC4y68! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "transcript_chars": 0
-    },
-    {
       "channel": "Deep Signal",
       "domain": "ai",
       "person": "Demis Hassabis",
@@ -367,5 +382,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-18T22:19:28.417967+00:00"
+  "generated_at": "2026-08-19T10:31:13.538471+00:00"
 }

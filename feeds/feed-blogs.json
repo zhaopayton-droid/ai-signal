@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "published": "2026-08-18T22:00:00+00:00",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions."
+    },
+    {
       "id": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "source": "openai",
       "source_name": "OpenAI",
@@ -37,15 +46,6 @@
       "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
     },
     {
-      "id": "https://openai.com/index/asana",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "url": "https://openai.com/index/asana",
-      "published": "2026-08-18T07:00:00+00:00",
-      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K."
-    },
-    {
       "id": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -56,5 +56,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-18T22:19:28.417967+00:00"
+  "generated_at": "2026-08-19T10:31:13.538471+00:00"
 }
