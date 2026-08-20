@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-19T22:21:33.024852+00:00",
+  "generated_at": "2026-08-20T10:33:24.266041+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "link": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "channel": "Latent Space",
+      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "pub_date": "2026-08-20T05:17:12+00:00",
+      "transcript_path": "feeds/transcripts/417010170c83d8870d3c07f5.txt",
+      "transcript_chars": 16688,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-20T10:33:24.266041+00:00",
+      "last_seen_at": "2026-08-20T10:33:24.266041+00:00",
+      "expires_at": "2026-09-03T10:33:24.266041+00:00"
+    },
     {
       "guid": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
       "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
@@ -12,8 +25,8 @@
       "transcript_chars": 12689,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-19T10:31:38.292000+00:00",
-      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
-      "expires_at": "2026-09-02T22:21:33.024852+00:00"
+      "last_seen_at": "2026-08-20T10:33:24.266041+00:00",
+      "expires_at": "2026-09-03T10:33:24.266041+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
@@ -25,8 +38,8 @@
       "transcript_chars": 4700,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-18T22:19:57.019326+00:00",
-      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
-      "expires_at": "2026-09-02T22:21:33.024852+00:00"
+      "last_seen_at": "2026-08-20T10:33:24.266041+00:00",
+      "expires_at": "2026-09-03T10:33:24.266041+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
@@ -38,8 +51,8 @@
       "transcript_chars": 6308,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-18T22:19:57.019326+00:00",
-      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
-      "expires_at": "2026-09-02T22:21:33.024852+00:00"
+      "last_seen_at": "2026-08-20T10:33:24.266041+00:00",
+      "expires_at": "2026-09-03T10:33:24.266041+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
@@ -51,8 +64,8 @@
       "transcript_chars": 28346,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-18T10:32:08.802436+00:00",
-      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
-      "expires_at": "2026-09-02T22:21:33.024852+00:00"
+      "last_seen_at": "2026-08-20T10:33:24.266041+00:00",
+      "expires_at": "2026-09-03T10:33:24.266041+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
@@ -64,8 +77,8 @@
       "transcript_chars": 5078,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-17T22:22:11.778000+00:00",
-      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
-      "expires_at": "2026-09-02T22:21:33.024852+00:00"
+      "last_seen_at": "2026-08-20T10:33:24.266041+00:00",
+      "expires_at": "2026-09-03T10:33:24.266041+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
@@ -77,8 +90,8 @@
       "transcript_chars": 5452,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-17T22:22:11.778000+00:00",
-      "last_seen_at": "2026-08-19T22:21:33.024852+00:00",
-      "expires_at": "2026-09-02T22:21:33.024852+00:00"
+      "last_seen_at": "2026-08-20T10:33:24.266041+00:00",
+      "expires_at": "2026-09-03T10:33:24.266041+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
