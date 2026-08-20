@@ -1,0 +1,127 @@
+🛫 起飞了 | AI Signal - 2026年8月21日
+
+Anthropic is quietly signaling that a new tier of "Mythos-class" models is coming this fall with stricter data-retention guarantees, right as Gavin Baker flags that OpenAI's enterprise growth rate has now overtaken Anthropic's. Meanwhile the agent-infrastructure land grab keeps escalating: Vercel says it's building "AWS for agents," and swyx notes OpenClaw alone may have driven $50-150M in extra Mac mini sales this year. Today's signal isn't one single launch — it's how fast money, infrastructure, and safety policy are all moving around agents at once.
+
+Anthropic 正悄悄释放信号:新一档"Mythos 级"模型将于今秋推出,并配有更严格的数据保留承诺——与此同时,Gavin Baker 指出 OpenAI 的企业增速已经反超 Anthropic。与此同时,agent 基础设施的抢地盘还在加速:Vercel 表示正在打造"面向 agent 的 AWS",swyx 也提到光是 OpenClaw 今年就可能拉动了 5000万至1.5亿美元的 Mac mini 额外销量。今天最值得关注的不是某一条发布,而是资金、基础设施和安全政策正围绕 agent 同时快速转动。
+
+== X / Twitter ==
+
+**X1 | Boris Cherny (Claude Code) — 2026-08-21 04:34 北京时间**
+https://x.com/bcherny/status/2090537902912815536
+
+Replying to a report that Anthropic plans to change its data retention policy for advanced AI, Cherny (who works on Claude Code) confirms Anthropic has been building this with customers for a while: upcoming "Mythos-class" models will require additional safety measures, and enterprises will be able to fully own and control their own data with Anthropic retaining none. He says it's coming this fall.
+
+针对一则关于"Anthropic 计划调整先进 AI 数据保留政策"的报道,Cherny(负责 Claude Code)证实这是团队和客户合作已久的方向:即将推出的"Mythos 级"模型需要额外的安全措施,企业将能够完全拥有和控制自己的数据,Anthropic 不做任何留存。他表示相关功能将在今年秋天上线。
+
+原文:"We've been working on this with customers for a while. Mythos-class models require additional safety measures and enterprises need to meet their own privacy and compliance rules. Customers can own and control their own data and Anthropic retains none. It's coming this fall."
+
+**X2 | Gavin Baker (Atreides Management) — 2026-08-21 00:22 北京时间**
+https://x.com/GavinSBaker/status/2090474512764502319
+
+Responding to a claim that OpenAI's Q3-to-date enterprise growth (82% QoQ) has overtaken Anthropic's (76%), Baker confirms the trend and says it has accelerated slightly quarter-to-date, more sharply in August than July. He adds that Grok, Grok Bot, and open-source models are all likely growing faster than either leading frontier lab, but says the conversation needs to move past growth-rate comparisons ("second derivatives") to absolute scale ("first derivatives").
+
+针对"OpenAI 三季度至今企业环比增速(82%)已反超 Anthropic(76%)"的说法,Baker 确认了这一趋势,并表示本季度至今增速略有加快,8月比7月更明显。他补充说 Grok、Grok Bot 和开源模型的增速很可能都快于两家头部前沿实验室,但认为讨论该从比较"增速的增速"(二阶导数)转向比较绝对规模(一阶导数)了。
+
+**X3 | Guillermo Rauch (Vercel) — 2026-08-21 03:24 北京时间**
+https://x.com/rauchg/status/2090520415336845595
+
+Rauch, replying to news that Vercel CLI can now manage Vercel's container registry, states Vercel's ambition plainly: "We're building AWS for agents."
+
+Rauch 在回应"Vercel CLI 现已支持管理 Vercel 容器注册表"这条消息时,直接点明了 Vercel 的野心:"我们在打造面向 agent 的 AWS。"
+
+**X4 | Guillermo Rauch (Vercel) — 2026-08-20 09:52 北京时间**
+https://x.com/rauchg/status/2090255740384751664
+
+Rauch highlights "fx," a Zig-compiled static ELF binary that's 6.3MB and starts in 10 microseconds (an even smaller build compiles to WebAssembly by delegating fetch() to the JS runtime instead of bundling a TLS/HTTP stack). His point: AI will push most infrastructure toward native, minimal-overhead builds — fx can finish tasks faster than other agents even boot.
+
+Rauch 介绍了 "fx"——一个用 Zig 编译的静态 ELF 二进制文件,体积仅 6.3MB,启动时间只需 10 微秒(WebAssembly 版本体积更小,因为把 fetch() 交给 JS 运行时处理,而不是打包完整的 TLS/HTTP 协议栈)。他的观点是:AI 会推动大部分基础设施走向原生、极致轻量化——fx 完成任务的速度,比其他 agent 启动还快。
+
+**X5 | Naval Ravikant — 2026-08-21 01:53 北京时间**
+https://x.com/naval/status/2090497355649008059
+
+"Grok Bot is just cool. Of course an agent should be persistent. Of course it should have its own computer. All that remains is for it to be embodied…"
+
+"Grok Bot 就是很酷。agent 当然应该是持久存在的。它当然应该拥有自己的计算机。剩下唯一的问题就是让它拥有实体……"
+
+**X6 | Naval Ravikant — 2026-08-20 07:20 北京时间**
+https://x.com/naval/status/2090217457202163972
+
+"Eventually, all UI will be chat and gestures in, chat and video out."
+
+"最终,所有的用户界面都会变成:输入是对话和手势,输出是对话和视频。"
+
+**X7 | Swyx (Shawn Wang) — 2026-08-21 01:56 北京时间**
+https://x.com/swyx/status/2090498250168058080
+
+"well, @openclaw was good to apple — this team conservatively drove $50-150m in mac mini sales alone this year haha (roughly +50% of normal annual mac mini sales worldwide, just due to openclaw 2026)"
+
+"好吧,@openclaw 这次真是帮了苹果大忙——保守估计,光这个团队今年就拉动了 5000万到1.5亿美元的 Mac mini 销售额(哈哈),相当于全球 Mac mini 常规年销量的 +50% 左右,完全是 openclaw 2026 带来的。"
+
+**X8 | Swyx (Shawn Wang) — 2026-08-21 05:22 北京时间**
+https://x.com/swyx/status/2090550020496040266
+
+Promoting Latent Space's new interview series on AI "skills," Swyx says Matt Pocock's /wayfinder is the top-viewed talk in the podcast's history by a builder, and calls it Pocock's answer to "what to do when you're navigating the fog of war and don't yet know what you don't yet know" — i.e. orchestrating research before you can even define the task. (See P1 below for the full episode.)
+
+Swyx 在推介 Latent Space 全新的 AI "Skills" 系列访谈时表示,Matt Pocock 的 /wayfinder 是该播客历史上观看量最高的一期建设者访谈,并称它是 Pocock 对"身处迷雾、连自己不知道什么都还不清楚时该怎么办"这一问题给出的答案——也就是在任务本身都还无法界定之前,先把研究工作组织起来。(完整节目见下方 P1)
+
+**X9 | Irrational Analysis — 2026-08-19 10:02 北京时间**
+https://x.com/insane_analyst/status/2089895695394419027
+
+"Note: Not much details. Maybe they share more at Hot Chips. Cerebras Supernova 2026: Irrational Recap" — a linked recap of Cerebras's Supernova 2026 announcement, flagged as light on details for now.
+
+"备注:目前细节不多,也许 Hot Chips 大会上会披露更多。Cerebras Supernova 2026:Irrational 简评" —— 附带链接的 Cerebras Supernova 2026 发布会简评,作者提到目前信息量偏少。
+
+== Podcasts ==
+
+**P1 | Latent Space — "The /wayfinder Skill: Navigating the 'Fog of War' of Planning" — 2026-08-21 04:59 北京时间**
+https://www.latent.space/p/wayfinder-skill
+
+Takeaway: Matt Pocock walks through his /wayfinder skill, built for greenfield projects or moments when the path forward isn't yet clear.
+Key Points: Per the episode description, Pocock discusses how /wayfinder helps orchestrate research and planning before the scope of a task is even defined — a companion to his earlier /grill-me skill.
+Why It Matters: This is part of Latent Space's new series specifically covering "Skills" as a category, signaling growing interest in structured, reusable agent workflows beyond ad hoc prompting.
+
+要点:Matt Pocock 详细介绍了他设计的 /wayfinder 技能,专为从零开始的新项目、或方向尚不明确的阶段而生。
+核心内容:根据节目简介,Pocock 讨论了 /wayfinder 如何在任务范围本身都还没确定之前,帮助组织研究和规划工作——是他此前 /grill-me 技能的延伸。
+为什么重要:这是 Latent Space 全新"Skills"系列节目的一期,专门聚焦"技能"这一品类,说明业内对结构化、可复用的 agent 工作流(而非零散提示词)的关注正在上升。
+
+**P2 | SemiAnalysis — "Ep. 026 - PJM's $12B Modeling Mistake Is Hitting Ratepayers Again (Datacenter, Energy)" — 2026-08-20 19:00 北京时间**
+https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--026---PJMs-12B-Modeling-Mistake-Is-Hitting-Ratepayers-Again-Datacenter--Energy--Robert-Boswall--Jordan-Nanos-e3nkns1
+
+Takeaway: Robert Boswall and Jordan Nanos argue PJM (the grid operator covering 13 states and 66 million people) overpaid roughly $12B across two capacity auctions due to a modeling error that's set to repeat in an upcoming emergency auction.
+Key Points: Per the description, of $63B spent across four auctions, Boswall estimates $12B was avoidable ($7B and $5B across the 2025-26 and 2026-27 auctions), driven by demand inflation and constrained supply that produces scarcity pricing — costs absorbed by ratepayers rather than the data centers often blamed in headlines.
+Why It Matters: This is the mechanical, capacity-market explanation behind the "AI is driving up power bills" narrative — relevant to anyone tracking data center energy demand and grid policy risk for AI infrastructure investing.
+
+要点:Robert Boswall 与 Jordan Nanos 指出,PJM(覆盖13个州、6600万人口的电网运营商)在两次容量拍卖中因建模错误,合计多支付约120亿美元,而同样的错误即将在下一次紧急拍卖中重演。
+核心内容:据节目简介,在四次拍卖累计花费的630亿美元中,Boswall 估算有120亿美元本可避免(2025-26 和 2026-27 两次拍卖分别为70亿和50亿美元),原因是需求被高估、供给被人为限制,从而推高了稀缺定价——这些成本最终由电费用户承担,而非常被媒体归咎的数据中心。
+为什么重要:这从容量市场的机制层面解释了"AI 推高电价"这一说法背后的真实原因,对关注数据中心能源需求和电网政策风险的 AI 基础设施投资者很有参考价值。
+
+== Official Blogs ==
+
+**B1 | OpenAI — "Introducing AI Futures" — 2026-08-20 15:00 北京时间**
+https://openai.com/index/introducing-ai-futures
+
+What Was Announced: OpenAI launched "AI Futures," a new blog series exploring how transformative AI could reshape power, governance, the economy, and individual freedom.
+Details: Per OpenAI's own summary, the series is framed as an exploration rather than a product launch — no specific commitments, tools, or timelines are given in the announcement itself.
+Why It Matters: It signals OpenAI wants to shape the public conversation about AI's societal and political impact directly, ahead of policy debates — worth watching as a channel for the company's positioning, though it carries no product or investing signal yet.
+
+发布内容:OpenAI 推出了新博客系列"AI Futures",探讨具有变革性的 AI 可能如何重塑权力结构、治理方式、经济体系和个人自由。
+详情:根据 OpenAI 自己的介绍,这个系列定位为一种"探讨",而非产品发布——公告本身没有给出具体的承诺、工具或时间表。
+为什么重要:这说明 OpenAI 希望在相关政策讨论展开之前,主动引导公众对 AI 社会和政治影响的讨论方向——值得关注其作为公司态度表达渠道的作用,但目前尚不构成产品或投资层面的实质信号。
+
+**B2 | OpenAI — "Stampli cuts launch hours by 68% using ChatGPT Work" — 2026-08-20 08:00 北京时间**
+https://openai.com/index/stampli
+
+What Was Announced: A customer case study on Stampli, which used Codex and ChatGPT Work to compress a product launch's production timeline, cutting launch hours by 68% despite a fixed deadline and design resources committed elsewhere.
+Details: Per OpenAI's summary, the compression came specifically from using Codex plus ChatGPT Work to substitute for constrained design bandwidth during launch production.
+Why It Matters: It's a first-party customer story, not independent verification, but it's a concrete efficiency number for AI-assisted launch/production workflows — useful as an anecdotal data point on enterprise Codex/ChatGPT ROI claims.
+
+发布内容:一篇关于客户 Stampli 的案例分享——该公司在设计资源被挤占、上线时间又固定不可变的情况下,借助 Codex 和 ChatGPT Work 压缩了产品发布的制作周期,发布所需工时减少了 68%。
+详情:据 OpenAI 的介绍,这一效率提升具体来自于用 Codex 加 ChatGPT Work 弥补发布制作期间设计资源不足的问题。
+为什么重要:这是一手客户案例,并非独立第三方验证,但它给出了一个具体的效率数字,反映了 AI 辅助发布/制作流程的实际效果——可作为企业使用 Codex/ChatGPT 投资回报说法的一个参考数据点。
+
+---
+
+想深入了解某一条?直接说"展开 X1"/"expand P1"/"详细讲讲 B2" 就行——播客类问题会读取对应的转写,其他类会用相应的原始数据回答。
+Want to go deeper on anything above? Just say "expand X1" / "展开 P1" / "详细讲讲 B2" — for podcasts I'll pull the matching transcript, for everything else I'll use the underlying source data.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
