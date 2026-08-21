@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "published": "2026-08-21T11:59:48+00:00",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay."
+    },
+    {
       "id": "https://openai.com/index/introducing-ai-futures",
       "source": "openai",
       "source_name": "OpenAI",
@@ -17,17 +26,8 @@
       "url": "https://openai.com/index/stampli",
       "published": "2026-08-20T00:00:00+00:00",
       "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
-    },
-    {
-      "id": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "published": "2026-08-19T19:00:00+00:00",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-21T10:32:35.551606+00:00"
+  "generated_at": "2026-08-21T22:20:39.106158+00:00"
 }
