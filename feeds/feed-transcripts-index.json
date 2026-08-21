@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-20T22:24:28.966790+00:00",
+  "generated_at": "2026-08-21T10:32:59.773101+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+      "link": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+      "channel": "Latent Space",
+      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "pub_date": "2026-08-21T05:45:21+00:00",
+      "transcript_path": "feeds/transcripts/4becdd3754445fbc5e009bba.txt",
+      "transcript_chars": 20848,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-21T10:32:59.773101+00:00",
+      "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
+      "expires_at": "2026-09-04T10:32:59.773101+00:00"
+    },
     {
       "guid": "https://www.latent.space/p/wayfinder-skill",
       "link": "https://www.latent.space/p/wayfinder-skill",
@@ -12,8 +25,8 @@
       "transcript_chars": 8109,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-20T22:24:28.966790+00:00",
-      "last_seen_at": "2026-08-20T22:24:28.966790+00:00",
-      "expires_at": "2026-09-03T22:24:28.966790+00:00"
+      "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
+      "expires_at": "2026-09-04T10:32:59.773101+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
@@ -25,8 +38,8 @@
       "transcript_chars": 16688,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-20T10:33:24.266041+00:00",
-      "last_seen_at": "2026-08-20T22:24:28.966790+00:00",
-      "expires_at": "2026-09-03T22:24:28.966790+00:00"
+      "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
+      "expires_at": "2026-09-04T10:32:59.773101+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
@@ -38,8 +51,8 @@
       "transcript_chars": 12689,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-19T10:31:38.292000+00:00",
-      "last_seen_at": "2026-08-20T22:24:28.966790+00:00",
-      "expires_at": "2026-09-03T22:24:28.966790+00:00"
+      "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
+      "expires_at": "2026-09-04T10:32:59.773101+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
@@ -51,8 +64,8 @@
       "transcript_chars": 4700,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-18T22:19:57.019326+00:00",
-      "last_seen_at": "2026-08-20T22:24:28.966790+00:00",
-      "expires_at": "2026-09-03T22:24:28.966790+00:00"
+      "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
+      "expires_at": "2026-09-04T10:32:59.773101+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
@@ -64,8 +77,8 @@
       "transcript_chars": 6308,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-18T22:19:57.019326+00:00",
-      "last_seen_at": "2026-08-20T22:24:28.966790+00:00",
-      "expires_at": "2026-09-03T22:24:28.966790+00:00"
+      "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
+      "expires_at": "2026-09-04T10:32:59.773101+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
@@ -378,19 +391,6 @@
       "cached_at": "2026-08-04T23:01:22.809977+00:00",
       "last_seen_at": "2026-08-07T10:55:09.789793+00:00",
       "expires_at": "2026-08-21T10:55:09.789793+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-      "link": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-      "channel": "Latent Space",
-      "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
-      "pub_date": "2026-08-04T03:49:14+00:00",
-      "transcript_path": "feeds/transcripts/aef8c0a711897fb9c2486feb.txt",
-      "transcript_chars": 38062,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-04T12:04:01.347228+00:00",
-      "last_seen_at": "2026-08-07T01:30:40.090235+00:00",
-      "expires_at": "2026-08-21T01:30:40.090235+00:00"
     }
   ]
 }
