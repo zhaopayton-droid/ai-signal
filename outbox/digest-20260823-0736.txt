@@ -1,0 +1,62 @@
+🛫 起飞了 | AI Signal - 2026年8月23日
+
+Today's clearest signal is a fast tilt toward open-weight models and infrastructure-first business models eating into what used to be pure software plays: Vercel's Guillermo Rauch reports open weights just hit a record 62% share of tokens on Vercel's AI Gateway, up from 28.4% only two months ago, while SemiAnalysis's Dylan Patel notes that even AI startups with real revenue are quietly turning into "neoclouds" — selling compute with a thin value-add layer on top. Layered on this, swyx's late-night reversal on Simile AI's human-simulation bet echoes the "simulation as a new scaling law" thread from recent days: as real data and compute get expensive, simulation keeps resurfacing as the next lever.
+今天最清晰的信号，是开源权重模型和"基础设施优先"的商业模式正在快速崛起，并蚕食过去纯软件模式的空间：Vercel 的 Guillermo Rauch 透露，开源权重模型在 Vercel AI Gateway 上的 token 占比已创下 62% 的新高，而两个月前这个数字才 28.4%；与此同时 SemiAnalysis 的 Dylan Patel 指出，即便是那些已经有真实收入的 AI 创业公司，也在悄悄变成"neocloud"——本质上是卖算力，外面裹一层薄薄的增值服务。与此呼应的是，swyx 在深夜对 Simile AI"人类模拟"这条赛道的态度大反转，这也延续了近几天"模拟是新的 scaling law"这条线索：当真实数据和算力越来越贵，"模拟"就不断被重新搬上台面，成为下一个可能的杠杆。
+
+X / Twitter
+
+X1. rauchg — open-weight share hits a record 62% on Vercel AI Gateway
+2026-08-23 02:40 北京时间 | https://x.com/rauchg/status/2091234105702887879
+
+Guillermo Rauch shares a concrete adoption data point: open-weight models now account for 62% of tokens on Vercel's AI Gateway, up from 28.4% two months ago. He frames this as still early, since enterprise adoption is just getting started and harnesses, CLIs, IDEs, and SDKs still need to become model-agnostic.
+Guillermo Rauch 分享了一个具体的采用数据：开源权重模型目前在 Vercel AI Gateway 上的 token 占比已达 62%，而两个月前这一比例仅为 28.4%。他认为这仍只是early stage，因为企业级采用才刚刚起步，各类 harness、CLI、IDE、SDK 也都还需要变得"模型无关"（model agnostic）。
+
+原文 / Original: "Today's a record day for open weight share of tokens on Vercel AI Gateway. Aug 22 (today) 🟦 Open: 62% 🟨 Closed: 38% Jun 24 (~2 months ago) 🟦 Open: 28.4% 🟨 Closed: 71.6% This is very likely just the start, because enterprise adoption is still early, and harnesses, CLIs, IDEs, SDKs, etc need to be adapted to be model agnostic."
+
+X2. dylan522p — AI founders quietly becoming "neoclouds"
+2026-08-22 08:21 北京时间 | https://x.com/dylan522p/status/2090957403424776270
+
+SemiAnalysis's Dylan Patel vents that among his AI founder friends who actually have revenue, nearly all of them are converging on the same business shape: reselling compute (neocloud economics) with a value-add layer stacked on top, rather than a pure software margin structure.
+SemiAnalysis 的 Dylan Patel 感叹道，在他那些真正有收入的 AI 创业者朋友当中，几乎所有人都在走向同一种商业形态：本质上是转售算力（neocloud 式的经济模型），再在上面叠加一层增值服务，而不是纯软件那种高毛利结构。
+
+原文 / Original: "God damnit, every one of my AI founder friends who actually have revenue are now just transforming into neoclouds with value add on top"
+
+X3. swyx — reversing course on Simile AI's "simulation as scaling law" bet
+2026-08-22 07:47 北京时间 | https://x.com/swyx/status/2090948945753076141
+
+swyx admits that midway through recording a Latent Space interview with Simile AI, he went from skeptical ("shitposting") to genuinely convinced, saying he now understands why Andrej Karpathy and Fei-Fei Li backed the Smallville/Simile team years before it had commercial traction. His argument: if you take recursive self-improvement (RSI) seriously — models automating more of ML research and AI engineering — the remaining barrier is simulating humans and human feedback, which is exactly what Simile is building, and it's reportedly already finding product-market fit at Fortune 100 companies.
+swyx 表示，在录制一期 Latent Space 对 Simile AI 的访谈过程中，他自己的态度从怀疑（"一开始还在阴阳怪气"）逐渐转为真正信服，并说自己现在终于理解了为什么 Andrej Karpathy 和李飞飞早年就投资了 Smallville/Simile 团队——当时这个项目还完全没有商业化落地。他的论点是：如果认真看待"递归自我改进"（RSI）——即模型正在自动化越来越多的机器学习研究和 AI 工程工作——那么剩下的最后一道障碍，就是模拟人类及人类反馈，而这正是 Simile 在做的事，据称该公司已经在部分财富 100 强企业中找到了产品市场契合度（PMF）。
+
+原文 / Original: "I think its easy to say 'Simulation is a new scaling law' and treat it as marketing hyperbole, but midway along this interview you can hear me go from somewhat shitposting to very very serious. I am 2 years late to this but finally understand why @karpathy and @drfeifei backed @joon_s_pk @msbernst @percyliang et al - Smallville at the time had zero commercial applications, but if you take RSI seriously, from models automating increasingly large parts of ML research and AI engineering, the last* barrier is simulating humans and human feedback, and Simile is obviously the team to do this and already finding PMF at Fortune 100s even at this early stage. I've never been so happy to be so wrong. *or second last ! :) more soon on the Science pod"
+
+X4. rauchg — building a minimal personal browser with open models
+2026-08-23 02:21 北京时间 | https://x.com/rauchg/status/2091229263701905662
+
+Guillermo Rauch describes using Vercel's "fx" tool to build "Mini," a stripped-down personal browser for screen-sharing and testing without the bloat of his main browser. He frames it as a live test of open and local models, saying it was the first time he felt just how cheap — and how good — these models have become, and argues open/local models will make "personal software" (bespoke tools built for one person) much more common.
+Guillermo Rauch 分享了自己用 Vercel 的 "fx" 工具打造了一款名为 "Mini" 的极简个人浏览器，专门用于屏幕共享或测试，避免主浏览器里那些冗余功能和状态。他把这次实践视为对开源和本地模型的一次实测，并表示这是他第一次真切感受到这些模型"又便宜又好"到什么程度；他认为开源/本地模型会让"个人软件"（为单个人量身定制的工具）变得更加普遍。
+
+原文 / Original: "I used 𝚏𝚡 to build Mini, a personal web browser. Many times I need to screen share, stream, or just test something without the 'bloat' and state of my browser. So I go Mini. This was a cool test for [fx] and open models. It was the first time I experienced how cheap, but also how *good* these things can be. 'Personal software' is a hot topic. 'I spent $25,000USD to cancel my $10 XYZ subscription' is a real thing 😂 (especially in Enterprises these days). But I think open and local models will change this dynamic very profoundly. Software will really become spontaneous. ps: shoutout to Orion browser who inspired me with 'focus mode'. I wanted my browser to be even more minimal, hackable, and run on Chromium."
+
+Podcasts
+
+P1. SemiAnalysis and SemiAnalysis Weekly — Ep. 25: Dylan Is Here, Live! (Dylan Patel & Jordan Nanos)
+发布时间未验证 Publication time unverified | https://www.youtube.com/watch?v=Trm74fovjaA
+
+Takeaway: Recorded live from SemiAnalysis's SF office, Dylan Patel joins host Jordan Nanos to discuss SemiAnalysis's own AI spend and related infrastructure topics.
+要点：本期在 SemiAnalysis 旧金山办公室现场录制，Dylan Patel 与主持人 Jordan Nanos 探讨了 SemiAnalysis 自身的 AI 支出以及相关基础设施话题。
+
+Key Points / 关键点:
+- Live-format conversation between Dylan Patel and Jordan Nanos.
+  Dylan Patel 与 Jordan Nanos 之间的现场对谈形式。
+- Covers SemiAnalysis's own AI spend, per the episode description.
+  据节目简介，内容涉及 SemiAnalysis 自身的 AI 支出情况。
+
+Why It Matters: A rare inside look at how one of the most-watched AI/semiconductor research shops thinks about its own compute spend — useful context alongside Dylan Patel's "neoclouds" comment in this digest (X2).
+为什么重要：这是难得一见的机会，能看到一家备受关注的 AI/半导体研究机构如何看待自己的算力支出——可以和本期日报中 Dylan Patel 关于"neoclouds"的评论（X2）对照阅读。
+
+---
+
+You can ask follow-up questions like "expand P1", "详细讲讲 X3", or "这条 X1 为什么重要？" for a deeper dive.
+你可以问"expand P1"、"详细讲讲 X3"或"这条 X1 为什么重要？"来深入了解某一条内容。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
