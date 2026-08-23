@@ -1,0 +1,46 @@
+🛫 起飞了 | AI Signal - 2026年8月24日
+
+Today's strongest thread ties together AI infra economics and the physical memory bottleneck behind it: Gavin Baker says his fund's own AI compute spend is running ~100x higher than five months ago, and Hot Chips 2026 chatter suggests every accelerator maker is now betting on 3D DRAM or "zHBM" to keep up with that demand — because as one poster put it, FLOPs was never the real bottleneck, memory bandwidth is.
+今天最值得关注的一条线索,把「AI 基础设施的经济账」和「背后真正的物理瓶颈」串了起来:Gavin Baker 说他自己基金的 AI 算力支出比五个月前高出了约 100 倍;而 Hot Chips 2026 大会上的讨论显示,几乎所有加速器厂商都在押注 3D DRAM 或「zHBM」来追赶这种需求增长——因为正如一条推文所说,FLOPs 从来都不是真正的瓶颈,显存带宽才是。
+
+## X / Twitter
+
+X1 · Irrational Analysis (insane_analyst on X) · 2026-08-23 23:07 北京时间
+Hot Chips hat this year. It should say more memBW. We can all agree FLOPs is not the bottleneck yes?
+今年 Hot Chips 大会发的帽子上,应该多印点「memBW」(显存带宽)字样。我们应该都同意,FLOPs 从来都不是瓶颈吧?
+https://x.com/insane_analyst/status/2091542739938845170
+
+X2 · Irrational Analysis (insane_analyst on X) · 2026-08-24 01:12 北京时间
+Samsung presenter explaining why Micron "innovative" internal DRAM-process based HBM4 base die is a bad idea. Sorry Satya gotta roast you guys on this again.
+三星的演讲者在现场解释,为什么美光那个所谓「创新」的、基于内部 DRAM 工艺的 HBM4 base die 方案其实是个坏主意。抱歉了 Satya,又要吐槽你们一次。
+https://x.com/insane_analyst/status/2091574267112731011
+
+X3 · Gavin Baker (Atreides Management) on X · 2026-08-24 02:15 北京时间
+Baker argues AI compute spend is becoming a competitive moat rather than just a cost line: his firm's own AI spend is running roughly 100x higher than in March 2026 and still doubling monthly, and he expects a coming "Pareto optimal" mix of human labor, cheap open-source tokens, and frontier-model tokens — with a minimum token spend soon required just to stay competitive in most knowledge industries.
+Baker 认为,AI 算力支出正在变成一种竞争壁垒,而不只是一项成本。他所在的基金,AI 支出目前大约是 2026 年 3 月的 100 倍,而且仍在保持每月翻倍的速度。他预计未来会出现一种「帕累托最优」的组合:计算高效的人力、更便宜的开源模型 token,以及前沿模型 token 三者搭配使用;在大多数知识型行业里,很快就会出现一个「最低 token 支出门槛」,不达标就没法保持竞争力。
+
+原文 / Original:
+"Suspect we will start to hear about a 'Pareto optimal' balance of computationally efficient humans, cheaper open-source tokens and frontier tokens. Our internal AI spend @Atreidesmgmt will be roughly 100x higher in August 2026 vs. March 2026. Still roughly doubling every month. Note that is before Grok Bot moves to consumption pricing which will likely create a step function when it happens (at least for me). AI means that scale has become more important to investing imo. I think there will be a minimum token spend required to be competitive in most knowledge based industries. The 'compute inequality' referenced by Sholto in our discussion."
+https://x.com/GavinSBaker/status/2091590204486451277
+
+X4 · Gavin Baker (Atreides Management) on X · 2026-08-24 04:08 北京时间
+Following up on Hot Chips 2026, Baker says essentially every accelerator maker is likely heading toward some version of 3D DRAM or "zHBM" memory, and expects the two approaches to coexist for a long time rather than one winning outright, since each has distinct tradeoffs.
+延续 Hot Chips 2026 的讨论,Baker 说几乎每一家加速器厂商都很可能会走向某种版本的 3D DRAM 或「zHBM」内存方案,而且他认为这两种路线会长期共存,而不是谁彻底取代谁,因为各自都有不同的优势。
+
+原文 / Original:
+"Every accelerator company, and I mean every accelerator company, is likely going to do some variant of 3D DRAM or the 'zHBM' which were both discussed at HotChips today. The larger companies will probably run (are running) parallel programs, but these two memory variants probably co-exist for a long time. Each has distinct advantages."
+https://x.com/GavinSBaker/status/2091618684603105717
+
+X5 · Guillermo Rauch (Vercel) on X · 2026-08-24 01:49 北京时间
+Our philosophy on extending fx: open protocols. MCP (modelcontextprotocol.io), Skills (agentskills.io), Plugins (agent-plugins.org). And the best one, Unix: (1) small programs that do one thing well and compose by calling other programs; (2) libfx that enables embeddability into more complex programs — you should be able to build your own CLI, background agent, software factory, local or cloud.
+关于如何扩展 fx,我们的理念是:拥抱开放协议——MCP(modelcontextprotocol.io)、Skills(agentskills.io)、Plugins(agent-plugins.org)。而最好的范式,还是 Unix 哲学:①用只做一件事、且做好的小程序,通过互相调用来组合;②提供 libfx 这样可嵌入的库,让你能基于它构建自己的 CLI、后台 agent 或「软件工厂」,本地跑或云端跑都行。
+https://x.com/rauchg/status/2091583525661384813
+
+---
+本时段暂无符合条件的新播客、官方博客或论文更新。
+No new podcast, official blog, or paper items cleared the relevance/dedup filter this cycle.
+
+想深入了解某一条?直接说「展开 X3」之类的指令即可。
+Want to go deeper on any item? Just say something like "expand X3".
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
