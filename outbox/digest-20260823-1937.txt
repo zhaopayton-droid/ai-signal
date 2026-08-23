@@ -1,0 +1,25 @@
+🛫 起飞了 | AI Signal - 2026年8月23日
+
+Today's cycle is quiet: no new items came through on X, arXiv, or official lab blogs since the last run, and only one podcast entry is new — and it's a low-substance one. The closest thing to a signal is another piece of secondary/tabloid coverage referencing the ongoing Zuckerberg–Amodei/Anthropic friction narrative, but there's no verifiable new information behind the headline this time.
+今天这一轮比较平淡:自上次更新以来,X、arXiv 论文和官方博客都没有新条目,唯一新增的是一条播客,而且信息量很有限。勉强算得上信号的,是又一条围绕 Zuckerberg 与 Amodei/Anthropic 之间摩擦叙事的二手/八卦式报道,但这次标题背后并没有可核实的新信息。
+
+## Podcasts
+
+**P1 | Dylan Page — 时间未标注(pub_date 为空)**
+Mark Zuckerberg Is In BIG Trouble…
+https://www.youtube.com/watch?v=WaXo9xA4A_Y (24:56)
+
+Note: this feed's description field is promotional/affiliate boilerplate ("Become a sacrificial lamb. Join the News Daddy Patreon..."), not episode content — the summary below is limited to what the title states, and no transcript is available.
+Takeaway: Per the title alone, this is commentary framing Mark Zuckerberg as facing trouble; given the channel's history of similarly tabloid-styled Zuckerberg videos in this feed (e.g. "just called out Dario (and Anthropic)", "Actually The WORST CEO In History"), this likely continues that same secondary-commentary thread rather than reporting new facts.
+Why it matters: If the underlying friction between Meta and Anthropic leadership is real and escalating, it's worth tracking as an industry signal — but this item alone provides no verifiable claims, quotes, or details beyond the headline.
+
+说明:该播客源的 description 字段是宣传/联盟营销文案("Become a sacrificial lamb. Join the News Daddy Patreon..."),并非节目实际内容简介,以下摘要仅基于标题信息,且没有可用的转写文本。
+要点:仅从标题看,这是一条将 Mark Zuckerberg 描述为"陷入麻烦"的评论类内容;结合该频道此前在本订阅源中多次发布的类似八卦风格 Zuckerberg 视频(如"怒怼 Dario(和 Anthropic)""史上最差 CEO"),这条大概率延续的是同一类二手评论,而非披露新事实。
+为什么重要:如果 Meta 与 Anthropic 高层之间的摩擦确实存在并在升级,这本身是值得关注的行业信号——但仅凭这一条内容,除标题外没有任何可核实的说法、引述或细节。
+
+---
+
+You can ask follow-up questions like "expand P1" or "这条 P1 为什么重要？" for a deeper read (note: no transcript is available for this episode, so a deeper read will be limited to the same metadata).
+你可以问"展开 P1"或"P1 为什么重要"来深入了解(提示:这一集没有可用的转写文本,深读也只能基于同样的元数据)。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
