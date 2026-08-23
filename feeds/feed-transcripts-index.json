@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-23T10:27:13.934561+00:00",
+  "generated_at": "2026-08-23T22:19:46.563843+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+      "link": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+      "channel": "Lenny's Podcast",
+      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+      "pub_date": "2026-08-23T12:31:43+00:00",
+      "transcript_path": "feeds/transcripts/372742eab20a3769f996ab74.txt",
+      "transcript_chars": 4670,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-08-23T22:19:46.563843+00:00",
+      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
+      "expires_at": "2026-09-06T22:19:46.563843+00:00"
+    },
     {
       "guid": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
       "link": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
@@ -12,8 +25,8 @@
       "transcript_chars": 28837,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-23T10:27:13.934561+00:00",
-      "expires_at": "2026-09-06T10:27:13.934561+00:00"
+      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
+      "expires_at": "2026-09-06T22:19:46.563843+00:00"
     },
     {
       "guid": "https://www.latent.space/p/attention-interface",
@@ -25,8 +38,8 @@
       "transcript_chars": 12322,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-23T10:27:13.934561+00:00",
-      "expires_at": "2026-09-06T10:27:13.934561+00:00"
+      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
+      "expires_at": "2026-09-06T22:19:46.563843+00:00"
     },
     {
       "guid": "https://www.latent.space/p/simile",
@@ -38,8 +51,8 @@
       "transcript_chars": 80520,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-23T10:27:13.934561+00:00",
-      "expires_at": "2026-09-06T10:27:13.934561+00:00"
+      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
+      "expires_at": "2026-09-06T22:19:46.563843+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
@@ -51,8 +64,8 @@
       "transcript_chars": 20848,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-21T10:32:59.773101+00:00",
-      "last_seen_at": "2026-08-23T10:27:13.934561+00:00",
-      "expires_at": "2026-09-06T10:27:13.934561+00:00"
+      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
+      "expires_at": "2026-09-06T22:19:46.563843+00:00"
     },
     {
       "guid": "https://www.latent.space/p/wayfinder-skill",
