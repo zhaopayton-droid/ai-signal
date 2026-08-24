@@ -1,6 +1,60 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "9214c273-93fb-476f-bb4a-1306e7fa4fe1",
+      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+      "pub_date": "2026-08-24T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/why-medical-ai-needs-a-referee-proteges-engy-ziedan-K_iA_k2D",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/e568464b-7a8f-4739-8a93-ae7df452a987/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=e568464b-7a8f-4739-8a93-ae7df452a987&feed=JGE3yC0V",
+      "audio_bytes": 33950094,
+      "duration": "00:35:21",
+      "description": "<p>Daisy Wolf and Eva Steinman are joined by Engy Ziedan, co-founder and Chief Scientific Officer of Protege, to discuss why medical AI has a measurement problem, and why scoring well on a benchmark doesn't necessarily mean a model is ready for the hospital.</p>\n<p>Engy explains why healthcare AI needs independent evaluations that go beyond static exams and measure how models actually perform in real-world clinical workflows. They explore the risks of subtle bias and misalignment, why the same model can rank differently depending on how it's prompted or tested, and what happens as AI becomes more personalized and changes faster than traditional healthcare quality systems can keep up.<br>\n The conversation also gets into Protege's role as an independent evaluator, how contaminated training data can undermine benchmarks, and why the future of medical AI may require continuous monitoring rather than occasional testing.</p>\n<p> </p>\n<p>Resources:</p>\n<p>Read our insights piece: <a href=\"https://www.a16z.news/p/the-oracle-problem-an-invisible-bottleneck\" rel=\"noopener noreferrer\">https://www.a16z.news/p/the-oracle-problem-an-invisible-bottleneck</a></p>\n<p>Follow Engy Ziedan on X: <a href=\"https://x.com/engyziedan\" rel=\"noopener noreferrer\">https://x.com/engyziedan</a></p>\n<p>Follow Daisy Wolf on X: <a href=\"https://x.com/daisydwolf\" rel=\"noopener noreferrer\">https://x.com/daisydwolf</a></p>\n<p>Follow Eva Steinman on X: <a href=\"https://x.com/evajsteinman\" rel=\"noopener noreferrer\">https://x.com/evajsteinman</a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcas",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Capital Allocators",
+      "domain": "invest",
+      "guid": "298dae40-627a-43bb-990f-8604f62c4504",
+      "title": "Best of Storytelling: Matthew Dicks",
+      "pub_date": "2026-08-24T08:00:00+00:00",
+      "link": "https://tedseides.libsyn.com/best-of-storytelling-matthew-dicks",
+      "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_SUMMER_SERIES_-_EP.477_Matthew_Dicks_V1.mp3?dest-id=482814",
+      "audio_bytes": 83417737,
+      "duration": "01:26:45",
+      "description": "<p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7=\"true\">This week's Summer Series is a two-fer on the essential skill of storytelling. Whether pitching an investment fund to a prospect, an idea to a portfolio manager or CIO, or a request of a family member, storytelling helps you get what you want.<br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-30= \"true\" /></span></p> <p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7= \"true\"><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-31=\"true\" /> To help understand the art and science of storytelling, Matt Dicks – a retired middle school teacher and author of the best-seller Storyworthy, and Don Miller – creator of Storybrand, a business started with his book of the same name – describe how to improve your storytelling ability.<br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-33= \"true\" /></span></p> <p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7= \"true\"><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-34=\"true\" /> Learn more about <a title=\"\" href= \"https://www.capitalallocators.com/capital-allocators-university/\" data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-36=\"true\">Capital Allocators University</a>.<br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-39= \"true\" /></span></p> <p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7= \"true\"><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-40=\"true\" /> Try <a title=\"\" href=\"https://tryalex.admiredleadership.com\" data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-42=\"true\">ALEX</a> by Admired Leadership.<br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-45=\"true\" /> </span></p> <p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7= \"true\"><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-46=\"true\" /> <strong data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-47=\"true\">Learn More</strong><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-49= \"true\" /> Follow Ted on Twitter at <a title=\"\" href= \"https://twitter.com/tseides?lang=en\" data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-51= \"true\">@tseides</a> or <a title=\"\" href= \"https:/",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: text too sparse to be a transcript (2865 chars for 86 min); youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Capital Allocators",
+      "domain": "invest",
+      "guid": "9b8598fb-8a1d-4da0-b6fa-30cb7aae1af5",
+      "title": "Best of Storytelling: Donald Miller",
+      "pub_date": "2026-08-24T07:30:00+00:00",
+      "link": "https://tedseides.libsyn.com/best-of-storytelling-donald-miller",
+      "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_SUMMER_SERIES_-_EP.426_Don_Miller_V1.mp3?dest-id=482814",
+      "audio_bytes": 47043397,
+      "duration": "48:49",
+      "description": "<p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7=\"true\">This week's Summer Series is a two-fer on the essential skill of storytelling. Whether pitching an investment fund to a prospect, an idea to a portfolio manager or CIO, or a request of a family member, storytelling helps you get what you want.<br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-30= \"true\" /></span></p> <p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7= \"true\"><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-31=\"true\" /> To help understand the art and science of storytelling, Matt Dicks – a retired middle school teacher and author of the best-seller Storyworthy, and Don Miller – creator of Storybrand, a business started with his book of the same name – describe how to improve your storytelling ability.<br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-33= \"true\" /></span></p> <p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7= \"true\"><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-34=\"true\" /> Learn more about <a title=\"\" href= \"https://www.capitalallocators.com/capital-allocators-university/\" data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-36=\"true\">Capital Allocators University</a>.<br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-39= \"true\" /></span></p> <p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7= \"true\"><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-40=\"true\" /> Try <a title=\"\" href=\"https://tryalex.admiredleadership.com\" data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-42=\"true\">ALEX</a> by Admired Leadership.<br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-45=\"true\" /> </span></p> <p><span data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-7= \"true\"><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-46=\"true\" /> <strong data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-47=\"true\">Learn More</strong><br data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-49= \"true\" /> Follow Ted on Twitter at <a title=\"\" href= \"https://twitter.com/tseides?lang=en\" data-b8528f85-ac19-4a95-8a2d-90b2ceb647e6-51= \"true\">@tseides</a> or <a title=\"\" href= \"https:/",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: text too sparse to be a transcript (2865 chars for 48 min); youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "Lenny's Podcast",
       "domain": "ai",
       "guid": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
@@ -127,7 +181,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "episode_page: The read operation timed out; youtube: No YouTube video id in link",
+      "transcript_error": "episode_page: text too sparse to be a transcript (2548 chars for 90 min); youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -147,25 +201,6 @@
       "transcript_video_id": null,
       "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
       "transcript_chars": 0
-    },
-    {
-      "channel": "Latent Space",
-      "domain": "ai",
-      "guid": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-      "pub_date": "2026-08-21T05:45:21+00:00",
-      "link": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-      "audio_url": "https://substackcdn.com/image/fetch/$s_!mQfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a668ad4-aca6-4c1c-ac78-5132b8f3d7a8_834x844.png",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Yes, we&#8217;re confused too.",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/4becdd3754445fbc5e009bba.txt",
-      "transcript_chars": 20848
     },
     {
       "channel": "SemiAnalysis",
@@ -201,29 +236,6 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "LT視界",
-      "domain": "ai",
-      "person": "肖弘",
-      "search_query": "肖弘 Manus 访谈",
-      "guid": "yt:4hlygXkG5Lo",
-      "title": "潘石屹危險了！彭博社沙盤推演，中共三大殺手鐧爆光；為何肖弘解除邊控後第一時間飛新加坡？未來一週最值得關注的五大經濟事件。",
-      "pub_date": "",
-      "pub_date_source": "unverified",
-      "publish_date_unverified": true,
-      "first_seen": "2026-08-17T10:34:15.535813+00:00",
-      "link": "https://www.youtube.com/watch?v=4hlygXkG5Lo",
-      "audio_url": "",
-      "duration": "43:58",
-      "description": "LT視界頻道鏈接https://www.youtube.com/@ltshijie 每天晚上7:00發佈（美東時間）。 LT+ 頻道鏈接https://www.youtube.com/@ltjia ...",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": "4hlygXkG5Lo",
-      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=4hlygXkG5Lo! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
-      "region": "cn",
       "transcript_chars": 0
     },
     {
@@ -382,5 +394,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-23T22:18:28.110130+00:00"
+  "generated_at": "2026-08-24T10:38:54.880584+00:00"
 }

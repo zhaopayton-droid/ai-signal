@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T22:19:46.563843+00:00",
+  "generated_at": "2026-08-24T10:39:28.563171+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 4670,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-23T22:19:46.563843+00:00",
-      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
-      "expires_at": "2026-09-06T22:19:46.563843+00:00"
+      "last_seen_at": "2026-08-24T10:39:28.563171+00:00",
+      "expires_at": "2026-09-07T10:39:28.563171+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
@@ -25,8 +25,8 @@
       "transcript_chars": 28837,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
-      "expires_at": "2026-09-06T22:19:46.563843+00:00"
+      "last_seen_at": "2026-08-24T10:39:28.563171+00:00",
+      "expires_at": "2026-09-07T10:39:28.563171+00:00"
     },
     {
       "guid": "https://www.latent.space/p/attention-interface",
@@ -38,8 +38,8 @@
       "transcript_chars": 12322,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
-      "expires_at": "2026-09-06T22:19:46.563843+00:00"
+      "last_seen_at": "2026-08-24T10:39:28.563171+00:00",
+      "expires_at": "2026-09-07T10:39:28.563171+00:00"
     },
     {
       "guid": "https://www.latent.space/p/simile",
@@ -51,8 +51,8 @@
       "transcript_chars": 80520,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-23T22:19:46.563843+00:00",
-      "expires_at": "2026-09-06T22:19:46.563843+00:00"
+      "last_seen_at": "2026-08-24T10:39:28.563171+00:00",
+      "expires_at": "2026-09-07T10:39:28.563171+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
@@ -352,19 +352,6 @@
       "cached_at": "2026-08-07T22:32:36.975921+00:00",
       "last_seen_at": "2026-08-10T11:11:43.104827+00:00",
       "expires_at": "2026-08-24T11:11:43.104827+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-amd-buys-taalas",
-      "link": "https://www.latent.space/p/ainews-amd-buys-taalas",
-      "channel": "Latent Space",
-      "title": "[AINews] AMD buys Taalas",
-      "pub_date": "2026-08-07T05:13:46+00:00",
-      "transcript_path": "feeds/transcripts/44481c8feb2dcddafce8ae00.txt",
-      "transcript_chars": 26832,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-07T10:55:09.789793+00:00",
-      "last_seen_at": "2026-08-09T22:28:13.618667+00:00",
-      "expires_at": "2026-08-23T22:28:13.618667+00:00"
     }
   ]
 }
