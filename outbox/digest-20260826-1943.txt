@@ -1,0 +1,172 @@
+🛫 起飞了 | AI Signal - 2026-08-26
+
+No new X/Twitter posts cleared the dedup filter since this morning's digest, so today's signal comes from a single consumer-AI podcast, one OpenAI customer story, and an unusually agent-heavy arXiv batch: five separate papers this cycle attack different pieces of the same problem — giving long-horizon agents better memory, safer step-level guardrails, more efficient search, and cheaper training data — which suggests "agent reliability infrastructure" is where a lot of research effort is concentrating right now.
+今天没有新的 X/Twitter 帖子通过去重筛选(距今早的日报没有新增),所以今天的信号来自一期消费级 AI 播客、一篇 OpenAI 客户案例博文,以及一批明显偏"agent"方向的 arXiv 论文——本轮有五篇论文分别从不同角度切入同一个问题:让长程 agent 拥有更好的记忆、更安全的分步护栏、更高效的搜索,以及更便宜的训练数据,这说明当下相当一部分研究精力正集中在"agent 可靠性基础设施"上。
+
+## Podcasts
+
+P1 · a16z · 2026-08-26 18:00 北京时间
+Takeaway: Anish Acharya tells a16z's Jen Kha that consumer AI is entering a new phase, arguing there will be multiple winners at the model layer rather than one, and that the biggest risk for founders today is thinking too small, not too big.
+Key points: The conversation covers why classic moats (network effects, scale, brand) still matter even as models specialize and get combined inside products; personal agents that shop and manage inboxes; coding tools enabling a new wave of small businesses; and the rise of "luxury software" reshaping AI software economics.
+Why it matters: A framing of the consumer-AI application layer from an a16z partner, useful context for anyone tracking where value is accruing between model labs and app builders.
+要点:Anish Acharya 在与 a16z 的 Jen Kha 对谈时表示,消费级 AI 正进入新阶段,他认为模型层会有多个赢家而非一家独大,如今创业者最大的风险不是想得太大,而是想得太小。
+关键内容:对话谈到了网络效应、规模、品牌这些传统护城河为何在模型日益专业化、被组合进产品之后依然重要;能购物、管理收件箱的个人 agent;让新一批小企业得以诞生的编程工具;以及正在重塑 AI 软件经济学的"奢侈软件"趋势。
+为何重要:这是一位 a16z 合伙人对消费级 AI 应用层的框架性解读,对关注模型实验室与应用层构建者之间价值分配的人有参考价值。
+https://a16z.simplecast.com/episodes/the-state-of-ai-macro-apps-and-consumer-0SpxP4t2
+
+## Official Blogs
+
+B1 · OpenAI — How loveholidays is making everyone a builder with Codex · 2026-08-26 08:00 北京时间
+What Was Announced: OpenAI published a customer story on how travel company loveholidays uses Codex to make software development accessible across the business, helping non-engineering teams turn ideas into products faster.
+Details: The official summary stays at this framing level — no specific numbers, team size, or technical implementation details are given; see the link for the full writeup.
+Why It Matters: A concrete "citizen developer" use case for Codex outside of typical dev-tool marketing, relevant to anyone tracking how far AI coding tools are actually spreading inside non-tech companies.
+公告内容:OpenAI 发布了一篇客户案例,介绍旅游公司 loveholidays 如何使用 Codex,让非工程团队也能参与软件开发,把想法更快地变成产品。
+详情:官方摘要停留在这一概括层面,没有给出具体数字、团队规模或技术实现细节,完整内容请见原文链接。
+为什么重要:这是 Codex 在典型开发者工具营销之外的一个具体"全民开发者"案例,对关注 AI 编程工具究竟能渗透到非科技公司内部多深的人值得一读。
+https://openai.com/index/loveholidays
+
+## Papers
+
+Paper1 · What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation · 2026-08-26 01:59 北京时间
+Problem: The standard FID/KID scores used to rank generative models can miss real distributional differences and don't distinguish under-dispersion (e.g. mode collapse) from over-dispersion.
+Approach: The authors introduce ZID, which combines six location- and dispersion-sensitive statistical arms to report three linked outputs: a ranking index, a permutation p-value for distributional equality, and a signed dispersion readout.
+Result: ZID detects departures FID misses or reverses, including on ImageNet cases where unrecognizable optimized images score better than real held-out images (FID 24.7 vs 58.6), and correctly labels high-guidance diversity collapse in DiT-XL/2 and SiT-XL/2 as under-dispersion.
+问题:目前用来给生成模型排名的 FID/KID 分数可能漏掉真实的分布差异,也无法区分"分布收缩不足"(如 mode collapse)和"分布过度发散"。
+方法:作者提出 ZID,结合六种对位置和离散度敏感的统计手段,输出三项关联指标:排名指数、检验分布是否相等的置换检验 p 值,以及带符号的离散度读数。
+结果:ZID 能检测出 FID 会漏掉甚至判断反向的分布偏差,包括在 ImageNet 上,专门优化出的不可识别图像 FID 分数(24.7)反而优于真实留出图像(58.6)的案例,并能正确将 DiT-XL/2、SiT-XL/2 在高引导强度下的多样性坍塌标记为"分布收缩不足"。
+https://arxiv.org/abs/2608.24881v1
+
+Paper2 · Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses · 2026-08-26 01:56 北京时间
+Problem: Long-horizon agent tasks are hard for recursive self-improvement because growing interaction histories obscure task state and misalign which skills get invoked.
+Approach: Recuris pairs a Working Memory that tracks task progress and guides skill selection with an Experiential Memory, and uses a fixed Meta-Agent to turn execution evidence into localized, validation-gated updates to skill memory.
+Result: Across four long-horizon benchmarks and ten models, Recuris improves task success in 35 of 37 model-benchmark pairs — adding +17.8 points to GPT-5.6 Sol and +15.6 to Claude Opus 5 (reaching 87.9%) on tau-bench, with the advantage widening to +32.2 points on the longest tasks and common failures dropping up to 80%.
+问题:长程 agent 任务很难做到递归自我改进,因为不断增长的交互历史会掩盖任务状态,导致技能调用出现偏差。
+方法:Recuris 用负责追踪任务进度、指导技能选择的 Working Memory 搭配 Experiential Memory,并用一个固定的 Meta-Agent 把执行过程中的证据转化为局部化、经过校验的技能记忆更新。
+结果:在四个长程基准和十个模型上,Recuris 在 37 组模型-基准组合中的 35 组提升了任务成功率——在 tau-bench 上为 GPT-5.6 Sol 提升 17.8 分、为 Claude Opus 5 提升 15.6 分(达到 87.9%),在最长任务上优势扩大到 32.2 分,常见的长程失败最多减少 80%。
+https://arxiv.org/abs/2608.24876v1
+
+Paper3 · SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL · 2026-08-26 01:52 北京时间
+Problem: Group-relative RL needs sibling rollouts of the same prompt, which is costly for long, variable-length tool-use trajectories; single-stream alternatives avoid this but have a mismatch between how advantages are centered and what the actor loss actually consumes.
+Approach: SPO++ standardizes terminal-outcome advantages under the action-token measure instead of per-trajectory, and organizes prompt evidence by the policy event that generated it rather than by learner receipt order.
+Result: Across matched runs on ALFWorld (two model scales) and Math-TIR, SPO++ improves online learning efficiency over the original SPO, with ablations identifying the action-token-measure normalization as the strongest single component.
+问题:group-relative 强化学习需要同一 prompt 的多份同伴 rollout,这对长且长度不一的工具调用轨迹成本很高;单流方案能避免这一点,但其 advantage 的居中方式和 actor loss 实际使用的量之间存在错位。
+方法:SPO++ 改为按 action-token 度量(而非按轨迹)对最终结果 advantage 做标准化,并按生成该证据的策略事件(而非学习器接收顺序)组织 prompt 证据。
+结果:在 ALFWorld(两种模型规模)和 Math-TIR 上的对照实验中,SPO++ 相比原始 SPO 提升了在线学习效率,消融实验显示 action-token 度量归一化是其中贡献最大的单一改动。
+https://arxiv.org/abs/2608.24870v1
+
+Paper4 · BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes · 2026-08-26 01:35 北京时间
+Problem: Pixel-based web agents need large, diverse interaction trajectories to train on, but public datasets are stuck at a few thousand trajectories from a narrow set of websites.
+Approach: BrowserForge drives many browser sandboxes in parallel across hundreds of thousands of real open-web sites, using a Proposer-Solver dual-agent loop to turn raw pages into executable tasks and collect verified trajectories, then trains an agent that acts purely from screenshots.
+Result: The resulting 203,238-trajectory corpus (one distinct website each) raises a compact multimodal model's success rate on live Online-Mind2Web from 25.66% to 33.33%, with gains growing as the corpus scales.
+问题:基于像素操作的网页 agent 需要大量多样化的交互轨迹来训练,但公开数据集仍停留在几千条轨迹、覆盖网站范围狭窄的水平。
+方法:BrowserForge 在开放网络的数十万个真实网站上并行驱动大量浏览器沙箱,用 Proposer-Solver 双 agent 循环把原始页面转成可执行任务并采集经过验证的轨迹,训练出的 agent 完全只依赖截图行动。
+结果:由此产生的 203,238 条轨迹语料(每条对应一个不同网站)让一个轻量多模态模型在实时 Online-Mind2Web 上的成功率从 25.66% 提升到 33.33%,且随语料规模扩大收益持续增长。
+https://arxiv.org/abs/2608.24848v1
+
+Paper5 · LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training · 2026-08-26 01:34 北京时间
+Problem: Open, large-scale video data for multimodal pretraining across video/audio/image modalities has been scarce relative to image-text corpora.
+Approach: LAION-BVD collects 1.3B platform-specific video URLs from CommonCrawl, downloads 80M videos (10M hours total), and uses content-aware scene detection plus synthetic captioning to build video-audio-text training clips, also extracting scene-changing frames as an alternative image-text source.
+Result: Models trained on the dataset achieve competitive video-text and audio-text benchmark performance that improves consistently with scale, and the extracted-frame image-text data shows strong image-text retrieval performance with a visual distribution distinct from standard web image corpora.
+问题:相较于图文语料,可用于视频/音频/图像多模态预训练的开放大规模视频数据一直比较稀缺。
+方法:LAION-BVD 从 CommonCrawl 收集了 13 亿条平台视频 URL,下载了 8000 万条视频(总时长 1000 万小时),用内容感知的场景检测加合成字幕生成视频-音频-文本训练片段,同时提取场景切换帧作为另一种图文数据来源。
+结果:在该数据集上训练的模型在视频-文本、音频-文本基准上取得有竞争力的表现,且随规模扩大持续提升;提取出的帧图文数据也展现出很强的图文检索表现,其视觉分布与标准网络图片语料明显不同。
+https://arxiv.org/abs/2608.24845v1
+
+Paper6 · Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows · 2026-08-26 01:31 北京时间
+Problem: LLM "AI analysts" are usually evaluated on whether they can retrieve financial disclosure information, not on whether that retrieved information actually changes their investment judgments — and the authors find a retrieval-integration gap where a risk disclosure's influence on judgments falls to noise-floor levels as unrelated context grows from 2K to 128K tokens, even though retrieval itself stays accurate.
+Approach: Holding focal-firm information fixed while varying unrelated context length, the authors test multiple model families and judgment tasks, including with real disclosures removed from actual 10-K filings, and run causal memory interventions to see what restores the disclosure's influence.
+Result: More capable models delay but don't eliminate the gap; chunk-and-summarize pipelines evict relevant information, while a targeted, structured restatement placed adjacent to the decision point restores the disclosure's influence — meaning retrieval-based evaluations alone can certify systems whose actual investment judgments ignore information they demonstrably retrieved.
+问题:LLM "AI 分析师"通常只按能否检索到财报披露信息来评估,而不看检索到的信息是否真的影响了投资判断——作者发现存在一个"检索-整合缺口":当无关上下文从 2000 token 增加到 128000 token 时,某项风险披露对投资判断的影响会跌到与噪声无异的水平,尽管检索本身依然准确。
+方法:作者固定核心公司信息不变、只改变无关上下文长度,在多个模型家族和判断任务上测试,包括从真实 10-K 文件中移除真实披露内容的实验,并通过因果记忆干预寻找能恢复披露信息影响力的方法。
+结果:能力更强的模型只是推迟而非消除这一鸿沟;"分块再摘要"式流程会把相关信息挤掉,而把披露内容以结构化方式重述并紧邻决策点呈现则能恢复其影响力——这意味着仅靠检索类评测,可能会给那些"检索到了信息却在判断中忽略它"的系统发放合格证。
+https://arxiv.org/abs/2608.24842v1
+
+Paper7 · Effective Learning Rate Governs Loss Dynamics in Language Model Pretraining · 2026-08-26 00:57 北京时间
+Problem: It's unclear what single quantity actually governs loss dynamics in LM pretraining across different learning rates and parameter norms.
+Approach: The authors show that learning rate and parameter norm act mainly through their ratio — the effective learning rate (ELR) — and test this "ELR collapse" across optimizers, architectures, datasets, and model scales.
+Result: When ELR is matched across runs, loss trajectories collapse onto each other with mean errors of a few x 10^-3 (below seed-to-seed variation); replacing LR with ELR lets a fitted functional scaling law transfer across norm-control methods and explains a recurring "delayed acceleration" effect.
+问题:目前尚不清楚在不同学习率和参数范数组合下,究竟是什么单一量在支配语言模型预训练的 loss 变化规律。
+方法:作者证明学习率和参数范数主要通过二者的比值——有效学习率(ELR)——起作用,并在不同优化器、架构、数据集和模型规模上验证这种"ELR collapse"现象。
+结果:当各次训练的 ELR 匹配时,loss 曲线会重合到一起,平均误差只有几个 10^-3 量级(低于种子间的自然波动);用 ELR 替代 LR 后,拟合出的函数式 scaling law 能够跨不同范数控制方法迁移,并能解释一种反复出现的"延迟加速"现象。
+https://arxiv.org/abs/2608.24814v1
+
+Paper8 · Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch · 2026-08-26 00:51 北京时间
+Problem: Open-ended "deep research" agents for scholarly search are expensive and hard to inspect, with no fixed candidate set or stopping condition.
+Approach: Crase instead queries a search engine once for seed papers, expands only along their 1.5-hop citation neighborhood, prunes edges lacking entailment support, and ranks remaining papers with a recency-aware random walk — fixing the candidate set and stopping condition before inference.
+Result: On LitSearch and a further benchmark over a 500K-paper arXiv corpus, Crase beats deep research agents built on proprietary models by up to 3x recall@50 at roughly a third of the cost.
+问题:面向学术搜索的开放式"深度研究"agent 成本高、难以审查,既没有固定的候选集,也没有明确的停止条件。
+方法:Crase 改为只调用一次搜索引擎获取种子论文,仅沿其 1.5 跳引用邻域扩展,剪掉缺乏蕴含支持的引用边,再用带时效偏好的随机游走对剩余论文排序——在推理前就固定候选集和停止条件。
+结果:在 LitSearch 和另一个覆盖 50 万篇 arXiv 论文的基准上,Crase 相比基于闭源模型构建的深度研究 agent,recall@50 最高提升 3 倍,而成本只有约三分之一。
+https://arxiv.org/abs/2608.24809v1
+
+Paper9 · Automatic Model Card Generation Using an LLM · 2026-08-26 00:49 北京时间
+Problem: Model cards improve ML transparency and accountability, but they're often inconsistent or missing entirely, making models hard to compare.
+Approach: The authors build MCTidy, which reorganizes existing model cards into a standardized template, and MCGenie, which generates model cards directly from model repository data, testing both on 48 Hugging Face model cards.
+Result: MCTidy shows high information retention with rare hallucinations and strong stability across runs; MCGenie-generated cards reach ~0.9 mean semantic similarity to the originals, with over half fully correct and quality strongly tied to whether a paper or other supporting resource is available.
+问题:模型卡片有助于提升机器学习的透明度和问责性,但现实中它们常常格式不统一甚至完全缺失,导致模型难以比较。
+方法:作者构建了 MCTidy(把现有模型卡片重整为标准化模板)和 MCGenie(直接从模型仓库数据生成模型卡片),并在 48 张 Hugging Face 模型卡片上进行测试。
+结果:MCTidy 显示出很高的信息保留度、极少幻觉、多次运行结果稳定;MCGenie 生成的卡片与原版语义相似度均值约 0.9,过半完全正确,生成质量与是否有配套论文等支撑资源高度相关。
+https://arxiv.org/abs/2608.24807v1
+
+Paper10 · StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments · 2026-08-26 00:48 北京时间
+Problem: Enterprise agent deployments suffer from persistent model-environment mismatch (bad tool interfaces, missing operational knowledge) that model weights alone can't fix.
+Approach: StarHarness evolves the agent harness itself — prompts, tool interfaces, skills, MCP-backed providers, subagent structure — while keeping model weights fixed, using a stratified task pool with held-out tasks to check generalization.
+Result: Across ITBench SRE, EnterpriseOps-Gym ITSM, and AutomationBench Finance, harness evolution improves full-benchmark performance by 20-35 percentage points after 4-12 accepted changes, with gains transferring across GPT and Qwen model families without re-evolution.
+问题:企业级 agent 部署普遍存在模型与环境之间的持续性错配(工具接口不佳、缺乏运营知识),仅靠改进模型权重无法解决。
+方法:StarHarness 在保持模型权重不变的前提下,直接进化 agent 的"harness"本身——提示词、工具接口、技能、MCP 供给方、子 agent 结构——并用分层任务池和留出任务来检验泛化能力。
+结果:在 ITBench SRE、EnterpriseOps-Gym ITSM 和 AutomationBench Finance 上,经过 4-12 次被采纳的改动后,harness 进化能让全基准表现提升 20-35 个百分点,且这些收益无需重新进化就能迁移到 GPT 和 Qwen 不同模型家族上。
+https://arxiv.org/abs/2608.24804v1
+
+Paper11 · CAFE: Self-Improving Search Agents Need Co-Evolving Feedback · 2026-08-26 00:39 北京时间
+Problem: Outcome-only rewards for search agents can't localize intermediate errors or redirect a trajectory before mistakes compound.
+Approach: CAFE has a shared-parameter model alternate between search-agent and critic roles, combining online RL (comparative feedback estimates, feedback-aware advantage shaping) with offline preference optimization learned from matched successful/unsuccessful trajectories.
+Result: Across seven agentic search benchmarks, CAFE outperforms evaluated RL-based search agents on average, holds its gains on all six out-of-domain benchmarks, and reduces answer-level hallucinations; ablations show improving only the agent or only the critic alone plateaus.
+问题:仅依赖最终结果的奖励信号,无法定位搜索 agent 在中间步骤的错误,也无法在错误累积前及时纠正轨迹。
+方法:CAFE 让一个共享参数的模型交替扮演搜索 agent 和评判者(critic)角色,把在线强化学习(对比式反馈估计、反馈感知的 advantage 调整)与离线偏好优化(从匹配的成功/失败轨迹中学习)结合起来。
+结果:在七个 agentic 搜索基准上,CAFE 平均表现优于其他基于强化学习的搜索 agent,在全部六个域外基准上都保持优势,并减少了答案层面的幻觉;消融实验显示只改进 agent 或只改进 critic 最终都会遇到瓶颈。
+https://arxiv.org/abs/2608.24794v1
+
+Paper12 · Right Diagnoses, Decorative Reasoning: A Perturbation Audit of Medical Chain-of-Thought · 2026-08-26 00:37 北京时间
+Problem: Clinicians treat visible chain-of-thought (CoT) as evidence of medical reasoning, but whether the chain actually plays that causal role is rarely tested.
+Approach: The authors run a 30-operator perturbation audit (severity reversal, negation flip, demographic swap, evidence ablation) on both chain and question, applied to 14 LLMs across four medical QA benchmarks, with two board-certified clinicians re-annotating perturbed questions.
+Result: The Chain-Decoupling Rate is 72.9% panel-wide on clinically meaningful destructive edits — the chain doesn't register the edit and the answer doesn't flip — chain corruption leaves accuracy unchanged, and removing CoT prompting doesn't reduce accuracy either, suggesting much of the visible medical reasoning chain is decorative rather than causal.
+问题:临床医生把可见的思维链(CoT)当作医学推理的证据,但这条链是否真的在因果层面起作用,却很少被检验。
+方法:作者设计了一套 30 种操作的扰动审计(严重程度反转、否定翻转、人口学信息互换、证据消融),同时作用于思维链和问题本身,应用于 14 个 LLM 在四个医学问答基准上的表现,并由两名执业医师对扰动后的问题重新标注。
+结果:在具有临床意义的破坏性编辑下,"链-断联率"(Chain-Decoupling Rate)整体高达 72.9%——即思维链没有反映编辑、答案也没有随之改变;破坏思维链不影响准确率,去掉 CoT 提示同样不影响准确率,这说明很大一部分可见的医学推理链更像是"装饰"而非真正的因果推理依据。
+https://arxiv.org/abs/2608.24790v1
+
+Paper13 · Linear Probing Provides Robust and Efficient Detection of Machine-Generated Text · 2026-08-26 00:21 北京时间
+Problem: Supervised machine-generated-text (MGT) detectors often degrade out-of-domain and need large, diverse training sets.
+Approach: The authors show MGT and human-written text representations are linearly separable in low-dimensional space and train simple linear probes on top of these representations, evaluating across 4 benchmarks against 16 baselines.
+Result: The probes improve out-of-domain detection by +11 AUC while needing fewer than 100 samples to reach near-peak performance, because they recover a shared latent "MGT direction" that generalizes across settings and captures a continuous spectrum of "machineness."
+问题:有监督的机器生成文本(MGT)检测器往往在域外数据上表现变差,并且需要大量、多样化的训练数据。
+方法:作者证明 MGT 与人类写作文本的表征在低维空间中是线性可分的,并在此基础上训练简单的线性探针,在 4 个基准、对比 16 个基线方法上进行评估。
+结果:这些线性探针把域外检测效果提升了 11 个 AUC 点,且只需不到 100 个样本就能接近最佳表现,原因在于它们恢复出了一个在不同场景下都通用的潜在"MGT 方向",还能刻画出连续的"机器性"程度谱系。
+https://arxiv.org/abs/2608.24780v1
+
+Paper14 · StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing · 2026-08-26 00:17 北京时间
+Problem: LLM agents that call tools can modify files, leak information, or take unauthorized actions, but most guardrails only evaluate completed trajectories rather than checking actions before they execute.
+Approach: StepGuard is a step-level guard model trained with StepGen (an engine generating matched safe/unsafe trajectories that diverge only at the risky step) and Balance-GRPO, which dynamically balances learning between safe and unsafe actions based on observed accuracy.
+Result: StepGuard reaches the highest average accuracy among open-weight guard models, comparable to GPT-5.4, and cuts mean attack success rate by 77.3% relative to no guard on AgentDojo and AgentDyn while only costing 2.8 points of utility.
+问题:能调用工具的 LLM agent 可能修改文件、泄露信息或执行未经授权的操作,而大多数护栏机制只评估已完成的轨迹,而非在动作执行前就进行检查。
+方法:StepGuard 是一个分步护栏模型,用 StepGen(一个能生成仅在风险步骤上有差异的匹配安全/不安全轨迹的数据引擎)和 Balance-GRPO(根据实测准确率动态平衡安全与不安全动作学习)训练而成。
+结果:StepGuard 在开源护栏模型中取得最高平均准确率,与 GPT-5.4 相当,在 AgentDojo 和 AgentDyn 上相比无护栏设置将平均攻击成功率降低 77.3%,而实用性只下降 2.8 个百分点。
+https://arxiv.org/abs/2608.24777v1
+
+Paper15 · Evidence Blindness in Direct Corpus Interaction: Persistent Navigation with AtlasNav · 2026-08-26 00:03 北京时间
+Problem: LLM agents doing direct corpus interaction can fail to use evidence that's technically reachable — it may not surface, a surfaced document may go unopened, or an opened document may not expose its key fragment — a progressive silent loss the authors call Evidence Blindness.
+Approach: AtlasNav organizes the corpus once into a persistent, reusable "Corpus Atlas" so each query can navigate adaptively instead of reconstructing shared structure from scratch, unlike prior raw-interaction or dynamic-workspace methods.
+Result: On BrowseComp-Plus, AtlasNav reaches 92.05% strict accuracy while cutting recorded online inference cost by 30.21% versus the prior dynamic-workspace state of the art, and the same approach transfers to PhantomWiki and heterogeneous enterprise knowledge at scale.
+问题:进行"直接语料交互"的 LLM agent 可能无法用上那些技术上"可及"的证据——证据可能没有被检索出来,被检索出的文档可能没被打开,打开的文档也可能没暴露关键片段——作者把这种渐进式的隐性损失称为"证据盲视"(Evidence Blindness)。
+方法:AtlasNav 只需一次性把语料组织成一个持久、可复用的"语料地图"(Corpus Atlas),让每次查询都能在其上自适应导航,而不必像此前的原始交互或动态工作区方法那样每次都重建共享结构。
+结果:在 BrowseComp-Plus 上,AtlasNav 达到 92.05% 的严格准确率,同时相比此前动态工作区方案的最优水平,把记录到的在线推理成本降低了 30.21%,同样的方法在 PhantomWiki 及异构企业知识场景下的规模化测试中也能有效迁移。
+https://arxiv.org/abs/2608.24764v1
+
+---
+Skipped this cycle: 15 arXiv submissions that were more general ML/CV/graph-learning/medical-imaging work (vehicle routing, offline-RL calibration, federated KGQA, histology-transcriptomics retrieval, fairness-audit geometry, temporal-graph diffusion, video anomaly detection, Clifford graph nets, stroke-prediction CNNs, video MoE, disentangled-representation geometry, and two narrower LLM/KGQA papers) without a clear enough AI-industry angle to include. No new X posts or blog posts beyond what's above cleared the 13-hour dedup window.
+本轮跳过了 15 篇偏通用机器学习/计算机视觉/图学习/医学影像方向的 arXiv 论文(车辆路径规划、离线强化学习校准、联邦知识图谱问答、组织学-转录组检索、公平性审计几何理论、时序图扩散、视频异常检测、Clifford 图神经网络、脑卒中预测 CNN、视频多任务 MoE,以及两篇范围较窄的 LLM/知识图谱问答论文),因为它们与 AI 产业/研究的关联不够明确。除上文内容外,没有其他 X 帖子或博客文章通过 13 小时的去重窗口。
+
+想深入了解某一条?直接说「展开 P1」「展开 Paper6」之类的指令即可。
+Want to go deeper on any item? Just say something like "expand P1" or "expand Paper6".
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
