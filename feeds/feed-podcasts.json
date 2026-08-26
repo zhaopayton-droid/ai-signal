@@ -1,6 +1,24 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "548ff3fc-0c93-4ca1-9475-b62cd4bd4288",
+      "title": "The State of AI: Macro, Apps, and Consumer",
+      "pub_date": "2026-08-26T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/the-state-of-ai-macro-apps-and-consumer-0SpxP4t2",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/95ad917f-6caa-4d3b-a9c8-2a3a2541c5d0/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=95ad917f-6caa-4d3b-a9c8-2a3a2541c5d0&feed=JGE3yC0V",
+      "audio_bytes": 35752470,
+      "duration": "00:37:14",
+      "description": "<p>Anish Acharya joins Jen Kha to break down the next frontier of AI, from the evolving model landscape and open-source AI to why the application layer, and consumer AI in particular, may be entering a new phase.</p>\n<p>Anish explains why he believes there will be multiple winners at the model layer, why traditional moats like network effects, scale, and brand still matter, and how companies can choose between frontier and open-weight models depending on the economics of the task. They also explore why models are increasingly specializing, and how applications can combine different types of intelligence to create products that are more valuable than any single model.</p>\n<p>The conversation then turns to consumer AI: personal agents that can shop and manage your inbox, coding tools enabling a new generation of small businesses, and why Anish thinks we're seeing a renaissance for consumer builders. They also discuss the changing economics of AI software, the rise of \"luxury software,\" and why the biggest risk for today's founders may no longer be thinking too big, but thinking too small.</p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter.com/eriktorenberg</a></p><p> </p><p>Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "Dwarkesh Patel",
       "domain": "ai",
       "guid": "https://www.dwarkesh.com/p/dylan-patel-3",
@@ -502,5 +520,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-25T22:23:30.526422+00:00"
+  "generated_at": "2026-08-26T10:37:30.742031+00:00"
 }
