@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T02:54:07.878737+00:00",
+  "generated_at": "2026-08-27T20:12:45.623047+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 11730,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
@@ -25,8 +25,8 @@
       "transcript_chars": 12551,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "https://lexfridman.com/?p=6506",
@@ -38,8 +38,8 @@
       "transcript_chars": 309575,
       "transcript_source": "description_transcript_link",
       "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "https://www.latent.space/p/lovable-future-of-saas",
@@ -51,8 +51,8 @@
       "transcript_chars": 9290,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "b6ddc30d-9b7d-4192-8939-a821301570f5",
@@ -64,8 +64,8 @@
       "transcript_chars": 18551,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "https://www.latent.space/p/anima",
@@ -77,8 +77,8 @@
       "transcript_chars": 9148,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/dylan-patel-3",
@@ -90,8 +90,8 @@
       "transcript_chars": 78352,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-25T22:24:17.279134+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
@@ -103,8 +103,8 @@
       "transcript_chars": 18025,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-25T22:24:17.279134+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
@@ -116,8 +116,8 @@
       "transcript_chars": 20835,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-25T10:35:59.329230+00:00",
-      "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
-      "expires_at": "2026-09-10T02:54:07.878737+00:00"
+      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
+      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great",
@@ -430,32 +430,6 @@
       "cached_at": "2026-08-11T10:53:00.104931+00:00",
       "last_seen_at": "2026-08-13T22:38:44.825615+00:00",
       "expires_at": "2026-08-27T22:38:44.825615+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
-      "link": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
-      "channel": "Lenny's Podcast",
-      "title": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
-      "pub_date": "2026-08-10T15:01:49+00:00",
-      "transcript_path": "feeds/transcripts/412f043cdcb3ab3aa7f1f623.txt",
-      "transcript_chars": 10401,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-10T22:35:22.460070+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
-      "link": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
-      "channel": "Lenny's Podcast",
-      "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
-      "pub_date": "2026-08-10T12:01:44+00:00",
-      "transcript_path": "feeds/transcripts/8956ade0f890e5e9bbc19239.txt",
-      "transcript_chars": 5269,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-10T22:35:22.460070+00:00",
-      "last_seen_at": "2026-08-13T11:02:29.196069+00:00",
-      "expires_at": "2026-08-27T11:02:29.196069+00:00"
     }
   ]
 }
