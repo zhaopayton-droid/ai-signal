@@ -1,0 +1,98 @@
+🛫 起飞了 | AI Signal - 2026-08-28
+
+Today's strongest thread: agent capability research keeps compounding — persistent skill memory, cheaper coding-agent training, cross-embodiment world models — right as Sam Altman escalates his public tone on AI-enabled cyber risk from routine caution to explicit urgency. Progress and risk are advancing on the same day, not in sequence.
+今天最强的一条线索是:agent 能力研究还在持续叠加——持久化技能记忆、更省成本的编程 agent 训练、跨具身的世界模型——与此同时 Sam Altman 在网络安全风险上的公开表态从常规提醒升级为明确的紧迫警告。进展和风险是同一天在推进,而不是先后发生。
+
+## X / Twitter
+
+X1 · Tang Jie (Z.ai / Tsinghua) · 2026-08-27 13:42 北京时间
+Ox Alpha = GLM-5.3 Flash
+AA = 57,
+1/100 frontier price,
+Powered by pure Chinese chips.
+Delivered nearly 20% weekly token share (no. 1) on OpenRouter.
+Thanks to all for the support.
+Ox Alpha 就是 GLM-5.3 Flash,Artificial Analysis 评分 57,价格是前沿模型的 1/100,完全基于国产芯片驱动,在 OpenRouter 上拿到了近 20% 的周 token 份额(排名第一)。感谢大家的支持。
+https://x.com/jietang/status/2092850258573471936
+
+X2 · Guillermo Rauch (Vercel) · 2026-08-27 23:17 北京时间
+CMA is a remarkably elegant architecture. The 'hard parts' of the agent are managed, but it doesn't take away from your freedom to customize. e.g: you can have a fully custom UI for your agent on Vercel with Chat SDK. Or handle custom tools with your own functions on Vercel.
+CMA 是一个相当优雅的架构。agent 里"难啃的部分"由平台托管,但这并不影响你自定义的自由——比如你可以在 Vercel 上用 Chat SDK 给 agent 做一套完全自定义的 UI,或者用自己写的函数在 Vercel 上处理自定义工具。
+https://x.com/rauchg/status/2092995002410680375
+
+X3 · Guillermo Rauch (Vercel) · 2026-08-28 00:54 北京时间
+Our best products have been exports of internal technology we gain strong conviction in. @matinotfound and team have been shipping extraordinary WebGPU creative productions, and now [new tool] is here. It's a fully agent-native devtool: it was designed for agents, not humans alone. Much like agent-browser, it's part of a new exciting generation of tools to serve the new world.
+我们做得最好的产品,往往是我们内部已经建立强烈信心的技术对外输出的结果。matinotfound 和团队一直在打造令人惊艳的 WebGPU 创意作品,现在这款新工具上线了。它是一个完全"agent 原生"的开发者工具:设计之初就是为 agent 而不只是为人类准备的。和 agent-browser 类似,它是服务于这个新世界的新一代工具之一。
+https://x.com/rauchg/status/2093019310725951683
+
+X4 · Sam Altman · 2026-08-28 03:38 北京时间
+this is a critically important moment for cyber defense with AI; there is not much time to act. we are happy if you want to work with us or any of our competitors or partners, but please take this moment seriously. only an urgent and intense collective response will work.
+这是 AI 用于网络防御的一个至关重要的时刻,留给我们行动的时间不多了。无论你是想和我们合作,还是和我们的竞争对手、合作伙伴合作都可以,但请认真对待这个时刻。只有紧急且强有力的集体应对才能奏效。
+https://x.com/sama/status/2093060670472241368
+
+X5 · Josh Woodward (Google Labs) · 2026-08-28 04:18 北京时间
+Turn your favorite books into your personal brain trust! You can now buy a book, drop it in Notebook, and apply the author's lessons to your project. For authors and publishers, we co-created this program so you could reach new and more engaged readers.
+把你最喜欢的书变成你的私人智囊团!现在你可以直接购买一本书,拖进 Notebook,把作者的经验应用到你自己的项目里。对作者和出版商来说,这个项目是我们共同打造的,可以帮你触达更多、参与度更高的读者。
+https://x.com/joshwoodward/status/2093070717508296923
+
+X6 · Josh Woodward (Google Labs) · 2026-08-28 04:32 北京时间
+Look what you can do: Tell Gemini what you want done, Gemini gets to work. This is the Year of Voice.
+看看你现在能做什么:告诉 Gemini 你想要完成什么,Gemini 就去动手做。今年是"语音之年"。
+https://x.com/joshwoodward/status/2093074288295481470
+
+## Papers
+
+Paper1 · CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes · 2026-08-28 01:59 北京时间
+Problem: Inference-time scaling improves LLM reasoning but usually needs repeated generation or external verification, which is costly. 问题:推理时扩展能提升 LLM 推理能力,但通常依赖重复生成或外部验证,成本很高。
+Approach: CritICL treats smaller models' failure modes as reusable signal, turning them into critique-based in-context examples — a dynamic variant predicts input-specific failure modes, a static variant uses a global failure-mode profile. 方法:CritICL 把小模型的失败模式当作可复用的信号,转化为基于"批评"的上下文示例——动态版本按输入预测特定失败模式,静态版本使用全局失败模式画像。
+Result: Outperforms standard in-context learning and matches or beats test-time scaling methods, with far fewer generations and lower token cost. 结果:效果优于标准上下文学习,并达到或超过测试时扩展方法的水平,同时生成次数和 token 成本显著更低。
+https://arxiv.org/abs/2608.27455v1
+
+Paper2 · WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution · 2026-08-28 01:59 北京时间
+Problem: Agent skills learned from experience tend to stay scattered across optimization runs, limiting systematic reuse. 问题:agent 从经验中学到的技能往往分散在各次优化过程里,难以被系统性地复用。
+Approach: WikiSkill co-evolves agent skills with a persistent wiki-style knowledge base, separating raw execution experience, accumulated knowledge, and executable skills, continuously consolidating experience into the wiki. 方法:WikiSkill 让 agent 技能与一个持久化的 wiki 式知识库共同演化,把原始执行经验、积累的知识和可执行技能分离开,并持续把经验沉淀进 wiki。
+Result: Outperforms state-of-the-art skill-evolution methods across benchmarks and models; skills transfer well across models, and smaller models with evolved skills can beat much larger models without them. 结果:在多个基准和模型上超过现有最优的技能演化方法;技能可以很好地跨模型迁移,拥有演化技能的小模型甚至能超过没有技能的更大模型。
+https://arxiv.org/abs/2608.27454v1
+
+Paper3 · SWE-Prime: Fewer Trajectories, Better Performance · 2026-08-28 01:58 北京时间
+Problem: Training coding agents by fine-tuning on all "successful" trajectories still bakes in noisy or risky intermediate steps. 问题:用全部"成功"轨迹去微调编程 agent,仍然会把带噪声或有风险的中间步骤学进去。
+Approach: A two-stage, multi-granularity data selection method filters first at the trajectory level, then at the segment level, keeping only high-quality segments in the SFT loss while preserving full context. 方法:一种两阶段、多粒度的数据筛选方法,先在轨迹层面筛选,再在片段层面筛选,只让高质量片段参与 SFT 损失计算,同时保留完整上下文。
+Result: Training on just a 10% subset selected this way beats training on the full resolved dataset, with relative gains up to 12.2% on SWE-Bench Pro and 24.2% on SWE-Bench Verified. 结果:仅用筛选出的 10% 数据训练,效果就超过用全部已解决数据训练,在 SWE-Bench Pro 上相对提升达 12.2%,在 SWE-Bench Verified 上达 24.2%。
+https://arxiv.org/abs/2608.27449v1
+
+Paper4 · RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution · 2026-08-28 01:55 北京时间
+Problem: LLM agents deployed in real product harnesses face jailbreaks that trigger harmful tool use, not just unsafe text — and existing automated red-teaming is either fixed-attack or prone to reusing misleading experience. 问题:部署在真实产品环境中的 LLM agent 面临的越狱攻击会触发有害的工具调用,而不只是生成不安全文本;现有自动化红队方法要么攻击方式固定,要么容易复用带有误导性的经验。
+Approach: RedEvoAgent distills cross-case attack trajectories into a concise, human-readable attack skill that evolves via tool-effectiveness profiling and a validation ratchet that only keeps updates that improve performance. 方法:RedEvoAgent 把跨案例的攻击轨迹提炼成简洁、可读的攻击技能,通过工具有效性画像和"验证棘轮"机制来演化——只保留能带来性能提升的更新。
+Result: Outperforms fixed and agentic red-teaming baselines, improves tool efficiency, and transfers across different attacker models and target execution harnesses. 结果:优于固定式和 agent 式的红队基线方法,提升了工具使用效率,并能跨攻击模型和目标执行环境迁移。
+https://arxiv.org/abs/2608.27439v1
+
+Paper5 · Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit · 2026-08-28 01:50 北京时间
+Problem: In governed organizations, an LLM agent's "persona" (tone, instructions) needs to evolve freely, while its "execution" (stateful, audited work) needs to stay traceable — a single trust domain struggles to do both cheaply. 问题:在受监管的组织中,LLM agent 的"人格"(语气、指令)需要自由演化,而"执行"(有状态、可审计的工作)需要保持可追溯——单一信任域很难低成本地同时满足这两点。
+Approach: Persona-Execution Separation (PES) puts persona and execution in different trust domains connected by a governed contract bridge, enforced by an approval matrix, DLP rules, and a stable audit anchor. 方法:Persona-Execution Separation(PES)把"人格"和"执行"放在不同的信任域中,通过一个受治理的契约桥连接,并由审批矩阵、数据防泄露(DLP)规则和一个稳定的审计锚点来强制执行。
+Result: A one-month pilot on a regulated digital-employee platform recorded five design decisions under this pattern; a mechanism check found no execution-side re-validation leaked in under persona changes, and a probe of a pre-separation build showed prior isolation existed only by omission, not by design. 结果:在一个受监管的"数字员工"平台上试点一个月,记录了该架构下的五个设计决策;机制检查显示人格变化不会泄漏到执行侧的重新验证中,而对分离之前版本的排查显示,此前的隔离只是"恰好没出问题",并非架构上的保证。
+https://arxiv.org/abs/2608.27427v1
+
+Paper6 · CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators · 2026-08-28 01:35 北京时间
+Problem: Action-conditioned video world models are usually locked to a single robot embodiment, so they can't learn from the much larger pool of heterogeneous human and robot video. 问题:动作条件视频世界模型通常只能绑定单一机器人本体,无法利用数量大得多的、涵盖人类和机器人的异构视频数据。
+Approach: CLAP reconciles different action spaces (end-effector poses, language instructions, latent actions) and uses a curriculum that first learns physical priors from unlabeled video, then grounds them in end-effector actions for zero-shot deployment. 方法:CLAP 统一了不同的动作空间(末端执行器姿态、语言指令、隐动作),并采用课程式训练——先从无标注视频中学习物理先验,再落地到末端执行器动作空间,实现零样本部署。
+Result: Approaches or surpasses state-of-the-art single-embodiment video models on challenging benchmarks like DROID, and the team open-sourced models spanning cross-embodiment, bimanual, and humanoid robots. 结果:在 DROID 等有挑战性的基准上,达到或超过了最先进的单一本体视频模型的水平,团队开源了涵盖跨本体、双臂机器人和人形机器人的一整套模型。
+https://arxiv.org/abs/2608.27406v1
+
+Paper7 · Token-Level Advertising · 2026-08-28 01:18 北京时间
+Problem: Generative AI is replacing search-style, slot-based information access, but traditional ad mechanisms are built around predefined slots that no longer exist. 问题:生成式 AI 正在取代基于"广告位"的传统搜索式信息获取方式,但传统广告机制正是围绕预设广告位设计的,这些广告位在生成式场景中不复存在。
+Approach: The paper proposes LAMA, a token-level auction where advertisers report continuation values that shape next-token policies, and the platform decodes through a latent mixture while updating an allocation posterior — designed to be incentive-compatible. 方法:论文提出 LAMA,一种 token 级的拍卖机制——广告主报出"续写价值",这些价值影响下一个 token 的生成策略,平台通过一个隐混合模型来解码,并持续更新分配后验;该机制设计为满足激励相容。
+Result: Proof-of-concept experiments on real commercial-search query splits show LAMA improves platform welfare and revenue while maintaining response quality — early evidence that "generation-native advertising" is feasible. 结果:在真实商业搜索查询数据上的概念验证实验显示,LAMA 在保持回答质量的同时提升了平台福利和收入——为"生成原生广告"的可行性提供了初步证据。
+https://arxiv.org/abs/2608.27382v1
+
+Paper8 · Sophistication in GenAI Use: Field Evidence from a Large Firm · 2026-08-28 01:03 北京时间
+Problem: Little is known about how "sophisticated" genAI use actually varies across a real corporate workforce, beyond simple adoption rates. 问题:除了简单的使用率之外,关于企业员工"高水平使用"生成式 AI 的真实差异,目前了解很少。
+Approach: The authors analyze 713,564 employee prompts and LLM responses from nearly 4,000 back-office employees across 15 functions over eight months in 2025 at a large firm. 方法:作者分析了一家大型企业 15 个职能部门、近 4000 名后台员工在 2025 年八个月内产生的 713,564 条员工提示词及对应的大模型回复。
+Result: Senior employees show more sophisticated genAI use; sophistication is highest in Strategy, Digital Innovation, and Project Management; and neither time nor formal AI training produced lasting improvement in sophistication. 结果:资深员工的生成式 AI 使用更加成熟老练;战略、数字创新和项目管理这三个职能部门的使用水平最高;无论是时间推移还是正式的 AI 培训,都没有带来持续性的使用水平提升。
+https://arxiv.org/abs/2608.27364v1
+
+---
+
+You can ask follow-up questions in Claude Code, like "expand Paper2" or "详细讲讲 X4" or "这条 Paper6 为什么重要?" for a deeper dive.
+你可以在 Claude Code 里继续追问,比如"展开 Paper2""详细讲讲 X4""这条 Paper6 为什么重要?"来深读某一条。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
