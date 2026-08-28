@@ -1,0 +1,62 @@
+🛫 起飞了 | AI Signal - 2026年08月29日
+
+⚠️ Data note: the X/Twitter feed was last refreshed 2026-08-28 05:54 UTC (~17.5h ago), so no new posts could be confirmed this cycle — treat the X section as stale until the next refresh.
+⚠️ 数据延迟提示：X/Twitter 数据源最后一次刷新时间为 2026-08-28 05:54 UTC（约17.5小时前），本轮未能确认新推文，X 板块暂缺，待下次刷新后恢复。
+
+Today's clearest signal is capital following compute: a16z is putting a dedicated fund behind the physical infrastructure under AI (chips, power, cooling, data centers), while Anthropic is using Claude itself to close alignment gaps at the model layer — the frontier is being attacked from both the hardware floor and the safety ceiling at once.
+今天最清晰的信号是资本正在跟随算力走：a16z 为 AI 背后的物理基础设施（芯片、电力、散热、数据中心）设立了专项基金，而 Anthropic 则让 Claude 自己去修补模型层面的对齐缺口——前沿突破正同时从硬件底层和安全上限两头发力。
+
+【Podcasts】
+
+P1 · a16z — The Infrastructure Behind the Machine Age
+🕐 2026-08-28 18:00 (Beijing) · 🔗 https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY
+
+Takeaway: AI's bottleneck is shifting from the models themselves to everything beneath them, and a16z is backing that shift with a new dedicated fund.
+要点：AI 的瓶颈正在从模型本身转移到底层支撑体系，a16z 为此设立了一支专项基金来押注这一转变。
+
+Key Points: Ben Horowitz, Martin Casado, Raghu Raghuram, and Erik Torenberg discuss the launch of a16z's new "Machine Age Fund." They argue hyperscaler capex is surging and critical infrastructure components are booked years in advance, as each new generation of reasoning and agent models demands dramatically more compute. They also discuss where the next generation of infrastructure companies could emerge, and why founders are returning to hard technical problems across hardware and systems to rebuild the computing stack.
+要点内容：Ben Horowitz、Martin Casado、Raghu Raghuram 与 Erik Torenberg 讨论了 a16z 新设立的 "Machine Age Fund"。他们认为，超大规模云厂商的资本开支正在激增，关键基础设施组件的订单已排到数年之后，而每一代新的推理和 Agent 模型都需要远超以往的算力。他们还探讨了下一代基础设施公司可能诞生的方向，以及为何越来越多创业者重新投身硬件与系统层面的硬核技术问题，去重建整个计算堆栈。
+
+Why It Matters: This is a signal that VC capital is reallocating toward the AI infrastructure layer (power, cooling, chips, data centers), not just the model layer — relevant for anyone tracking "picks and shovels" AI infra investment themes.
+为什么重要：这释放出一个信号——风险资本正在从模型层向 AI 基础设施层（电力、散热、芯片、数据中心）重新配置，而不只是押注模型本身，对关注 AI 基建"卖水人"投资主题的读者有参考价值。
+
+Open Questions: The source description doesn't specify which infrastructure sub-sectors the fund will prioritize first.
+待解问题：来源描述中未说明该基金将优先押注哪些具体的基础设施细分领域。
+
+P2 · Latent Space — [AINews] OpenAI to reach AGI bar by end-2026
+🕐 2026-08-28 15:12 (Beijing) · 🔗 https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by
+
+The available description for this episode/newsletter is only "It's Time. We're in the Endgame now." — too thin to summarize claims or evidence responsibly. The title suggests discussion of an OpenAI AGI timeline claim; check the link for the actual content.
+该期节目/newsletter 目前抓取到的描述仅有一句 "It's Time. We're in the Endgame now."，信息量太少，无法负责任地总结具体论点或证据。标题暗示内容与 OpenAI 的 AGI 时间线说法有关，具体细节请点击链接查看原文。
+
+【Official Blogs】
+
+B1 · OpenAI — Supporting Thailand's next generation of AI startups
+🕐 2026-08-28 10:00 (Beijing) · 🔗 https://openai.com/index/supporting-next-generation-ai-startups-thailand
+
+What Was Announced: OpenAI and Thailand's Ministry of Higher Education, Science, Research and Innovation (MHESI) launched an eight-week accelerator to help 10 health, wellness, and education startups turn AI prototypes into trusted products.
+公告内容：OpenAI 与泰国高等教育、科学、研究与创新部（MHESI）联合推出一个为期八周的加速器项目，帮助 10 家健康、健康管理与教育领域的创业公司把 AI 原型打磨成可信赖的产品。
+
+Details: The program targets startups building in health, wellness, and education verticals specifically within Thailand.
+详情：该项目专门面向泰国本地在健康、健康管理与教育垂直领域进行 AI 产品开发的创业公司。
+
+Why It Matters: Part of OpenAI's continued push into regional startup ecosystems in Southeast Asia — more a market/soft-power expansion move than a directly investable event, but worth tracking as a sign of where OpenAI is building local developer relationships.
+为什么重要：这是 OpenAI 持续在东南亚地区拓展创业生态的又一步——更多是市场拓展与软性影响力布局，而非可直接投资的事件，但可以作为观察 OpenAI 在哪些地区构建开发者关系的一个信号。
+
+B2 · Anthropic — Automated researchers can reliably mitigate alignment failures
+🕐 2026-08-28 08:00 (Beijing) · 🔗 https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures
+
+What Was Announced: Anthropic had Claude autonomously train models to improve performance on benchmarks covering 10 categories of alignment failure. For all 10 categories, Claude found fixes that improved the target benchmarks without degrading model capabilities.
+公告内容：Anthropic 让 Claude 自主训练模型，以提升模型在涵盖 10 类对齐失败场景的基准测试上的表现。结果显示，针对全部 10 类问题，Claude 都找到了能改善对应基准表现、且不损害模型能力的修复方案。
+
+Details: The core setup is Claude acting as the "automated researcher" — running the alignment-improvement loop itself rather than having human researchers hand-design each fix.
+详情：核心设定是让 Claude 本身充当"自动化研究员"——由它自己运行对齐改进的实验循环，而不是由人类研究员逐一手动设计修复方案。
+
+Why It Matters: This points toward a scalable path for alignment research that doesn't bottleneck on human researcher headcount, and reinforces Anthropic's safety-first positioning as a differentiator as model capabilities keep scaling — an angle worth watching for anyone evaluating Anthropic's competitive moat.
+为什么重要：这为对齐研究提供了一条不受限于人类研究员数量的可扩展路径，也强化了 Anthropic 在模型能力持续提升过程中"安全优先"的差异化定位——对于评估 Anthropic 竞争壁垒的读者来说，这是一个值得持续关注的角度。
+
+—
+
+回复"展开 P2"之类的指令可以让我深入解读某一条内容。You can ask things like "expand P1" or "这条 B2 为什么重要" for a deeper dive on any item.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
