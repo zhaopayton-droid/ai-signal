@@ -37,15 +37,6 @@
       "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
     },
     {
-      "id": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Expanding our support for scientists",
-      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "published": "2026-08-27T00:00:00+00:00",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-    },
-    {
       "id": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -53,6 +44,15 @@
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "published": "2026-08-27T00:00:00+00:00",
       "summary": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers."
+    },
+    {
+      "id": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Expanding our support for scientists",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "published": "2026-08-27T00:00:00+00:00",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
     },
     {
       "id": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
@@ -89,17 +89,8 @@
       "url": "https://www.anthropic.com/research/enabling-independent-research",
       "published": "2026-08-26T00:00:00+00:00",
       "summary": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot."
-    },
-    {
-      "id": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "The Hugging Face incident and the road ahead",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "published": "2026-08-26T00:00:00+00:00",
-      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-27T20:11:51.946408+00:00"
+  "generated_at": "2026-08-28T05:56:39.923562+00:00"
 }
