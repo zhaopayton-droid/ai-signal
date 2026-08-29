@@ -28,15 +28,6 @@
       "summary": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities."
     },
     {
-      "id": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "published": "2026-08-27T16:11:32+00:00",
-      "summary": "Gemini Omni 1.1 Flash brings a new suite of creative controls and generative video capabilities to developers."
-    },
-    {
       "id": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -56,5 +47,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-29T14:57:19.724116+00:00"
+  "generated_at": "2026-08-29T23:52:21.393961+00:00"
 }
