@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "published": "2026-08-28T06:00:00+00:00",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX."
+    },
+    {
       "id": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
       "source": "openai",
       "source_name": "OpenAI",
@@ -46,15 +55,6 @@
       "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
     },
     {
-      "id": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "published": "2026-08-27T03:00:00+00:00",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
-    },
-    {
       "id": "https://www.anthropic.com/news/expanding-support-for-scientists",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -74,5 +74,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-28T21:08:07.550146+00:00"
+  "generated_at": "2026-08-29T03:28:36.026879+00:00"
 }
