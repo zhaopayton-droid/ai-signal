@@ -1,0 +1,44 @@
+🛫 起飞了 | AI Signal - 2026年08月29日
+
+⚠️ Data note: the X/Twitter feed was last refreshed 2026-08-28 05:54 UTC (~29.7h ago), so no new posts could be confirmed this cycle — the X section is skipped until the next refresh.
+⚠️ 数据延迟提示：X/Twitter 数据源最后一次刷新时间为 2026-08-28 05:54 UTC（约29.7小时前），本轮未能确认新推文，X 板块暂缺，待下次刷新后恢复。
+
+Today's clearest signal is a fast-moving reshuffle at the OpenAI-Cursor edge: OpenAI is winding down its model contract with Cursor now that Cursor has been acquired by SpaceX, right as the All-In hosts describe Nvidia and Salesforce's earnings reversing the "AI capex bubble" and "SaaSpocalypse" narratives that had been building.
+今天最清晰的信号是 OpenAI 与 Cursor 关系的一次快速重组：随着 Cursor 被 SpaceX 收购，OpenAI 正在终止向 Cursor 提供模型的合约；与此同时，All-In 主播们提到 Nvidia 和 Salesforce 的财报正在扭转此前甚嚣尘上的"AI 资本开支泡沫"与"SaaS 末日"叙事。
+
+【Podcasts】
+
+P1 · All-In Podcast — Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine
+🕐 2026-08-29 09:19 (Beijing) · 🔗 https://allinchamathjason.libsyn.com/nvidias-historic-quarter-saas-comeback-bessent-vs-druck-americas-debt-crisis-cancer-vaccine
+
+Takeaway: Nvidia and Salesforce's latest earnings are pushing back against the "AI capex bubble" and "SaaS is dying" narratives, while AI also shows up in unexpected corners this episode — from humanoid robots to a bond-market op-ed.
+要点：Nvidia 与 Salesforce 最新财报正在反驳"AI 资本开支泡沫"和"SaaS 已死"的叙事，本期节目中 AI 话题也出现在不少意外的角落——从人形机器人到一篇债市评论文章。
+
+Key Points: The hosts open with China's "Robot Olympics," a Tesla Optimus update, and Grok Bot, before turning to Nvidia and Salesforce's earnings, which they say reverse the AI-capex-bubble and "SaaSpocalypse" narratives. Later segments cover Treasury Secretary Bessent being criticized by Stanley Druckenmiller over bond-market interference, and note that Druckenmiller used AI to help write his WSJ op-ed on the topic.
+要点内容：节目开场讨论了中国的"机器人奥运会"、特斯拉 Optimus 的最新进展以及 Grok Bot，随后转向 Nvidia 与 Salesforce 的财报，主播认为这份财报扭转了 AI 资本开支泡沫和"SaaS 末日"的叙事。后续内容还提到财政部长 Bessent 因干预债券市场遭到 Stanley Druckenmiller 的批评，并提到 Druckenmiller 借助 AI 协助撰写了相关主题的 WSJ 评论文章。
+
+Why It Matters: If the earnings reaction described here holds up, it's a data point against the "AI infrastructure spending is unsustainable" thesis that's been weighing on both chip and enterprise-software valuations — relevant for anyone positioned on either side of that debate. The AI-written op-ed detail is also a small but concrete signal of AI tools moving into elite financial commentary.
+为什么重要：如果节目中描述的财报反应属实，这将是对"AI 基础设施支出不可持续"这一压制芯片股与企业软件股估值的论调的一次反驳，对于在这一争论两端持仓的投资者都值得关注。AI 协助撰写评论文章这个细节虽小，但也是 AI 工具正渗透进精英金融评论领域的一个具体信号。
+
+Open Questions: The description doesn't give specific earnings numbers for Nvidia or Salesforce, so the magnitude of the "reversal" isn't verifiable from the source alone — check the referenced CNBC/Yahoo Finance links in the show notes for details.
+待解问题：描述中未给出 Nvidia 或 Salesforce 具体的财报数字，因此"扭转"叙事的幅度无法仅凭此来源验证——具体数据请查看节目附注中引用的 CNBC / Yahoo Finance 链接。
+
+【Official Blogs】
+
+B1 · OpenAI — Our decision on Cursor following its acquisition by SpaceX
+🕐 2026-08-28 14:00 (Beijing) · 🔗 https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
+
+What Was Announced: OpenAI announced it is winding down the contract that provides its models to Cursor, following Cursor's acquisition by SpaceX.
+公告内容：OpenAI 宣布，在 Cursor 被 SpaceX 收购之后，将终止向 Cursor 提供 OpenAI 模型的合约。
+
+Details: The official summary is brief and does not give a timeline, stated rationale, or details on how Cursor's product will be affected — check the link for OpenAI's full explanation.
+详情：官方摘要内容简短，未说明具体时间表、终止原因或对 Cursor 产品的具体影响——完整说明请查看原文链接。
+
+Why It Matters: This is a concrete sign that AI labs are willing to cut off model access over ownership/competitive concerns once a customer changes hands — worth watching for anyone tracking OpenAI's partner relationships or Cursor's product continuity (e.g., its ability to keep offering GPT-based modes) post-acquisition.
+为什么重要：这是一个具体信号，表明当客户公司易主后，AI 实验室会因所有权/竞争顾虑而主动切断模型访问权限——对于关注 OpenAI 合作伙伴关系、或关心 Cursor 被收购后能否继续提供基于 GPT 的功能模式的读者，这条值得持续跟踪。
+
+—
+
+回复"展开 P1"之类的指令可以让我深入解读某一条内容。You can ask things like "expand P1" or "这条 B1 为什么重要" for a deeper dive on any item.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
