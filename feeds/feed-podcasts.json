@@ -1,6 +1,24 @@
 {
   "podcasts": [
     {
+      "channel": "SemiAnalysis",
+      "domain": "ai",
+      "guid": "2bbc686d-ae76-447b-b649-410ff08bcacc",
+      "title": "Ep. 027 - OpenAI Jalapeño: Better Than Nvidia Blackwell (Accelerators)",
+      "pub_date": "2026-08-30T22:22:06+00:00",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--027---OpenAI-Jalapeo-Better-Than-Nvidia-Blackwell-Accelerators-e3o3oms",
+      "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/124952732/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-30%2F430842549-44100-2-de4994e57538.mp3",
+      "audio_bytes": 60679313,
+      "duration": "01:03:12",
+      "description": "<p>This week Bryan, Myron and Jordan discuss our recent article on OpenAI Jalapeño. They cover the performance, architecture, programming model, implications for NVIDIA and more.<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=65s\">1:05</a> Jalapeno Overview<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=262s\">4:22</a> Tokens Per Megawatt<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=555s\">9:15</a> Benchmark Caveats<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=828s\">13:48</a> The CUDA Moat<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=1272s\">21:12</a> How OpenAI Did It<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=1933s\">32:13</a> Samsung HBM4<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=2530s\">42:10</a> AI-Designed Silicon<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=2964s\">49:24</a> Architecture Deep Dive<a href=\"https://www.youtube.com/watch?v=hj_ffVldQZA&t=3418s\">56:58</a> Doom and Wrap</p><p>Full Article: <a href=\"https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rVG5sNFBZb2lOUk5nT2VYLV9CRUZGQ3xBR3JiS2FsTFFlOHpvWHhCUDcwd3NQS3RIV21GWTVLc01EWTJUSlMtamVJSHpRQl95V1czY1l5OTVCaHlwempfWlhRcnZiZmMwbjhZWUFrR2tSWFVjd3Eta0xJX1RDcXZ1elh3&q=https%3A%2F%2Fnewsletter.semianalysis.com%2Fp%2Fopenai-jalapeno-better-than-nvidia&v=hj_ffVldQZA\">⁠https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia</a></p>\n",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "Lenny's Podcast",
       "domain": "ai",
       "guid": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
@@ -336,5 +354,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-30T14:43:43.135330+00:00"
+  "generated_at": "2026-08-31T00:11:13.284825+00:00"
 }

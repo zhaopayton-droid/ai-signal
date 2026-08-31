@@ -1,15 +1,5 @@
 {
-  "articles": [
-    {
-      "id": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Automated researchers can reliably mitigate alignment failures",
-      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-      "published": "2026-08-28T00:00:00+00:00",
-      "summary": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities."
-    }
-  ],
+  "articles": [],
   "errors": null,
-  "generated_at": "2026-08-30T14:43:43.135330+00:00"
+  "generated_at": "2026-08-31T00:11:13.284825+00:00"
 }
