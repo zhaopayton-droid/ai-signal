@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T00:59:02.172739+00:00",
+  "generated_at": "2026-09-01T14:37:19.017841+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 1396,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-01T00:59:02.172739+00:00",
-      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
-      "expires_at": "2026-09-15T00:59:02.172739+00:00"
+      "last_seen_at": "2026-09-01T14:37:19.017841+00:00",
+      "expires_at": "2026-09-15T14:37:19.017841+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
@@ -64,8 +64,8 @@
       "transcript_chars": 22835,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-29T23:52:54.636312+00:00",
-      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
-      "expires_at": "2026-09-15T00:59:02.172739+00:00"
+      "last_seen_at": "2026-09-01T14:37:19.017841+00:00",
+      "expires_at": "2026-09-15T14:37:19.017841+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
@@ -417,19 +417,6 @@
       "cached_at": "2026-08-16T22:18:24.752962+00:00",
       "last_seen_at": "2026-08-19T10:31:38.292000+00:00",
       "expires_at": "2026-09-02T10:31:38.292000+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/flue-2",
-      "link": "https://www.latent.space/p/flue-2",
-      "channel": "Latent Space",
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-      "pub_date": "2026-08-15T15:46:22+00:00",
-      "transcript_path": "feeds/transcripts/fbfee43c72ee10da13765506.txt",
-      "transcript_chars": 9134,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-15T22:19:12.495591+00:00",
-      "last_seen_at": "2026-08-18T10:32:08.802436+00:00",
-      "expires_at": "2026-09-01T10:32:08.802436+00:00"
     }
   ]
 }
