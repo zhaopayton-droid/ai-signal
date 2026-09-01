@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-31T17:27:18.860244+00:00",
+  "generated_at": "2026-09-01T00:59:02.172739+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.dwarkesh.com/p/openai-huggingface-narration",
+      "link": "https://www.dwarkesh.com/p/openai-huggingface-narration",
+      "channel": "Dwarkesh Patel",
+      "title": "The rise and fall of agent civilizations",
+      "pub_date": "2026-08-31T20:36:53+00:00",
+      "transcript_path": "feeds/transcripts/7ccce02360640f5ec0a16a4f.txt",
+      "transcript_chars": 1396,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-01T00:59:02.172739+00:00",
+      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
+      "expires_at": "2026-09-15T00:59:02.172739+00:00"
+    },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
       "link": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
@@ -12,8 +25,8 @@
       "transcript_chars": 6478,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-31T17:27:18.860244+00:00",
-      "last_seen_at": "2026-08-31T17:27:18.860244+00:00",
-      "expires_at": "2026-09-14T17:27:18.860244+00:00"
+      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
+      "expires_at": "2026-09-15T00:59:02.172739+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
@@ -25,8 +38,8 @@
       "transcript_chars": 6166,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-31T17:27:18.860244+00:00",
-      "last_seen_at": "2026-08-31T17:27:18.860244+00:00",
-      "expires_at": "2026-09-14T17:27:18.860244+00:00"
+      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
+      "expires_at": "2026-09-15T00:59:02.172739+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
@@ -38,8 +51,8 @@
       "transcript_chars": 7152,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-30T14:44:11.182178+00:00",
-      "last_seen_at": "2026-08-31T17:27:18.860244+00:00",
-      "expires_at": "2026-09-14T17:27:18.860244+00:00"
+      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
+      "expires_at": "2026-09-15T00:59:02.172739+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/openai-huggingface",
@@ -51,8 +64,8 @@
       "transcript_chars": 22835,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-29T23:52:54.636312+00:00",
-      "last_seen_at": "2026-08-31T17:27:18.860244+00:00",
-      "expires_at": "2026-09-14T17:27:18.860244+00:00"
+      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
+      "expires_at": "2026-09-15T00:59:02.172739+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
@@ -64,8 +77,8 @@
       "transcript_chars": 19891,
       "transcript_source": "episode_page",
       "cached_at": "2026-08-29T14:57:57.094196+00:00",
-      "last_seen_at": "2026-08-31T17:27:18.860244+00:00",
-      "expires_at": "2026-09-14T17:27:18.860244+00:00"
+      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
+      "expires_at": "2026-09-15T00:59:02.172739+00:00"
     },
     {
       "guid": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
