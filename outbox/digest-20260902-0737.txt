@@ -1,0 +1,70 @@
+🛫 起飞了 | AI Signal - 2026-09-02
+
+⚠️ Data note: the X/Twitter feed has not refreshed in about 23 hours (last update 2026-09-01 08:56 Beijing time), so no new tweets are included this round. Podcasts, blogs, and papers are current as of roughly 9 hours ago.
+⚠️ 数据提示：X/Twitter 数据源已约 23 小时未更新（最近一次更新为北京时间 2026-09-01 08:56），本期暂无新推文。播客、官方博客与论文数据约 9 小时前更新，属正常范围。
+
+No new arXiv papers landed in this window — arXiv's latest batch (Aug 31) is unchanged from the last check. The more interesting move today is on the money side: Nvidia's earnings commentary and a fresh look at who's actually writing the early checks into frontier AI labs.
+本时段没有新的 arXiv 论文上线——arXiv 最新一批（8月31日）与上次检查相比没有变化。今天更有意思的动向在"钱"这条线上：关于英伟达财报的解读，以及一次关于谁在真正给前沿 AI 实验室投早期支票的深度对谈。
+
+── Podcasts ──
+
+P1. a16z — "Daniel Litt: The Mathematician's Guide to AI"
+Source time: 2026-09-01 18:00 Beijing | Link: https://a16z.simplecast.com/episodes/daniel-litt-the-mathematicians-guide-to-ai-TyLaUSzk
+来源时间：北京时间 2026-09-01 18:00 | 链接同上
+
+Takeaway: A math professor's on-the-ground read of what frontier models can and can't do in mathematics — impressive at grinding through search and known techniques, still missing the intuition and theory-building that drives real progress.
+要点：一位数学教授对前沿模型在数学领域能力边界的一线判断——模型擅长暴力搜索和套用已知技巧，但仍缺乏推动数学真正进步所需的直觉和理论构建能力。
+
+Key Points: a16z's Lisha Li talks with University of Toronto math professor Daniel Litt. Litt calls some recent AI results genuinely impressive — including an autonomous solution to the Erdős unit distance problem — but argues solving problems is only one part of mathematics; models still struggle with identifying the right questions and big-picture theory building. They also discuss the risk that a flood of AI-generated papers could distort academic incentives.
+要点：a16z 的 Lisha Li 与多伦多大学数学教授 Daniel Litt 对谈。Litt 认为近期一些 AI 成果确实令人印象深刻——包括自主解出 Erdős 单位距离问题——但他指出解题只是数学工作的一部分，模型在提出正确问题和构建宏观理论方面仍然吃力。两人还讨论了 AI 生成论文泛滥可能扭曲学术激励机制的风险。
+
+Why it matters: As AI eats more of the "grunt work" in research, the differentiator for human researchers shifts toward judgment, taste, and question-framing — a useful lens for any AI-for-science thesis, not just math.
+重要性：随着 AI 承担越来越多科研中的"体力活"，人类研究者的差异化价值正转向判断力、品味和提出问题的能力——这对任何"AI for Science"投资逻辑都是一个值得参考的视角，不仅限于数学领域。
+
+P2. Invest Like the Best — "Sarah Guo - Funding the Frontier" (EP.489)
+Source time: 2026-09-01 16:00 Beijing | Link: https://colossus.com/episode/no-priors-just-conviction/
+来源时间：北京时间 2026-09-01 16:00 | 链接同上
+
+Takeaway: Sarah Guo, founder of AI-focused venture firm Conviction and one of the most sought-after early-stage AI investors, argues no single company will own the future of AI — and explains why she's now betting against some of the biggest incumbents.
+要点：AI 领域风投机构 Conviction 创始人、顶尖早期 AI 投资人 Sarah Guo 认为，未来不会由单一公司垄断 AI，她也解释了为何现在反而在押注对抗一些最大的在位巨头。
+
+Key Points: The conversation covers what people actually building frontier AI believe right now, why some top researchers are wrestling with their sense of purpose, and how close robots-in-the-home and a real acceleration in scientific discovery might be. A companion Colossus profile, "Sarah's Wager," covers how she built the firm closest to the AI frontier.
+要点：对话内容涵盖了前沿 AI 从业者当下的真实想法、为何部分顶尖研究者正在纠结自己工作的意义，以及"机器人进家庭"和科研加速在多大程度上已经临近。Colossus 的配套人物特稿《Sarah's Wager》介绍了她如何打造出这家最贴近 AI 前沿的机构。
+
+Why it matters: A rare inside view from an investor with direct access to frontier labs and founders — useful signal for how smart early-stage capital is positioning against the "one company wins" narrative.
+重要性：这是少见的、能直接接触前沿实验室与创始人的投资人视角——对于判断聪明的早期资本如何押注"一家独大 vs 多元格局"的叙事分歧,是很有价值的信号。
+
+── Official Blogs ──
+
+B1. OpenAI — "OpenAI supports California's bill to advance youth AI safety"
+Link: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety | Source time: 2026-08-31 15:00 Beijing
+链接同上 | 来源时间：北京时间 2026-08-31 15:00
+
+What was announced: OpenAI publicly backed California SB 1119, a bill aimed at advancing age-appropriate AI safety measures for teens.
+公告内容：OpenAI 公开表态支持加州 SB 1119 法案，该法案旨在推进面向青少年、与年龄相适配的 AI 安全措施。
+
+Details: Per OpenAI's own post, the goal is to advance "strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore." No further specifics on mechanism or timeline are given in the source.
+细节：根据 OpenAI 自己的表述,目标是推进"强有力、与年龄相适配的青少年 AI 安全保障,同时保留学习、创作和探索的空间"。原文未给出具体机制或时间表细节。
+
+Why it matters: This is OpenAI positioning itself proactively on AI-youth-safety regulation rather than waiting to be regulated — worth watching as a template other labs and states may follow.
+重要性：这是 OpenAI 在青少年 AI 安全监管议题上主动出击、而非被动等待被监管的姿态——值得关注这是否会成为其他实验室和其他州效仿的模板。
+
+B2. Stratechery (Ben Thompson) — "Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face"
+Link: https://stratechery.com/2026/nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face/ | Source time: 2026-09-01 18:00 Beijing
+链接同上 | 来源时间：北京时间 2026-09-01 18:00
+
+What was announced: This is Thompson's analysis piece, not a company announcement — it covers Nvidia's latest earnings alongside a discussion of open models and Hugging Face.
+公告内容：这是 Thompson 的分析文章，并非公司公告——内容围绕英伟达最新财报，并延伸讨论了开源模型和 Hugging Face。
+
+Details: Per the source summary, Thompson argues Nvidia's earnings were "remarkable and boring — two sides of the same coin," and frames everything the company does as being about avoiding a "consolidated world." The full argument (including the "dollars per gigawatt" framing) is behind Stratechery's analysis in the full piece.
+细节：根据来源摘要，Thompson 认为英伟达的财报"令人惊叹又平淡无奇——一体两面"，并将该公司所做的一切都归结为在避免出现一个"被整合、集中化的世界"。完整论证（包括"每千兆瓦美元数"这一框架）需阅读全文。
+
+Why it matters (investing angle): Thompson is one of the most closely watched independent analysts on AI/big-tech strategy; his read on Nvidia's positioning relative to compute economics and open-source competition is a useful gut-check for anyone tracking AI infra valuations.
+重要性（投资角度）：Thompson 是 AI/大科技战略领域被密切关注的独立分析师之一；他对英伟达在算力经济学和开源竞争格局中定位的解读，对于跟踪 AI 基础设施估值的人来说是一个值得参考的"校准点"。
+
+── 结语 / Closing ──
+
+You can ask to go deeper on any item — e.g. "展开 P2" or "expand B2" — and I'll pull the fuller source detail for that one item.
+你可以让我针对任一条目深挖，例如"展开 P2"或"详细讲讲 B2"，我会调取该条目更完整的源信息。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
