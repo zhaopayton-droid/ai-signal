@@ -10,6 +10,11 @@
 
 ## 最近更新
 
+- `2026-08-21`：SemiAnalysis 改为日常自动匹配官方 YouTube 字幕；Latent Space 与 Lenny 切换到 podcast-only RSS，避免把 newsletter 文章封面误当音频；维护者可在 Mac 上用共享 Whisper 引擎补齐无公开字幕的节目
+- `2026-08-19`：新增 Ben Thompson（Stratechery）四通道——X [@benthompson](https://x.com/benthompson)、Sharp Tech 播客、人物访谈搜索、Stratechery 博客 RSS；付费墙后的内容只呈现标题导语和链接，不替他展开论点
+- `2026-08-18`：接入 Y Combinator Startup Podcast 当前 RSS，替换已停在 2025 年的旧 Lightcone feed，恢复 YC 最新播客抓取
+- `2026-08-05`：X 主题过滤按账号性质分档——分析师/决策者不再要求命中技术关键词（实测此前丢掉 @jimkxa 100%、@GavinSBaker 67% 的原创内容），引用推文连同被引用原推一起抓取和展示
+- `2026-08-05`：X 信源换血——移除 NVIDIA 官方账号，改追黄仁勋本人 [@JensenHuang](https://x.com/JensenHuang)（7/24 开通）；新增买方视角 [@GavinSBaker](https://x.com/GavinSBaker)（Atreides Management）
 - `2026-07-08`：新增 Naval Ravikant——加入 X 人物追踪、YouTube 人物访谈搜索和 Naval RSS 播客频道；Naval 频道单独使用 14 天窗口，避免错过低频长节目
 - `2026-07-08`：人物追踪剔除"被谈论但本人没出场"的视频——标题语法守卫识别 "记者 on 某人"/"the truth about 某人" 这类评论内容，只收本人真实出场的访谈
 - `2026-07-08`：定时任务默认限时拉到 15 分钟，避免网络或模型较慢时任务被中途杀掉后反复重启；OpenClaw cron 模板加 `--timeout-seconds 900`，其他平台要求任务限时 ≥10 分钟，另加故障排查一节
@@ -52,11 +57,13 @@
 
 字幕从最后一次出现在最近更新 feed 起保留 14 天。播客退出主 feed 后，仍可通过字幕索引展开；超过 14 天后全文缓存自动过期，只保留日报中的标题、链接和已有摘要。
 
-仓库维护者可以在 GitHub Actions 的 `Generate Daily Feed` 手动运行页把 `transcribe_semianalysis` 设为 `true`，为最新一期 SemiAnalysis 节目补全文字幕。该选项默认关闭，每次最多处理 1 期；系统优先读取官方 YouTube 同期视频的公开字幕，匹配不到时才尝试火山 ASR。
+SemiAnalysis 已进入日常自动全文流程：系统优先匹配官方 YouTube 同期视频的公开字幕，匹配不到时才尝试 ASR。仓库维护者仍可在 GitHub Actions 的 `Generate Daily Feed` 手动运行页把 `transcribe_semianalysis` 设为 `true`，单独重试最新 1 期。
+
+没有公开字幕时，维护者也可以在 macOS 上运行 `python3 scripts/transcribe_missing_podcasts.py --backend local --only-channel a16z --force-channel a16z --limit 1`，调用本地 Whisper 逐集转录。该模式默认寻找上级工作区中的共享 `workspace/scripts/podcast_rss_transcribe.py`；其他目录结构可用 `AI_SIGNAL_LOCAL_TRANSCRIBER` 指定脚本路径。音频只保存在临时目录，单集完成后自动删除。
 
 ## 信息源
 
-### 播客（14 个频道）
+### 播客（15 个频道）
 
 | 频道 | 为什么选 |
 |------|----------|
@@ -68,18 +75,19 @@
 | [Naval](https://nav.al/) | Naval Ravikant 对 AI、技术、创业和资本形成的长线判断 |
 | [No Priors](https://www.youtube.com/@NoPriorsPodcast) | Sarah Guo + Elad Gil，AI infra 创始人密度最高 |
 | [SemiAnalysis](https://www.youtube.com/@SemiAnalysis) | Dylan Patel，半导体与 AI 基础设施最深度的独立分析 |
+| [Sharp Tech with Ben Thompson](https://sharptech.fm) | Stratechery 的 Ben Thompson，用聚合理论看大厂与 AI 的商业模式。公开 feed 只有正片前 20-35 分钟（`(Preview)` 前缀），正片在付费墙后 |
 | [Google DeepMind](https://deepmind.com/podcast) | DeepMind 官方，前沿研究视角 |
-| [Lightcone (YC)](https://www.youtube.com/@ycombinator) | YC 合伙人看 AI 创业生态 |
+| [Y Combinator Startup Podcast](https://www.youtube.com/@ycombinator) | YC 合伙人、创业者和技术负责人讲 AI 与创业实践 |
 | [Lenny's Podcast](https://www.lennysnewsletter.com/) | AI 产品落地的一线反馈 |
 | [Invest Like the Best](https://www.joincolossus.com/episodes) | 顶级投资人的思维框架 |
 | [Capital Allocators](https://capitalallocators.com/podcast/) | 机构投资者视角 |
 | [The Acquirers Podcast](https://acquirersmultiple.com/podcast/) | 价值投资方法论 |
 
-### 人物追踪（28 人，全网搜索）
+### 人物追踪（29 人，全网搜索）
 
 频道订阅之外，每天在 YouTube 全网搜索这些人作为**嘉宾**出现的访谈（RSS 只覆盖主持人自己的节目，这里补他们上别人节目的场合），搜索用 YouTube 服务端"本周上传"过滤器限定，只收最新的：
 
-**海外**：Sundar Pichai、Greg Brockman、Sam Altman、Demis Hassabis、Jensen Huang、Satya Nadella、Mark Zuckerberg；Anthropic 全线（Dario / Daniela Amodei、Krishna Rao、Mike Krieger、Sholto Douglas、Amanda Askell、Boris Cherny、Cat Wu、Alex Albert）；Kevin Weil（OpenAI CPO）、Ivan Zhao（Notion）、Dylan Patel（SemiAnalysis）、Gavin Baker（Atreides）、Naval Ravikant
+**海外**：Sundar Pichai、Greg Brockman、Sam Altman、Demis Hassabis、Jensen Huang、Satya Nadella、Mark Zuckerberg；Anthropic 全线（Dario / Daniela Amodei、Krishna Rao、Mike Krieger、Sholto Douglas、Amanda Askell、Boris Cherny、Cat Wu、Alex Albert）；Kevin Weil（OpenAI CPO）、Ivan Zhao（Notion）、Dylan Patel（SemiAnalysis）、Ben Thompson（Stratechery）、Gavin Baker（Atreides）、Naval Ravikant
 
 **中国 AI**：闫俊杰（MiniMax）、杨植麟（月之暗面）、梁文锋（DeepSeek）、唐杰（智谱）、罗福莉、李广密（拾象）、肖弘（Manus）
 
@@ -87,11 +95,9 @@
 
 ### Twitter/X（19 个账号）
 
-**分析师/研究者**：[@karpathy](https://x.com/karpathy)、[@swyx](https://x.com/swyx)、[@dylan522p](https://x.com/dylan522p)（SemiAnalysis）、[@insane_analyst](https://x.com/insane_analyst)（Irrational Analysis，半导体投资）、[@naval](https://x.com/naval)（Naval Ravikant）、[@leopoldasch](https://x.com/leopoldasch)、[@jimkxa](https://x.com/jimkxa)（Jim Keller）
+**分析师/研究者**：[@karpathy](https://x.com/karpathy)、[@swyx](https://x.com/swyx)、[@dylan522p](https://x.com/dylan522p)（SemiAnalysis）、[@insane_analyst](https://x.com/insane_analyst)（Irrational Analysis，半导体投资）、[@benthompson](https://x.com/benthompson)（Ben Thompson，Stratechery）、[@naval](https://x.com/naval)（Naval Ravikant）、[@jimkxa](https://x.com/jimkxa)（Jim Keller）、[@GavinSBaker](https://x.com/GavinSBaker)（Gavin Baker，Atreides Management）
 
-**决策者**：[@sama](https://x.com/sama)、[@DarioAmodei](https://x.com/DarioAmodei)、[@demishassabis](https://x.com/demishassabis)（Google DeepMind）、[@jietang](https://x.com/jietang)（Z.ai / Tsinghua）
-
-**基础设施**：[@nvidia](https://x.com/nvidia)（Jensen Huang / NVIDIA AI 基础设施信号）
+**决策者**：[@sama](https://x.com/sama)、[@DarioAmodei](https://x.com/DarioAmodei)、[@demishassabis](https://x.com/demishassabis)（Google DeepMind）、[@jietang](https://x.com/jietang)（Z.ai / Tsinghua）、[@JensenHuang](https://x.com/JensenHuang)（黄仁勋，NVIDIA CEO）
 
 **建造者**：[@AmandaAskell](https://x.com/AmandaAskell)、[@bcherny](https://x.com/bcherny)（Claude Code）、[@_catwu](https://x.com/_catwu)、[@alexalbert__](https://x.com/alexalbert__)、[@rauchg](https://x.com/rauchg)（Vercel）、[@joshwoodward](https://x.com/joshwoodward)（Google Labs）
 
@@ -99,15 +105,20 @@
 
 > 内容门槛：默认剔除回复，并要求互动分数达到 10（点赞 + 2×转发 + 回复）；小众账号可在 `config/sources.json` 单独降低门槛或允许回复。刚发布但互动不足的内容可能延后到下一次抓取。
 
-### 官方博客（3 家）
+> 主题过滤分两档：**分析师 / 决策者档**（`tier` 为 `analyst` / `exec`）只过滤节日祝福、生活动态这类社交噪音，不再要求推文命中 AI/技术关键词——这类账号的价值是判断，而判断是用大白话说的。**建造者档**（`builder`）继续走关键词门槛，他们发的本来就是产品公告，命中关键词零成本，同时也压住了这类账号的高发帖量。档位由 `judgment_tiers` 配置，也可给单个账号加 `"relevance_filter": true/false` 覆盖。
+>
+> 引用推文（quote tweet）会连同被引用的原推一起抓取和判定：分析师常用「转发 + 一句短评」的方式发表看法，实质内容全在被引用的那条里，只读本人正文既会误判相关性，也会让日报里只剩一句「Yep」。
+
+### 博客（4 家：3 家官方 + 1 家独立分析）
 
 | 来源 | 抓取方式 |
 |------|----------|
 | [Anthropic](https://www.anthropic.com/news) | 官方 sitemap（Anthropic 无 RSS）+ 文章页真实发布日期过滤 |
 | [OpenAI](https://openai.com/news/) | 官方 RSS |
 | [Google DeepMind](https://deepmind.google/blog/) | 官方 RSS |
+| [Stratechery](https://stratechery.com)（Ben Thompson） | 公开 RSS。免费周文给全文，付费的 Daily Update 只给一句话导语——日报按"他今天在谈什么 + 链接"呈现，不替他展开论点 |
 
-> 模型发布、产品上线、研究成果、安全框架，第一时间从官方渠道进日报，不等二手转述。每家每天最多 5 条，48 小时窗口。
+> 模型发布、产品上线、研究成果、安全框架，第一时间从官方渠道进日报，不等二手转述。Stratechery 是唯一的非官方源，日报里按"Ben Thompson 认为……"归属，不当作既定事实。每家每天最多 5 条，48 小时窗口。
 
 ### arXiv 论文（每日最多 30 篇）
 

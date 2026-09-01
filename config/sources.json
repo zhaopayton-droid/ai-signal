@@ -4,6 +4,7 @@
     "max_tweets_per_user": 5,
     "min_engagement": 10,
     "include_replies": false,
+    "judgment_tiers": ["analyst", "exec"],
     "accounts": [
       {
         "handle": "karpathy",
@@ -30,14 +31,14 @@
         "tier": "analyst"
       },
       {
-        "handle": "naval",
-        "name": "Naval Ravikant",
+        "handle": "benthompson",
+        "name": "Ben Thompson (Stratechery)",
         "domain": "ai",
         "tier": "analyst"
       },
       {
-        "handle": "leopoldasch",
-        "name": "Leopold Aschenbrenner",
+        "handle": "naval",
+        "name": "Naval Ravikant",
         "domain": "ai",
         "tier": "analyst"
       },
@@ -45,6 +46,12 @@
         "handle": "jimkxa",
         "name": "Jim Keller",
         "domain": "ai",
+        "tier": "analyst"
+      },
+      {
+        "handle": "GavinSBaker",
+        "name": "Gavin Baker (Atreides Management)",
+        "domain": "invest",
         "tier": "analyst"
       },
       {
@@ -72,10 +79,10 @@
         "tier": "exec"
       },
       {
-        "handle": "nvidia",
-        "name": "NVIDIA (Jensen Huang / AI infrastructure)",
+        "handle": "JensenHuang",
+        "name": "Jensen Huang (NVIDIA CEO)",
         "domain": "ai",
-        "tier": "infra"
+        "tier": "exec"
       },
       {
         "handle": "AmandaAskell",
@@ -248,6 +255,11 @@
           "domain": "ai"
         },
         {
+          "person": "Ben Thompson",
+          "query": "Ben Thompson Stratechery interview",
+          "domain": "ai"
+        },
+        {
           "person": "Gavin Baker",
           "query": "Gavin Baker AI interview",
           "domain": "invest"
@@ -315,10 +327,7 @@
       {
         "name": "Latent Space",
         "domain": "ai",
-        "rss_url": "https://www.latent.space/feed",
-        "fallback_rss_urls": [
-          "https://api.substack.com/feed/podcast/1084089.rss"
-        ],
+        "rss_url": "https://api.substack.com/feed/podcast/1084089.rss",
         "transcribe_missing": true
       },
       {
@@ -356,23 +365,28 @@
         "rss_url": "https://anchor.fm/s/10fbee758/podcast/rss",
         "transcript_rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCf_KhBXw5TIV0A7butjgFhg",
         "lookback_hours": 336,
-        "transcribe_missing": false,
+        "transcribe_missing": true,
         "require_direct_audio": true,
         "min_transcription_duration_minutes": 10,
         "min_transcription_audio_bytes": 5000000
       },
       {
-        "name": "Lightcone Podcast",
+        "name": "Sharp Tech with Ben Thompson",
         "domain": "ai",
-        "rss_url": "https://anchor.fm/s/f58d3330/podcast/rss"
+        "rss_url": "https://sharptech.fm/feed/podcast",
+        "transcribe_missing": "relevant",
+        "require_direct_audio": true,
+        "min_transcription_duration_minutes": 10
+      },
+      {
+        "name": "Y Combinator Startup Podcast",
+        "domain": "ai",
+        "rss_url": "https://anchor.fm/s/8c1524bc/podcast/rss"
       },
       {
         "name": "Lenny's Podcast",
         "domain": "ai",
-        "rss_url": "https://www.lennysnewsletter.com/feed",
-        "fallback_rss_urls": [
-          "https://api.substack.com/feed/podcast/10845.rss"
-        ],
+        "rss_url": "https://api.substack.com/feed/podcast/10845.rss",
         "transcribe_missing": true
       },
       {
@@ -438,6 +452,12 @@
         "name": "Google DeepMind",
         "type": "rss",
         "url": "https://deepmind.google/blog/rss.xml"
+      },
+      {
+        "id": "stratechery",
+        "name": "Stratechery (Ben Thompson)",
+        "type": "rss",
+        "url": "https://stratechery.com/feed/"
       }
     ]
   }

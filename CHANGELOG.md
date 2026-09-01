@@ -2,6 +2,71 @@
 
 记录 AI Signal 面向用户的变更。每日的 feed 数据更新（`Feed update` commit）不在此列。
 
+## 2026-08-25
+
+### 修复
+
+- 兼容 X 登录页自 8 月 25 日起使用的 16 位脚本哈希：中央抓取依赖临时固定到上游已通过六组 Python CI 的修复 commit，并新增依赖契约测试，避免 19 个账号再次同时被解析为空。
+  之所以这样改：旧固定版只识别 7 位哈希，X 改版后所有账号查询都报 `Failed to parse scripts`；这不是 Cookie 过期，也不能靠升级到当前正式版解决。
+- arXiv 专用刷新只校验本轮更新的论文 feed，不再因未触碰的播客字幕索引过期而失败；全量和播客任务仍保留完整的字幕文件与 retention 校验。
+  之所以这样改：全量抓取失败时不会执行字幕清理，随后独立运行的 arXiv 任务即使论文生成成功，也会被另一个数据域的历史状态连带标红，掩盖真正故障。
+
+## 2026-08-21
+
+### 修复
+
+- Latent Space 与 Lenny 改用 Substack 的 podcast-only RSS 作为主源；RSS 解析器只接受音频 MIME 或音频扩展名的 enclosure，不再把 newsletter 文章封面的 PNG/JPEG 当成音频提交给 ASR。
+- SemiAnalysis 默认进入自动全文流程，优先按标题匹配官方 YouTube 同期视频的公开字幕。真实最新一期已验证可直接取得 42,959 字符字幕，不需要 ASR。
+
+### 新增
+
+- 缺少公开字幕的节目可用 `--backend local` 调用工作区共享 Whisper 引擎转录。音频采用逐集临时下载并在完成后删除，避免 Mac mini 长期堆积音频缓存。
+
+## 2026-08-19
+
+### 新增
+
+- 全线新增 Ben Thompson（Stratechery）四个通道：X 账号 [@benthompson](https://x.com/benthompson)（analyst 档）、播客 `Sharp Tech with Ben Thompson`、人物搜索 `Ben Thompson Stratechery interview`、博客 `stratechery.com` RSS。
+  之所以补齐四条而不是只订一个：他的产出天然分散在四处——长文在博客、周度讨论在 Sharp Tech、上别人节目在 YouTube、短评在 X，只订一处会漏掉大半。
+- 两处已知边界，日报里不掩饰：**Sharp Tech 公开 feed 只有正片前 20-35 分钟**（标题带 `(Preview)` 前缀，正片在付费墙后），只对命中 AI 关键词的集子做 ASR；**Stratechery 的付费 Daily Update 只有一句话导语**，日报按"他在谈什么 + 链接"呈现，不替他展开论点。
+- 文章摘要 prompt 相应改写：博客源不再假定全是官方公告，独立分析一律按"Ben Thompson 认为……"归属，不当既定事实。
+
+## 2026-08-18
+
+### 修复
+
+- 播客信源将旧 `Lightcone Podcast` RSS 替换为当前 `Y Combinator Startup Podcast` RSS，恢复 YC 最新节目抓取。
+  之所以这样改：旧 feed 最后一期停在 2025-12-03，而 YC 已在新节目入口持续发布，导致 2026 年的 Boris Cherny、Jeff Dean、Chelsea Finn 等访谈全部漏抓。新 feed 不增加评分或额外筛选，按普通频道直接进入中央 feed。
+
+## 2026-08-06
+
+### 移除
+
+- X/Twitter 信源移除 @leopoldasch（Leopold Aschenbrenner）：该账号最后一条推文停在 2025-10-08，近十个月没有更新，每次抓取都是空转。handle 本身有效，后续恢复更新可随时加回。
+
+## 2026-08-05
+
+### 新增
+
+- X/Twitter 信源新增 @JensenHuang（黄仁勋，NVIDIA CEO）：本人账号于 7 月 24 日开通并开始发声，发帖频率低但每条都是一手表态，信噪比远高于公司官号。
+- X/Twitter 信源新增 @GavinSBaker（Gavin Baker，Atreides Management）：AI 算力与半导体方向少见的、既做深度研究又用真金白银下注的买方视角，归入 `invest` 域。
+
+### 移除
+
+- X/Twitter 信源移除 @nvidia（NVIDIA 官方账号）：内容以公司市场公关为主，一手判断有限；黄仁勋本人账号开通后由 @JensenHuang 承接该方向的信号。
+
+### 改进
+
+- X 主题过滤按账号性质分档：`tier` 为 `analyst` / `exec` 的账号不再要求推文命中 AI/技术关键词，只过滤节日祝福、生活动态这类社交噪音；`builder` 档维持原关键词门槛。
+  之所以这样改：关键词过滤实际是在按"含不含技术名词"排序，而不是按信号价值。2026-08-05 用真实推文实测，该门槛丢掉了 @jimkxa 100%、@GavinSBaker 67% 的原创内容，其中包括一条 DRAM 涨价与半导体周期的判断；而报产品名的账号天然全部通过，5 周内两个高频账号就占了全部推文的 42%。判断是用大白话说的，关键词表永远追不上。档位可用 `judgment_tiers` 配置，也可给单个账号加 `relevance_filter` 覆盖。
+- 引用推文（quote tweet）连同被引用的原推一起抓取：被引用内容参与相关性判定，并在日报中单独成段展示，同时进入中央摘要的提示词（保持在不可信来源边界内）。
+  之所以这样改：分析师常用"转发 + 一句短评"的方式表态，实质内容全在被引用的那条里。此前只读本人正文，既误判相关性，也让日报里只剩一句"Yep"。
+
+### 文档
+
+- 修正 README 与 `references/content-sources.md` 的 X 账号清单：此前仍列着已在 7 月 29 日移除的 @amasad，账号数与 `config/sources.json` 对不上。
+- README 与 `references/content-sources.md` 补充说明主题过滤分档规则和引用推文的处理方式。
+
 ## 2026-07-29
 
 ### 修复

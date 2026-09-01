@@ -4,7 +4,7 @@ Central feed is updated daily at 6am Beijing time (UTC 22:00) with:
 
 ### Podcasts (14 channels)
 Dwarkesh Patel, Lex Fridman, Latent Space, All-In Podcast, a16z, Naval, No Priors,
-SemiAnalysis (Dylan Patel), Google DeepMind, Lightcone (YC), Lenny's Podcast,
+SemiAnalysis (Dylan Patel), Google DeepMind, Y Combinator Startup Podcast, Lenny's Podcast,
 Invest Like the Best, Capital Allocators, The Acquirers Podcast
 
 ### People tracking (28 people, YouTube-wide guest search)
@@ -34,12 +34,19 @@ Naval Ravikant
 **China AI:** 闫俊杰 (MiniMax), 杨植麟 (Moonshot), 梁文锋 (DeepSeek), 唐杰 (智谱),
 罗福莉, 李广密 (拾象), 肖弘 (Manus)
 
-### Twitter/X (19 accounts)
+### Twitter/X (18 accounts)
 **Analysts:** Karpathy, Swyx, Dylan Patel (SemiAnalysis), Irrational Analysis, Naval Ravikant,
-Leopold Aschenbrenner, Jim Keller
-**Executives:** Sam Altman, Dario Amodei, Demis Hassabis (Google DeepMind), Tang Jie (Z.ai)
-**Infrastructure:** NVIDIA (Jensen Huang / AI infrastructure signal)
-**Builders:** Amanda Askell, Boris Cherny (Claude Code), Cat Wu, Alex Albert, Guillermo Rauch (Vercel), Amjad Masad (Replit), Josh Woodward (Google Labs)
+Jim Keller, Gavin Baker (Atreides Management)
+**Executives:** Sam Altman, Dario Amodei, Demis Hassabis (Google DeepMind), Tang Jie (Z.ai),
+Jensen Huang (NVIDIA CEO)
+**Builders:** Amanda Askell, Boris Cherny (Claude Code), Cat Wu, Alex Albert, Guillermo Rauch (Vercel), Josh Woodward (Google Labs)
+
+Analysts and Executives are *judgment tiers* (`judgment_tiers` in
+`config/sources.json`): their posts skip the topic keyword gate and only social
+noise is dropped, because judgment is written in plain language. Builders keep
+the keyword gate — they post product announcements, which always name a product.
+Quote tweets are fetched together with the post they quote, and the quoted text
+participates in both filtering and rendering.
 
 ### arXiv Papers (daily, up to 30)
 cs.AI (Artificial Intelligence), cs.CL (Computation and Language), cs.LG (Machine Learning)
