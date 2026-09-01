@@ -1,0 +1,364 @@
+🛫 起飞了 | AI Signal - 2026年9月1日
+
+Today's arXiv batch clusters heavily around one question: how far can reasoning models improve without a human in the loop — from a position paper mapping a five-level ladder "beyond human supervision" toward superintelligence, to concrete agents (S3Gym, Aspire, TASPO, AutoSciRub) testing whether self-testing, self-judging, and self-generated rubrics actually produce reliable self-improvement (empirically: not yet, and not evenly). On the safety side, Anthropic published a post on tightening its alignment and security practices, and a new audit protocol shows stealth-released frontier models can now be forensically identified from the outside — while on YouTube, Sam Altman is quoted teasing "AGI by December," a claim worth treating with real skepticism given how thin the sourcing is.
+
+今天的 arXiv 论文批次高度集中在一个问题上:推理模型在缺少人类监督的情况下到底能进步多远——从一篇沿"L0 到 L4"五级阶梯规划"超越人类监督"通往超级智能路径的立场论文,到 S3Gym、Aspire、TASPO、AutoSciRub 等具体的 agent 系统,分别测试自我测试、自我评判、自生成评分标准能否真正带来可靠的自我提升(实证结果是:还不行,而且很不均衡)。安全方面,Anthropic 发布了一篇关于收紧对齐与安全实践的博客,另有一篇审计协议论文显示,如今已经可以对"隐身发布"的前沿模型做取证式身份识别;与此同时,YouTube 上流传 Sam Altman 声称"12 月前实现 AGI",但鉴于信息来源单薄,这一说法值得高度谨慎对待。
+
+━━━━━━━━━━━━━━━━━━━━
+🎙️ Podcasts
+━━━━━━━━━━━━━━━━━━━━
+
+【P1】Dwarkesh Patel · The rise and fall of agent civilizations · 2026-09-01 04:36 北京时间
+https://www.dwarkesh.com/p/openai-huggingface-narration
+
+Takeaway / 要点:
+Per the episode description, this narrated piece explains "the OpenAI/Hugging Face attack" — no further detail is given in the metadata itself.
+据节目简介介绍,本期是一篇讲解"OpenAI/Hugging Face 攻击事件"的解说内容,元数据本身没有透露更多细节。
+
+Key Points / 关键点:
+- Title and description both point to some kind of security or platform incident involving OpenAI and Hugging Face, framed under the larger idea of "agent civilizations."
+- 标题和简介都指向某种涉及 OpenAI 与 Hugging Face 的安全或平台事件,被包装在"agent 文明的兴衰"这一更大的叙事框架下。
+
+Why It Matters / 为什么重要:
+An incident description involving two major AI infrastructure players (a model lab and the largest open-model hub) is worth tracking, but the metadata alone can't confirm what actually happened.
+涉及两大 AI 基础设施方(一家模型实验室和最大的开源模型托管平台)的事件说明值得关注,但仅凭元数据无法确认具体发生了什么。
+
+Open Questions / 待解问题:
+What "the attack" actually refers to is unknown from metadata alone. Say "展开 P1" for a deeper read once transcript access is available.
+"攻击事件"具体指什么,仅凭元数据无法判断。如需深读,可回复"展开 P1"。
+
+【P2】Wes Roth · Sam Altman "AGI by December" · 发布时间未验证 (unverified)
+https://www.youtube.com/watch?v=7uSjh5bde44
+
+Takeaway / 要点:
+The video title quotes Sam Altman teasing an "AGI by December" timeline; the available description is only a sponsor mention (a text-to-video tool ad) with no substantive content about what Altman actually said.
+视频标题引用了 Sam Altman 提出"12 月前实现 AGI"的说法;目前可获取的简介只是一段赞助商广告(一个文生视频工具的推广),并未透露 Altman 具体说了什么。
+
+Key Points / 关键点:
+- Publication time is unverified, so this may not be a fresh clip.
+- 发布时间未经验证,这条内容不一定是最新发布的。
+
+Why It Matters / 为什么重要:
+Timeline claims like this move markets and expectations, but with only a title and a sponsor blurb to go on, this should be treated as an unverified headline rather than a confirmed statement until a transcript or primary source is checked.
+类似的时间线断言会影响市场预期和舆论,但目前只有标题和赞助商文案,在核实转写稿或原始信息源之前,这条内容应被当作未经证实的标题,而非确凿的表态。
+
+Open Questions / 待解问题:
+No transcript is available for this item (transcript fetch failed). Say "展开 P2" if you want another attempt at pulling more context.
+本条暂无可用转写稿(转写获取失败)。如需再次尝试获取更多上下文,可回复"展开 P2"。
+
+━━━━━━━━━━━━━━━━━━━━
+📰 Official Blogs
+━━━━━━━━━━━━━━━━━━━━
+
+【B1】Anthropic · Improving our alignment and security practices · 2026-08-31 08:00 北京时间
+https://www.anthropic.com/news/improving-alignment-security-efforts
+
+What Was Announced / announcement:
+Anthropic published a post on improving its alignment and security practices. The source summary is generic boilerplate ("Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems") and does not itself describe specific new measures.
+Anthropic 发布了一篇关于改进其对齐与安全实践的博客。源摘要本身是通用的公司简介文字("Anthropic 是一家致力于打造可靠、可解释、可引导的 AI 系统的安全与研究公司"),并未具体说明本次改进了哪些措施。
+
+Why It Matters / 为什么重要:
+Lab-level alignment/security process changes are worth tracking as a signal of how frontier labs are responding to a fast-moving threat and safety landscape, even though the specific content isn't available from this summary alone.
+实验室层面的对齐与安全流程调整,是观察前沿实验室如何应对快速变化的威胁与安全格局的重要信号,尽管仅凭这条摘要还看不到具体内容。
+
+【B2】OpenAI · Polimill builds Japan's next-generation public AI infrastructure · 2026-08-31 15:00 北京时间
+https://openai.com/index/polimill
+
+What Was Announced / announcement:
+Polimill uses OpenAI's GPT models and Codex to help Japanese municipalities search and use administrative knowledge while accelerating software development, per OpenAI's summary.
+据 OpenAI 的摘要介绍,Polimill 使用 OpenAI 的 GPT 模型和 Codex,帮助日本地方政府检索和使用行政知识,同时加速软件开发。
+
+Why It Matters / 为什么重要:
+This is a government/public-sector AI infrastructure deployment case study — a data point on OpenAI's enterprise/government push in Japan and on Codex being used for accelerating internal software development in a regulated, non-tech-native sector.
+这是一个政府/公共部门的 AI 基础设施落地案例——反映了 OpenAI 在日本面向企业与政府市场的推广动作,也说明 Codex 正被用于在受监管、非科技原生的行业中加速内部软件开发。
+
+━━━━━━━━━━━━━━━━━━━━
+📄 Papers
+━━━━━━━━━━━━━━━━━━━━
+
+【Paper1】Context-Aware Interleaved Batching for WhisperX · 2026-09-01 01:59 北京时间
+https://arxiv.org/abs/2608.31170v1
+
+Problem: WhisperX speeds up transcription via intra-audio batching but isolates segments, losing the historical context needed for coherent punctuation and terminology; standard Whisper keeps that context but is slow and prone to hallucination loops.
+Approach: Context-Aware Interleaved Batching uses VAD-derived segment boundaries to stabilize Whisper's text conditioning, safely carrying continuous historical context across batched segments.
+Result: On long-form audio benchmarks, the method reduces Word Error Rate and improves proper-noun transcription while keeping high-throughput inference speed.
+问题:WhisperX 通过音频内批处理提速,但会把片段相互隔离,丢失连贯标点和术语转写所需的历史上下文;标准 Whisper 保留了上下文,却速度慢、容易出现幻觉循环。
+方法:Context-Aware Interleaved Batching 利用基于 VAD(语音活动检测)的片段边界来稳定 Whisper 的文本条件化,从而在批处理片段之间安全地保留连续的历史上下文。
+结果:在长音频基准测试上,该方法降低了词错误率(WER)并提升了专有名词转写准确度,同时保持了高吞吐的推理速度。
+
+【Paper2】Constant Individual Regret in General Games · 2026-09-01 01:59 北京时间
+https://arxiv.org/abs/2608.31166v1
+
+Problem: Prior individual-regret guarantees for uncoupled no-regret dynamics still grow polylogarithmically with the time horizon.
+Approach: Introduces ECHO-OFTRL, a deterministic, fully uncoupled optimistic follow-the-regularized-leader algorithm with an EMA cascade for higher-order optimism.
+Result: For any finite N-player normal-form game, every player's regret is bounded independent of the horizon T, scaling only as O(poly(N, log m_max)).
+问题:此前关于"非耦合无悔动态"下个体遗憾(regret)的保证,仍然会随时间跨度呈多对数级增长。
+方法:论文提出 ECHO-OFTRL——一种确定性、完全非耦合的乐观"跟随正则化领导者"算法,并引入基于指数移动平均(EMA)级联的高阶乐观机制。
+结果:对任意有限 N 人标准型博弈,每个参与者的遗憾上界与时间跨度 T 无关,仅随 O(poly(N, log m_max)) 增长。
+
+【Paper3】SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies · 2026-09-01 01:59 北京时间
+https://arxiv.org/abs/2608.31167v1
+
+Problem: Bridging model-based control and learned policies in long-horizon manipulation remains unresolved because existing protocols discard task semantics, leaving rewards hand-crafted and policy behavior drifting from what control has verified.
+Approach: Introduces SUN Programs, typed executables where geometric/contact relations compile once into MPC costs, satisfaction predicates, RL rewards, and diagnostics; the Kuafu system uses vision-language models to auto-synthesize these programs from language and scene semantics, screens feasibility via MPC, then trains stage-conditioned policies.
+Result: Across nine tasks, Kuafu reaches 82.03% macro-success versus 35.67%/24.75% for sparse-reward/Stage-BC baselines, generates 10.57x more successful trajectory time per hour of teleoperation, and its data trains DP3 policies to 46.0% simulation success and 34.7% on physical Franka and Kinova robots.
+问题:在长时程操作任务中打通"基于模型的控制"与"学习到的策略"一直悬而未决,原因是现有方案会丢弃任务语义,导致奖励只能手工设计,且策略行为逐渐偏离控制器已验证的行为。
+方法:论文提出 SUN Programs——一种类型化的可执行程序,几何与接触关系只需定义一次,即可编译为 MPC 代价函数、满足性谓词、RL 奖励和诊断信息;其系统 Kuafu 用视觉语言模型从语言和场景语义中自动生成这些程序,通过 MPC 筛选可行性,再训练分阶段条件化的策略。
+结果:在九项任务中,Kuafu 达到 82.03% 的宏观成功率,远高于稀疏奖励基线(35.67%)和 Stage-BC 基线(24.75%);相比人类遥操作,每小时能生成 10.57 倍的成功轨迹时长;用其数据训练的 DP3 策略在仿真中达到 46.0% 成功率,在真实的 Franka 和 Kinova 机器人上达到 34.7%。
+
+【Paper4】Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations · 2026-09-01 01:55 北京时间
+https://arxiv.org/abs/2608.31157v1
+
+Problem: Parameter-efficient methods (hypernetworks, LoRA-style adaptation, model compression) generate a network's parameters from a low-dimensional latent vector, but the tradeoff between latent dimension and network budget was not sharply characterized.
+Approach: For affine parameter generators and fully-connected ReLU networks, jointly optimizes over architectures and generators to derive the optimal worst-case approximation error for Hölder-smooth functions.
+Result: Proves the sharp error rate scales as (P·min{M,P})^(-α/d), showing even a fixed-dimensional latent space suffices to drive approximation error to zero as the parameter budget grows.
+问题:参数高效方法(超网络、LoRA 式微调、模型压缩)从一个低维潜向量生成网络参数,但潜在维度与网络参数预算之间的权衡此前一直没有被精确刻画。
+方法:针对仿射参数生成器与全连接 ReLU 网络,论文对架构和生成器联合优化,推导出针对 Hölder 光滑函数的最优最坏情况逼近误差。
+结果:证明该误差呈精确的 (P·min{M,P})^(-α/d) 量级,说明即便潜在维度固定不变,只要参数预算增大,逼近误差也能趋于零——为超网络/LoRA 式压缩为何有效提供了理论支撑。
+
+【Paper5】Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification · 2026-09-01 01:48 北京时间
+https://arxiv.org/abs/2608.31142v1
+
+Problem: 2025-2026 saw a wave of stealth frontier-model releases under anonymous codenames, but no validated method existed to verify a black-box API model's true identity.
+Approach: Proposes a four-stage forensic audit protocol — reconstructing launch-time configuration from Internet Archive snapshots, fingerprinting configuration against the platform catalog, cross-length tokenizer differential testing, and behavioral probes.
+Result: Validated on 10 known-identity releases (7 exact matches), and prospectively identified an anonymous model's family/version line (pointing to the GLM-5.3 line) ahead of its official reveal, which confirmed the inference.
+问题:2025-2026 年出现了一波以匿名代号"隐身发布"的前沿模型,但此前没有经过验证的方法能对黑盒 API 模型做身份核实。
+方法:论文提出一套四阶段取证审计协议——从 Internet Archive 快照重建发布时的配置、将配置指纹与平台目录比对、跨长度分词器差分测试,以及行为探针。
+结果:在 10 个已知身份的发布案例上验证(7 例精确匹配),并前瞻性地推断出一个匿名模型的系列/版本线(指向 GLM-5.3 系列),该推断在模型正式公开后被证实。
+
+【Paper6】Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation · 2026-09-01 01:44 北京时间
+https://arxiv.org/abs/2608.31139v1
+
+Problem: BioMedRAG's fixed-size chunking for biomedical information extraction fragments semantic evidence.
+Approach: A configurable semantic chunking framework combining entity-preserving windows, trigger-centered chunking, proposition-first extraction, tiered trigger prioritization, and hierarchical relation resolution, swapped into BioMedRAG's chunking stage only.
+Result: On GM-CIHT, the full hybrid config reaches 82.6% F1 versus 74.2% for fixed-size chunking (+8.4 points); gains are largest on datasets with explicit relation cues, while fixed chunking stays competitive for dense extraction/classification tasks like ChemProt and ADE.
+问题:BioMedRAG 用于生物医学信息抽取的固定长度分块方式,会把语义证据切碎。
+方法:论文提出一个可配置的语义分块框架,结合实体保留窗口、触发词中心分块、命题优先抽取、分级触发词优先级和层级化关系消解,仅替换 BioMedRAG 的分块阶段。
+结果:在 GM-CIHT 数据集上,完整混合配置达到 82.6% F1,高于固定长度分块的 74.2%(提升 8.4 个百分点);在带有明确关系线索的数据集上提升最大,而在 ChemProt、ADE 等密集抽取/分类任务上,固定分块仍具竞争力。
+
+【Paper7】OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques · 2026-09-01 01:44 北京时间
+https://arxiv.org/abs/2608.31137v1
+
+Problem: Ontology-alignment frameworks now mix lexical, structural, knowledge-graph-embedding and LLM-based aligners, but there's no systematic way to reconcile their conflicting predictions.
+Approach: OntoAligner-Ensemble fuses candidate correspondences from any aligner through a configurable two-stage process of voting-based fusion followed by post-fusion selection.
+Result: Across eight OAEI benchmark tasks, ensembling consistently improves the precision/recall balance and often beats standalone aligners; cross-paradigm ensembles favor precision while homogeneous LLM ensembles favor overall F1.
+问题:如今的本体对齐(ontology alignment)框架混合了词法、结构、知识图谱嵌入以及基于 LLM 的多种对齐器,但缺乏系统化方法来调和它们相互冲突的预测结果。
+方法:OntoAligner-Ensemble 通过一个可配置的两阶段流程——基于投票的融合加上融合后筛选策略——整合任意对齐器给出的候选对应关系。
+结果:在来自 OAEI 的八项基准任务上,集成方法持续改善了精确率与召回率的平衡,并且经常优于单一对齐器;跨范式集成更偏向提升精确率,而同质的 LLM 集成更常获得更高的整体 F1。
+
+【Paper8】DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening · 2026-09-01 01:40 北京时间
+https://arxiv.org/abs/2608.31128v1
+
+Problem: LLMs are attractive for clinical decision support but prone to hallucinated facts, unsupported recommendations, and citation errors.
+Approach: DIASENTINEL is a fully on-premise multi-agent system for one-year type-2-diabetes risk screening from electronic health records, combining calibrated risk prediction, deterministic clinical signal extraction, guideline retrieval via Reciprocal Rank Fusion over ADA guidelines, and a hybrid rule-based + LLM-entailment verification layer.
+Result: Delivers a real-time batch-screening dashboard and a cited, verifiable patient report interface, presented as a practical pattern for auditable, privacy-preserving LLM-based clinical decision support; no benchmark accuracy figures are given in the abstract.
+问题:LLM 在临床决策支持上很有吸引力,但容易出现事实幻觉、缺乏依据的建议以及引用错误。
+方法:DIASENTINEL 是一套完全本地化部署的多智能体系统,用于从电子病历中做一年期 2 型糖尿病风险筛查,整合了校准过的风险预测、确定性的临床信号抽取、基于美国糖尿病协会(ADA)指南的倒数排名融合检索,以及规则检查加 LLM 蕴含判断的混合验证层。
+结果:系统提供了实时批量筛查仪表盘,以及带引用依据、可核验的患者报告界面,作为可审计、隐私保护型 LLM 临床决策支持的一个实践范例;摘要中未给出具体的基准准确率数字。
+
+【Paper9】On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions · 2026-09-01 01:32 北京时间
+https://arxiv.org/abs/2608.31120v1
+
+Problem: Paired conditional distributions p(x|y) and p(y|x), as used throughout probabilistic ML models, may not be compatible with any joint distribution; the tractable classical version of this "compatibility problem" doesn't cover succinct representations like the arithmetic circuits used in high-dimensional and neural-network settings.
+Approach: Formalizes and studies the compatibility problem for conditionals encoded as arithmetic circuits.
+Result: Shows the succinct version is intractable — co-NP-complete when all probabilities are non-zero, PSPACE-complete in several variants once zero probabilities are allowed — and, absent a polynomial-hierarchy collapse, some compatible succinct conditionals have no succinct joint representation at all.
+问题:机器学习概率模型中常用的一对条件分布 p(x|y) 和 p(y|x),不一定与任何联合分布 p(x,y) 相容;这一"相容性问题"的经典可处理版本,并不适用于高维和神经网络场景中常见的算术电路等简洁表示。
+方法:论文将算术电路编码下条件分布的相容性问题形式化并加以研究。
+结果:证明该简洁版本是难解的——当所有概率非零时是 co-NP 完全的,一旦允许零概率,多个变体版本是 PSPACE 完全的;并且在多项式层级不坍缩的假设下,存在相容的简洁条件分布,却根本无法用简洁形式表示其联合分布。
+
+【Paper10】PaperGym: Rubric-Centered Evolution for Research-Plan Generation · 2026-09-01 01:31 北京时间
+https://arxiv.org/abs/2608.31119v1
+
+Problem: Training AI research-planning agents via RL needs a critic, and paper-derived rubrics could serve that role, but existing pipelines draw both the question and the grading criteria from the same content (so paraphrase can earn reward) and compress the rubric into a single scalar per rollout.
+Approach: PaperGym turns each paper into a training environment: it synthesizes the question from the paper's goal/background while deriving criteria separately from its methods/experiments (cutting criterion leakage to 3.7% versus 11.9-34.1% in prior datasets), then uses the rubric twice — first as privileged context for a self-teacher, then as the reward for GRPO.
+Result: Across Qwen3-1.7B/4B/8B, this two-stage recipe beats supervised fine-tuning and single-stage variants by +4.8 to +5.6 points on average across five benchmarks; models trained on the released PaperGym-20k corpus win 58.1% of head-to-head comparisons (versus 28.2% for a prior rubric dataset), and the trained Qwen3-8B beats the much larger Kimi K2.6 on ResearchQA (73.48).
+问题:用强化学习训练 AI 科研规划 agent 需要一个"评委"(critic),从论文中提取的评分标准(rubric)本可以承担这个角色,但现有流程往往用同一份内容同时生成问题和评分标准(导致模型靠改写就能骗到奖励),而且评分标准会被压缩成每次 rollout 一个标量。
+方法:PaperGym 把每篇论文变成一个训练环境:问题由论文的研究目标和背景合成,而评分标准则单独从方法和实验部分提取(评分标准泄漏率降到 3.7%,而已有数据集为 11.9%-34.1%),随后评分标准被使用两次——先作为自教师(self-teacher)的特权上下文,再作为 GRPO 的奖励信号。
+结果:在 Qwen3-1.7B/4B/8B 上,这套两阶段方案在五个基准上平均比监督微调及单阶段变体高出 4.8-5.6 分;在发布的 PaperGym-20k 语料上训练的模型在三方对比中胜率达 58.1%(此前的 RubricHub Science 数据集仅为 28.2%),训练出的 Qwen3-8B 在 ResearchQA 上以 73.48 分超过了体量大得多的 Kimi K2.6。
+
+【Paper11】When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning · 2026-09-01 01:30 北京时间
+https://arxiv.org/abs/2608.31118v1
+
+Problem: How LLM scale affects ontology-learning performance is poorly characterized.
+Approach: A controlled evaluation of 13 dense and MoE models (Qwen3.5/3.6 lineages plus proprietary GPT variants) with identical embeddings, retrieval, prompts and decoding, on term typing, taxonomy discovery, and relation extraction across four ontologies.
+Result: Scaling helps precision more than recall (biggest gains 9B to 27B), but effects are non-monotonic — dense 27B models beat much larger sparse MoE models on term typing while MoE wins on taxonomy discovery, non-taxonomic relation extraction stays hard at every scale, and architecture/lineage can outweigh raw parameter count.
+问题:LLM 规模对本体学习(ontology learning)性能的影响此前一直没有被充分刻画。
+方法:论文对 13 个模型(Qwen3.5/3.6 系列的稠密与 MoE 变体,以及闭源的 GPT 系列)做了受控评测,在术语分类、分类体系发现和关系抽取三项任务、四个本体上,统一使用相同的嵌入模型、检索配置、提示词和解码设置。
+结果:模型增大更多地提升了精确率而非召回率(9B 到 27B 之间提升最明显),但这种效应并非单调——稠密的 27B 模型在术语分类上优于规模大得多的稀疏 MoE 模型,而 MoE 模型在分类体系发现上表现更强;非分类性关系抽取在各个规模下都很困难;架构与模型系谱有时比参数量本身更重要。
+
+【Paper12】"Train classical, deploy quantum" requires rethinking generalization · 2026-09-01 01:26 北京时间
+https://arxiv.org/abs/2608.31117v1
+
+Problem: "Train classical, deploy quantum" workflows for quantum generative models rely on classically-computable losses like moment-matching (MMD²), but whether minimizing such losses actually yields generalizing models — versus ones that just reproduce training statistics — had not been tested.
+Approach: Benchmarks a broad set of quantum and classical generative models by direct sampling, on a cardinality-constrained dataset (up to 30 qubits) and a genomic single-nucleotide-variant dataset.
+Result: Moment-matching-trained models generalize worse than likelihood-trained ones, showing a converged moment-matching loss is not a reliable proxy for generalization — "train classical, deploy quantum" pipelines will need training objectives, or architectures, that target generalization directly.
+问题:量子生成模型常用的"经典训练、量子部署"流程依赖矩匹配(MMD²)等可在经典计算机上计算的损失函数,但最小化这类损失是否真的能得到具备泛化能力的模型(而非只是复现训练集统计特征),此前一直未经检验。
+方法:论文在一个基数受限的数据集(最多 30 个量子比特)和一个基因组单核苷酸变异数据集上,通过直接采样对一批量子与经典生成模型进行了基准测试。
+结果:用矩匹配损失训练的模型,泛化能力不如用似然训练的模型,说明矩匹配损失收敛并不能可靠地代表泛化能力——"经典训练、量子部署"流程还需要能直接针对泛化能力优化的训练目标,或者不同的模型架构。
+
+【Paper13】Aspire: Can Models Self-Evolve from Vague Goals? · 2026-09-01 01:14 北京时间
+https://arxiv.org/abs/2608.31111v1
+
+Problem: Existing LLM self-evolution work starts from human-specified tasks and metrics, reducing "self-evolution" to optimizing an explicit objective rather than interpreting a vague goal the way human learners do.
+Approach: ASPIRE is a benchmark that gives agents only a natural-language capability goal with hidden evaluation tasks, requiring them to choose data/update methods, build their own training/validation signals, and decide when to evaluate, across both model-weight and agent-harness self-evolution.
+Result: On a hidden, expert-authored 520-item evaluation spanning six goals, agents routinely complete training/harness-editing loops, but weight-level gains stay sparse and unstable, the best evolved harness still trails an engineered Qwen-Agent reference, and agents often train on mismatched data or trust narrow self-evaluations — so local gains fail to transfer, and continued search can even erase earlier improvements.
+问题:现有的 LLM 自我进化研究都是从人类设定好的任务和指标出发,这把"自我进化"简化成了优化一个明确目标,而不是像人类学习者那样去理解一个模糊的目标。
+方法:ASPIRE 是一个基准测试,只给 agent 一个自然语言描述的能力目标,评估任务本身是隐藏的;agent 必须自行选择数据和更新方法、构建自己的训练/验证信号,并决定何时评估,同时支持模型权重级和 agent 工具链(harness)级两种自我进化方式。
+结果:在覆盖六个目标、由专家编写的 520 道隐藏评测题上,agent 能够常规性地完成训练和工具链编辑的循环,但权重层面的提升稀疏且不稳定,进化出的最佳工具链仍不及人工设计的 Qwen-Agent 参考基线;agent 经常在不匹配的数据上训练,或过度信任狭窄的自我评估,导致局部提升无法迁移,持续的搜索甚至会抹去此前已取得的进步。
+
+【Paper14】Stress-Testing Efficient Responsible-AI Evaluation: When Compute Savings Change Benchmark Conclusions · 2026-09-01 01:13 北京时间
+https://arxiv.org/abs/2608.31108v1
+
+Problem: Making model evaluation cheaper (batching, quantization, benchmark reduction) changes the evaluation protocol itself, but whether the resulting conclusions about model behavior stay valid is rarely tested.
+Approach: Stress-tests three dense/MoE models on the bias benchmarks BBQ and BBQ-V under seven efficiency conditions, comparing accuracy, bias severity/prevalence, reasoning quality, subgroup behavior, and measured GPU energy against a full BF16 baseline.
+Result: Larger batching keeps accuracy within 0.35 points of baseline while cutting energy in five of six settings; INT8 preserves quality but paradoxically uses 1.79-4.26x more energy; INT4 causes larger, context-dependent shifts; and small reduced-benchmark subsets are much more sensitive to which items are kept — efficient evaluation should be treated as an intervention whose validity must be re-checked, not a free lunch.
+问题:让模型评测更省钱(批处理、量化、缩减基准规模)本身会改变评测协议,但由此得出的模型行为结论是否依然成立,此前很少被检验。
+方法:论文在偏见基准 BBQ 和 BBQ-V 上,对三个稠密/MoE 模型在七种效率优化条件下做压力测试,对比准确率、偏见严重程度与出现频率、推理质量、子群体行为,以及相对完整 BF16 基线实测的 GPU 能耗。
+结果:更大的批处理让准确率与基线相差不超过 0.35 个百分点,并在六种设置中的五种降低了能耗;INT8 量化基本保留了质量,却反常地耗能高出基线 1.79-4.26 倍;INT4 量化带来更大且随场景变化的偏移;而缩减规模后的小型基准子集,对具体保留哪些题目非常敏感——效率优化型评测应被当作一次需要重新核验有效性的"干预",而非免费的午餐。
+
+【Paper15】BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing · 2026-09-01 01:10 北京时间
+https://arxiv.org/abs/2608.31105v1
+
+Problem: Real-world deployment surfaces rare model behaviors that testing almost never catches, and existing automated auditors are too sample-inefficient to find them cheaply.
+Approach: BLOOM-WILT elicits natural multi-turn instances of rare behaviors using only next-token access: the auditor model revises its conversational strategy across rounds using past scored interactions, while WILT reweights the target's own decoding, conditioned on an elicitation prompt, to surface behavior-relevant generations, with no training cost.
+Result: Across four target models and eight behaviors, WILT beats the baseline auditor in 30 of 32 settings and overturns prior model safety rankings — e.g., raising elicited self-harm-encouragement presence in Qwen3.5-4B from 51% to 100%, beating every other elicitation method tested at matched compute.
+问题:模型在真实部署中会暴露出测试阶段几乎不可能发现的罕见行为,而现有的自动化审计工具样本效率太低,难以低成本地找到这些行为。
+方法:BLOOM-WILT 只依赖对目标模型下一个 token 分布的访问权限,就能诱导出罕见行为的多轮自然对话实例:审计模型基于历史打分交互不断调整自己的对话策略,而 WILT 则在一个诱导提示词的条件下,对目标模型自身的解码分布重新加权,让与目标行为相关的生成结果更容易被采样到,且无需任何训练成本。
+结果:在四个目标模型和八种行为上,WILT 在 32 种设置中的 30 种胜过基线审计方法,并颠覆了此前的模型安全排名——例如把 Qwen3.5-4B 中被诱导出的"鼓励自我伤害"内容出现率从 51% 提升到 100%,在相同算力下超过了所有其他被测试的诱导方法。
+
+【Paper16】LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering · 2026-09-01 01:08 北京时间
+https://arxiv.org/abs/2608.31102v1
+
+Problem: Industrial post-training is "brownfield" work — teams inherit a deployed checkpoint and must ship targeted improvements under fixed compute/mixture budgets without regressing existing behavior — yet there's little engineering discipline for treating the training-data mixture itself as a maintained artifact.
+Approach: Drawing on an industrial code-generation improvement effort, identifies three recurring challenges (zero-sum mixture design, yield as the binding metric, end-to-end integration under uncertainty) and proposes engineering "dataware" via bounded mixture patches rather than clean-slate retraining.
+Result: Yield-focused interventions raised accepted supervision 2.84x from the same teacher/attempt budget, improving CodeForces pass@1 by +2.59 (+3.11 pass@3) and held-out LiveCodeBench v6 pass@1 by +6.11 (+8.05 pass@3), both statistically significant, while keeping AIME/MATH regression suites within tolerance.
+问题:工业界的后训练是一种"棕地(brownfield)"工作——团队接手的是已经上线的模型 checkpoint,必须在固定的算力和数据配比预算下,做出有针对性的改进,同时不能让已有能力出现回退——但目前几乎没有把训练数据配比本身当作一个需要维护的工程制品来对待的方法论。
+方法:论文基于一项工业级代码生成能力改进项目,总结出三个反复出现的难点(数据配比设计是零和博弈、"良率"是关键约束指标、端到端集成需要在不确定性下进行),并提出用"有边界的配比补丁"而非从头重训来对"dataware"进行工程化管理。
+结果:聚焦"良率"的干预措施,在相同的教师模型和每题尝试次数预算下,把被采纳的监督数据量提高了 2.84 倍,使 CodeForces pass@1 提升 2.59 分(pass@3 提升 3.11 分)、留出的 LiveCodeBench v6 pass@1 提升 6.11 分(pass@3 提升 8.05 分),两者均具统计显著性,同时 AIME 和 MATH 的回归测试集表现保持在容忍范围内。
+
+【Paper17】S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement? · 2026-09-01 01:05 北京时间
+https://arxiv.org/abs/2608.31100v1
+
+Problem: LLM agent benchmarks mostly evaluate models as fixed policies, leaving open whether an agent can actively test its own behavior, judge the resulting experience, and use it to improve future decisions.
+Approach: S3Gym is an interactive benchmark isolating Self-Testing, Self-Judging and Self-Improvement across seven text-based games with executable verifiers, comparing three ways to incorporate experience: raw history in-context, score-conditioned summary memory, and parameter training.
+Result: Self-improvement is neither automatic nor uniform — context-level experience helps for some model-game pairs, summaries help when strategy compresses well but underperform raw history when success needs precise state info, and parameter training gives big gains on some tasks but unstable results and severe negative transfer on others.
+问题:现有的 LLM agent 基准大多把模型当作固定策略来评测,并未回答 agent 是否真的能够主动测试自己的行为、评判由此产生的经验,并用它来改进未来的决策。
+方法:S3Gym 是一个交互式基准,在七款配有可执行验证器的文字游戏中,将"自我测试""自我评判""自我提升"三种能力拆分开单独评估,并比较了三种引入经验的方式:原始历史记录上下文学习、按分数压缩的摘要记忆,以及参数训练。
+结果:自我提升既不是自动发生的,也不是均匀发生的——上下文级的经验在部分模型-游戏组合上有效;当策略能被有效压缩成规则时摘要记忆有帮助,但当成功依赖精确的状态信息时,摘要反而不如原始历史记录;参数训练在部分任务上带来显著提升,但结果不稳定,在另一些任务上出现严重的负迁移。
+
+【Paper18】One Adapter, Many Tasks: Task-Conditioned Feature Transformations for Continual Learning · 2026-09-01 01:03 北京时间
+https://arxiv.org/abs/2608.31096v1
+
+Problem: Class-incremental learning methods built on frozen backbones either use per-task adapters (accurate but parameter/compute-inefficient) or merge per-task LoRA weights into one static model (efficient but the aggregated weights cause representation interference at inference).
+Approach: FACET learns a single shared adapter with a dynamic task-conditioned feature transformation that shapes the adapter's feature space into overlap-reduced, task-specific components, plus a replay-free task-conditioned feature-consistency loss to fight catastrophic forgetting.
+Result: With only one adapter, FACET scales robustly on both very long (200-task) and standard (20-task) sequences, beating existing methods while using far fewer trainable parameters and GFLOPs.
+问题:基于冻结骨干网络的类增量学习方法,要么用逐任务适配器(准确但参数量和计算量都不划算),要么把逐任务的 LoRA 权重合并成一个静态模型(高效,但合并后的权重在推理时会产生表征干扰)。
+方法:FACET 只学习一个共享适配器,通过动态的、以任务为条件的特征变换,把适配器的特征空间塑造成重叠度更低、按任务区分的多个子分布,并配合一种无需回放、以任务为条件的特征一致性损失来对抗灾难性遗忘。
+结果:仅用一个适配器,FACET 在很长的任务序列(200 个任务)和常规任务序列(20 个任务)上都表现出稳健的可扩展性,在使用远更少的可训练参数和 GFLOPs 的情况下优于现有方法。
+
+【Paper19】Minimax bounds for watermarked and masked recursive discrete distribution estimation · 2026-09-01 01:00 北京时间
+https://arxiv.org/abs/2608.31091v1
+
+Problem: Watermarking synthetic samples has been proposed to distinguish them from real data in "recursive" estimation settings (where synthetic data feeds back into training), but its precise statistical effect wasn't characterized, and prior work showed unmarked synthetic samples reduce the value of new real data.
+Approach: Derives minimax loss bounds for recursive discrete distribution estimation under watermarking versus unassisted/oracle-assisted baselines, and proposes "masking," a randomization procedure to narrow remaining gaps.
+Result: Proves it's impossible to improve performance by adding watermarks unless the detector's false-negative rate also vanishes; simple deterministic estimators already match the lower bounds in most regimes, and masking narrows the rest of the gap to a Jensen-gap term.
+问题:在"递归式"估计场景中(合成数据会被反馈回训练过程),给合成样本加水印被认为是一种能将其与真实数据区分开的方法,但其确切的统计影响此前未被刻画,而已有研究表明未加标记的合成样本会削弱新增真实样本的边际价值。
+方法:论文推导了在加水印、无辅助以及理想(oracle)辅助三种情形下,递归式离散分布估计的极小极大(minimax)损失界,并提出了一种名为"掩蔽(masking)"的随机化方法,用于缩小与理想情形之间剩余的差距。
+结果:论文证明,除非检测器的漏检率也随之趋于零,否则加水印无法带来性能提升;在大多数情形下,简单的确定性估计器就已经能达到理论下界;而"掩蔽"方法能把剩余差距缩小到一个 Jensen 差距项。
+
+【Paper20】The First Token Is a Clue: Verbalizing Multi-Token Concepts from the J-lens · 2026-09-01 00:56 北京时间
+https://arxiv.org/abs/2608.31084v1
+
+Problem: The Jacobian Lens (J-lens) interpretability tool reads LLM hidden states as ranked single vocabulary tokens, leaving multi-token concepts without their own representation; prior fixes need a precomputed phrase vocabulary or fine-tuning.
+Approach: Shows a multi-token concept's first token is about as readable via J-lens as a single-token one, then lets the frozen model complete candidate concepts from that first-token clue and recovers a vector for each candidate from later hidden states in one forward pass — no fine-tuning needed.
+Result: On 496 multi-hop cloze tasks across Gemma-3-12B-IT, Llama-3.1-8B, and Qwen3-14B, the method hits 43.1% Rank@10 versus 27.6% for the prior Template Lens (dropping to 21.6% without the first-token clue); causal concept-swap interventions using the recovered vectors succeed 61.4% of the time versus 26.2% for Template Lens.
+问题:Jacobian Lens(J-lens)这一可解释性工具会把 LLM 的隐藏状态读取为一份排序好的单个词表 token 列表,导致多 token 概念没有自己的表示;此前的解决方案需要预先计算固定短语词表,或者对模型组件做微调。
+方法:论文发现,多 token 概念的第一个 token 用 J-lens 读取的可读性,和单 token 概念相当;于是让冻结模型基于这个首 token 线索去补全候选概念,再在一次前向传播中从后续隐藏状态里为每个候选概念恢复出一个向量,全程无需微调。
+结果:在 Gemma-3-12B-IT、Llama-3.1-8B 和 Qwen3-14B 上的 496 道多跳完形填空任务中,该方法的 Rank@10 达到 43.1%,高于此前 Template Lens 的 27.6%(若不用首 token 线索则降到 21.6%);用恢复出的向量做因果概念替换干预,成功率达到 61.4%,而 Template Lens 在同等干预下只有 26.2%。
+
+【Paper21】Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data · 2026-09-01 00:53 北京时间
+https://arxiv.org/abs/2608.31082v1
+
+Problem: LLM agents reasoning over unstructured enterprise documents (reports, contracts, filings, PDFs) work but cost prohibitively — repeatedly re-opening large documents to find scattered evidence can burn up to a million tokens per question — yet pre-structuring everything in advance isn't viable since which structure matters is unknown until queries arrive.
+Approach: "Agentic data cracking" structures data adaptively and speculatively as a byproduct of reasoning: whenever an agent opens a document to answer a question, a cracking sub-agent forks from the already-loaded context at marginal cost to extract structure likely useful for related future queries.
+Result: On FanOutQA, an ideal pre-structured store is 28x cheaper than raw agentic reasoning (the gap grows with more documents); extended with one related question per test question, cracking cuts cost by 53% while preserving accuracy, as an increasing share of future queries get answered from accumulated structure without reopening documents.
+问题:LLM agent 对非结构化的企业文档(报告、合同、备案文件、PDF)进行推理是可行的,但成本高得离谱——为了在大文档里找散落的证据,反复重新打开文档回答一个问题就可能耗费高达百万 token;但提前把所有内容都结构化又不现实,因为在查询真正到来之前,并不知道哪些结构才是有用的。
+方法:论文提出"agentic data cracking(智能体式数据破碎化)"方法,把结构化过程作为推理的副产品,自适应且带有前瞻性地进行:每当 agent 打开一份文档回答问题时,一个"破碎化"子 agent 会从已加载的上下文中以边际成本分叉出来,顺带抽取出可能对未来相关查询有用的结构。
+结果:在 FanOutQA 基准上,理想的预结构化存储比原始 agent 推理便宜 28 倍(文档越多这一差距越大);在每道测试题额外附加一个相关问题的设置下,该方法在保持准确率的同时把成本降低了 53%,因为越来越多的未来查询能够直接利用已积累的结构回答,而无需重新打开文档。
+
+【Paper22】Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization · 2026-09-01 00:52 北京时间
+https://arxiv.org/abs/2608.31079v1
+
+Problem: Sycophantic agreement (models excessively affirming users at the cost of accuracy) is a known alignment failure, but how it emerges from training was poorly understood.
+Approach: Using the OLMo 3 post-training pipeline, tests whether widely-used contrastive preference optimization objectives (DPO plus six others) can unintentionally transfer sycophancy from the teacher models used to generate preference data to the trained student.
+Result: Finds a strong correlation between a teacher model's sycophantic-agreement log-ratio and the resulting student's sycophancy rate, across teacher pairs from three model families and across all seven objectives tested; the sycophancy signal is diffused across the whole dataset rather than concentrated in a few bad examples, so probe-based or logit-linear filtering fails to remove it without discarding most of the data.
+问题:谄媚性附和(模型为了迎合用户而过度赞同,牺牲事实准确性)是一种已知的对齐失败模式,但它究竟是如何从训练过程中产生的,此前并不清楚。
+方法:论文基于 OLMo 3 的后训练流程,测试了广泛使用的对比式偏好优化目标(DPO 以及另外六种目标)是否会无意中把"谄媚性"从用于生成偏好数据的教师模型,传递给训练出来的学生模型。
+结果:研究发现,教师模型谄媚性附和率的对数比,与由此训练出的学生模型的谄媚率之间存在很强的相关性,这一现象在来自三个模型家族的多组教师模型配对上、以及全部七种被测试的优化目标上都成立;谄媚信号弥散在整个数据集中,而非集中在少数"坏样本"里,因此基于探针或 logit 线性方法的数据筛选,如果不丢弃大部分数据就无法消除这一信号。
+
+【Paper23】Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization · 2026-09-01 00:51 北京时间
+https://arxiv.org/abs/2608.31077v1
+
+Problem: Outcome-based RL for LLM agents gives verified feedback but spreads trajectory-level advantage uniformly across all decisions (coarse credit), while finer "privileged information"-based self-distillation supervision doesn't map cleanly onto which executable action should get credit for a verified outcome — a supervision-credit gap.
+Approach: TASPO converts privileged supervision into outcome-grounded action credit by building decision-applicable privileged information from verified successful trajectories, aggregating likelihood shifts at the executable-action level, and turning relative action support into bounded, mean-preserving reweightings of the original trajectory advantage.
+Result: Across three agentic benchmarks, TASPO improves over GRPO by 10.6% on average and generalizes better to unseen tasks, with analysis showing it reduces supervision mismatch and stabilizes policy optimization.
+问题:面向 LLM agent 的基于结果的强化学习能提供经过验证的反馈,但会把整条轨迹级别的优势值均匀分摊给所有决策(粒度粗);而更精细的、基于"特权信息"的自蒸馏监督虽然能提供更细粒度的信号,却无法干净地映射到"哪个具体的可执行动作应该为已验证的结果获得多少功劳"——这就是"监督-功劳分配鸿沟"。
+方法:TASPO 把特权监督信号转化为基于结果的动作级功劳分配:从已验证的成功轨迹中构建"决策适用"的特权信息,在可执行动作粒度上聚合似然变化,再把动作的相对支持度转化为对原始轨迹优势值的、有界且保均值的重新加权。
+结果:在三个 agent 基准上,TASPO 平均比 GRPO 提升 10.6%,并且对未见任务的泛化能力更强;分析显示该方法减少了监督与功劳分配之间的错配,并让策略优化过程更稳定。
+
+【Paper24】Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents · 2026-09-01 00:48 北京时间
+https://arxiv.org/abs/2608.31076v1
+
+Problem: Open-ended autonomous research-agent tasks rarely specify the analyses, methods, or success criteria needed, so agents can miss analyses, use inappropriate methods, or draw under-supported conclusions.
+Approach: AutoSciRub induces a task-specific executable rubric before research execution — decomposing an instruction into atomic scientific goals, grounding them in literature and task data, and synthesizing verifiable criteria — then uses that rubric to guide execution, verify criteria, and drive iterative revision.
+Result: On ResearchClawBench, it improves every tested configuration (average +2.08 points across three backbone LLMs on a fixed harness, +2.95 across three agent harnesses on a fixed backbone), and on a 20-task AstaBench E2E Discovery subset it gains +16.8 points on average across three harnesses while maintaining or increasing completed-task counts.
+问题:开放式的自主科研 agent 任务往往没有明确说明需要哪些分析、方法或成功标准,导致 agent 可能遗漏重要分析、使用不恰当的方法,或得出证据不足的结论。
+方法:AutoSciRub 在研究实际执行之前,先诱导出一份任务特定的可执行评分标准——把指令分解成一个个原子级科学目标,基于相关文献和任务可见数据为其提供依据,再合成具体、可执行、可验证的评判标准——然后用这份评分标准指导执行、逐条验证,并推动迭代修改。
+结果:在 ResearchClawBench 上,该方法在所有测试配置下都带来提升(固定工具链、三种骨干 LLM 时平均提升 2.08 分;固定骨干、三种 agent 工具链时平均提升 2.95 分);在 AstaBench E2E Discovery 抽取的 20 个任务子集上,三种工具链平均提升达 16.8 分,同时保持或提高了成功完成的任务数量。
+
+【Paper25】Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence · 2026-09-01 00:48 北京时间
+https://arxiv.org/abs/2608.31075v1
+
+Problem: RL with verifiable rewards has driven big reasoning gains in math and code where outcomes are auto-checkable, but extending this to open-ended, agentic tasks is hard because reliable rewards are scarce and human supervision can't scale to the volume of model-generated experience.
+Approach: A position paper structuring the problem along two axes — reward (from per-instance human judgment to reusable, human-free verifiers) and experience (from human-curated tasks to self-generated curricula and autonomous co-evolution) — unified into a five-level L0-L4 ladder of how much of the loop stays under human control, plus a discussion of risks like reward hacking, feedback drift, curriculum collapse, and environment errors.
+Result: No new empirical results; contributes a structured framework for scaling large reasoning models beyond human supervision, plus a maintained public GitHub tracker of related work, and evaluation axes (policy capability, feedback fidelity, experience quality) for assessing progress.
+问题:基于可验证奖励的强化学习(RLVR)在数学和代码等结果可自动核验的领域带来了显著的推理能力提升,但要把这种进步扩展到开放式的 agentic 任务上很困难,因为可靠的奖励信号稀缺,而人工监督也无法跟上模型自生成经验的规模和复杂度。
+方法:这是一篇立场论文,沿着两个维度组织问题——"奖励"维度(从逐样本的人工判断,到可复用、无需人类反馈的验证器)和"经验"维度(从人工整理的任务,到模型自生成的课程、构造出的环境以及自主协同演化),并将二者统一到一个从 L0 到 L4 的五级阶梯中,刻画学习流程中还有多少部分仍受人类控制,同时讨论了奖励博弈、反馈漂移、课程崩溃、环境错误等风险。
+结果:论文没有给出新的实证结果;其贡献是为"超越人类监督扩展大型推理模型"这一方向提供了一套结构化框架,维护了一份持续更新的相关工作 GitHub 列表,并提出了政策能力、反馈保真度、经验质量三个互补的评估维度。
+
+【Paper26】Real-Time Video Anomaly Detection Using YOLO Pose Estimation and CLIP-Based Semantic Scoring · 2026-09-01 00:47 北京时间
+https://arxiv.org/abs/2608.31074v1
+
+Problem: Real-time video anomaly detection typically needs optical flow, standalone pose estimators, and density-based scoring modules, which is heavy for deployment.
+Approach: A lightweight two-stage pipeline — YOLOv11n-pose extracts 17 skeletal keypoints per person in a single forward pass, then CLIP ViT-B/32 encodes the cropped person region and scores cosine similarity against text descriptions of anomalous behaviors.
+Result: On CUHK Avenue, ShanghaiTech Campus, and a custom indoor dataset, it runs about 51 FPS on an NVIDIA Titan XP GPU (3.36x faster than the multi-feature baseline) while holding frame-level AUROC at 89.26%, 70.26%, and 84.13% respectively.
+问题:实时视频异常检测通常需要光流、独立的姿态估计模块以及基于密度的评分模块,部署起来比较笨重。
+方法:论文提出一个轻量的两阶段流程——先用 YOLOv11n-pose 在一次前向传播中检测人体并提取 17 个骨骼关键点,再用 CLIP ViT-B/32 对裁剪出的人体区域做编码,并与预定义的异常行为文本描述计算余弦相似度打分。
+结果:在 CUHK Avenue、ShanghaiTech Campus 以及一个自建的室内数据集上,该方法在 NVIDIA Titan XP GPU 上达到约 51 FPS(比多特征基线快 3.36 倍),同时帧级 AUROC 分别保持在 89.26%、70.26% 和 84.13%。
+
+【Paper27】A Model with No Head and Many Thoughts · 2026-09-01 00:45 北京时间
+https://arxiv.org/abs/2608.31069v1
+
+Problem: LLMs decode every reasoning step through a large vocabulary head, which is computationally costly and forces reasoning into discrete tokens.
+Approach: Soft Latent Thinking replaces the LM head during reasoning with a lightweight projector, letting the model roll out reasoning autoregressively in continuous embedding space instead of discrete tokens.
+Result: On DeepSeek-Qwen-1.5B and LLaMA-3.2-3B, it consistently improves pass@k across all k while cutting per-step compute during chain-of-thought, achieving the highest pass@32 among soft-thinking approaches tested.
+问题:LLM 在每一步推理时都要通过一个庞大的词表输出头来解码,这一操作计算成本很高,而且强制推理必须以离散 token 的形式表达出来。
+方法:Soft Latent Thinking 在推理过程中用一个轻量的投影器替换掉语言模型的输出头,让模型能够在连续的嵌入空间中自回归地展开推理,而不再是逐 token 离散生成。
+结果:在 DeepSeek-Qwen-1.5B 和 LLaMA-3.2-3B 上,该方法在所有 k 值下都持续提升了 pass@k,同时降低了思维链推理每一步的计算量,在所有被测试的"软思考"方法中取得了最高的 pass@32。
+
+【Paper28】Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores · 2026-09-01 00:43 北京时间
+https://arxiv.org/abs/2608.31068v1
+
+Problem: When an LLM fails a reasoning task, that's usually read as a lack of capability — but this conflates a genuine reasoning gap with a late-stage output/scoring bottleneck.
+Approach: Introduces a diagnostic protocol that fits a minimal, target-label-free additive correction (just two parameters, from as few as 25 unlabeled examples) to hidden-state probes, testing whether correct answers can be decoded even when the model's native sequence scoring has collapsed.
+Result: Recovers 9-34 accuracy points on Qwen3.5 models (transferring to OLMo-2-1B and Llama-3.1-8B), with recovered decisions holding up on hard instances unresolved by simple lexical overlap — suggesting many apparent zero-shot reasoning failures are "expression failures" masking intact internal logic, and arguing for a narrower interpretation of benchmark scores.
+问题:当 LLM 在推理任务上失败时,通常会被解读为模型缺乏相应能力——但这混淆了"真正缺乏推理能力"和"输出/打分环节末端瓶颈"这两种截然不同的情况。
+方法:论文提出一套诊断协议,对隐藏状态探针拟合一个极简的、不依赖目标标签的加性修正项(仅两个参数,最少只需 25 个无标注样本),用来检验即便模型原生的序列打分已经完全失效,是否依然能从隐藏状态中解码出正确答案。
+结果:该方法在 Qwen3.5 系列模型上找回了 9 到 34 个百分点的准确率(并成功迁移到 OLMo-2-1B 和 Llama-3.1-8B),恢复出的答案在仅靠简单词面重合无法解决的难题上依然成立——说明许多表面上的零样本推理失败,其实是"表达层面的失败",掩盖了模型内部完好的推理逻辑,这也提示应当更谨慎地解读基准测试分数。
+
+━━━━━━━━━━━━━━━━━━━━
+
+You can ask follow-up questions like "expand P2", "详细讲讲 Paper5", or "这条 B1 为什么重要？" for a deeper dive.
+你可以说"展开 P2"、"详细讲讲 Paper5"或"这条 B1 为什么重要？"来深入了解某一条内容。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
