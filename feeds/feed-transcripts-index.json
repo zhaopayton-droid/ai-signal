@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:47:17.579406+00:00",
+  "generated_at": "2026-09-02T14:11:25.195520+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 129233,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-01T23:47:17.579406+00:00",
-      "last_seen_at": "2026-09-01T23:47:17.579406+00:00",
-      "expires_at": "2026-09-15T23:47:17.579406+00:00"
+      "last_seen_at": "2026-09-02T14:11:25.195520+00:00",
+      "expires_at": "2026-09-16T14:11:25.195520+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/openai-huggingface-narration",
@@ -25,8 +25,8 @@
       "transcript_chars": 1396,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-01T00:59:02.172739+00:00",
-      "last_seen_at": "2026-09-01T23:47:17.579406+00:00",
-      "expires_at": "2026-09-15T23:47:17.579406+00:00"
+      "last_seen_at": "2026-09-02T14:11:25.195520+00:00",
+      "expires_at": "2026-09-16T14:11:25.195520+00:00"
     },
     {
       "guid": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
@@ -417,19 +417,6 @@
       "cached_at": "2026-08-17T22:22:11.778000+00:00",
       "last_seen_at": "2026-08-20T10:33:24.266041+00:00",
       "expires_at": "2026-09-03T10:33:24.266041+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
-      "link": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
-      "channel": "Lenny's Podcast",
-      "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
-      "pub_date": "2026-08-16T12:31:42+00:00",
-      "transcript_path": "feeds/transcripts/cefbd24e71a4c8554d61d89c.txt",
-      "transcript_chars": 5779,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-16T22:18:24.752962+00:00",
-      "last_seen_at": "2026-08-19T10:31:38.292000+00:00",
-      "expires_at": "2026-09-02T10:31:38.292000+00:00"
     }
   ]
 }
