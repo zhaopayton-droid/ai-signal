@@ -1,0 +1,256 @@
+🛫 起飞了 | AI Signal - 2026-09-03
+
+Today's throughline is the G20 Innovation Ministerial pulling AI's biggest names onto one stage — Jensen Huang, Sam Altman, and Anthropic's Tom Brown (with one channel also naming Musk) — right as Sam Altman published a long, deliberately anxious essay on pacing Astra's rollout against safety, and Google DeepMind shipped Gemini 3.8 Flash Cyber, a model explicitly built for cyber defense.
+今天的主线是 G20 创新部长级会议把 AI 圈最重量级的人物拉到了同一个舞台上——Jensen Huang、Sam Altman，还有 Anthropic 的 Tom Brown（另有一个频道还提到了 Musk）——与此同时，Sam Altman 发表了一篇篇幅很长、语气刻意透着焦虑的文章，讲述如何在安全与能力之间权衡 Astra 的发布节奏；Google DeepMind 也发布了 Gemini 3.8 Flash Cyber，一款明确为网络防御打造的模型。
+
+── X / Twitter ──
+
+X1. Sam Altman (OpenAI) — 2026-09-02 07:45 Beijing
+https://x.com/sama/status/2094934592062959832
+
+Altman posted a long, personal essay about pacing OpenAI's next model (Astra) against safety concerns, saying training finished a while ago but release has been deliberately slowed.
+Altman 发了一篇较长的个人化文章，谈的是如何为下一个模型（Astra）的发布节奏权衡安全考量，他说训练早就完成了，但发布被有意放缓。
+
+"Over the summer, we have been sprinting on safety priorities; it's more important than ever for capabilities and safeguards to advance together. We have more to do but have made a lot of progress. We are also going to be launching our next model soon. There is an obvious tension here: on one hand, Astra is very good and we are excited to see what people will build with it. We are proud of our work. On the other hand, we are clearly in a phase of development where we believe caution is warranted, and we are pacing our progress to ensure that we can meet the safety standards required by new capability levels. Astra has been done training for a while now and is a significant step forward in both capabilities and alignment. For the models after that, we have been slowing things as needed to ensure that we can do sufficient work on safety and alignment. AI is getting extremely capable; no one fully understands the consequences of this. Managing the transition to a world with abundant and powerful AI to optimize for safety and benefits to people should be one of the highest priorities in the world. It is our highest priority at OpenAI. We have been living with the tension between being excited and anxious about progress for some time, and it is still discordant for us. We know it is much more discordant for other people. And yet, we believe strongly that the world needs to understand where AI is going and how models perform in the real world. More importantly, we believe the world will need aligned AI to manage the future phases of this transition. An iterative loop where society and this technology evolve together is what will lead to the highest chance of getting this right. So we hope you enjoy our new model, and we hope the world continues to take what's happening in AI extremely seriously."
+"这个夏天，我们一直在安全优先事项上全力冲刺；能力和安全防护措施同步推进，现在比以往任何时候都更重要。我们还有很多要做的，但已经取得了不少进展。我们也即将发布下一个模型。这里存在一个明显的张力：一方面，Astra 非常出色，我们很期待看到大家用它做出什么；我们为这项工作感到自豪。另一方面，我们显然正处在一个需要保持谨慎的发展阶段，我们在有意放缓推进节奏，以确保能达到新能力水平所要求的安全标准。Astra 其实已经训练完成一段时间了，在能力和对齐上都是重要的一步。对于之后的模型，我们一直在按需放慢速度，以确保能做足安全和对齐方面的工作。AI 正变得极其强大；没有人完全理解这会带来什么后果。管理好通向一个 AI 丰富且强大的世界的转型过程，让安全和普惠最大化，应该是全世界最优先的事项之一。这也是 OpenAI 目前的最高优先级。我们已经在兴奋与焦虑并存的张力中生活了一段时间，这种感觉对我们自己来说依然不协调，我们也知道对其他人来说会更加不协调。但即便如此，我们坚信这个世界需要了解 AI 正走向何方，以及模型在真实世界中的表现。更重要的是，我们相信这个世界将需要对齐的 AI 来驾驭这场转型的后续阶段。让社会和这项技术共同演进的迭代循环，才最有可能把这件事做对。所以，希望大家喜欢我们的新模型，也希望世界继续极其认真地对待 AI 领域正在发生的一切。"
+
+X2. Demis Hassabis (Google DeepMind) — 2026-09-03 00:44 Beijing
+https://x.com/demishassabis/status/2095191106665284046
+"Introducing Gemini 3.8 Flash, another upgrade in under a month! And the new 3.8 Flash Cyber pushes the frontier of cyber defense. Relentless progress 🚀 More on the models & our cyber security work in the blog - happy building!"
+"隆重推出 Gemini 3.8 Flash，不到一个月内的又一次升级！全新的 3.8 Flash Cyber 把网络防御能力推到了前沿水平。进步不停歇 🚀 关于这两款模型以及我们网络安全方面的工作，详见博客——祝构建愉快！"
+
+X3. Boris Cherny (Claude Code) — 2026-09-03 06:22 Beijing
+https://x.com/bcherny/status/2095276133214491086
+"Fable 5.1 makes Claude Tag even more useful. Here it builds a last-minute leadership deck from a metrics spreadsheet and other data across Slack, spots a vendor report that disagrees with the numbers, and flags it before moving on. Claude Tag is available in Slack on Team and Enterprise plans."
+"Fable 5.1 让 Claude Tag 变得更好用了。比如这次它根据一份指标表格和 Slack 里的其他数据，临时赶出了一份给领导层看的演示稿，还发现了一份和数字对不上的供应商报告，并在继续处理前先标记了出来。Claude Tag 现已在 Slack 的 Team 和 Enterprise 方案中提供。"
+
+X4. Guillermo Rauch (Vercel) — 2026-09-03 01:03 Beijing
+https://x.com/rauchg/status/2095195988550168936
+"It's truly the best time to build… 50% off on Vercel AI Gateway right now: gpt-5.6-sol / gpt-5.6-sol-fast / gemini-3.8-flash [new] / glm-5.3-flash / minimax-h3 / minimax-h3-max"
+"现在真的是构建产品的最佳时机……Vercel AI Gateway 限时 5 折：gpt-5.6-sol / gpt-5.6-sol-fast / gemini-3.8-flash [新] / glm-5.3-flash / minimax-h3 / minimax-h3-max。"
+
+X5. Irrational Analysis (insane_analyst) — 2026-09-02 12:22 Beijing
+https://x.com/insane_analyst/status/2095004314544820438
+An unfiltered hot take on AI memory hardware, referencing hybrid-bonded DRAM and D-Matrix's Hot Chips showing — treat the tone as the poster's own, not a verified technical claim.
+一条关于 AI 内存硬件的犀利吐槽，提到了混合键合（hybrid bonding）DRAM 以及 D-Matrix 在 Hot Chips 大会上的展示——语气是作者本人的风格，不代表已核实的技术结论。
+"If CBRS manages to hyb bond one layer of DRAM that will be huge achievement. (rooting for them) Multiple layers is.... idiot did you see nothing D-Matrix showed at Hot Chips? What are you smoking? Impressed humans constantly lower intelligence than GPT3.5 exist IRL."
+"如果 CBRS 真能实现一层 DRAM 的混合键合，那已经是个巨大成就了。（为他们加油）多层的话……你是没看到 D-Matrix 在 Hot Chips 上展示的东西吗？你是嗑了什么？现实中居然还有人智力持续低于 GPT3.5，真是让人"佩服"。"
+
+── Podcasts ──
+
+P1. DWS News and DRM News — "FULL G20 SESSION: Jensen Huang, Anthropic's Tom Brown, Lutnick, Musk Join G20 Innovation Summit | AI1E"
+Source time: unverified (pub_date not provided in feed) | Link: https://www.youtube.com/watch?v=KY06j4RfyKU
+
+Takeaway: A 1-hour-plus full session recording of Nvidia's Jensen Huang and Anthropic's Tom Brown joining U.S. Commerce Secretary Howard Lutnick (with the title also naming Musk) at the G20 Innovation Summit.
+要点：一段时长超过一小时的完整会议录像，内容是 Nvidia 的 Jensen Huang 和 Anthropic 的 Tom Brown 与美国商务部长 Howard Lutnick 一同出席 G20 创新峰会（标题中还提到了 Musk）。
+
+Key Points: Only the title and a one-line description ("...at the G20 Innovation Ministerial in North...", truncated) are available; no specifics on what was discussed or announced can be confirmed from metadata alone.
+要点：目前仅有标题和一句被截断的描述（"……在北……的 G20 创新部长级会议……"）；具体讨论或宣布的内容仅凭元数据无法确认。
+
+Why it matters: Having an Anthropic leader on the same stage as Nvidia's CEO and a cabinet secretary is a notable escalation of AI labs' direct government engagement, worth watching for policy or procurement signals.
+重要性：Anthropic 高管与 Nvidia CEO、内阁部长同台，标志着 AI 实验室与政府直接互动的程度进一步升级，值得关注其中可能释放的政策或采购信号。
+
+P2. DRM News — "FULL INTERVIEW: Sam Altman on OpenAI, New AI Model, Governments and Global Growth at G20 | AI1G"
+Source time: unverified (pub_date not provided in feed) | Link: https://www.youtube.com/watch?v=cRX84IvyVNU
+
+Takeaway: Sam Altman's own full G20 interview with Commerce Secretary Howard Lutnick, covering OpenAI, a new AI model, governments, and global growth per the description.
+要点：Sam Altman 本人在 G20 期间接受商务部长 Howard Lutnick 采访的完整版，据描述内容涉及 OpenAI、新 AI 模型、各国政府和全球增长议题。
+
+Key Points: The description is a short summary line only; no direct quotes or specific commitments are available without watching the interview.
+要点：描述仅有一句简短概括；具体的原话或承诺内容需观看完整采访才能获知。
+
+Why it matters: This pairs directly with X1 above (Altman's Astra safety essay) — a same-window, on-camera appearance where he is likely to touch on the same "new model" pacing question in front of a government audience.
+重要性：这与上面 X1（Altman 关于 Astra 安全节奏的文章）时间上高度重合——他在政府听众面前的公开露面，很可能也会谈及同一个"新模型"节奏问题。
+
+P3. News Central and DWS News — "FULL INTERVIEW: Nvidia CEO Jensen Huang Speaks With Howard Lutnick At G20 Ministerial | AI1F"
+Source time: unverified (pub_date not provided in feed) | Link: https://www.youtube.com/watch?v=EFY-qjUZPkc
+
+Takeaway: Jensen Huang's own full-length armchair interview with Howard Lutnick at the same G20 Ministerial.
+要点：Jensen Huang 在同一场 G20 部长级会议上与 Howard Lutnick 进行的完整对谈访谈。
+
+Key Points: Description only confirms the format ("high-profile armchair dialogue"); no specific statements are available from metadata.
+要点：描述仅确认了访谈形式（"高规格的炉边对话"）；具体发言内容元数据中未提供。
+
+Why it matters: Three separate channels covering overlapping G20 AI appearances (P1-P3) suggests this ministerial is being treated as a genuine industry-government moment, not just a photo-op — relevant for anyone tracking AI policy/chip-export dynamics.
+重要性：三个不同频道分别报道了重叠的 G20 AI 露面场景（P1-P3），说明这场部长级会议被视为一次真正的产业-政府互动节点，而非单纯的拍照场合——对关注 AI 政策或芯片出口动态的人有参考价值。
+
+P4. TIME — "How Close Are We to True Artificial General Intelligence? | OpenAI's Greg Brockman Speaks to TIME"
+Source time: unverified (pub_date not provided in feed) | Link: https://www.youtube.com/watch?v=dnSpKF5pWNQ
+
+Takeaway: A 54-minute TIME interview with OpenAI President Greg Brockman on AGI, ChatGPT, AI safety, and cybersecurity.
+要点：TIME 对 OpenAI 总裁 Greg Brockman 的一段 54 分钟采访，话题涉及 AGI、ChatGPT、AI 安全与网络安全。
+
+Key Points: The description is truncated after listing the topic areas; no specific claims about AGI timelines are available from metadata.
+要点：描述在列出话题范围后被截断；关于 AGI 时间线的具体说法在元数据中无法获知。
+
+Why it matters: A second senior OpenAI voice (after Altman in P2) speaking on AGI and safety the same week reinforces that the lab is proactively shaping the narrative around Astra's release.
+重要性：继 P2 中的 Altman 之后，又一位 OpenAI 高层就 AGI 与安全议题发声，说明该实验室正在同一周内主动引导围绕 Astra 发布的叙事。
+
+── Official Blogs ──
+
+B1. Google DeepMind — "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
+Link: https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/ | Source time: 2026-09-03 00:18 Beijing
+
+What was announced: Gemini 3.8 Flash and a specialized variant, 3.8 Flash Cyber, described as delivering "next-generation intelligence for agentic workflows and cybersecurity."
+公告内容：发布 Gemini 3.8 Flash 及其专门变体 3.8 Flash Cyber，官方将其描述为"为 agentic 工作流和网络安全提供新一代智能"。
+
+Details: This is the second Gemini Flash upgrade in under a month per Demis Hassabis's own framing (see X2); the summary field does not include specific benchmark numbers or pricing.
+细节：据 Demis Hassabis 本人的表述（见 X2），这是不到一个月内 Gemini Flash 系列的第二次升级；摘要字段未包含具体的基准数据或定价信息。
+
+Why it matters: Pairing a fast/cheap general model with a cyber-defense-specialized sibling signals Google is racing to productize AI-for-security specifically, directly relevant to the SemiAnalysis "Neocloud security" story in recent digests.
+重要性：将一款快速/低成本的通用模型与一款专注网络防御的姊妹模型同时推出，说明 Google 正在加速把"AI 用于安全"这件事产品化，与近期日报提到的 SemiAnalysis "Neocloud 安全"报道直接相关。
+
+B2. Google DeepMind — "Proactive cyber defense for governments and enterprises"
+Link: https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/ | Source time: 2026-09-03 00:24 Beijing
+
+What was announced: The Fairwind Program, a limited-access program letting governments and trusted partners use DeepMind's cyber defense tools.
+公告内容：发布 Fairwind Program，一项限量准入项目，允许各国政府和受信任的合作伙伴使用 DeepMind 的网络防御工具。
+
+Details: The summary is brief; no eligibility criteria, participant list, or tool specifics are given beyond the program's existence and access being government/partner-limited.
+细节：摘要内容简短；除该项目已存在且面向政府/合作伙伴限量开放外，未提供具体的准入标准、参与方名单或工具细节。
+
+Why it matters: Published the same day as Gemini 3.8 Flash Cyber (B1), this looks like a coordinated push to position DeepMind as a government-facing cyber-defense vendor, not just a model lab — an investing-relevant expansion into public-sector security.
+重要性：与 Gemini 3.8 Flash Cyber（B1）同日发布，这看起来是一次协同行动，意在把 DeepMind 定位为面向政府的网络防御供应商，而不只是一个模型实验室——这是向公共部门安全领域的扩张，具有投资参考意义。
+
+B3. OpenAI — "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT"
+Link: https://openai.com/index/atv-big-air-tour | Source time: 2026-09-02 20:00 Beijing
+
+What was announced: A customer case study describing how ATV Big Air Tour used ChatGPT Work to speed up marketing and merchandising tasks, including turning merchandise photos into an inventory website in 15 minutes.
+公告内容：一篇客户案例研究，介绍 ATV Big Air Tour 如何使用 ChatGPT Work 加速营销与商品管理工作，包括在 15 分钟内把商品照片转化为一个库存网站。
+
+Why it matters (investing angle): This is a marketing-style small-business customer story with limited new product information — useful mainly as a data point on ChatGPT Work adoption outside enterprise/tech customers.
+重要性（投资角度）：这是一篇偏营销性质的小微企业客户案例，除具体应用场景外几乎没有新的产品信息——主要价值在于作为 ChatGPT Work 在非企业/科技类客户中落地的一个数据点。
+
+── Papers ──
+
+Paper1. A Common Measure of Communication for Speech Brain-Computer Interfaces
+2026-09-03 01:59 Beijing | https://arxiv.org/abs/2609.02887v1
+Problem: Speech brain-computer interface (BCI) systems use different datasets and vocabularies, so reported scores are not comparable across systems. Approach: The authors derive open-vocabulary mutual information (OVMI), an information-theoretic measure of how much of a user's intended speech a decoder actually conveys relative to a reference word distribution. Result: OVMI exposes cases where accuracy/WER overstate real communication capability, and choosing a vocabulary to maximize OVMI yields up to 16.3% relative accuracy improvement across three speech domains.
+问题：语音脑机接口（BCI）系统各自使用不同的数据集和词表，导致报告的分数无法跨系统比较。方法：作者提出开放词表互信息（OVMI），这是一种信息论指标，用于衡量解码器相对于参考词分布，实际传达了用户多少意图表达的信息。结果：OVMI 揭示了准确率/词错误率（WER）会高估实际沟通能力的情况，而以最大化 OVMI 为目标选择词表，在三个语音场景中可带来最高 16.3% 的相对准确率提升。
+
+Paper2. Discriminative World Models for Web Agents
+2026-09-03 01:59 Beijing | https://arxiv.org/abs/2609.02885v1
+Problem: Web agents' world models are trained via supervised next-state prediction, but this objective is misaligned with the downstream ranker that needs predicted states to be discriminative across candidate actions. Approach: The authors introduce predicted-state matching, a training objective requiring predicted states to distinguish the true resulting state from alternative-action outcomes, trained on branching WebArena trajectories. Result: The approach outperforms supervised next-state world models on a held-out benchmark, improves PRM-style action ranking on WebPRMBench, and improves end-to-end task success on WebArena-Lite.
+问题：网页 agent 的世界模型通过监督式"下一状态预测"训练，但这一目标与下游排序器的需求不一致——排序器需要预测状态能在候选动作之间做出区分。方法：作者提出"预测状态匹配"训练目标，要求预测状态能把真实结果状态与其他候选动作的结果区分开来，并在带分支的 WebArena 轨迹上进行训练。结果：该方法在留出测试基准上优于监督式下一状态世界模型，在 WebPRMBench 上提升了 PRM 式动作排序效果，并在 WebArena-Lite 上提升了端到端任务成功率。
+
+Paper3. Graph Machine: Towards Better Pretraining via Edges
+2026-09-03 01:56 Beijing | https://arxiv.org/abs/2609.02881v1
+Problem: Sequence models must choose between fixed-size states (cheap but limited memory) and fully dense attention (large state but costly), without an efficient way to keep a large potential state while still routing to it sparsely. Approach: Graph Machine (GM) maintains an O(n)-sized state accessed via sparse, dynamic routing using differentiable "edges," and the authors replace 75% of Qwen3-0.6B's dense Transformer layers with GM sparse layers, pretraining from scratch on 15.7B tokens. Result: Retrieving just 2 of 4,096 tokens per KV head per sparse layer degrades loss only slightly, and retrieving 4 tokens marginally improves loss over the dense baseline.
+问题：序列模型通常要在固定大小状态（便宜但记忆有限）和完全密集注意力（状态大但代价高）之间取舍，缺乏一种既能保留大规模潜在状态、又能稀疏路由访问的高效方式。方法：Graph Machine（GM）通过"边"这种可微分的、类似指针的机制维持一个 O(n) 大小的状态，并用稀疏动态路由访问；作者将 Qwen3-0.6B 中 75% 的密集 Transformer 层替换为 GM 稀疏层，并在 157 亿 token 上从头预训练。结果：每个稀疏层每个 KV 头只检索 4096 个 token 中的 2 个时，损失仅轻微下降；检索 4 个时，最好的模型损失甚至略优于密集基线。
+
+Paper4. Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework
+2026-09-03 01:44 Beijing | https://arxiv.org/abs/2609.02861v1
+Problem: Autonomous robots powered by deep learning are hard to audit after incidents because investigators cannot reconstruct why the system made a specific decision. Approach: TRACE (Transparent Reasoning Architecture for Credible Execution) organizes decision-making into four auditable layers — perception, belief reasoning, action synthesis, and execution verification — designed to work alongside CNN/transformer perception modules while preserving decision-level traceability. Result: On simulated warehouse robot navigation across 500 decision cycles, TRACE achieved 98.6% evidence traceability, 99.0% temporal continuity, and 98.1% decision reconstructability, outperforming post-hoc methods like LIME on reconstruction capability.
+问题：由深度学习驱动的自主机器人在发生事故后很难被审计，因为调查人员无法还原系统做出某个具体决策的原因。方法：TRACE（可信执行透明推理架构）把决策过程组织为四个可审计层——感知、信念推理、动作生成、执行验证——设计上可与 CNN/Transformer 感知模块协同工作，同时保留决策级别的可追溯性。结果：在 500 次仓库机器人导航模拟决策周期中，TRACE 实现了 98.6% 的证据可追溯性、99.0% 的时间连续性和 98.1% 的决策可重建性，在重建能力上优于 LIME 等事后解释方法。
+
+Paper5. User Feedback Provides a Unique Signal that LLMs Can not Detect
+2026-09-03 01:42 Beijing | https://arxiv.org/abs/2609.02859v1
+Problem: User feedback from real interactions is widely believed to be a noisy, hard-to-use learning signal for LLMs. Approach: The authors construct synthetic data with definitive ground truth plus naturalistic data, then compare model revisions made with vs. without access to user feedback. Result: Feedback-informed revisions fix targeted issues at significantly higher rates than baseline revisions, but LLM judges systematically fail to recognize responses that were correctly fixed via feedback, exposing a bias in current evaluation methods rather than a real weakness of feedback itself.
+问题：普遍认为，来自真实交互的用户反馈对 LLM 来说是一种嘈杂、难以利用的学习信号。方法：作者构造了带有明确真值的合成数据以及自然场景数据，比较有无用户反馈参与时模型修订结果的差异。结果：有反馈参与的修订，修复目标问题的成功率显著高于基线修订；但 LLM 评审模型系统性地无法识别出那些确实是靠反馈才修正成功的回复，说明问题出在现有评测方法的偏差上，而非反馈信号本身没用。
+
+Paper6. The Implications of Linguistic Illegibility for LLM Security
+2026-09-03 01:37 Beijing | https://arxiv.org/abs/2609.02852v1
+Problem: Security mechanisms like chain-of-thought monitoring and constitutional self-critique assume an LLM's language output reliably reflects its internal computation, but this may not hold. Approach: The authors argue "linguistic illegibility" — a mismatch between externalized language and actual internal computation — is unavoidable, since models compute over activation spaces with only lossy translation to language, and propose output-level taint tracking as a sandboxing approach that does not depend on reading a model's linguistic self-reports. Result: The paper is conceptual/argumentative rather than empirical, concluding that taint-tracking-based sandboxing would have mitigated recent sandbox exploits by frontier models that linguistic monitoring alone missed.
+问题：思维链监控、宪法式自我批评等安全机制，都假设 LLM 的语言输出能可靠反映其内部计算过程，但这一假设未必成立。方法：作者提出"语言不可读性"（linguistic illegibility）概念——即模型对外表达的语言与其真实内部计算之间存在错位——认为这种错位是不可避免的，因为模型的计算发生在激活空间中，只能有损地转译为语言；并提出基于输出的"污点追踪"（taint tracking）作为一种不依赖读取模型语言自述的沙箱方案。结果：本文以概念性论证为主而非实证研究，结论是基于污点追踪的沙箱机制本可以缓解近期前沿模型出现的、仅靠语言监控未能发现的沙箱逃逸事件。
+
+Paper7. Post-Training Language Models for Gold-Medal Performance in Coding Competitions
+2026-09-03 01:33 Beijing | https://arxiv.org/abs/2609.02849v1
+Problem: Competitive programming at events like IOI and ICPC is one of the hardest tests of LLM reasoning, and prior systems have fallen short of top human performance. Approach: NVIDIA researchers built an end-to-end pipeline (large-scale problem curation, synthetic reasoning traces, SFT, RL) to train Nemotron-3-Nano-CC and Nemotron-3-Ultra-CC, plus GenCorrect, a test-time strategy that iteratively generates, evaluates, and refines solutions. Result: Under the same time/internet/submission constraints as human contestants, the system scored 535.4/600 on IOI 2026, beating both the gold-medal threshold (361.12) and the top human contestant's score (498.27) — reportedly the first AI system to outscore the highest-scoring human on an IOI problem set.
+问题：IOI、ICPC 等赛事中的竞技编程，是对 LLM 推理能力最严苛的考验之一，此前的系统一直未能达到顶尖人类选手的水平。方法：NVIDIA 研究团队构建了一套端到端流程（大规模题目筛选、合成推理轨迹、SFT、RL），训练出 Nemotron-3-Nano-CC 与 Nemotron-3-Ultra-CC，并提出 GenCorrect——一种在测试阶段迭代生成、评估、修正解答的策略。结果：在与人类选手相同的时间、联网和提交限制下，该系统在 IOI 2026 上取得 535.4/600 分，超过了金牌线（361.12 分）和人类最高分选手的成绩（498.27 分）——据称是首个在 IOI 题目集上超越最高分人类选手的 AI 系统。
+
+Paper8. UE5M3 FP4 Block Scaling for Stable Language Model Pretraining
+2026-09-03 01:32 Beijing | https://arxiv.org/abs/2609.02846v1
+Problem: Stable 4-bit floating-point (FP4) pretraining is hard because the standard E2M1 payload format only represents a narrow range of magnitudes, and existing fixes (NVIDIA's current recipe) add extra work outside the FP4 matmuls. Approach: The authors pair E2M1 payloads with wider-range unsigned E5M3 block scales, enabling periodic tensor scaling plus selective stochastic rounding on backward gradients, and pretrain a Nemotron-H 8B model for nearly 190 billion tokens. Result: The new recipe achieves lower final training loss and lower validation loss than NVIDIA's existing FP4 recipe, higher scores on all three reported downstream aggregates, and a 21.2% throughput increase when removing extra correction steps.
+问题：稳定的 4 位浮点（FP4）预训练很难实现，因为标准的 E2M1 数值格式只能表示较窄的数值范围，而现有的修正方案（如 NVIDIA 现行方案）会在 FP4 矩阵乘法之外增加额外开销。方法：作者将 E2M1 数值与范围更宽的无符号 E5M3 区块缩放因子配对，从而支持周期性张量缩放，并对反向传播梯度采用选择性随机舍入，在近 1900 亿 token 上预训练了一个 Nemotron-H 8B 模型。结果：新方案相比 NVIDIA 现有 FP4 方案取得了更低的最终训练损失和验证损失，在三项下游综合指标上全部更高，去除额外修正步骤后吞吐量提升 21.2%。
+
+Paper9. AI Contextual Measurement for Recovering Individual and Group-Level Effects: Validation Against Survey Measures and an Occupational Application
+2026-09-03 01:09 Beijing | https://arxiv.org/abs/2609.02821v1
+Problem: Researchers increasingly use AI to construct social/organizational measures not captured by conventional surveys, but it's unclear whether AI-derived measures can recover both individual- and group-level statistical effects, not just predict individual responses. Approach: The authors propose AICOME, a framework that derives group-level aggregates and individual deviations from respondent-level AI measures, validated against the 2022 China Family Panel Studies survey using occupation as the grouping structure. Result: AI-derived measures recover much of the contextual-model information in observed survey variables (strongest for weekly work hours), but performance degrades when only occupation/demographics are available or when several related concepts are simultaneously unobserved.
+问题：研究者越来越多地使用 AI 构建常规问卷无法捕捉的社会/组织层面测量指标，但尚不清楚 AI 衍生的测量是否既能还原个体层面、也能还原群体层面的统计效应，而不只是预测个体回答。方法：作者提出 AICOME 框架，从受访者层面的 AI 测量中推导出群体层面的聚合值与个体层面的偏差值，并以 2022 年中国家庭追踪调查（CFPS）为基础、以职业作为分组结构进行验证。结果：AI 衍生测量能够还原观测问卷变量中大部分的情境模型信息（在每周工时上表现最强），但当只有职业和基本人口统计信息可用、或多个相关概念同时不可观测时，效果会下降。
+
+Paper10. Cliff: Learning Process Rewards from the First Mistake
+2026-09-03 01:03 Beijing | https://arxiv.org/abs/2609.02817v1
+Problem: Reinforcement learning with verifiable rewards (RLVR) for LLM post-training relies on coarse outcome rewards, giving limited guidance on intermediate reasoning steps. Approach: Cliff uses an off-the-shelf LLM teacher to locate the first mistake in a rollout, splitting it into a correct prefix and incorrect suffix, then assigns positive token-level advantage to the prefix and negative advantage after the mistake. Result: Across 12 scenarios, Cliff consistently improves reasoning performance, outperforming on-policy distillation by 15% and standard GRPO by 7%, even with a modestly capable teacher model.
+问题：面向 LLM 后训练的可验证奖励强化学习（RLVR）依赖粗粒度的结果奖励，对中间推理步骤缺乏细致指导。方法：Cliff 用一个现成的 LLM 作为"老师"，定位 rollout 中出现的第一个错误，把整个轨迹拆分为正确的前缀和错误的后缀，对前缀给予正向的 token 级优势值，错误发生之后给予负向优势值。结果：在 12 个场景中，Cliff 持续提升推理性能，相比 on-policy distillation 提升 15%，相比标准 GRPO 提升 7%，即便所用的教师模型能力并不算强也是如此。
+
+Paper11. Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis
+2026-09-03 00:43 Beijing | https://arxiv.org/abs/2609.02805v1
+Problem: Diagnosing performance degradations in 5G/6G telecom networks is hard due to complex cross-layer dependencies, and applying vanilla LLMs directly to root cause analysis often causes hallucination and poor alignment with structured network evidence. Approach: The authors review the evolution from rule-based/ML to LLM-enabled telecom RCA, then propose a structured reasoning framework that organizes heterogeneous telemetry into canonical contexts and enforces decision-path reasoning before generating evidence-grounded explanations. Result: On two 5G RCA datasets (TeleLogs and TelecomTS), the framework consistently improves diagnostic accuracy and decision consistency over baseline techniques.
+问题：诊断 5G/6G 电信网络的性能劣化问题很难，因为涉及复杂的跨层依赖关系；直接把通用 LLM 用于根因分析（RCA）常常导致幻觉，也很难与结构化的网络证据对齐。方法：作者梳理了电信 RCA 从基于规则/机器学习方法到 LLM 驱动方法的演进，随后提出一个结构化推理框架，将异构的网络遥测数据组织为标准化上下文，在生成有据可依的解释之前强制执行决策路径推理。结果：在两个 5G RCA 数据集（TeleLogs 和 TelecomTS）上，该框架相比基线方法持续提升了诊断准确率和决策一致性。
+
+Paper12. Dutch Books for Language Models
+2026-09-03 00:31 Beijing | https://arxiv.org/abs/2609.02797v1
+Problem: People increasingly rely on language models for probabilistic forecasts about life decisions, implicitly trusting these come from a coherent world model — but this coherence has not been rigorously tested. Approach: Building on a theorem by de Finetti, the authors elicit LLM forecasts on stock-return-derived events and use linear programs to compute the largest "Dutch-book" profit an arbitrageur could guarantee by betting against the model's stated probabilities, as a measure of incoherence. Result: They find substantial incoherence in LLM forecasts, which worsens with richer logical relationships between events, and irrelevant contextual details can increase incoherence by an order of magnitude.
+问题：人们越来越依赖语言模型对生活决策做出概率预测，并默认这些预测来自一个内部一致的世界模型——但这种一致性此前并未被严格检验过。方法：作者基于 de Finetti 的一条定理，让 LLM 对基于股票收益数据生成的事件做出预测，再用线性规划计算出一个套利者通过押注模型给出概率的对立面所能保证获得的最大"荷兰赌"（Dutch-book）利润，以此衡量预测的不一致程度。结果：他们发现 LLM 的预测存在明显的不一致性，事件之间的逻辑关系越丰富，不一致程度越严重，而无关的上下文细节甚至可以把不一致程度放大一个数量级。
+
+Paper13. DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation
+2026-09-03 00:31 Beijing | https://arxiv.org/abs/2609.02796v1
+Problem: Sign language translation systems traditionally work at the sentence level, ignoring discourse-level phenomena (like consistent spatial references to entities) that are fundamental to real sign language comprehension. Approach: DiscoSign, a modular LLM-based translation framework, explicitly addresses spatial coreference resolution, Question-Answer Clause structures, and concept-gloss consistency, alongside a new suite of discourse-level evaluation metrics. Result: On sentence- and discourse-level datasets, DiscoSign significantly improves spatial consistency and entity tracking versus sentence-only translation while keeping single-sentence quality competitive.
+问题：手语翻译系统传统上只在句子层面工作，忽略了对手语真实理解至关重要的话语层面现象（比如对同一实体保持一致的空间指代）。方法：DiscoSign 是一个基于 LLM 的模块化翻译框架，专门处理空间共指消解、"问答从句"结构以及概念-词符（gloss）一致性问题，并配套一套新的话语层面评测指标。结果：在句子级和话语级数据集上，DiscoSign 相比仅基于句子的翻译方法显著提升了空间一致性和实体追踪能力，同时保持了单句翻译质量的竞争力。
+
+Paper14. SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment
+2026-09-03 00:19 Beijing | https://arxiv.org/abs/2609.02786v1
+Problem: LLM agent safety depends on both the base model and the surrounding harness, but existing alignment methods update either the harness or the policy in isolation, failing to bridge runtime control with intrinsic model safety. Approach: SafeEvolve converts safety evidence from on-policy agent trajectories into auditable harness updates, then uses a two-stage SFT-then-RL pipeline so the policy learns to actively use the evolved harness. Result: On agentic safety benchmarks, SafeEvolve achieves a stronger safety-utility tradeoff than baselines — for Qwen3.5-4B, a 3x attack success rate reduction on AgentDojo while improving benign task utility from 59.79% to 61.86%.
+问题：LLM agent 的安全性同时取决于底层模型和其运行的 harness（外围控制框架），但现有对齐方法要么只更新 harness、要么只更新策略，无法把运行时控制和模型自身的安全性打通。方法：SafeEvolve 把来自 on-policy agent 轨迹的安全证据转化为可审计的 harness 更新，再通过"先 SFT 后 RL"的两阶段流程，让策略学会主动利用这些演化后的 harness。结果：在多个 agent 安全基准上，SafeEvolve 相比基线取得了更好的安全性-实用性权衡——以 Qwen3.5-4B 为例，在 AgentDojo 上把攻击成功率降低到三分之一，同时把良性任务的可用性从 59.79% 提升到 61.86%。
+
+Paper15. EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction
+2026-09-03 00:15 Beijing | https://arxiv.org/abs/2609.02783v1
+Problem: Evaluating LLM agents on agentic benchmarks is expensive — a single frontier-model pass can cost hundreds to thousands of dollars — and prior efficiency work only reduces the number of tasks, not the cost of running each one. Approach: EarlyEval trains lightweight LightGBM success/failure classifiers on behavioral, textual, and reference-solution features, halting an agent run early once either classifier crosses a calibrated confidence threshold. Result: Across SWE-bench Verified, TerminalBench, and Toolathlon, EarlyEval eliminates 13-26% of agent steps and up to 44.1% input / 29.4% output tokens at 89-97% prediction accuracy, changing resolve rates by only one to two percentage points.
+问题：在 agentic 基准上评测 LLM agent 成本高昂——前沿模型跑一遍基准可能花费数百到数千美元——此前的效率优化工作只减少了任务数量，并未降低单个任务本身的执行成本。方法：EarlyEval 基于行为特征、文本特征和参考答案特征训练轻量级的 LightGBM 成功/失败分类器，一旦任一分类器的置信度越过校准阈值，就提前终止该次 agent 运行。结果：在 SWE-bench Verified、TerminalBench 和 Toolathlon 三个基准上，EarlyEval 在保持 89%-97% 预测准确率的同时，减少了 13%-26% 的 agent 步骤、最多 44.1% 的输入 token 和 29.4% 的输出 token，对最终解决率的影响仅为一到两个百分点。
+
+Paper16. ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding
+2026-09-03 00:14 Beijing | https://arxiv.org/abs/2609.02780v1
+Problem: Streaming video understanding with multimodal LLMs (MLLMs) is computationally expensive, and most existing efficiency methods overlook model depth — repeatedly running full-depth prefill on incoming frames is costly and grows the KV cache proportionally to prefill depth. Approach: ShallowStream uses an MLLM's shallow layers to simultaneously encode incoming frames and build a lightweight always-on retrieval index, then uses shallow-layer attention scores plus diversity-aware selection to retrieve evidence frames at query time. Result: ShallowStream matches the strongest existing streaming methods on accuracy while cutting per-frame prefill latency by up to 52.1x and 10-second end-to-end latency by up to 11.9x.
+问题：用多模态大模型（MLLM）做流式视频理解计算成本很高，且大多数现有效率优化方法忽略了模型深度这一维度——对每一帧都反复执行全深度的 prefill 计算既昂贵，又会让 KV 缓存随 prefill 深度成比例增长。方法：ShallowStream 利用 MLLM 的浅层网络同时完成帧编码和构建一个常驻的轻量检索索引，在查询时利用浅层的注意力分数配合多样性感知的选择策略检索相关证据帧。结果：ShallowStream 在准确率上与现有最强的流式方法相当，同时把单帧 prefill 延迟最多降低 52.1 倍，10 秒级端到端延迟最多降低 11.9 倍。
+
+Paper17. CodePoisonRAG: Knowledge Poisoning Attacks on Retrieval-Augmented Code Generation
+2026-09-03 00:11 Beijing | https://arxiv.org/abs/2609.02774v1
+Problem: Retrieval-Augmented Code Generation (RACG) pulls in external code/docs to improve LLM coding, but this creates a trust boundary — poisoned artifacts could influence generated code without touching the underlying model — and it was unclear whether an attacker with no access to the victim's pipeline could target a specific vulnerability. Approach: CodePoisonRAG transforms benign code entries into poisoned artifacts via CWE-specific vulnerability injection plus semantic mislabeling (false safety claims), requiring at most one injected artifact per task and no access to the retriever, generator, or defenses. Result: Across 85 poisoned artifacts (10 CWE classes, Java/C, 0.7% corpus-poisoning ratio), all artifacts ranked in the top 3 retrieval results for matching queries, with attack success rates of 0.80-0.93, dropping only to 0.40-0.71 against a dedicated defense (CodeGuarder).
+问题：检索增强代码生成（RACG）通过引入外部代码/文档来提升 LLM 编程能力，但这也带来了一个信任边界——被污染的检索内容可以在不改动底层模型的情况下影响生成的代码；此前尚不清楚一个完全无法访问受害者流程的攻击者，能否针对性地植入特定漏洞。方法：CodePoisonRAG 通过"CWE 特定漏洞注入"加上"语义误标"（编造虚假的安全声明），把良性代码条目改造为被污染的检索内容，每个任务最多只需植入一个条目，且无需访问检索器、生成器或防御机制。结果：在覆盖 10 类 CWE、Java/C 语言、污染比例仅 0.7% 的 85 个被污染条目中，所有条目都进入了对应查询检索结果的前 3 名，攻击成功率达 0.80-0.93；即便面对专门的防御机制（CodeGuarder），成功率也只降到 0.40-0.71。
+
+Paper18. HyperStyler: Low-resource Authorship Style Transfer via Context-aware Style Navigation and Hypernetworks
+2026-09-03 00:07 Beijing | https://arxiv.org/abs/2609.02772v1
+Problem: Rewriting text into a target author's style using only a few reference examples (low-resource authorship style transfer) is hard because existing methods compress diverse references into one static embedding and entangle style with content. Approach: HyperStyler decouples the task into style selection (jointly modeling source context and target-author references) and style realization via a hypernetwork that dynamically modulates parameters instead of injecting hidden states. Result: On Reddit, Blog, and News datasets, HyperStyler consistently outperforms prior methods including LLM-based approaches, using only 2.4% additional parameters over T5-large and running over 1.8x faster than LLMs at inference.
+问题：仅凭少量参考样本把文本改写成目标作者的风格（低资源作者风格迁移）很困难，因为现有方法会把多样化的参考样本压缩成一个静态的嵌入向量，导致风格和内容纠缠在一起。方法：HyperStyler 把任务拆解为"风格选择"（联合建模源文本上下文和目标作者参考样本）和"风格实现"（通过超网络动态调节参数，而非注入隐藏状态）两步。结果：在 Reddit、Blog 和 News 数据集上，HyperStyler 持续优于包括基于 LLM 的方法在内的现有方法，仅比 T5-large 多用 2.4% 的参数，推理速度比 LLM 快 1.8 倍以上。
+
+Paper19. From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution
+2026-09-03 00:07 Beijing | https://arxiv.org/abs/2609.02771v1
+Problem: Training data attribution (TDA) methods like influence functions identify which training examples shape model behavior, but influence-selected examples often show little advantage over random selection when used with standard reweighting interventions, raising the question of whether the examples themselves lack value. Approach: The authors introduce influence-guided response rewriting, which uses influence functions to pick intervention targets but replaces their responses (rather than reweighting them) with behavior-aligned or behavior-opposed supervision. Result: Across four open-weight LLMs, rewriting produces stronger, more persistent, and bidirectional behavioral shifts than reweighting the same examples, with the effect extending to safety refusal behavior.
+问题：训练数据溯源（TDA）方法（如影响函数）能识别出哪些训练样本塑造了模型行为，但用标准的重加权干预方式时，被影响函数选中的样本相比随机样本往往优势有限，这引发了一个疑问：究竟是样本本身没有价值，还是重加权这种干预方式没能发挥出它们的价值。方法：作者提出"影响引导的响应重写"，用影响函数挑选干预目标，但不是对其重加权，而是用与目标行为一致或相反的监督信号直接替换其响应内容。结果：在四个开源权重 LLM 上，重写相比对同样样本做重加权，能带来更强、更持久、且可双向调控的行为变化，这一效果在安全拒答行为上同样成立。
+
+Paper20. Do Tabular Foundation Models Know Physics? Contamination, Units, and the Deterministic Limit
+2026-09-03 00:05 Beijing | https://arxiv.org/abs/2609.02766v1
+Problem: Tabular foundation models (TFMs) learn to fill in tables the way language models fill in text, and tables are the format most physical measurements arrive in — but it was unclear whether TFMs implicitly learn any physics in the process. Approach: The authors evaluate four TFMs (TabPFN-3, TabICLv2, TabDPT, Real-TabPFN-2.5) against six baselines on datasets sampled from 316 physical equations, in- and out-of-domain, probing what their Bayesian prior contains. Result: TFMs dominate baselines out of the box and after tuning, but their prior can represent neither a noiseless mechanism nor physical units — meaning they interpolate physics without yet functioning as true physical models.
+问题：表格基础模型（TFM）学习填补表格的方式，类似于语言模型填补文本，而表格恰恰是大多数物理测量数据的呈现形式——但此前并不清楚 TFM 在这个过程中是否隐式学到了物理规律。方法：作者在 316 个物理方程采样得到的数据集上（含域内和域外），评测了四个 TFM（TabPFN-3、TabICLv2、TabDPT、Real-TabPFN-2.5）相对六个基线的表现，探究其贝叶斯先验中究竟包含了什么。结果：无论是开箱即用还是经过微调，TFM 都全面优于基线，但其先验既无法表示无噪声机制，也无法表示物理单位——也就是说，它们能对物理规律做"插值"，但还不能真正充当物理模型。
+
+Paper21. Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents
+2026-09-03 00:00 Beijing | https://arxiv.org/abs/2609.02760v1
+Problem: On-premise conversational assistants could give factory workers access to machine documentation, but capable models rarely fit shop-floor hardware, and it's unclear how to pick the right compressed model for each device. Approach: The authors show that after structural compression and retrieval-grounded adaptation, general capability falls linearly with parameter count while judged retrieval-augmented answer quality does not, so they treat deployment as a post-adaptation selection problem using a weight-shared supernetwork trained with sandwich-style distillation. Result: In a manufacturing-manual case study, compression costs 13.7% of judged quality and retrieval-grounded distillation recovers most of it (to within 4.6%), with the same assistant running across three edge hardware tiers at 1.3-5 watts standby power.
+问题：厂内对话助手可以让工人便捷访问设备文档，但能胜任任务的模型往往装不进车间现场的硬件，也不清楚该如何为每种设备挑选合适的压缩模型。方法：作者发现，经过结构化压缩和检索增强适配之后，通用能力会随参数量近似线性下降，但经人工评判的检索增强回答质量却不会——因此他们把部署问题当作"适配之后的选择问题"，使用一个通过三明治式蒸馏训练的权重共享超网络来解决。结果：在一个制造业手册案例研究中，压缩带来 13.7% 的评判质量损失，检索增强蒸馏能挽回其中大部分（差距缩小到 4.6% 以内），同一个助手可在三档边缘硬件上运行，待机功耗仅 1.3-5 瓦。
+
+Paper22. Untangling the Mechanisms of Misleading Context in Medical Question Answering
+2026-09-02 23:55 Beijing | https://arxiv.org/abs/2609.02754v1
+Problem: LLMs now answer medical questions at expert level, but misleading context in the input can corrupt their judgment, and it wasn't clear how different types of misleading cues cause and disclose this corruption. Approach: On the medical-reasoning subset of MedMisBench (8,627 clinician-reviewed questions), the authors inject fabricated evidence vs. bare assertions into three reasoning models and analyze susceptibility, disclosure in reasoning traces, and whether an LLM monitor can catch corrupted decisions. Result: All three models were 10-27 points more susceptible to bare assertions than fabricated evidence, and while cues were disclosed in 81-98% of reasoning traces, an LLM monitor reading an open model's trace caught 78% of corrupted decisions versus at most 32% from final responses alone — a capability frontier providers withhold by not exposing full traces.
+问题：LLM 现在已经能以专家级水平回答医学问题，但输入中的误导性上下文可能扰乱其判断，此前并不清楚不同类型的误导线索是如何造成、又是否会"暴露"这种判断扰乱的。方法：作者在 MedMisBench 的医学推理子集（8627 道经临床医生审核的问题）上，向三个推理模型分别注入"捏造证据"和"空口断言"两类误导线索，分析模型的易受骗程度、推理轨迹中是否暴露线索的存在，以及 LLM 监控器能否识别出被扰乱的判断。结果：三个模型对"空口断言"的易受骗程度都比"捏造证据"高 10-27 个百分点；虽然线索在 81%-98% 的推理轨迹中都有所暴露，但只有当 LLM 监控器能读取开放模型的完整推理轨迹时，才能识别出 78% 被扰乱的判断，仅凭最终回复最多只能识别 32%——而这种可读取完整轨迹的能力，正是前沿模型提供方目前选择不开放的。
+
+Paper23. Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems
+2026-09-02 23:50 Beijing | https://arxiv.org/abs/2609.02750v1
+Problem: Multi-agent LLM systems with an orchestrator and worker agents get strong empirical results from textual reflection, but lack a unified theoretical account of coordination, memory improvement, and the role of external verification. Approach: The authors model orchestrator-worker interaction as a bilevel coordination game (an approximate potential game under bounded coupling) and reflection as stochastic movement over memory states, then introduce Stochastic Reflective Memory Ascent (SRMA), which only accepts a candidate memory update after a grounded evaluation shows risk strictly decreases. Result: SRMA provably converges under calibration conditions, and on 500 SWE-bench instances a Kimi-based system using it resolves 72.2% of tasks versus 70.8% for a public mini-SWE-agent reference.
+问题：由编排者（orchestrator）和工作 agent 组成的多 agent LLM 系统，靠文本反思能取得不错的实证效果，但缺乏关于协调机制、记忆改进和外部验证作用的统一理论解释。方法：作者把编排者-工作者的交互建模为一个双层协调博弈（在有界耦合条件下是一个近似势博弈），把反思过程建模为在记忆状态空间上的随机游走，并提出随机反思记忆上升（SRMA）——只有当经过"环境接地"的评估证明风险确实严格下降时，才接受一次候选的记忆更新。结果：SRMA 在满足校准条件时可被证明收敛；在 500 个 SWE-bench 实例上，一个基于 Kimi 并使用 SRMA 的系统解决了 72.2% 的任务，高于公开的 mini-SWE-agent 参考基线的 70.8%。
+
+Paper24. Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills
+2026-09-02 23:49 Beijing | https://arxiv.org/abs/2609.02749v1
+Problem: Autonomous agents are starting to carry out ML research end-to-end, but the "operational knowledge" that separates knowing a method from making it work sits in repositories and papers in human-readable form that is too large to load during a task. Approach: DisCo is a skill-powered research agent that distills this knowledge into compact, reusable skills in two ways — task-agnostic distillation of widely used repositories, and task-oriented distillation for a specific task — producing the AREX-Skill Library (5,000+ skills from 1,000 repositories across 20 areas). Result: With a fixed GPT-5.5 backbone and harness, the skill-equipped agent scores 134.3% higher on MLE-bench, 34.4% higher on PaperBench, 9.2% higher on FrontierCS, and 14.0% higher on PassNet than the same agent without skills.
+问题：自主 agent 正开始端到端地承担机器学习研究工作，但"知道一个方法"和"能让它真正跑起来"之间的差距，在于一种存在于代码仓库和论文中的操作性知识——这类知识是为人类读者写的，体量太大，无法在执行任务时直接加载。方法：DisCo 是一个由"技能"驱动的研究 agent，通过两种方式把这类知识蒸馏成紧凑、可复用的技能——面向常用代码仓库的任务无关蒸馏，以及针对具体任务的定向蒸馏——并由此构建出 AREX-Skill 技能库（从 1000 个常用代码仓库中提炼出 5000 多项技能，覆盖 20 个领域）。结果：在固定使用 GPT-5.5 作为底座模型和运行框架的前提下，配备技能库的 agent 相比不使用技能的同一 agent，在 MLE-bench 上得分高 134.3%，在 PaperBench 上高 34.4%，在 FrontierCS 上高 9.2%，在 PassNet 上高 14.0%。
+
+Paper25. HiPoly: a hierarchical polymer-native AI framework for property prediction and generative design
+2026-09-02 23:48 Beijing | https://arxiv.org/abs/2609.02746v1
+Problem: Polymers are central to many technologies, but their hierarchical, multi-scale structure makes them inherently hard to represent in a unified, physically meaningful way for AI-driven materials discovery. Approach: HiPoly processes complete polymer descriptions through a three-level hierarchical graph architecture (built on the G2RINS representation) that directly encodes stochastic inter-monomer connectivity, composition, and molecular weight, linking property prediction, generative design, and physics-based validation in one workflow. Result: HiPoly achieves state-of-the-art prediction accuracy for thermophysical properties of multi-component polymer systems, and its generative design pathway was used to identify PFAS-free candidate polymers matching target surface-energy properties, independently validated via simulation.
+问题：聚合物是众多技术的核心材料，但其跨多尺度的层级结构，使其很难用一种统一且物理上有意义的方式来表示，从而阻碍了 AI 驱动的材料发现。方法：HiPoly 通过一个基于 G2RINS 表示法构建的三层级图结构，处理完整的聚合物描述，直接编码单体间的随机连接方式、组成和分子量，把性质预测、生成式设计和基于物理的验证整合进同一个工作流。结果：HiPoly 在多组分聚合物体系的热物性预测上达到了业内领先的准确率，其生成式设计路径还被用于寻找符合目标表面能特性、且不含 PFAS（全氟/多氟烷基物质）的替代聚合物候选，并通过模拟进行了独立验证。
+
+── 结语 / Closing ──
+
+You can ask to go deeper on any item — e.g. "expand P1" or "展开 Paper7" — and I'll pull the fuller source detail for that one item.
+你可以让我针对任一条目深挖，例如"expand P1"或"展开 Paper7"，我会调取该条目更完整的源信息。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
