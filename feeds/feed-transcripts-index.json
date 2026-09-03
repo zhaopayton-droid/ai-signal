@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:14:14.300192+00:00",
+  "generated_at": "2026-09-03T23:47:31.695621+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 2528,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-03T14:14:14.300192+00:00",
-      "last_seen_at": "2026-09-03T14:14:14.300192+00:00",
-      "expires_at": "2026-09-17T14:14:14.300192+00:00"
+      "last_seen_at": "2026-09-03T23:47:31.695621+00:00",
+      "expires_at": "2026-09-17T23:47:31.695621+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/ajeya-cotra",
@@ -25,8 +25,8 @@
       "transcript_chars": 129233,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-01T23:47:17.579406+00:00",
-      "last_seen_at": "2026-09-03T14:14:14.300192+00:00",
-      "expires_at": "2026-09-17T14:14:14.300192+00:00"
+      "last_seen_at": "2026-09-03T23:47:31.695621+00:00",
+      "expires_at": "2026-09-17T23:47:31.695621+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/openai-huggingface-narration",
@@ -391,19 +391,6 @@
       "cached_at": "2026-08-18T22:19:57.019326+00:00",
       "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
       "expires_at": "2026-09-04T10:32:59.773101+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "link": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "channel": "Latent Space",
-      "title": "[AINews] Stripe buys OpenRouter for $7B",
-      "pub_date": "2026-08-17T23:13:41+00:00",
-      "transcript_path": "feeds/transcripts/dd418f9333d9a9986f91b29c.txt",
-      "transcript_chars": 28346,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-18T10:32:08.802436+00:00",
-      "last_seen_at": "2026-08-20T22:24:28.966790+00:00",
-      "expires_at": "2026-09-03T22:24:28.966790+00:00"
     }
   ]
 }
