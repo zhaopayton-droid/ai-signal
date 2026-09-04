@@ -1,0 +1,45 @@
+🛫 起飞了 | AI Signal - 2026年9月5日
+
+数据延迟提示：X/Twitter 数据源最近一次抓取时间为 UTC 2026-09-03 23:44（北京时间 09-04 07:44，距今约 24 小时），期间没有新推文，因此本期不含 X/Twitter 板块。
+Data note: the X/Twitter feed's latest snapshot is from 2026-09-03 23:44 UTC (Beijing 09-04 07:44, ~24h old) with no new posts since, so today's digest has no X/Twitter section.
+
+Today's signal is thin but pointed: World Labs co-founder Fei-Fei Li joined a16z to unpack Atlas, a world model built around "new view prediction" that fuses generation and 3D reconstruction into a single system — and frames real-world training data, not compute, as the binding constraint on spatial intelligence. Meanwhile Stratechery's Ben Thompson sat down with OpenAI President Greg Brockman for an interview on Astra and alignment, though the piece itself sits behind Stratechery's paywall. No new tweets or papers cleared the bar this cycle.
+今天的信号不多但很集中：World Labs 联合创始人 Fei-Fei Li 做客 a16z 播客，详解了世界模型 Atlas——其核心"new view prediction（新视角预测）"把生成与三维重建统一进同一个模型，她认为制约空间智能发展的关键瓶颈是真实世界训练数据，而非算力。与此同时，Stratechery 的 Ben Thompson 与 OpenAI 总裁 Greg Brockman 进行了一场关于 Astra 与对齐问题的访谈，不过原文在付费墙之后。本轮没有新推文或论文入选。
+
+━━━━━━━━━━━━━━━
+🎙️ Podcasts
+━━━━━━━━━━━━━━━
+
+P1 | a16z — "Fei-Fei Li: The Race to Build World Models For AI" | Fei-Fei Li, Justin Johnson, Ben Mildenhall, Martin Casado
+Source time: 2026-09-04 18:00 北京 | Link: https://a16z.simplecast.com/episodes/fei-fei-li-the-race-to-build-world-models-for-ai-tvIN7XfT
+
+Takeaway: World Labs co-founders Fei-Fei Li, Justin Johnson, and Ben Mildenhall join a16z's Martin Casado to unpack Atlas, their new world model built around "new view prediction" — given views of a scene, predicting what it looks like from a different position in space and time, merging generation and 3D reconstruction into one model.
+要点：World Labs 联合创始人 Fei-Fei Li、Justin Johnson 和 Ben Mildenhall 与 a16z 的 Martin Casado 一起，详解了他们的新世界模型 Atlas，其核心是"new view prediction（新视角预测）"——给定一个场景的若干视角，预测它在另一个空间位置和时间点上的样子，把生成与三维重建合并进同一个模型。
+
+Key Points: The conversation covers the technical bets behind Atlas, what it can and can't yet capture, and why dynamics, editability, and simulation matter as world models mature; it also touches applications in creative work, architecture, and robotics, with Li arguing that access to real-world training data — not compute — is one of the field's biggest current constraints.
+要点：对话涉及 Atlas 背后的技术选择、目前它还做不到的事情，以及随着世界模型不断成熟，动态性、可编辑性与仿真能力为何变得重要；还讨论了在创意工作、建筑和机器人领域的应用，Li 认为获取真实世界训练数据——而非算力——是当前该领域最大的制约之一。
+
+Why it matters: Coming from World Labs' own co-founders, this is a first-party read on where "spatial intelligence" work is headed and what's actually bottlenecking it, right as world models become a competitive front alongside language models.
+重要性：这是来自 World Labs 联合创始人本人的一手判断，说明"空间智能"这一方向接下来会往哪走、真正的瓶颈在哪里——而世界模型正在成为与语言模型并行的新一条竞争战线。
+
+━━━━━━━━━━━━━━━
+🏢 Official Blogs
+━━━━━━━━━━━━━━━
+
+B1 | Stratechery (Ben Thompson) — "An Interview with OpenAI President Greg Brockman About Astra and Alignment" — 2026-09-04 18:00 北京
+What was announced: Ben Thompson published an interview with OpenAI President and co-founder Greg Brockman covering the history of OpenAI, the Astra release, and alignment.
+内容：Ben Thompson 发布了一篇对 OpenAI 总裁兼联合创始人 Greg Brockman 的专访，涉及 OpenAI 的发展历程、Astra 的发布，以及对齐问题。
+
+Details: This is one analyst's interview, not a lab announcement; the piece sits behind Stratechery's paywall and the feed only provides this one-line teaser, so no further argument or quotes can be confirmed from the source data.
+细节：这是 Ben Thompson 的一篇访谈类文章，不是官方公告；原文在 Stratechery 付费墙之后，数据源里只有这一句简介，因此无法从现有信息中确认更多论述或引述内容。
+
+Why it matters: Worth flagging for anyone tracking how OpenAI's own leadership frames Astra's rollout and the alignment tradeoffs behind it — read the full piece via the link if you have Stratechery access.
+重要性：对于关注 OpenAI 高层如何为 Astra 的发布定调、以及背后对齐权衡的人来说值得关注——如果你有 Stratechery 订阅，可通过链接阅读全文。
+🔗 https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/
+
+━━━━━━━━━━━━━━━
+
+想深入了解某一条，直接说"展开 P1"或"详细讲讲 B1"即可。
+To dig into any item, just say "expand P1" or ask why B1 matters.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
