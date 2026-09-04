@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T23:47:31.695621+00:00",
+  "generated_at": "2026-09-04T14:05:47.052889+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 2528,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-03T14:14:14.300192+00:00",
-      "last_seen_at": "2026-09-03T23:47:31.695621+00:00",
-      "expires_at": "2026-09-17T23:47:31.695621+00:00"
+      "last_seen_at": "2026-09-04T14:05:47.052889+00:00",
+      "expires_at": "2026-09-18T14:05:47.052889+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/ajeya-cotra",
@@ -25,8 +25,8 @@
       "transcript_chars": 129233,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-01T23:47:17.579406+00:00",
-      "last_seen_at": "2026-09-03T23:47:31.695621+00:00",
-      "expires_at": "2026-09-17T23:47:31.695621+00:00"
+      "last_seen_at": "2026-09-04T14:05:47.052889+00:00",
+      "expires_at": "2026-09-18T14:05:47.052889+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/openai-huggingface-narration",
@@ -365,32 +365,6 @@
       "cached_at": "2026-08-19T10:31:38.292000+00:00",
       "last_seen_at": "2026-08-21T22:21:48.069972+00:00",
       "expires_at": "2026-09-04T22:21:48.069972+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
-      "link": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
-      "channel": "Lenny's Podcast",
-      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
-      "pub_date": "2026-08-18T21:30:31+00:00",
-      "transcript_path": "feeds/transcripts/eddd6665c6a4b6ce7a108211.txt",
-      "transcript_chars": 4700,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-18T22:19:57.019326+00:00",
-      "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
-      "expires_at": "2026-09-04T10:32:59.773101+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
-      "link": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
-      "channel": "Lenny's Podcast",
-      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
-      "pub_date": "2026-08-18T15:40:06+00:00",
-      "transcript_path": "feeds/transcripts/e6144fc713f98d0f75a19a9d.txt",
-      "transcript_chars": 6308,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-18T22:19:57.019326+00:00",
-      "last_seen_at": "2026-08-21T10:32:59.773101+00:00",
-      "expires_at": "2026-09-04T10:32:59.773101+00:00"
     }
   ]
 }

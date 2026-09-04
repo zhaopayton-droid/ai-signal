@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "An Interview with OpenAI President Greg Brockman About Astra and Alignment",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
+      "published": "2026-09-04T10:00:00+00:00",
+      "summary": "An interview with OpenAI President and Co-Founder Greg Brockman about the history of OpenAI, Astra and alignment, and the weight of building the future."
+    },
+    {
       "id": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
@@ -62,35 +71,8 @@
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
       "published": "2026-09-02T16:18:31+00:00",
       "summary": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity."
-    },
-    {
-      "id": "https://openai.com/index/atv-big-air-tour",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "published": "2026-09-02T12:00:00+00:00",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes."
-    },
-    {
-      "id": "https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "Fable 5.1, Enterprise Frontier Safeguards",
-      "url": "https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/",
-      "published": "2026-09-02T10:00:00+00:00",
-      "summary": "Fable 5.1 is out, and the hated Fable data retention policy is not just being altered, but entirely removed in the meantime. Plus, why increased caching is a win-win."
-    },
-    {
-      "id": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Developing Enterprise Frontier Safeguards with our customers",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "published": "2026-09-01T00:00:00+00:00",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-03T23:46:35.321640+00:00"
+  "generated_at": "2026-09-04T14:04:44.685172+00:00"
 }
