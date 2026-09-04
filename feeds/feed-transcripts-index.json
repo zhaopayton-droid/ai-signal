@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:05:47.052889+00:00",
+  "generated_at": "2026-09-04T23:42:45.492176+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 2528,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-03T14:14:14.300192+00:00",
-      "last_seen_at": "2026-09-04T14:05:47.052889+00:00",
-      "expires_at": "2026-09-18T14:05:47.052889+00:00"
+      "last_seen_at": "2026-09-04T23:42:45.492176+00:00",
+      "expires_at": "2026-09-18T23:42:45.492176+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/ajeya-cotra",
@@ -352,19 +352,6 @@
       "cached_at": "2026-08-20T10:33:24.266041+00:00",
       "last_seen_at": "2026-08-22T22:19:10.620367+00:00",
       "expires_at": "2026-09-05T22:19:10.620367+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-      "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-      "channel": "Latent Space",
-      "title": "[AINews] Memory prices up 500% in 12 months",
-      "pub_date": "2026-08-19T08:44:52+00:00",
-      "transcript_path": "feeds/transcripts/3bfbbff7124d6d46843914d0.txt",
-      "transcript_chars": 12689,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-19T10:31:38.292000+00:00",
-      "last_seen_at": "2026-08-21T22:21:48.069972+00:00",
-      "expires_at": "2026-09-04T22:21:48.069972+00:00"
     }
   ]
 }

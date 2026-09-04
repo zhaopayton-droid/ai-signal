@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://stratechery.com/2026/friction-and-feedback/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "2026.36: Friction and Feedback",
+      "url": "https://stratechery.com/2026/friction-and-feedback/",
+      "published": "2026-09-04T17:55:39+00:00",
+      "summary": "The best Stratechery content from the week of August 31, 2026, including the market speaking, Apple finding religion, and society losing friction."
+    },
+    {
       "id": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
       "source": "stratechery",
       "source_name": "Stratechery (Ben Thompson)",
@@ -8,6 +17,15 @@
       "url": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
       "published": "2026-09-04T10:00:00+00:00",
       "summary": "An interview with OpenAI President and Co-Founder Greg Brockman about the history of OpenAI, Astra and alignment, and the weight of building the future."
+    },
+    {
+      "id": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Formalizing Fermat's Last Theorem",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "published": "2026-09-04T00:00:00+00:00",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
     },
     {
       "id": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
@@ -28,15 +46,6 @@
       "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
     },
     {
-      "id": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "published": "2026-09-03T12:00:00+00:00",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
-    },
-    {
       "id": "https://openai.com/index/playco-game-prototyping-with-astra",
       "source": "openai",
       "source_name": "OpenAI",
@@ -46,6 +55,15 @@
       "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
     },
     {
+      "id": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "published": "2026-09-03T12:00:00+00:00",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+    },
+    {
       "id": "https://openai.com/index/safety-overview-gpt-6-astra",
       "source": "openai",
       "source_name": "OpenAI",
@@ -53,26 +71,8 @@
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
       "published": "2026-09-03T00:00:00+00:00",
       "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework."
-    },
-    {
-      "id": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "published": "2026-09-02T16:24:24+00:00",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "published": "2026-09-02T16:18:31+00:00",
-      "summary": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-04T14:04:44.685172+00:00"
+  "generated_at": "2026-09-04T23:42:09.914649+00:00"
 }
