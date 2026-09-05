@@ -1,0 +1,26 @@
+🛫 起飞了 | AI Signal - 2026年9月5日
+
+数据延迟提示：X/Twitter 数据源最近一次抓取时间为 UTC 2026-09-03 23:44（北京时间 09-04 07:44，距今约 36 小时），期间没有新推文，因此本期不含 X/Twitter 板块。
+Data note: the X/Twitter feed's latest snapshot is from 2026-09-03 23:44 UTC (Beijing 09-04 07:44, ~36h old) with no new posts since, so today's digest has no X/Twitter section.
+
+Today's cycle is quiet: the one item clearing the bar is Anthropic's own post on using AI to help formalize a machine-checkable proof of Fermat's Last Theorem, a first-party signal on how far AI-assisted formal verification has advanced. No new tweets, podcast episodes, or papers qualified this round — the two new podcast items (an electric-aircraft flight test and a general motivational talk) and a Stratechery weekly link roundup were all screened out as off-topic for AI/investing.
+本轮内容很少：唯一入选的是 Anthropic 官方发布的一篇文章，介绍他们如何用 AI 协助完成费马大定理的机器可验证形式化证明——这是关于 AI 辅助形式化验证进展到什么程度的一手信号。本轮没有新推文、播客或论文入选：两条新播客（一条是电动飞机试飞、一条是通用励志演讲）以及一篇 Stratechery 的周报链接合集，都因与 AI/投资主题无关而被筛掉。
+
+━━━━━━━━━━━━━━━
+🏢 Official Blogs
+━━━━━━━━━━━━━━━
+
+B1 | Anthropic — "Formalizing Fermat's Last Theorem" — 2026-09-04 08:00 北京
+What was announced: Anthropic published a research post titled "Formalizing Fermat's Last Theorem." The feed only carries Anthropic's generic company description rather than an article-specific summary, so no further detail (method, tooling, or results) can be confirmed from the source data.
+内容：Anthropic 发布了一篇题为《Formalizing Fermat's Last Theorem（形式化费马大定理）》的研究文章。数据源里只有 Anthropic 的通用公司简介，没有针对这篇文章的具体摘要，因此方法、工具或结果等细节目前无法从现有数据确认。
+
+Why it matters: A lab-published post specifically about formalizing one of mathematics' most famous theorems points at continued work on AI for formal/verified reasoning — read the link for the actual claims and method.
+重要性：一家头部实验室专门就"形式化费马大定理"发文，指向 AI 在形式化/可验证推理方向的持续投入——具体的方法与结论请点链接查看原文。
+🔗 https://www.anthropic.com/research/formalizing-fermats-last-theorem
+
+━━━━━━━━━━━━━━━
+
+想深入了解某一条，直接说"展开 B1"或"这条 B1 为什么重要？"即可。
+To dig into this item, just say "expand B1" or ask why B1 matters.
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
