@@ -10,15 +10,6 @@
       "summary": "The best Stratechery content from the week of August 31, 2026, including the market speaking, Apple finding religion, and society losing friction."
     },
     {
-      "id": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "An Interview with OpenAI President Greg Brockman About Astra and Alignment",
-      "url": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
-      "published": "2026-09-04T10:00:00+00:00",
-      "summary": "An interview with OpenAI President and Co-Founder Greg Brockman about the history of OpenAI, Astra and alignment, and the weight of building the future."
-    },
-    {
       "id": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -29,5 +20,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-05T23:33:03.410261+00:00"
+  "generated_at": "2026-09-06T13:28:08.026451+00:00"
 }

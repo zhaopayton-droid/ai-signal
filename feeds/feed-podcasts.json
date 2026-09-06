@@ -1,6 +1,24 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "34e47cf8-efba-4478-8edb-a0baa42e00af",
+      "title": "Your AI Doctor Is Coming | Julie Yoo",
+      "pub_date": "2026-09-06T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/your-ai-doctor-is-coming-julie-yoo-YEmlPria",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/bec89b11-0527-42ce-b965-a903f73f2754/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=bec89b11-0527-42ce-b965-a903f73f2754&feed=JGE3yC0V",
+      "audio_bytes": 26407610,
+      "duration": "00:27:30",
+      "description": "<p>a16z General Partner Julie Yoo joins MTS host Sophia Dew to explain why she believes healthcare could benefit more from AI than almost any other industry, and why decades of slow technology adoption may actually give healthcare an advantage in the AI era.</p><p>Julie traces healthcare’s evolution from paper records and fax machines through electronic health records and telehealth, and explains why AI represents something different: an organic adoption wave driven by tools that doctors and patients actually want to use. Because healthcare never built the same layers of legacy software as other industries, it may now be able to leapfrog directly into agentic AI.</p><p>They also explore how AI could dramatically lower the cost of care, why consumers are becoming a more important payer, where Julie sees the biggest opportunities for healthcare founders, and a future where everyone has a highly personalized AI doctor in their pocket for life.</p><p><br>Resources:</p><p>Follow Julie Yoo on X: <a href=\"https://x.com/julesyoo\" rel=\"noopener noreferrer\"><u>https://x.com/julesyoo</u></a></p><p>Follow Sophia Dew on X:<a href=\"https://x.com/sophiadew\" rel=\"noopener noreferrer\"> <u>https://x.com/sophiadew</u></a></p><p>Follow MTS on X:<a href=\"https://x.com/mtslive\" rel=\"noopener noreferrer\"> <u>https://x.com/mtslive</u></a></p><p><br>&nbsp;</p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter.com/eriktorenberg</a></p><p> </p><p>Please note t",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "Y Combinator Startup Podcast",
       "domain": "ai",
       "guid": "7c65ddda-c090-461a-b909-ce3011d76e27",
@@ -88,97 +106,6 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "a16z",
-      "domain": "ai",
-      "guid": "c2b497da-b59b-41be-86a6-a966bd3ef724",
-      "title": "The $100B Niches Hiding Inside Payments",
-      "pub_date": "2026-09-03T10:00:00+00:00",
-      "link": "https://a16z.simplecast.com/episodes/the-100b-niches-hiding-inside-payments-aKQoOt7o",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/a13b21a1-e71b-428e-969a-c4fe80db9f9c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=a13b21a1-e71b-428e-969a-c4fe80db9f9c&feed=JGE3yC0V",
-      "audio_bytes": 58229769,
-      "duration": "01:00:39",
-      "description": "<p>Erik Torenberg is joined by a16z General Partner Alex Rampell and Affirm Co-Founder and CEO Max Levchin for a conversation on 25 years of fintech, from the early days of digital payments to the origins of Affirm and the next generation of agentic commerce.</p><p>Max and Alex revisit what surprised them most about how payments evolved, why the card interface has been so difficult to displace, and why even the smallest corners of payments can become enormous markets. They also trace the early idea maze behind Affirm, from \"pay with your identity\" and the pajama problem to the realization that installment financing could dramatically increase merchant conversion.</p><p>The conversation also gets into real versus \"fake\" 0% financing, what people misunderstand about Affirm today, why negative customer acquisition cost can be such a powerful business model advantage, and why Max is more bullish on agentic payments than on agents choosing what people buy.</p><p><br>Resources:</p><p>Follow Max Levchin on X: <a href=\"https://x.com/mlevchin\" rel=\"noopener noreferrer\"><u>https://x.com/mlevchin</u></a></p><p>Follow Alex Rampell on X: <a href=\"https://x.com/arampell\" rel=\"noopener noreferrer\"><u>https://x.com/arampell</u></a></p><p><br>&nbsp;</p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter.com/eriktorenberg</a></p><p> </p><p>Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax,",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "No Priors",
-      "domain": "ai",
-      "guid": "8476d0dc-a726-11f1-86e6-bbc25e1787ef",
-      "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
-      "pub_date": "2026-09-03T10:00:00+00:00",
-      "link": "",
-      "audio_url": "https://traffic.megaphone.fm/PDP3024512727.mp3",
-      "audio_bytes": 0,
-      "duration": "2226",
-      "description": "From data center orchestrators to AGI and robotics, CPUs remain the heart of modern computing. Arm CEO Rene Haas joins Elad Gil and Sarah Guo to explore how Arm is positioned at the epicenter of AI-driven demands for compute. Rene explains Arm’s position in the chip supply chain, and how Arm transitioned from an IP licensing model to producing physical chips like the Arm AGI CPU for Meta. He also discusses bottlenecks in hardware supply chains, SoftBank’s ecosystem and capital strategy, why US semiconductor manufacturing independence is critical, the future of robotics, and why CPUs remain crucial for executing AI workloads.\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @renehaas237 | @Arm\n\nChapters:\n\n00:00 – Cold Open Trailer\n\n00:49 – Rene Haas Introduction\n\n01:14 – Arm and Chip Supply Chain\n\n02:37 – Shift from IP to Manufacturing CPUs\n\n04:23 – CPU IP and Customers\n\n06:55 – AI Adoption at Arm\n\n10:15 – Changes in Chip Time to Market\n\n13:27 – Data Center Buildout Bottleneck\n\n15:13 – Softbank Leverage and Capital Strategy\n\n17:43 – Softbank Portfolio Overview\n\n20:13 – Robotics Opportunities for Arm\n\n24:49 – US Manufacturing Protectionism\n\n28:59 – Data Center Backlash\n\n32:30 – Arm Outlook\n\n33:31 – CPU Opportunity\n\n37:06 – Conclusion",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No episode link; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "Sharp Tech with Ben Thompson",
-      "domain": "ai",
-      "guid": "https://sharptech.fm/member/episode/preview-fable-5-1-and-anthropics-data-retention-pivot-ai-civilizations-and-related-matters-q-a-on-meta-shopify-3-d-printing",
-      "title": "(Preview) Fable 5.1 and Anthropic’s Data Retention Pivot, AI Civilizations and Related Matters, Q&amp;A on Meta, Shopify, 3-D Printing",
-      "pub_date": "2026-09-03T08:59:19+00:00",
-      "link": "https://sharptech.fm/member/episode/preview-fable-5-1-and-anthropics-data-retention-pivot-ai-civilizations-and-related-matters-q-a-on-meta-shopify-3-d-printing",
-      "audio_url": "https://sharptech.fm/assets/sharptech0290_preview.mp3?access_token=WtLvUDEHgB7rE4MbAfmDVT",
-      "audio_bytes": 24646394,
-      "duration": "00:25:09",
-      "description": "On today’s show Ben and Andrew begin with notes on a home networking project before turning to the release of Fable 5.1, including Anthropic’s announcement that it has walked back the data retention safety initiative the company announced earlier this year. From there: Reactions to a viral post on the OpenAI-Hugging Face incident, the problem with anthropomorphizing machines, and why Ben finds this discourse unhinged and unproductive. At the end: Follow-ups to last week’s Meta discussion on the tension between libertarian and conservative impulses, Shopify is a platform and not an aggregator (and that’s great), a well-timed question about 3-D Printing, an F1 app PSA, a listener’s girlfriend hates vibe coding, and apropos of last week, a pronunciation email. ",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "Capital Allocators",
-      "domain": "invest",
-      "guid": "61206a3c-2874-4c39-9930-31cef1253358",
-      "title": "SPECIAL ANNOUNCEMENT: Capital Allocators University Online",
-      "pub_date": "2026-09-03T08:00:00+00:00",
-      "link": "https://tedseides.libsyn.com/special-annoucement-capital-allocators-university-online",
-      "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_Special_Announcement_CAU_Online_-_AUDIO_V1.mp3?dest-id=482814",
-      "audio_bytes": 14736403,
-      "duration": "15:22",
-      "description": "<p class=\"MsoNormal\">We're excited to share something we've been working on for a while: we're bringing Capital Allocators University online.<br /> <br /> <br /> For years, CAU has been an in-person, once-a-year cohort of 25 or 30 professionals, built around a set of disciplines that matter enormously for investors and investor relations professionals but rarely get taught explicitly. We put together a brief conversation to share more on what the course covers, who it's for, what we learned from the past five years, and why we decided to move it online.<br /> <br /> <br /> <a href= \"https://www.capitalallocators.com/capital-allocators-university/\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl= \"https://www.google.com/url?q=https://www.capitalallocators.com/capital-allocators-university/&source=gmail&ust=1785598900995000&usg=AOvVaw1tTyO-bimv8Fw6EB79bKul\"> Full details here</a>. We look forward to welcoming you as a member.<br /> <br /> <br /> Special thanks to our production partner, <a href= \"https://www.fondu.co/investors?utm_source=capitalallocators.com\" target=\"_blank\" rel=\"noopener\" data-saferedirecturl= \"https://www.google.com/url?q=https://www.fondu.co/investors?utm_source%3Dcapitalallocators.com&source=gmail&ust=1785598900995000&usg=AOvVaw2mR19O8eXpGiCbM2qqQ9XX\"> Fondu</a>.</p>",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://tedseides.libsyn.com/special-annoucement-capital-allocators-university-online",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/01bb3f8e8f83280a3dd1ece0.txt",
-      "transcript_chars": 2528
-    },
-    {
-      "channel": "The Acquirers Podcast",
-      "domain": "invest",
-      "guid": "d9fe2093-4612-4327-847c-67502451f578",
-      "title": "Patience Is the Ultimate Edge in Investing | Matt Sweeney",
-      "pub_date": "2026-09-03T07:00:00+00:00",
-      "link": "https://podcasters.spotify.com/pod/show/acquirers/episodes/Patience-Is-the-Ultimate-Edge-in-Investing--Matt-Sweeney-e3o88de",
-      "audio_url": "https://traffic.megaphone.fm/APO2723574036.mp3",
-      "audio_bytes": 62188333,
-      "duration": "01:04:05",
-      "description": "<p>Value: After Hours is a podcast about value investing, Fintwit, and all things finance and investment by investors Tobias Carlisle, and Jake Taylor. </p><p><br></p><p>We are live every Tuesday at 1.30pm E / 10.30am P.</p><p>──────────────────────</p><p> <a href=\"https://valueoptionsletter.com/subscribe\">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠VALUE OPTIONS LETTER⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a> </p><p>Three to five curated ideas every week — cash-secured puts, covered calls, and spreads on businesses we&#39;d want to own at strikes we&#39;d be willing to pay. </p><p>Every trade includes the business thesis in plain English, the fair-value estimate and its key assumptions, the specific option trade with target premium, and the pre-identified exit criteria.</p><p>Every idea reviewed and approved by an analyst before it hits your inbox.<a href=\"https://valueoptionsletter.com/subscribe\">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠valueoptionsletter.com/subscribe⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>──────────────────────</p><p>See our latest episodes at https://acquirersmultiple.com/podcast</p><p><br></p><p><strong>About Jake </strong></p><p>Jake&#39;s Twitter: https://twitter.com/farnamjake1</p><p>Jake&#39;s book: The Rebel Allocator https://amzn.to/2sgip3l</p><p><br></p><p><strong>ABOUT THE PODCAST</strong></p><p>Hi, I&#39;m Tobias Carlisle. I launched The Acquirers Podcast to discuss the process of finding undervalued stocks, deep value investing, hedge funds, activism, buyouts, and special situations.We uncover the tactics and strategies for finding good investments, managing risk, dealing with bad luck, and maximizing success.</p><p>SEE LATEST EPISODES</p><p>https://acquirersmultiple.com/podcast/</p><p>SEE OUR FREE DEEP VALUE STOCK SCREENER https://acquirersmultiple.com/screener/</p><p>FOLLOW TOBIAS</p><p>Website: https://acquirersmultiple.com/</p><p>Firm: https://acquirersfunds.com/ </p><p>Twitter: ttps://twitter.com/Greenbackd</p><p>LinkedIn: https://www.linkedin.com/in/tobycarlisle</p><p>Facebook: https://www.facebook.com/tobiascarlisle</p><p>Instagram: ht",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -484,7 +411,8 @@
   ],
   "errors": [
     "Latent Space: https://api.substack.com/feed/podcast/1084089.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-    "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "Invest Like the Best: https://feeds.megaphone.fm/CLS2859450455 attempt 1/3: Error -3 while decompressing data: invalid stored block lengths | https://feeds.megaphone.fm/CLS2859450455 attempt 2/3: Error -3 while decompressing data: invalid stored block lengths | https://feeds.megaphone.fm/CLS2859450455 attempt 3/3: Error -3 while decompressing data: invalid stored block lengths"
   ],
-  "generated_at": "2026-09-05T23:33:03.410261+00:00"
+  "generated_at": "2026-09-06T13:28:08.026451+00:00"
 }
