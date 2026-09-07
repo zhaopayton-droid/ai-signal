@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T15:36:55.446343+00:00",
+  "generated_at": "2026-09-07T23:59:14.088606+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -274,45 +274,6 @@
       "cached_at": "2026-08-23T22:19:46.563843+00:00",
       "last_seen_at": "2026-08-26T10:38:07.998864+00:00",
       "expires_at": "2026-09-09T10:38:07.998864+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "link": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "channel": "Latent Space",
-      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "pub_date": "2026-08-22T07:36:00+00:00",
-      "transcript_path": "feeds/transcripts/21844a8fc8abff8e4121fd70.txt",
-      "transcript_chars": 28837,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-24T22:23:11.915732+00:00",
-      "expires_at": "2026-09-07T22:23:11.915732+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/attention-interface",
-      "link": "https://www.latent.space/p/attention-interface",
-      "channel": "Latent Space",
-      "title": "The Evolution of the Agent Harness",
-      "pub_date": "2026-08-22T07:30:52+00:00",
-      "transcript_path": "feeds/transcripts/833f67105cde5aedb281ce8d.txt",
-      "transcript_chars": 12322,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-24T22:23:11.915732+00:00",
-      "expires_at": "2026-09-07T22:23:11.915732+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/simile",
-      "link": "https://www.latent.space/p/simile",
-      "channel": "Latent Space",
-      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
-      "pub_date": "2026-08-21T23:37:38+00:00",
-      "transcript_path": "feeds/transcripts/a7ad4bd7142ba85fd7025522.txt",
-      "transcript_chars": 80520,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-22T10:26:38.025769+00:00",
-      "last_seen_at": "2026-08-24T22:23:11.915732+00:00",
-      "expires_at": "2026-09-07T22:23:11.915732+00:00"
     }
   ]
 }
