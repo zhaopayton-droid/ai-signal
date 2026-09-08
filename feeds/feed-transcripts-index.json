@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-09-08T14:14:51.011585+00:00",
+  "generated_at": "2026-09-08T23:50:05.397749+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
+      "link": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
+      "channel": "Dwarkesh Patel",
+      "title": "Pretraining progress is mostly coming from data",
+      "pub_date": "2026-09-08T16:10:16+00:00",
+      "transcript_path": "feeds/transcripts/aa99a0237aab2b167d04c5cb.txt",
+      "transcript_chars": 17992,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-08T23:50:05.397749+00:00",
+      "last_seen_at": "2026-09-08T23:50:05.397749+00:00",
+      "expires_at": "2026-09-22T23:50:05.397749+00:00"
+    },
     {
       "guid": "61206a3c-2874-4c39-9930-31cef1253358",
       "link": "https://tedseides.libsyn.com/special-annoucement-capital-allocators-university-online",
