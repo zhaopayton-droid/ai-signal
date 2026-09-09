@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T23:50:05.397749+00:00",
+  "generated_at": "2026-09-09T14:14:57.708856+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 17992,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-08T23:50:05.397749+00:00",
-      "last_seen_at": "2026-09-08T23:50:05.397749+00:00",
-      "expires_at": "2026-09-22T23:50:05.397749+00:00"
+      "last_seen_at": "2026-09-09T14:14:57.708856+00:00",
+      "expires_at": "2026-09-23T14:14:57.708856+00:00"
     },
     {
       "guid": "61206a3c-2874-4c39-9930-31cef1253358",
@@ -274,19 +274,6 @@
       "cached_at": "2026-08-24T22:23:11.915732+00:00",
       "last_seen_at": "2026-08-27T02:54:07.878737+00:00",
       "expires_at": "2026-09-10T02:54:07.878737+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
-      "link": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
-      "channel": "Lenny's Podcast",
-      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
-      "pub_date": "2026-08-23T12:31:43+00:00",
-      "transcript_path": "feeds/transcripts/372742eab20a3769f996ab74.txt",
-      "transcript_chars": 4670,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-23T22:19:46.563843+00:00",
-      "last_seen_at": "2026-08-26T10:38:07.998864+00:00",
-      "expires_at": "2026-09-09T10:38:07.998864+00:00"
     }
   ]
 }
