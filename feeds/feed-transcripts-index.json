@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-09-09T14:14:57.708856+00:00",
+  "generated_at": "2026-09-09T23:49:51.195448+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "fcc44f37-f242-4730-a77c-5f3d83c24fa9",
+      "link": "https://deepmind.com/podcast",
+      "channel": "Google DeepMind Podcast",
+      "title": "Can AI help us better predict the weather?",
+      "pub_date": "2026-09-09T16:08:26+00:00",
+      "transcript_path": "feeds/transcripts/5b7d7af06b5c1eff5d3cddd4.txt",
+      "transcript_chars": 18655,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-09T23:49:51.195448+00:00",
+      "last_seen_at": "2026-09-09T23:49:51.195448+00:00",
+      "expires_at": "2026-09-23T23:49:51.195448+00:00"
+    },
     {
       "guid": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
       "link": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
@@ -12,8 +25,8 @@
       "transcript_chars": 17992,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-08T23:50:05.397749+00:00",
-      "last_seen_at": "2026-09-09T14:14:57.708856+00:00",
-      "expires_at": "2026-09-23T14:14:57.708856+00:00"
+      "last_seen_at": "2026-09-09T23:49:51.195448+00:00",
+      "expires_at": "2026-09-23T23:49:51.195448+00:00"
     },
     {
       "guid": "61206a3c-2874-4c39-9930-31cef1253358",
