@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "published": "2026-09-10T16:00:00+00:00",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
+    },
+    {
+      "id": "https://openai.com/index/put-data-to-work",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "published": "2026-09-10T15:00:00+00:00",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
+    },
+    {
       "id": "https://stratechery.com/2026/the-iphone-duo-the-intelligent-personal-hub-apple-watch-audio-intelligence/",
       "source": "stratechery",
       "source_name": "Stratechery (Ben Thompson)",
@@ -10,31 +28,40 @@
       "summary": "Apple once again demonstrated the power of integrating hardware and software, but it's biggest AI blindspot might be its belief in the primacy of apps."
     },
     {
-      "id": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "id": "https://openai.com/index/introducing-chatgpt-financial-services",
       "source": "openai",
       "source_name": "OpenAI",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "published": "2026-09-09T17:00:00+00:00",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards."
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "published": "2026-09-10T07:00:00+00:00",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials."
     },
     {
-      "id": "https://openai.com/index/ai-policy-window",
+      "id": "https://openai.com/index/expanding-ai-access-us-government",
       "source": "openai",
       "source_name": "OpenAI",
-      "title": "The AI policy window is open. We need to act.",
-      "url": "https://openai.com/index/ai-policy-window",
-      "published": "2026-09-09T13:00:00+00:00",
-      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open."
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "published": "2026-09-10T07:00:00+00:00",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support."
     },
     {
-      "id": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "id": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
+      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "published": "2026-09-10T00:00:00+00:00",
+      "summary": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development."
+    },
+    {
+      "id": "https://openai.com/index/introducing-the-agents-api",
       "source": "openai",
       "source_name": "OpenAI",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "published": "2026-09-09T11:00:00+00:00",
-      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment."
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "published": "2026-09-10T00:00:00+00:00",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
     },
     {
       "id": "https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/",
@@ -62,17 +89,8 @@
       "url": "https://www.anthropic.com/research/team/alignment",
       "published": "2026-09-09T00:00:00+00:00",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-    },
-    {
-      "id": "https://openai.com/index/codex-quantum-computing-experiments",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "published": "2026-09-08T17:00:00+00:00",
-      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-10T14:08:02.120064+00:00"
+  "generated_at": "2026-09-10T23:42:05.208959+00:00"
 }

@@ -1,24 +1,6 @@
 {
   "podcasts": [
     {
-      "channel": "No Priors",
-      "domain": "ai",
-      "guid": "2ecd3b38-aca0-11f1-b6c4-13e4bbce7d30",
-      "title": "Coinbase’s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong",
-      "pub_date": "2026-09-10T10:00:00+00:00",
-      "link": "",
-      "audio_url": "https://traffic.megaphone.fm/PDP7232498988.mp3",
-      "audio_bytes": 0,
-      "duration": "2709",
-      "description": "From the tokenization of real-world assets to funding research on anti-aging therapeutics, Coinbase co-founder and CEO Brian Armstrong is focused on solving meta-problems for the benefit of society. Brian joins Elad Gil this episode to discuss the intersections of artificial intelligence, crypto rails, and biotechnology. He details Coinbase’s vision for agentic finance, as well as how Coinbase is becoming the ‘Everything Exchange’, which includes tokenized real-world stocks, stablecoin payment adoption, and prediction markets. Brian also introduces his new venture, New Limit, a company founded to tackle longevity through epigenetic reprogramming, and outlines initial therapeutic programs and the roadmap toward clinical trials.&nbsp;&nbsp;\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @brian_armstrong | @Coinbase\n\nChapters:\n\n00:00 – Cold Open Trailer\n\n00:45 – Brian Armstrong Introduction\n\n01:13 – Coinbase and the Everything Exchange\n\n05:52 – Agentic Commerce\n\n10:00 – AI and Crypto\n\n10:49 – AI Inside Coinbase\n\n15:39 – Productivity and Company Size\n\n17:26 – The Everything Exchange and Tokenization\n\n20:53 – Prediction Markets\n\n23:15 – Introducing New Limit\n\n34:17 – Looking Forward Five Years\n\n40:24 – Special Economic Zones\n\n44:26 – Conclusion",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No episode link; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
       "channel": "a16z",
       "domain": "ai",
       "guid": "781f4d11-3ef1-471d-9680-36696e7d10e5",
@@ -34,6 +16,24 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "No Priors",
+      "domain": "ai",
+      "guid": "2ecd3b38-aca0-11f1-b6c4-13e4bbce7d30",
+      "title": "Coinbase’s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong",
+      "pub_date": "2026-09-10T10:00:00+00:00",
+      "link": "",
+      "audio_url": "https://traffic.megaphone.fm/PDP7232498988.mp3",
+      "audio_bytes": 0,
+      "duration": "2709",
+      "description": "From the tokenization of real-world assets to funding research on anti-aging therapeutics, Coinbase co-founder and CEO Brian Armstrong is focused on solving meta-problems for the benefit of society. Brian joins Elad Gil this episode to discuss the intersections of artificial intelligence, crypto rails, and biotechnology. He details Coinbase’s vision for agentic finance, as well as how Coinbase is becoming the ‘Everything Exchange’, which includes tokenized real-world stocks, stablecoin payment adoption, and prediction markets. Brian also introduces his new venture, New Limit, a company founded to tackle longevity through epigenetic reprogramming, and outlines initial therapeutic programs and the roadmap toward clinical trials.&nbsp;&nbsp;\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @brian_armstrong | @Coinbase\n\nChapters:\n\n00:00 – Cold Open Trailer\n\n00:45 – Brian Armstrong Introduction\n\n01:13 – Coinbase and the Everything Exchange\n\n05:52 – Agentic Commerce\n\n10:00 – AI and Crypto\n\n10:49 – AI Inside Coinbase\n\n15:39 – Productivity and Company Size\n\n17:26 – The Everything Exchange and Tokenization\n\n20:53 – Prediction Markets\n\n23:15 – Introducing New Limit\n\n34:17 – Looking Forward Five Years\n\n40:24 – Special Economic Zones\n\n44:26 – Conclusion",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No episode link; youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -403,5 +403,5 @@
     "Latent Space: https://api.substack.com/feed/podcast/1084089.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-10T14:08:02.120064+00:00"
+  "generated_at": "2026-09-10T23:42:05.208959+00:00"
 }

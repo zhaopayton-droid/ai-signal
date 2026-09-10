@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:08:51.414174+00:00",
+  "generated_at": "2026-09-10T23:42:54.221757+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 18655,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-09T23:49:51.195448+00:00",
-      "last_seen_at": "2026-09-10T14:08:51.414174+00:00",
-      "expires_at": "2026-09-24T14:08:51.414174+00:00"
+      "last_seen_at": "2026-09-10T23:42:54.221757+00:00",
+      "expires_at": "2026-09-24T23:42:54.221757+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
@@ -25,8 +25,8 @@
       "transcript_chars": 17992,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-08T23:50:05.397749+00:00",
-      "last_seen_at": "2026-09-10T14:08:51.414174+00:00",
-      "expires_at": "2026-09-24T14:08:51.414174+00:00"
+      "last_seen_at": "2026-09-10T23:42:54.221757+00:00",
+      "expires_at": "2026-09-24T23:42:54.221757+00:00"
     },
     {
       "guid": "61206a3c-2874-4c39-9930-31cef1253358",
@@ -248,19 +248,6 @@
       "cached_at": "2026-08-25T22:24:17.279134+00:00",
       "last_seen_at": "2026-08-28T05:57:19.663804+00:00",
       "expires_at": "2026-09-11T05:57:19.663804+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
-      "link": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
-      "channel": "Latent Space",
-      "title": "[AINews] Andrew Ng gets into AI Engineering",
-      "pub_date": "2026-08-25T02:50:57+00:00",
-      "transcript_path": "feeds/transcripts/d2317e2e6b10656a1b091ebc.txt",
-      "transcript_chars": 20835,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-25T10:35:59.329230+00:00",
-      "last_seen_at": "2026-08-27T20:12:45.623047+00:00",
-      "expires_at": "2026-09-10T20:12:45.623047+00:00"
     }
   ]
 }
