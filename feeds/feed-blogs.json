@@ -55,22 +55,13 @@
       "summary": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development."
     },
     {
-      "id": "https://openai.com/index/introducing-the-agents-api",
+      "id": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "source": "openai",
       "source_name": "OpenAI",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "published": "2026-09-10T00:00:00+00:00",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
-    },
-    {
-      "id": "https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent",
-      "url": "https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/",
-      "published": "2026-09-09T10:00:00+00:00",
-      "summary": "OpenAI solving one of the most famous math problems is extremely impressive, and of little impact to most people's lives; Meta's Muse agent launch has the potential to be the exact opposite."
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
     },
     {
       "id": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
@@ -92,5 +83,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-10T23:42:05.208959+00:00"
+  "generated_at": "2026-09-11T14:07:35.210523+00:00"
 }
