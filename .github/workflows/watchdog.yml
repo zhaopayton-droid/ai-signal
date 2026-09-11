@@ -2,13 +2,13 @@ name: Digest Watchdog
 
 # The scheduled cloud agent occasionally fails silently (no outbox push, so
 # the relay never fires and nothing reaches Feishu). This watchdog runs after
-# each digest slot (07:30 / 19:30 Beijing) and alerts the Feishu group when
-# no digest landed in outbox/ for the most recent slot.
+# the daily digest slot (07:30 Beijing) and alerts the Feishu group when
+# no digest landed in outbox/ for that slot.
+# 2026-09-11: evening slot (19:30) retired -- digest is once-daily now.
 
 on:
   schedule:
     - cron: '15 0 * * *'   # UTC 00:15 = Beijing 08:15 (checks the 07:30 slot)
-    - cron: '15 12 * * *'  # UTC 12:15 = Beijing 20:15 (checks the 19:30 slot)
   workflow_dispatch:
     inputs:
       force_alert:
@@ -43,9 +43,8 @@ jobs:
           beijing = timezone(timedelta(hours=8))
           now = datetime.now(beijing)
 
-          # Most recent digest slot (07:30 / 19:30 Beijing) at or before now.
-          slots = [now.replace(hour=7, minute=30, second=0, microsecond=0),
-                   now.replace(hour=19, minute=30, second=0, microsecond=0)]
+          # Most recent digest slot (07:30 Beijing, once daily) at or before now.
+          slots = [now.replace(hour=7, minute=30, second=0, microsecond=0)]
           past = [s for s in slots + [s - timedelta(days=1) for s in slots] if s <= now]
           last_slot = max(past)
 
