@@ -593,8 +593,6 @@
       "comment": "11 figures"
     }
   ],
-  "errors": [
-    "submittedDate: The read operation timed out"
-  ],
-  "generated_at": "2026-09-11T23:51:57.356246+00:00"
+  "errors": null,
+  "generated_at": "2026-09-12T13:24:28.754555+00:00"
 }
