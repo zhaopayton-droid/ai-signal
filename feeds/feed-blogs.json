@@ -8,26 +8,8 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "published": "2026-09-14T00:00:00+00:00",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
-    },
-    {
-      "id": "https://stratechery.com/2026/duo-threats/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "2026.37: Duo Threats",
-      "url": "https://stratechery.com/2026/duo-threats/",
-      "published": "2026-09-11T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of September 7, 2026, including the arrival of the Duo, AI that benefits humanity, and closing the book on a catastrophe."
-    },
-    {
-      "id": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "published": "2026-09-11T16:00:00+00:00",
-      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-13T14:09:59.907144+00:00"
+  "generated_at": "2026-09-13T23:52:34.330605+00:00"
 }
