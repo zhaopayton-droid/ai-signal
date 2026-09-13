@@ -26,44 +26,8 @@
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
       "published": "2026-09-11T16:00:00+00:00",
       "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more."
-    },
-    {
-      "id": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "published": "2026-09-11T10:00:00+00:00",
-      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
-    },
-    {
-      "id": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "published": "2026-09-10T16:00:00+00:00",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
-    },
-    {
-      "id": "https://openai.com/index/put-data-to-work",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "published": "2026-09-10T15:00:00+00:00",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
-    },
-    {
-      "id": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
-      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-      "published": "2026-09-10T00:00:00+00:00",
-      "summary": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-12T13:24:28.754555+00:00"
+  "generated_at": "2026-09-13T14:09:59.907144+00:00"
 }

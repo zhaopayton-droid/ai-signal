@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:25:15.622612+00:00",
+  "generated_at": "2026-09-13T14:10:52.407160+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 102324,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-11T23:52:43.541391+00:00",
-      "last_seen_at": "2026-09-12T13:25:15.622612+00:00",
-      "expires_at": "2026-09-26T13:25:15.622612+00:00"
+      "last_seen_at": "2026-09-13T14:10:52.407160+00:00",
+      "expires_at": "2026-09-27T14:10:52.407160+00:00"
     },
     {
       "guid": "yt:XNOuhxUsQDI",
@@ -25,8 +25,8 @@
       "transcript_chars": 27437,
       "transcript_source": "youtube_transcript_api",
       "cached_at": "2026-09-11T23:52:43.541391+00:00",
-      "last_seen_at": "2026-09-12T13:25:15.622612+00:00",
-      "expires_at": "2026-09-26T13:25:15.622612+00:00"
+      "last_seen_at": "2026-09-13T14:10:52.407160+00:00",
+      "expires_at": "2026-09-27T14:10:52.407160+00:00"
     },
     {
       "guid": "fcc44f37-f242-4730-a77c-5f3d83c24fa9",
@@ -170,84 +170,6 @@
       "cached_at": "2026-08-28T21:08:55.714581+00:00",
       "last_seen_at": "2026-08-31T00:11:53.070566+00:00",
       "expires_at": "2026-09-14T00:11:53.070566+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-      "link": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-      "channel": "Latent Space",
-      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "pub_date": "2026-08-27T01:50:54+00:00",
-      "transcript_path": "feeds/transcripts/b73e133067c8bb0dc1855777.txt",
-      "transcript_chars": 11730,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-29T23:52:54.636312+00:00",
-      "expires_at": "2026-09-12T23:52:54.636312+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-      "link": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-      "channel": "Latent Space",
-      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "pub_date": "2026-08-27T01:31:22+00:00",
-      "transcript_path": "feeds/transcripts/d137ab57ea354c1b25920026.txt",
-      "transcript_chars": 12551,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-29T23:52:54.636312+00:00",
-      "expires_at": "2026-09-12T23:52:54.636312+00:00"
-    },
-    {
-      "guid": "https://lexfridman.com/?p=6506",
-      "link": "https://lexfridman.com/dhh-2/?utm_source=rss&utm_medium=rss&utm_campaign=dhh-2",
-      "channel": "Lex Fridman",
-      "title": "#501 – DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux",
-      "pub_date": "2026-08-26T21:47:04+00:00",
-      "transcript_path": "feeds/transcripts/d40b20bbb56eec07ec7a204f.txt",
-      "transcript_chars": 309575,
-      "transcript_source": "description_transcript_link",
-      "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-29T14:57:57.094196+00:00",
-      "expires_at": "2026-09-12T14:57:57.094196+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/lovable-future-of-saas",
-      "link": "https://www.latent.space/p/lovable-future-of-saas",
-      "channel": "Latent Space",
-      "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
-      "pub_date": "2026-08-26T16:16:25+00:00",
-      "transcript_path": "feeds/transcripts/afe8684754442d0db3e55d9c.txt",
-      "transcript_chars": 9290,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-29T14:57:57.094196+00:00",
-      "expires_at": "2026-09-12T14:57:57.094196+00:00"
-    },
-    {
-      "guid": "b6ddc30d-9b7d-4192-8939-a821301570f5",
-      "link": "https://deepmind.com/podcast",
-      "channel": "Google DeepMind Podcast",
-      "title": "The mathematics of AI uncertainty",
-      "pub_date": "2026-08-26T15:35:59+00:00",
-      "transcript_path": "feeds/transcripts/0f2c37203187fd196a8e0c0c.txt",
-      "transcript_chars": 18551,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-29T14:57:57.094196+00:00",
-      "expires_at": "2026-09-12T14:57:57.094196+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/anima",
-      "link": "https://www.latent.space/p/anima",
-      "channel": "Latent Space",
-      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
-      "pub_date": "2026-08-26T15:15:39+00:00",
-      "transcript_path": "feeds/transcripts/0575bc1a4c672d9a9b4bb4fc.txt",
-      "transcript_chars": 9148,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-27T02:54:07.878737+00:00",
-      "last_seen_at": "2026-08-29T14:57:57.094196+00:00",
-      "expires_at": "2026-09-12T14:57:57.094196+00:00"
     }
   ]
 }
