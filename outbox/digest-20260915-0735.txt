@@ -1,0 +1,44 @@
+🛫 起飞了 | AI Signal - 2026年9月15日
+⚠️ X/Twitter 数据源已 27 小时未更新,相关条目可能滞后。
+⚠️ arXiv 论文数据源已 58 小时未更新,今日暂无新论文可报。
+
+昨天还是 Dario 一人喊话降速,一天之内就变成了全行业站队:Elon、Sam、Demis、Alexander Wang、Hugging Face 的 Clem 相继表态,David Sacks 当面拆台,Gavin Baker 直接把这场"该不该给前沿 AI 踩刹车"的争论翻译成了投资语言;与此同时 Ben Thompson 在 Stratechery 上给出针锋相对的判断——这更像是一场政治控制的包装,而非真安全。另一条硬信号来自 Greg Brockman:OpenAI 已经拉了一万个 agent 去啃 Navier-Stokes 方程。
+
+💬 X/Twitter
+
+X1 | GavinSBaker (Gavin Baker) — Wild 24 hours for AI and lots of different proposals have been made.
+时间:2026-09-14 00:17
+链接:https://x.com/GavinSBaker/status/2099170698887315833
+信息:Atreides Management 的 Gavin Baker 系统梳理了"Pace the Frontier"倡议引爆的 24 小时:Dario 提出了迄今最"极致"的方案——嵌入式第三方评估员、超过特定能力/算力门槛后建立国家级监管体系、民主国家间的国际监管协定、对中国收紧算力与蒸馏限制,并且在国家监管体系落地前,希望国会给 Anthropic 一份《谢尔曼法》豁免,以便与 OpenAI 等实验室安全协调而不触犯反垄断。Sam Altman 附议并承诺跟进落地嵌入式评估员;Elon Musk 表态"Dario 是对的",但给出的方案完全不同——他主张类似 MPAA 的实验室互评机制(每个新模型发布前由竞争对手评审 1-2 周),并强调不会让开源权重模型放慢;David Sacks 则公开反对,称反垄断豁免请求本质是"组建卡特尔",并质疑 METR 因与 Anthropic 的关系并不算真正独立的第三方;白宫前 AI 顾问 Sriram Krishnan 呼应了"评估员必须真正独立"这一点;Hugging Face 的 Clem 表态愿意做中立第三方评估机构;Meta 的 Alexander Wang 则表示对齐将成为越来越重要的关注点。Gavin Baker 判断这一系列表态目前没有直接、可量化的投资含义,但从更宏观的角度看,"更多约束条件"——晶圆产能、电力、真实利率与利差——总体有利于让本轮 AI 周期"更平滑、持续更久",除非未来的监管走向"过度"。
+为什么重要:这是罕见地把一场行业安全政策辩论翻译成具体投资框架的一手分析——它同时揭示了硅谷内部在"该不该建立跨实验室协调机制"上并无共识(Elon 的互评方案与 Dario 的国家监管体系方向截然不同),而 Sacks 点出的反垄断豁免争议,以及 Baker 提出的"约束条件利好周期可持续性"框架,都可能影响后续行政令的具体措辞与市场对 AI 资本开支周期长度的定价。
+
+🎙️ 播客
+
+P1 | a16z — Greg Brockman on Why OpenAI Says We're Entering the AGI Era
+时间:2026-09-14 18:00
+链接:https://a16z.simplecast.com/episodes/greg-brockman-on-why-openai-says-were-entering-the-agi-era-deKod42i
+要点:Ben Horowitz 与 Erik Torenberg 对话 OpenAI 联合创始人兼总裁 Greg Brockman,讨论他判断 AI 已进入新阶段的依据。Brockman 解释了"computer use"为何是 agent 能力的关键一步——模型现在可以连贯工作长达 24 小时,并通过人类使用的同一套软件界面完成任务;他还谈到数学推理的进步将如何外溢到科学、软件工程和网络安全领域,并讨论了网络安全中的"防御者窗口期"以及未来 AI 助理将走向持久、主动、个性化、能替用户代为完成任务的形态。
+关键数字:OpenAI 曾调用 10,000 个 agent 协同攻关 Navier-Stokes 方程这一数学难题。
+为什么重要:"一万个 agent 打一道方程"是目前为止对"agent 规模化协同解决科研难题"最具体的实例之一,如果这种大规模 agent 编排模式能复制到其他科学/工程问题上,将是 AI 从"聊天工具"走向"科研生产力工具"的关键证据,也呼应了 OpenAI 内部对 AGI 时间线判断的底气所在。
+
+P2 | Capital Allocators — AI in the Investment Office (EP.515)
+时间:2026-09-14 16:00
+链接:https://tedseides.libsyn.com/ai-in-the-investment-office-abby-barlow-laura-hill-brian-sugrue-jenny-heller-john-lawrence-matt-bank-kristin-kallergis-rowland-jon-webster-ep515
+要点:主持人采访了 8 位 CIO,横跨从单人家族办公室到全球最大养老基金之一的机构规模,请他们分享 AI 在投资机构中的真实落地情况——包括哪些用法有效、哪些无效、目前采用的工具,以及下一步计划。受访者的用法覆盖从个人生产力工具、改造投资工作流、整理机构知识库、辅助决策,到尝试直接生成 alpha 等多个层次,同时在"AI 该在投资流程中介入多深"这一问题上,不同机构的看法明显分化。
+为什么重要:这是罕见地把"机构投资者到底怎么用 AI"摊开讲的一手调研,横跨规模差异巨大的机构,能帮助判断买方对 AI 工具的采用节奏和天花板,而不是停留在厂商自己讲的采用故事。
+
+📰 官方博客
+
+B1 | Stratechery (Ben Thompson) — Pacing the Frontier, AI's Digital Limits, AI Commissars
+时间:2026-09-14 18:00
+链接:https://stratechery.com/2026/pacing-the-frontier-ais-digital-limits-ai-commissars/
+要点:Ben Thompson 对 Dario Amodei 的"Pace the Frontier"倡议给出直接反驳,判断这一提案并不现实,其实质更像是谋求对 AI 的政治控制,而非真正意义上的安全治理。
+为什么重要:作为科技评论界最具份量的声音之一,Thompson 的判断为这场"该不该给前沿 AI 装刹车"的辩论提供了与 Sacks 相近但独立成文的反方论证,进一步说明这场争论正在从实验室内部政策讨论,演变为公开的政治合法性之争。
+
+🗂 其余速览
+- Demis Hassabis 力挺 Dario 降速倡议,并透露 DeepMind 近期已提出行业标准机构方案 https://x.com/demishassabis/status/2098909516582490602
+- Naval Ravikant 提议用"强问责"框架应对 AI 失控:agent swarm 闯祸、模型被越狱、开源模型保护不足导致被滥用,责任都应落到部署者身上 https://x.com/naval/status/2099013370837881183
+- CBS Sunday Morning 独家专访 Dario Amodei(内容摘要暂缺,仅存节目元数据) https://www.youtube.com/watch?v=hQR_VJF6ukk
+
+想深读某一条,直接说「展开 P2」之类即可。
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
