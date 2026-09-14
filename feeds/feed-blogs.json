@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://stratechery.com/2026/pacing-the-frontier-ais-digital-limits-ai-commissars/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "Pacing the Frontier, AI’s Digital Limits, AI Commissars",
+      "url": "https://stratechery.com/2026/pacing-the-frontier-ais-digital-limits-ai-commissars/",
+      "published": "2026-09-14T10:00:00+00:00",
+      "summary": "Dario Amodei wants to pace the frontier; it's an unrealistic proposal that seems mostly geared to political control of AI."
+    },
+    {
       "id": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "source": "openai",
       "source_name": "OpenAI",
@@ -11,5 +20,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-13T23:52:34.330605+00:00"
+  "generated_at": "2026-09-14T16:13:23.834785+00:00"
 }
