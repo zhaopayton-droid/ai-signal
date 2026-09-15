@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-09-15T14:42:27.511916+00:00",
+  "generated_at": "2026-09-15T23:57:55.508050+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
+      "link": "https://allinchamathjason.libsyn.com/jd-vance-on-ai-entitlement-fraud-iran-war-israel-h-1b-abuse-the-midterms",
+      "channel": "All-In Podcast",
+      "title": "JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms",
+      "pub_date": "2026-09-15T20:46:00+00:00",
+      "transcript_path": "feeds/transcripts/98a76c7c697d96df3edbffdb.txt",
+      "transcript_chars": 4027,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-15T23:57:55.508050+00:00",
+      "last_seen_at": "2026-09-15T23:57:55.508050+00:00",
+      "expires_at": "2026-09-29T23:57:55.508050+00:00"
+    },
     {
       "guid": "https://www.dwarkesh.com/p/john-beren-charlie",
       "link": "https://www.dwarkesh.com/p/john-beren-charlie",
