@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:16:24.722581+00:00",
+  "generated_at": "2026-09-15T14:42:27.511916+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -25,8 +25,8 @@
       "transcript_chars": 27437,
       "transcript_source": "youtube_transcript_api",
       "cached_at": "2026-09-11T23:52:43.541391+00:00",
-      "last_seen_at": "2026-09-15T00:16:24.722581+00:00",
-      "expires_at": "2026-09-29T00:16:24.722581+00:00"
+      "last_seen_at": "2026-09-15T14:42:27.511916+00:00",
+      "expires_at": "2026-09-29T14:42:27.511916+00:00"
     },
     {
       "guid": "fcc44f37-f242-4730-a77c-5f3d83c24fa9",
@@ -92,71 +92,6 @@
       "cached_at": "2026-09-01T00:59:02.172739+00:00",
       "last_seen_at": "2026-09-03T14:14:14.300192+00:00",
       "expires_at": "2026-09-17T14:14:14.300192+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
-      "link": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
-      "channel": "Lenny's Podcast",
-      "title": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
-      "pub_date": "2026-08-31T15:01:58+00:00",
-      "transcript_path": "feeds/transcripts/19e611ecda8994bb81a06da3.txt",
-      "transcript_chars": 6478,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-31T17:27:18.860244+00:00",
-      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
-      "expires_at": "2026-09-15T00:59:02.172739+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
-      "link": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
-      "channel": "Lenny's Podcast",
-      "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
-      "pub_date": "2026-08-31T12:04:18+00:00",
-      "transcript_path": "feeds/transcripts/0f041fdc00170600ee343a93.txt",
-      "transcript_chars": 6166,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-31T17:27:18.860244+00:00",
-      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
-      "expires_at": "2026-09-15T00:59:02.172739+00:00"
-    },
-    {
-      "guid": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
-      "link": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
-      "channel": "Lenny's Podcast",
-      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
-      "pub_date": "2026-08-30T12:31:30+00:00",
-      "transcript_path": "feeds/transcripts/c776cd0d62c6f956d9ff5f71.txt",
-      "transcript_chars": 7152,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-30T14:44:11.182178+00:00",
-      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
-      "expires_at": "2026-09-15T00:59:02.172739+00:00"
-    },
-    {
-      "guid": "https://www.dwarkesh.com/p/openai-huggingface",
-      "link": "https://www.dwarkesh.com/p/openai-huggingface",
-      "channel": "Dwarkesh Patel",
-      "title": "The Rise and Fall of Agent Civilizations",
-      "pub_date": "2026-08-29T22:47:53+00:00",
-      "transcript_path": "feeds/transcripts/48d955f9c3b8a6e949164b94.txt",
-      "transcript_chars": 22835,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-29T23:52:54.636312+00:00",
-      "last_seen_at": "2026-09-01T14:37:19.017841+00:00",
-      "expires_at": "2026-09-15T14:37:19.017841+00:00"
-    },
-    {
-      "guid": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-      "link": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-      "channel": "Latent Space",
-      "title": "[AINews] OpenAI shuts off Cursor",
-      "pub_date": "2026-08-29T05:11:52+00:00",
-      "transcript_path": "feeds/transcripts/b6071d28a1ba7aaee650d2e5.txt",
-      "transcript_chars": 19891,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-08-29T14:57:57.094196+00:00",
-      "last_seen_at": "2026-09-01T00:59:02.172739+00:00",
-      "expires_at": "2026-09-15T00:59:02.172739+00:00"
     }
   ]
 }
