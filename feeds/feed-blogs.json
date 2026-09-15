@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/fyxer",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "published": "2026-09-14T12:00:00+00:00",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
+    },
+    {
       "id": "https://stratechery.com/2026/pacing-the-frontier-ais-digital-limits-ai-commissars/",
       "source": "stratechery",
       "source_name": "Stratechery (Ben Thompson)",
@@ -20,5 +29,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-14T16:13:23.834785+00:00"
+  "generated_at": "2026-09-15T00:15:30.869673+00:00"
 }
