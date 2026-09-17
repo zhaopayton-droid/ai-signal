@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:42:34.195453+00:00",
+  "generated_at": "2026-09-17T00:04:42.297516+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 4027,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-15T23:57:55.508050+00:00",
-      "last_seen_at": "2026-09-16T14:42:34.195453+00:00",
-      "expires_at": "2026-09-30T14:42:34.195453+00:00"
+      "last_seen_at": "2026-09-17T00:04:42.297516+00:00",
+      "expires_at": "2026-10-01T00:04:42.297516+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/john-beren-charlie",
