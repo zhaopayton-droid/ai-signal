@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:55:18.408981+00:00",
+  "generated_at": "2026-09-18T14:13:08.633610+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 79938,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-17T23:55:18.408981+00:00",
-      "last_seen_at": "2026-09-17T23:55:18.408981+00:00",
-      "expires_at": "2026-10-01T23:55:18.408981+00:00"
+      "last_seen_at": "2026-09-18T14:13:08.633610+00:00",
+      "expires_at": "2026-10-02T14:13:08.633610+00:00"
     },
     {
       "guid": "f225e979-78f3-4508-95fe-79293b3ff678",
@@ -25,8 +25,8 @@
       "transcript_chars": 3854,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-17T14:47:13.873199+00:00",
-      "last_seen_at": "2026-09-17T23:55:18.408981+00:00",
-      "expires_at": "2026-10-01T23:55:18.408981+00:00"
+      "last_seen_at": "2026-09-18T14:13:08.633610+00:00",
+      "expires_at": "2026-10-02T14:13:08.633610+00:00"
     },
     {
       "guid": "https://lexfridman.com/?p=6554",
@@ -38,8 +38,8 @@
       "transcript_chars": 181518,
       "transcript_source": "description_transcript_link",
       "cached_at": "2026-09-17T14:47:13.873199+00:00",
-      "last_seen_at": "2026-09-17T23:55:18.408981+00:00",
-      "expires_at": "2026-10-01T23:55:18.408981+00:00"
+      "last_seen_at": "2026-09-18T14:13:08.633610+00:00",
+      "expires_at": "2026-10-02T14:13:08.633610+00:00"
     },
     {
       "guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
@@ -51,8 +51,8 @@
       "transcript_chars": 4027,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-15T23:57:55.508050+00:00",
-      "last_seen_at": "2026-09-17T23:55:18.408981+00:00",
-      "expires_at": "2026-10-01T23:55:18.408981+00:00"
+      "last_seen_at": "2026-09-18T14:13:08.633610+00:00",
+      "expires_at": "2026-10-02T14:13:08.633610+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/john-beren-charlie",
@@ -118,19 +118,6 @@
       "cached_at": "2026-09-03T14:14:14.300192+00:00",
       "last_seen_at": "2026-09-05T23:33:59.347654+00:00",
       "expires_at": "2026-09-19T23:33:59.347654+00:00"
-    },
-    {
-      "guid": "https://www.dwarkesh.com/p/ajeya-cotra",
-      "link": "https://www.dwarkesh.com/p/ajeya-cotra",
-      "channel": "Dwarkesh Patel",
-      "title": "Ajeya Cotra – Inside the OpenAI agent swarm that hacked Hugging Face",
-      "pub_date": "2026-09-01T15:41:06+00:00",
-      "transcript_path": "feeds/transcripts/65a9ad9ec3b3e4d3507a46a8.txt",
-      "transcript_chars": 129233,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-01T23:47:17.579406+00:00",
-      "last_seen_at": "2026-09-04T14:05:47.052889+00:00",
-      "expires_at": "2026-09-18T14:05:47.052889+00:00"
     }
   ]
 }

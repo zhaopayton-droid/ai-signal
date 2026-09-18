@@ -1,6 +1,60 @@
 {
   "podcasts": [
     {
+      "channel": "No Priors",
+      "domain": "ai",
+      "guid": "51c4092c-b309-11f1-8603-fb8d30e1277f",
+      "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "pub_date": "2026-09-18T10:00:00+00:00",
+      "link": "",
+      "audio_url": "https://traffic.megaphone.fm/PDP7720707490.mp3",
+      "audio_bytes": 0,
+      "duration": "2293",
+      "description": "As generative AI hits hardware and latency bottlenecks, Stanford professor, diffusion pioneer, and Inception co-founder and CEO Stefano Ermon is betting on a radical new architecture. Stefano joins Sarah Guo to talk about Inception, and how his team is applying diffusion architecture beyond images and video into discrete text and code generation. Stefano explains the limitations of autoregressive LLMs, as well as why parallel token generation in diffusion models offers superior inference scaling and hardware utilization on standard GPUs. He also shares details about Inception’s Mercury models, real-world voice agent applications, the software stack required to serve diffusion-based models at scale, academia’s role at the frontier of AI innovations, and why the next era of AI competition will be defined by efficiency.&nbsp;\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @StefanoErmon | @_inception_ai\n\nChapters:\n\n00:00 – Stefano Ermon Introduction\n\n00:35 – Research Background\n\n02:54 – Starting Inception\n\n05:59 – Why Diffusion Beats Autoregressive\n\n11:10 – Discrete vs. Continuous Modalities\n\n13:19 – Inception Today\n\n16:45 – Where Speed Wins\n\n17:31 – Inception Customer Base\n\n18:49 – Interaction with Hardware Landscape\n\n19:34 – Inception and the Broader Industry\n\n21:41 – Data Compression and Structure\n\n24:45 – Controllability of Diffusion Modeles\n\n27:25 – Emergent Capabilities at Scale\n\n29:02 – Future Workload Split Between Diffusion vs. Traditional\n\n30:03 – Adoption Challenges\n\n31:44 – Hiring and Team Organization\n\n32:50 – Recursive Self Improvement\n\n34:02 – Resource Allocation\n\n35:10 – Impact of Academia\n\n38:13 – Conclusion",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No episode link; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Sharp Tech with Ben Thompson",
+      "domain": "ai",
+      "guid": "https://sharptech.fm/member/episode/preview-doom-debates-go-mainstream-ai-religion-and-the-economic-future-several-vectors-of-the-china-question",
+      "title": "(Preview) Doom Debates Go Mainstream, AI Religion and the Economic Future, Several Vectors of the China Question",
+      "pub_date": "2026-09-18T08:59:52+00:00",
+      "link": "https://sharptech.fm/member/episode/preview-doom-debates-go-mainstream-ai-religion-and-the-economic-future-several-vectors-of-the-china-question",
+      "audio_url": "https://sharptech.fm/assets/sharptech0292_preview.mp3?access_token=WtLvUDEHgB7rE4MbAfmDVT",
+      "audio_bytes": 32486108,
+      "duration": "00:33:19",
+      "description": "On today’s Ben and Andrew begin with Andrew’s article on AI alarmism, the primacy of the effective altruists in AI risk conversations, and why these discussions are exhausting without more evidence, even as AI risk becomes the biggest story in American politics. From there: A distinction between regulation malaise five years ago and where we are today, the grind of modern software, and questions responding to Ben’s Update on Monday, including thoughts on why OpenAI and Anthropic won’t unilaterally slow down, why Sam Altman and Elon Musk were incentivized to agree with Dario Amodei, and an emailer who asks whether doomerism hysteria is crowding out more urgent economic questions. Then: Questions on China’s incentives in AI, the strategic benefits of chip sales and distillation, military implications of American lead in AI, and China’s messy cybersecurity situation. At the end: An ode to ApplePay, Walmart, and Walton Goggins (but not Matt LaFleur).  ",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "All-In Podcast",
+      "domain": "ai",
+      "guid": "5014b8b5-272a-4169-83d3-5b0ebf8c30c0",
+      "title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
+      "pub_date": "2026-09-18T00:30:00+00:00",
+      "link": "https://allinchamathjason.libsyn.com/nick-shirley-exposing-government-fraud-suing-california-taking-on-the-media",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/AIS26_NickShirley_Ch.mp3?dest-id=1928300",
+      "audio_bytes": 46848394,
+      "duration": "32:32",
+      "description": "<p>(0:00) Nick Shirley debuts his new video: \"Inside California's High Speed Rail to Nowhere\"</p> <p>(11:42) Nick joins The Besties to discuss California's \"Stop Nick Shirley Act\" and recent fraud arrests</p> <p>(17:03) How he got into investigative journalism and finding fraud</p> <p>(23:32) Selective journalism and why Nick is a major threat to mainstream outlets</p> <p>(27:34) What's next for Nick: Investigating welfare fraud, building his platform</p> <p>Thanks to our partners for making this possible!</p> <p>IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p>Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. <a href= \"http://oracle.com/ai\">http://oracle.com/ai</a></p> <p>EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p>Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href=\"http://www.meta.com\">http://www.meta.com</a></p> <p>Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href= \"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p>Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwallex.com\">http://airwallex.com</a></p> <p>PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, personalized, and secure, PayPal empowe",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: text too sparse to be a transcript (4229 chars for 32 min); youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "All-In Podcast",
       "domain": "ai",
       "guid": "3ee9866a-23a5-447b-a584-b1c167a23b58",
@@ -200,42 +254,6 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: text too sparse to be a transcript (4193 chars for 36 min); youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "a16z",
-      "domain": "ai",
-      "guid": "3346a500-eb7e-4419-a483-6859c9709058",
-      "title": "The Age of Body Futurism | Ruby Justice Thelot",
-      "pub_date": "2026-09-15T10:00:00+00:00",
-      "link": "https://a16z.simplecast.com/episodes/the-age-of-body-futurism-ruby-justice-thelot-ZnUXyeWf",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/b05f61cd-4e60-4b30-aff6-0ed605600152/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=b05f61cd-4e60-4b30-aff6-0ed605600152&feed=JGE3yC0V",
-      "audio_bytes": 40953839,
-      "duration": "00:42:39",
-      "description": "<p>Elena Burger sits down with academic and cyber ethnographer Ruby Justice Thelot to explore the increasingly blurry line between internet culture and the real world, and how to tell the difference between a trend that’s actually changing behavior and one that simply feels enormous online.</p><p>They use today’s wellness and optimization culture as a case study, from peptides and GLP-1s to protein maxxing, wearables, microplastics, and the quantified self. Ruby explains her concept of “paracontent,” where the conversation around a phenomenon can become much larger than the phenomenon itself, and what social media data can tell us about how these trends move from niche communities into the mainstream.</p><p>They also trace the much longer history of body optimization, from changing ideals of thinness to the rise of the quantified self, and ask what comes next as technology gives people increasingly granular ways to measure and modify themselves. Ruby’s prediction: rather than everyone optimizing toward the same ideal, we may see increasingly individualized and sometimes extreme forms of “body futurism.”</p><p><br>Resources:</p><p>Follow Ruby Justice Thelot on X: <a href=\"https://x.com/being_on_line\" rel=\"noopener noreferrer\"><u>https://x.com/being_on_line</u></a></p><p>Follow Elena Burger on X:<a href=\"https://x.com/VirtualElena\" rel=\"noopener noreferrer\"> <u>https://x.com/VirtualElena</u></a></p><p>Read Ruby’s piece “Enshittification” Isn’t Real: <a href=\"https://www.a16z.news/p/enshittification-isnt-real\" rel=\"noopener noreferrer\"><u>https://www.a16z.news/p/enshittification-isnt-real</u></a></p><p><br>&nbsp;</p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9T",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "All-In Podcast",
-      "domain": "ai",
-      "guid": "e23cdf18-6528-458c-adff-dea4d619dcb3",
-      "title": "Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
-      "pub_date": "2026-09-15T03:42:00+00:00",
-      "link": "https://allinchamathjason.libsyn.com/elon-musk-gwynne-shotwell-on-ai-risks-and-peer-review-starship-terafab-spacextesla-merger",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/Gwynne_Elon_AIS26_Ch.mp3?dest-id=1928300",
-      "audio_bytes": 61829281,
-      "duration": "01:04:25",
-      "description": "<p>(0:00) SpaceX's Gwynne Shotwell joins The Besties!</p> <p>(1:45) Gwynne's SpaceX story, selling rockets, and working for Elon</p> <p>(6:45) Running modern day SpaceX: AI, Starlink, Rockets, and X</p> <p>(13:43) Direct to cell with Starlink, retiring rockets, competition</p> <p>(18:34) Data centers in space</p> <p>(22:00) Management at SpaceX</p> <p>(27:37) Elon Musk joins: AI's real risk, model peer review, what he meant by \"Dario is right\"</p> <p>(36:53) Elon and Gwynne on their working relationship, Starship's future</p> <p>(46:16) Terafab, Tesla, Flying cars?, merging Tesla and SpaceX</p> <p>(52:51) Lying AIs, how to do AI peer review right</p> <p dir=\"ltr\">Thanks to our partners for making this possible!</p> <p dir=\"ltr\">IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p dir=\"ltr\">Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. <a href=\"http://oracle.com/ai\">http://oracle.com/ai</a></p> <p dir=\"ltr\">EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p dir=\"ltr\">Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href=\"http://www.meta.com/\"></a><a href= \"http://www.meta.com\">http://www.meta.com</a></p> <p dir=\"ltr\">Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href=\"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p dir=\"ltr\">Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (4509 chars for 64 min); youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -609,5 +627,5 @@
     "Latent Space: https://api.substack.com/feed/podcast/1084089.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-17T23:54:17.637222+00:00"
+  "generated_at": "2026-09-18T14:12:07.043778+00:00"
 }
