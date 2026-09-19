@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T23:52:53.124496+00:00",
+  "generated_at": "2026-09-19T13:46:04.844809+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 79938,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-17T23:55:18.408981+00:00",
-      "last_seen_at": "2026-09-18T23:52:53.124496+00:00",
-      "expires_at": "2026-10-02T23:52:53.124496+00:00"
+      "last_seen_at": "2026-09-19T13:46:04.844809+00:00",
+      "expires_at": "2026-10-03T13:46:04.844809+00:00"
     },
     {
       "guid": "f225e979-78f3-4508-95fe-79293b3ff678",
@@ -25,8 +25,8 @@
       "transcript_chars": 3854,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-17T14:47:13.873199+00:00",
-      "last_seen_at": "2026-09-18T23:52:53.124496+00:00",
-      "expires_at": "2026-10-02T23:52:53.124496+00:00"
+      "last_seen_at": "2026-09-19T13:46:04.844809+00:00",
+      "expires_at": "2026-10-03T13:46:04.844809+00:00"
     },
     {
       "guid": "https://lexfridman.com/?p=6554",
@@ -38,8 +38,8 @@
       "transcript_chars": 181518,
       "transcript_source": "description_transcript_link",
       "cached_at": "2026-09-17T14:47:13.873199+00:00",
-      "last_seen_at": "2026-09-18T23:52:53.124496+00:00",
-      "expires_at": "2026-10-02T23:52:53.124496+00:00"
+      "last_seen_at": "2026-09-19T13:46:04.844809+00:00",
+      "expires_at": "2026-10-03T13:46:04.844809+00:00"
     },
     {
       "guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
