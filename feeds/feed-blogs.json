@@ -35,17 +35,8 @@
       "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "published": "2026-09-17T00:00:00+00:00",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-    },
-    {
-      "id": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Introducing the Life Sciences Verification Program",
-      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "published": "2026-09-17T00:00:00+00:00",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-19T13:45:08.057952+00:00"
+  "generated_at": "2026-09-19T23:53:21.704610+00:00"
 }

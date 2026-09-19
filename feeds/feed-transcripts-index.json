@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:46:04.844809+00:00",
+  "generated_at": "2026-09-19T23:54:18.754243+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 79938,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-17T23:55:18.408981+00:00",
-      "last_seen_at": "2026-09-19T13:46:04.844809+00:00",
-      "expires_at": "2026-10-03T13:46:04.844809+00:00"
+      "last_seen_at": "2026-09-19T23:54:18.754243+00:00",
+      "expires_at": "2026-10-03T23:54:18.754243+00:00"
     },
     {
       "guid": "f225e979-78f3-4508-95fe-79293b3ff678",
@@ -25,8 +25,8 @@
       "transcript_chars": 3854,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-17T14:47:13.873199+00:00",
-      "last_seen_at": "2026-09-19T13:46:04.844809+00:00",
-      "expires_at": "2026-10-03T13:46:04.844809+00:00"
+      "last_seen_at": "2026-09-19T23:54:18.754243+00:00",
+      "expires_at": "2026-10-03T23:54:18.754243+00:00"
     },
     {
       "guid": "https://lexfridman.com/?p=6554",
@@ -38,8 +38,8 @@
       "transcript_chars": 181518,
       "transcript_source": "description_transcript_link",
       "cached_at": "2026-09-17T14:47:13.873199+00:00",
-      "last_seen_at": "2026-09-19T13:46:04.844809+00:00",
-      "expires_at": "2026-10-03T13:46:04.844809+00:00"
+      "last_seen_at": "2026-09-19T23:54:18.754243+00:00",
+      "expires_at": "2026-10-03T23:54:18.754243+00:00"
     },
     {
       "guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
@@ -105,19 +105,6 @@
       "cached_at": "2026-09-08T23:50:05.397749+00:00",
       "last_seen_at": "2026-09-11T14:08:21.125938+00:00",
       "expires_at": "2026-09-25T14:08:21.125938+00:00"
-    },
-    {
-      "guid": "61206a3c-2874-4c39-9930-31cef1253358",
-      "link": "https://tedseides.libsyn.com/special-annoucement-capital-allocators-university-online",
-      "channel": "Capital Allocators",
-      "title": "SPECIAL ANNOUNCEMENT: Capital Allocators University Online",
-      "pub_date": "2026-09-03T08:00:00+00:00",
-      "transcript_path": "feeds/transcripts/01bb3f8e8f83280a3dd1ece0.txt",
-      "transcript_chars": 2528,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-03T14:14:14.300192+00:00",
-      "last_seen_at": "2026-09-05T23:33:59.347654+00:00",
-      "expires_at": "2026-09-19T23:33:59.347654+00:00"
     }
   ]
 }
