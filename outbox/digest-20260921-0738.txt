@@ -1,0 +1,32 @@
+🛫 起飞了 | AI Signal - 2026年9月21日
+⚠️ X/Twitter 数据源已 27 小时未更新，相关条目可能滞后。
+
+今天最值得关注的信号在模型层的"商品化"速度：Vercel AI Gateway的数据显示，开源模型的token调用占比冲上78.4%的纪录新高，Moonshot AI与DeepSeek两家的推理花费已经超过OpenAI，Guillermo Rauch据此判断这是把利润从模型层挤向infra/应用层；同一天，主打速度的新模型Jev上线第一天就拿下Gateway上13%团队的采用率，是GPT-5.6家族的2倍、Fable 5.1的6倍。另外，ARM与Qualcomm围绕专利授权金条款的诉讼细节也值得记一笔——这不是传闻，是一份具体的合同条款和明确的开庭日期。
+
+💬 X/Twitter
+
+X1 | Guillermo Rauch (Vercel) — Looks like today may be a record day for token volume % of open models on Vercel AI Gateway
+时间：2026-09-19 13:48
+链接：https://x.com/rauchg/status/2101186741042663579
+信息：Vercel CEO Guillermo Rauch披露，Vercel AI Gateway上某一天的开源模型token调用量占比达到78.4%（闭源22.6%）的纪录新高；虽然按花费口径通常是另一番景象，但当天花费排名第三、第四的分别是Moonshot AI和DeepSeek，两家（若再加上Z.ai）的合计推理花费已经超过排名第二的OpenAI——注意这里统计的是各家模型在美国等地被调用产生的推理花费，不是流向开源模型厂商自己的营收。同日，Atreides Management的Gavin Baker转发并评论：开源模型持续抢份额，不只是token量，花在开源模型上的钱现在也超过了OpenAI，这对"AI infra"这笔投资是利好，因为开源模型抢份额会把利润从模型层挤向infra层和应用层。
+为什么重要：这是少见的、来自实际网关流量的具体调用量和花费排名数据，而不是厂商自证的用户数——如果开源模型在花费口径上持续追近甚至反超头部闭源模型，说明模型层的价格战和商品化速度比外界感知的更快，价值会加速向能沉淀用户关系的infra层和应用层转移，这也是Gavin Baker这类二级市场投资人押注"AI infra"而非单一模型厂商的核心逻辑。
+
+X2 | Guillermo Rauch (Vercel) — The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it.
+时间：2026-09-19 06:42
+链接：https://x.com/rauchg/status/2101079472732848510
+信息：Rauch引用Vercel官方数据称，由@typesafeai打造、主打速度的新模型Jev是Vercel AI Gateway历史上采用速度最快的模型：上线第一天就覆盖了Gateway上约13%的团队，是GPT-5.6家族的2倍、Fable 5.1的6倍。Rauch认为这份采用曲线背后，除了产品本身够好，也折射出"AI太贵/太慢"这种普遍焦虑——大家正急切地想优化成本和延迟，把AI塞进更多场景里。
+为什么重要：单个模型第一天就拿下13%团队渗透率、且明确对标GPT-5.6和Fable 5.1给出倍数，是一个具体、可比较的采用速度基准；如果"更快更便宜"的模型能够如此迅速地抢走份额，进一步印证X1里"模型层正在被快速商品化"的判断。
+
+X3 | Irrational Analysis (insane_analyst) — Very interesting but probably immaterial to both stocks.
+时间：2026-09-19 04:49
+链接：https://x.com/insane_analyst/status/2101050962010132974
+信息：该账号转发并点评了一份对ARM与Qualcomm诉讼的详细解读：两份授权协议（ALA、TLA）里都有一条条款（Section 8.3）规定，如果ARM未能按时交付约定的技术文档（如架构参考手册、ALA的测试向量，或TLA的核心RTL/设计文件）且收到通知后30天内未修复，Qualcomm对应的授权费将在5年内降为零，且任一协议违约会导致两份协议的授权费同时清零。案件分两步走：法官Noreika先裁定这条"5年零授权费"条款本身是否合法（是正常合同救济还是变相罚则）；若条款有效，10月5日开始的陪审团审判再裁定ARM是否真的违约。insane_analyst的判断是，这件事对两只股票大概率都"无关痛痒"——ARM即便拿不到（本就不高的）ALA授权费问题也不大，主业照样健康；而Qualcomm面临的更大麻烦是QTL授权费与苹果自研芯片、以及DRAM涨价的冲击，比这场诉讼严重得多。
+为什么重要：这是少见的、把ARM-Qualcomm诉讼的具体合同条款、生效条件和开庭日期讲清楚的信息，而不是"两家在打官司"这种模糊传闻；insane_analyst额外给出的"对股价影响有限"判断，也提醒投资者不要把诉讼头条和实际财务冲击划等号，真正该盯的是Qualcomm自身的QTL/苹果/DRAM风险敞口。
+
+🗂 其余速览
+- IN FULL: Sam Altman on AI's unstoppable rise and the risk of losing control https://www.youtube.com/watch?v=dSrXQQL35Sg
+- Extended interview: Nvidia CEO Jensen Huang on fears about AI https://www.youtube.com/watch?v=xCUala5j7aQ
+
+想深读某一条，直接说"展开 X1"之类即可。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
