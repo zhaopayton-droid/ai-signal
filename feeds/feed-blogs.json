@@ -1,24 +1,5 @@
 {
-  "articles": [
-    {
-      "id": "https://stratechery.com/2026/doomforce/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "2026.38: Doomforce",
-      "url": "https://stratechery.com/2026/doomforce/",
-      "published": "2026-09-18T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag."
-    },
-    {
-      "id": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Partnering with Accenture on embedded evaluation",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "published": "2026-09-18T00:00:00+00:00",
-      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years."
-    }
-  ],
+  "articles": [],
   "errors": null,
-  "generated_at": "2026-09-20T13:59:59.439455+00:00"
+  "generated_at": "2026-09-20T23:49:47.217390+00:00"
 }
