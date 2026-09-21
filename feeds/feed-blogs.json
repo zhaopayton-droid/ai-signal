@@ -1,5 +1,24 @@
 {
-  "articles": [],
+  "articles": [
+    {
+      "id": "https://stratechery.com/2026/frontier-overhangs/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "Frontier Overhangs",
+      "url": "https://stratechery.com/2026/frontier-overhangs/",
+      "published": "2026-09-21T10:00:00+00:00",
+      "summary": "Pacing the frontier may be sincere, but it would also be strategically useful for the frontier labs to have time to reduce overhangs caused by model advancement."
+    },
+    {
+      "id": "https://openai.com/index/v7",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "How V7 gives AI agents institutional memory",
+      "url": "https://openai.com/index/v7",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work."
+    }
+  ],
   "errors": null,
-  "generated_at": "2026-09-20T23:49:47.217390+00:00"
+  "generated_at": "2026-09-21T16:19:08.995425+00:00"
 }
