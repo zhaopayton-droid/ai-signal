@@ -1,0 +1,32 @@
+🛫 起飞了 | AI Signal - 2026年9月22日
+⚠️ X/Twitter 数据源已 27 小时未更新，相关条目可能滞后。
+
+今天信息面偏薄，唯一称得上"一手强观点"的是Ben Thompson抛出的新框架：前沿实验室最近放缓发布节奏，官方说法通常是"审慎推进"，但Thompson认为更现实的解释是——放缓本身对实验室战略有利，能换来时间去消化模型能力跃升留下的"overhang"（安全评估、监管沟通、商业化没跟上能力的遗留问题）。同一天，AppLovin CEO Adam Foroughi在All-In上少见地拆解了广告这个"老赛道"如何被机器学习重新定义，以及公司如何在股价暴跌92%后重建投资人信任——两条线放一起看，能力扩张速度和消化能力之间的落差，可能是这轮周期里被低估的变量。
+
+📰 官方博客
+
+B1 | Stratechery (Ben Thompson) — Frontier Overhangs
+时间：2026-09-21 18:00
+链接：https://stratechery.com/2026/frontier-overhangs/
+要点：Thompson提出一个新框架：各大前沿实验室近期发布节奏明显放缓，对外说法多是"审慎推进"，但他认为更现实的动机是，放缓本身对实验室有战略价值——利用这段时间窗口消化模型能力跃升留下的"overhang"，也就是安全评估、监管沟通、产品化和商业化没能跟上模型能力提升所留下的遗留问题。
+为什么重要：如果"刻意放缓"确实是实验室基于自身利益的理性选择而不只是技术瓶颈，那么发布节奏本身就成了一个可以被读出信号的变量——观察谁在"消化"、消化的是安全类还是商业化类的overhang，可能比追新模型跑分更能预判下一轮竞争格局。
+
+🎙️ 播客
+
+P1 | All-In Podcast — Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market
+时间：2026-09-21 04:49
+链接：https://allinchamathjason.libsyn.com/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml-10-the-50b-game-ad-market
+要点：AppLovin创始人兼CEO Adam Foroughi做客All-In，谈了"发现式广告"和搜索式广告的边界、"手机是否在监听"这个老话题；回顾了公司股价一度暴跌之后他如何应对、重新赢回投资人信任；也谈到苹果的隐私新规和"crackdown"如何倒逼AI agent改变人们的购物路径，以及AppLovin如何靠精简团队、更高毛利，在游戏广告这个体量巨大的市场里跑赢体量更大的对手，还提到了在中国的业务布局。
+关键数字：
+- 公司股价曾出现92%的回撤（drawdown）
+- 游戏广告（Game Ad）市场规模约500亿美元
+为什么重要：这是"AI在广告投放这个已经商业化多年的场景里被重新定义"的一手案例（他称之为"Ads as ML 1.0"）——如果一家靠机器学习做广告匹配的公司能凭"精简团队+更高毛利"跑赢巨头，说明AI基础设施投入到商业化产出的转化路径，在广告这条被反复重估的老赛道里已经相对成熟，可以作为电商、支付等其他行业AI商业化节奏的参照系。
+
+🗂 其余速览
+- André Perold – Investing Through Exponential Change (EP.516) https://tedseides.libsyn.com/andr-perold-investing-through-exponential-change-ep516
+- [Market Memo] Calm Before the IPO Storm https://x.com/insane_analyst/status/2101490681072255204
+- How V7 gives AI agents institutional memory https://openai.com/index/v7
+
+想深读某一条，直接说"展开 P1"之类即可。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
