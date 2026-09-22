@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:28:08.827935+00:00",
+  "generated_at": "2026-09-22T23:59:41.464038+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 3882,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-22T14:28:08.827935+00:00",
-      "last_seen_at": "2026-09-22T14:28:08.827935+00:00",
-      "expires_at": "2026-10-06T14:28:08.827935+00:00"
+      "last_seen_at": "2026-09-22T23:59:41.464038+00:00",
+      "expires_at": "2026-10-06T23:59:41.464038+00:00"
     },
     {
       "guid": "053073fc-e856-48e9-9312-74082d4761ee",
@@ -25,8 +25,8 @@
       "transcript_chars": 3819,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-22T00:35:46.780192+00:00",
-      "last_seen_at": "2026-09-22T14:28:08.827935+00:00",
-      "expires_at": "2026-10-06T14:28:08.827935+00:00"
+      "last_seen_at": "2026-09-22T23:59:41.464038+00:00",
+      "expires_at": "2026-10-06T23:59:41.464038+00:00"
     },
     {
       "guid": "a2a542d5-2feb-441a-a523-910e16c2d193",
@@ -38,8 +38,8 @@
       "transcript_chars": 3959,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-20T23:50:47.147125+00:00",
-      "last_seen_at": "2026-09-22T14:28:08.827935+00:00",
-      "expires_at": "2026-10-06T14:28:08.827935+00:00"
+      "last_seen_at": "2026-09-22T23:59:41.464038+00:00",
+      "expires_at": "2026-10-06T23:59:41.464038+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/noam-brown",
