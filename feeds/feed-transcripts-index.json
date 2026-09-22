@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-09-21T16:20:02.295527+00:00",
+  "generated_at": "2026-09-22T00:35:46.780192+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "053073fc-e856-48e9-9312-74082d4761ee",
+      "link": "https://allinchamathjason.libsyn.com/naveen-rao-4d-computing-ais-energy-wall-beating-biology",
+      "channel": "All-In Podcast",
+      "title": "Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
+      "pub_date": "2026-09-21T21:03:00+00:00",
+      "transcript_path": "feeds/transcripts/1567452536fca84d29226101.txt",
+      "transcript_chars": 3819,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-22T00:35:46.780192+00:00",
+      "last_seen_at": "2026-09-22T00:35:46.780192+00:00",
+      "expires_at": "2026-10-06T00:35:46.780192+00:00"
+    },
     {
       "guid": "a2a542d5-2feb-441a-a523-910e16c2d193",
       "link": "https://allinchamathjason.libsyn.com/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml-10-the-50b-game-ad-market",
@@ -12,8 +25,8 @@
       "transcript_chars": 3959,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-20T23:50:47.147125+00:00",
-      "last_seen_at": "2026-09-21T16:20:02.295527+00:00",
-      "expires_at": "2026-10-05T16:20:02.295527+00:00"
+      "last_seen_at": "2026-09-22T00:35:46.780192+00:00",
+      "expires_at": "2026-10-06T00:35:46.780192+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/noam-brown",

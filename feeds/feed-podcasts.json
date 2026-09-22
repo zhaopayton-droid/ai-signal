@@ -1,6 +1,43 @@
 {
   "podcasts": [
     {
+      "channel": "All-In Podcast",
+      "domain": "ai",
+      "guid": "053073fc-e856-48e9-9312-74082d4761ee",
+      "title": "Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
+      "pub_date": "2026-09-21T21:03:00+00:00",
+      "link": "https://allinchamathjason.libsyn.com/naveen-rao-4d-computing-ais-energy-wall-beating-biology",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/Naveen_Rao_AIS26_AUDIO_v100.mp3?dest-id=1928300",
+      "audio_bytes": 32549135,
+      "duration": "22:35",
+      "description": "<p dir=\"ltr\">(0:00) Welcome Naveen Rao</p> <p dir=\"ltr\">(4:45) Is energy really the problem? The cost of a token, power contracts & the gap to close</p> <p dir=\"ltr\">(10:24) Cutting out the middleman: abstractions, dynamical systems & a new kind of machine</p> <p dir=\"ltr\">(19:46) Chamath joins: the path to product, porting existing models & building the team</p> <p><strong> </strong></p> <p dir=\"ltr\">Thanks to our partners for making this possible!</p> <p dir=\"ltr\">IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p dir=\"ltr\">Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. http://oracle.com/ai</p> <p dir=\"ltr\">EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p dir=\"ltr\">Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href= \"http://www.meta.com\">http://www.meta.com</a></p> <p dir=\"ltr\">Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href=\"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p dir=\"ltr\">Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwallex.com\">http://airwallex.com</a></p> <p dir=\"ltr\">PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, personalized, and secure, PayPal empowers consumers and busines",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://allinchamathjason.libsyn.com/naveen-rao-4d-computing-ais-energy-wall-beating-biology",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/1567452536fca84d29226101.txt",
+      "transcript_chars": 3819
+    },
+    {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "60d3d80f-1312-47fc-befc-21fdc4b7e9ff",
+      "title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+      "pub_date": "2026-09-21T18:05:35+00:00",
+      "link": "https://a16z.simplecast.com/episodes/ai-safety-language-is-destroying-the-debate-steven-sinofsky-p7Rb9M_7",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/4a13c8b0-2462-4960-9b99-fcf8bb40551c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=4a13c8b0-2462-4960-9b99-fcf8bb40551c&feed=JGE3yC0V",
+      "audio_bytes": 27887186,
+      "duration": "00:29:02",
+      "description": "<p>a16z Board Partner and former Microsoft Windows president Steven Sinofsky joins Theo Jaffee and Sofia Puccini on MTS to argue that the language we use to describe AI failures is making it harder to understand what’s actually going wrong.</p><p>Steven takes aim at terms like “alignment,” “goal-seeking,” and “rogue agents,” arguing that they can anthropomorphize problems that software engineers have dealt with for decades. His framing is simpler: when software doesn’t do what it’s supposed to do, it has a bug. And as AI becomes more widely deployed, labs need the same kind of telemetry, debugging, incident reporting, and operational discipline that previous generations of software eventually developed.</p><p>Drawing on everything from early computer hacking and Microsoft’s response to major software failures to Y2K and cybersecurity standards, Steven makes the case for treating AI reliability as an engineering problem. They also discuss what AI labs can learn from CVE reporting, why industry has a responsibility to make its systems safer, and how confusing terminology can lead to equally confused regulation.</p><p><br>Resources:</p><p>Follow Steven Sinofsky on X:<a href=\"https://x.com/stevesi\" rel=\"noopener noreferrer\"> <u>https://x.com/stevesi</u></a></p><p>Follow Theo Jaffee on X:<a href=\"https://x.com/theojaffee\" rel=\"noopener noreferrer\"> <u>https://x.com/theojaffee</u></a></p><p>Follow Sofia Puccini on X:<a href=\"https://x.com/schisofrenia\" rel=\"noopener noreferrer\"> <u>https://x.com/schisofrenia</u></a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/pod",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "Capital Allocators",
       "domain": "invest",
       "guid": "4bd18896-2f70-4ef4-b349-1ddaa19dee2f",
@@ -110,42 +147,6 @@
       "transcript_chars": 0
     },
     {
-      "channel": "All-In Podcast",
-      "domain": "ai",
-      "guid": "703e0913-cd78-4eb9-96d1-546c89a6aa07",
-      "title": "Bill Gurley: Searching for Feynman",
-      "pub_date": "2026-09-19T00:20:00+00:00",
-      "link": "https://allinchamathjason.libsyn.com/bill-gurley-the-covid-cover-up-the-search-for-the-truth",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/AIS26_Gurley_Ch_V2.mp3?dest-id=1928300",
-      "audio_bytes": 55394553,
-      "duration": "38:29",
-      "description": "<p>(0:00) Bill Gurley takes the stage at the All-In Summit</p> <p>(1:29) Bill's Presentation: Searching for Feynman</p> <p>Links to additional resources mentioned in talk and used in research:<br /> <a href= \"https://www.p3.institute/searching_for_feynman_resource_links.html\">  https://www.p3.institute/searching_for_feynman_resource_links.html</a></p> <p>Thanks to our partners for making this possible!</p> <p>IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p>Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. <a href= \"http://oracle.com/ai\">http://oracle.com/ai</a></p> <p>EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p>Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href=\"http://www.meta.com\">http://www.meta.com</a></p> <p>Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href= \"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p>Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwallex.com\">http://airwallex.com</a></p> <p>PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, personalized, and secure, PayPal empowers consumers and businesses in approximately 200 markets to join and thrive in the global economy. For mor",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (3814 chars for 38 min); youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "a16z",
-      "domain": "ai",
-      "guid": "25f3d896-f1a0-4870-b8fd-a2ff22d160c7",
-      "title": "Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
-      "pub_date": "2026-09-18T21:37:54+00:00",
-      "link": "https://a16z.simplecast.com/episodes/databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-QM1oJt1I",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/809021a5-7883-43db-a718-62cf28e58cf8/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=809021a5-7883-43db-a718-62cf28e58cf8&feed=JGE3yC0V",
-      "audio_bytes": 65832860,
-      "duration": "01:08:34",
-      "description": "<p>Databricks co-founder and CEO Ali Ghodsi joins a16z General Partners Martin Casado and Sarah Wang for a conversation about AI risk, recursive self-improvement, cybersecurity, and what’s actually holding back enterprise adoption.</p><p>Ali argues that today’s models are already capable enough to automate far more work than most companies are using them for. The bigger problem is context: models haven’t been in every meeting, don’t understand how decisions actually get made, and lack the institutional knowledge that experienced employees accumulate over years. He explains why building an organizational “ontology” could help close that gap and what Databricks has learned from doing it internally.</p><p>They also debate the current conversation around pacing frontier AI, what would constitute meaningful recursive self-improvement, and why Ali distinguishes speculative superintelligence risk from the much more immediate challenge of AI-powered cyberattacks. They close with how enterprises are managing exploding AI usage and costs, the shift toward multiple models and harnesses, and why agents are beginning to reshape infrastructure itself.</p><p>&nbsp;</p><p>Resources:</p><p>Follow Ali Ghodsi on X: <a href=\"https://x.com/alighodsi\" rel=\"noopener noreferrer\"><u>https://x.com/alighodsi</u></a></p><p>Follow Sarah Wang on X:<a href=\"https://x.com/sarahdingwang\" rel=\"noopener noreferrer\"> <u>https://x.com/sarahdingwang</u></a></p><p>Follow Martin Casado on X: <a href=\"https://x.com/martin_casado\" rel=\"noopener noreferrer\"><u>https://x.com/martin_casado</u></a><br>&nbsp;</p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
       "channel": "SemiAnalysis",
       "domain": "ai",
       "guid": "fd07af4b-4e94-4e1b-8b19-10a1d811e550",
@@ -215,28 +216,6 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "All-In Podcast",
-      "domain": "ai",
-      "person": "Jensen Huang",
-      "search_query": "Jensen Huang interview",
-      "guid": "yt:S7CrlFLAmEA",
-      "title": "Jensen Huang: The Doomer Hoax, Superintelligence is Here, and The Future of AI (ft. President Trump)",
-      "pub_date": "",
-      "pub_date_source": "unverified",
-      "publish_date_unverified": true,
-      "first_seen": "2026-09-15T00:15:36.910731+00:00",
-      "link": "https://www.youtube.com/watch?v=S7CrlFLAmEA",
-      "audio_url": "",
-      "duration": "46:47",
-      "description": "(0:00) Jensen Huang joins The Besties! (1:39) Thoughts on Dario's blog, Frontier Labs calling to slow down AI, and Doomer ...",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": "S7CrlFLAmEA",
-      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=S7CrlFLAmEA! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
     },
     {
@@ -508,5 +487,5 @@
     "Latent Space: https://api.substack.com/feed/podcast/1084089.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-21T16:19:08.995425+00:00"
+  "generated_at": "2026-09-22T00:35:00.693188+00:00"
 }
