@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "Amazon Blocks Muse, Amazon’s Moat, Aggregator v Aggregator",
+      "url": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
+      "published": "2026-09-22T10:00:00+00:00",
+      "summary": "Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat."
+    },
+    {
       "id": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "source": "openai",
       "source_name": "OpenAI",
@@ -56,5 +65,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-22T00:35:00.693188+00:00"
+  "generated_at": "2026-09-22T14:27:16.994913+00:00"
 }
