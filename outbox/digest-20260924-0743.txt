@@ -1,0 +1,115 @@
+🛫 起飞了 | AI Signal - 2026年9月24日
+⚠️ X/Twitter 数据源已 51 小时未更新，相关条目可能滞后。
+
+今天信号集中在两端拉扯：一端是 OpenAI 用 GPT-6 Sol/Luna、prompt caching 升级、以及 Astra 客户案例连续三次动作，把"分层产品+基础设施优化+可量化商业效果"这套打法在24小时内又跑了一轮；另一端是学术界连续给出两记警钟——MCP agent 生态被证明能以 93.6% 的成功率被黑盒劫持，而一批"本地模型工具调用能力"排行榜可能测的只是 Ollama 这类推理框架的实现细节，而不是模型真实能力。与此同时，一项 50+50 人的随机对照实验给出了少见的、可核实的 AI 设计提效数字（约20%），也算是给"AI 到底提效多少"这个争论提供了一个扎实锚点。
+
+📰 官方博客
+
+B1 | OpenAI — Introducing GPT-6 Sol and Luna
+时间：2026-09-23 02:00
+链接：https://openai.com/index/introducing-gpt-6-sol-and-luna
+要点：OpenAI 官方发布两款新模型 GPT-6 Sol 与 GPT-6 Luna，定位为把"前沿智能"下放到日常工作场景，两者在能力与成本之间做出不同取舍，与此前发布的 GPT-6 Astra 共同构成 GPT-6 系列的分层产品矩阵。
+为什么重要：这是 GPT-6 系列继 Astra 之后又一次分层扩产品线的动作——用不同能力/价格档位覆盖更广泛的日常工作场景，是判断 OpenAI 在企业和消费两端定价策略、以及和 Gemini、Claude 等对手打价格/性能组合战的一个关键坐标。
+
+B2 | OpenAI — Better prompt caching for GPT-6
+时间：2026-09-23 05:00
+链接：https://openai.com/index/better-prompt-caching-for-gpt-6
+要点：OpenAI 宣布 GPT-6 的 prompt caching（提示缓存）机制升级，包括更高的缓存命中率、新增诊断工具、可显式设置缓存断点（breakpoints），目的是进一步压低长上下文调用的延迟和成本。
+为什么重要：提示缓存的命中率和可控性直接决定大规模 agent/RAG 应用的实际调用成本——这类基础设施层面的优化，往往比模型本身的能力提升更直接地影响企业客户的真实账单，值得和企业侧的 API 成本核算对照。
+
+B3 | OpenAI — Parallel cuts research time and cost in half with GPT‑6 Astra
+时间：2026-09-22 20:00
+链接：https://openai.com/index/parallel-cuts-time-and-cost-with-astra
+要点：OpenAI 官方案例介绍研究自动化公司 Parallel 使用 GPT-6 Astra 后，其 agent 完成劳动力市场数据的调研与综合分析所需的时间和成本均下降了约一半。
+关键数字：
+- 用 GPT-6 Astra 后，agent 研究耗时降低约 50%
+- 同一任务的成本降低约 50%
+为什么重要：这是 GPT-6 Astra 投入实际生产、并给出可量化效果（时间和成本各减半）的客户案例，是追踪 OpenAI 新一代模型商业化落地速度的一个具体锚点，也为"agent 能否真正降本增效"提供了一份正面证据。
+
+B4 | Stratechery (Ben Thompson) — More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?
+时间：2026-09-23 18:00
+链接：https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/
+要点：Thompson 延续此前"Amazon 封锁 Muse"话题的分析，指出 Meta（Muse 背后力量之一）需要等 Walmart 撑过与 Amazon 的正面较量；同时点出 Expedia 在这场 agent 冲击中试图守住自己的"中间件"角色而非被完全绕过；文章最后抛出一个悬而未决的问题——在 Amazon、Meta/Walmart、Expedia 都已因个人 agent 入口而被迫调整站位的情况下，Google 目前的位置在哪里。
+为什么重要：这条延续了本周"个人 agent 争夺电商/预订入口"的主线，把战场从 Amazon vs Muse 的单一冲突，扩展到 Meta-Walmart 结盟、Expedia 中间件保卫战、以及 Google 缺席这几条并行战线，是判断哪些平台型公司会在 agentic commerce 时代掉队的一个持续追踪点。
+
+📄 论文
+
+Paper1 | arXiv 2609.26761 — A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem
+时间：2026-09-23 01:41
+链接：https://arxiv.org/abs/2609.26761v1
+问题：依赖 Model Context Protocol（MCP）、通过语义匹配从第三方服务器选择工具的 agent，是否会被攻击者用"看起来正常的工具描述+返回结果"劫持，进而做出攻击者想要的行为？
+方法：研究者提出两阶段黑盒攻击框架 A2M——第一阶段（Attraction）优化工具的元数据描述以提高被 agent 调用的概率，第二阶段（Manipulation）利用执行轨迹迭代打磨恶意工具的返回内容，引导 agent 走向攻击者设定的结果；在 LiveMCPBench 上以 GLM-4.6 为直接优化和评测对象，并测试向其他四个模型的迁移效果。
+结果：直接攻击（针对 GLM-4.6 优化）在四类场景下的恶意工具调用率平均达 93.6%，在"认知拒绝服务"场景下把加权 token 成本推高到正常水平的 32.4 倍，在信息窃取、环境完整性破坏、推理误导三类场景下平均攻击成功率达 74.4%；不重新优化、直接迁移到另外四个模型时，对应三项指标降为 63.6%、2.7 倍、24.5%，但仍具有明显攻击效果。
+为什么重要：MCP 正在成为 agent 接入第三方工具的事实标准协议，而这篇论文证明仅靠"工具描述+返回内容"就能在不接触模型权重的黑盒条件下实现平均 93.6% 的恶意调用率，且攻击能跨模型迁移——这是对整个 MCP 生态"工具信任假设"的一次直接证伪，任何基于 MCP 构建生产级 agent 的团队都需要把工具审查和运行时隔离当作现在就要解决的问题。
+
+Paper2 | arXiv 2609.26725 — Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows
+时间：2026-09-23 01:13
+链接：https://arxiv.org/abs/2609.26725v1
+问题："prompt-to-design"这类让产品设计师及非设计背景同事通过对话式 workflow 用 LLM 直接生成原型的 AI 工具，是否真的能节省产品设计工作的时间？此前这类证据在产品设计领域远少于软件工程领域。
+方法：研究者招募 50 名产品设计师和 50 名产品经理做随机对照实验（RCT）：所有人尝试三项标准化设计任务，随机分配是否可使用 Figma Make 完成。
+结果：在完成任务的参与者中，使用 Figma Make 的一组完成时间平均缩短约 20%，且产品经理组的时间节省幅度更大；作者认为 prompt-to-design 工具可能让产品经理更深度参与设计工作，而对专业设计师的帮助则更依赖具体任务类型。
+为什么重要：这是产品设计领域少见的、用真实 RCT 而非案例访谈得出的 AI 效率数据，20% 是一个可以直接拿来和软件工程领域"AI 提效多少"的既有证据做横向比较的具体数字，也提示"AI 对谁更有用"这个问题的答案可能因角色（设计师 vs 产品经理）而系统性不同。
+
+Paper3 | arXiv 2609.26693 — Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation
+时间：2026-09-23 00:48
+链接：https://arxiv.org/abs/2609.26693v1
+问题：在评测本地部署模型的"工具调用（tool-use）"能力时，测出来的分数到底反映的是模型本身的能力，还是本地推理框架（serving stack）本身的实现差异？
+方法：研究者系统检查 Ollama 等本地 serving stack 如何处理标准的 tools= 请求，对比不同模型在同一评测 harness 下、因框架层处理方式不同而产生的表现差异。
+结果：Ollama 会按模型型号用静态模板开关决定是否接受 tools= 请求——部分模型被接受并以纯文本形式返回调用，部分模型原生返回 tool_calls，而 Phi-3 和 Gemma-3 等模型在推理前就被直接拒绝；由于框架没有把"被拒绝"和"重试耗尽"记录为结构化的失败元数据，下游分析容易把这类情况误判为"模型没有发起调用"，从而错误报告出 0% 的调用成功率；补充文本工具列表、同时保留原生调用通道，能大幅恢复被接受模型的实测表现，但统一改用纯文本协议反而会降低 Llama 系模型的表现。
+为什么重要：这说明相当一部分流传的"本地模型 agent/工具调用能力排行榜"可能测的是 Ollama 这类具体 serving stack 的实现细节，而不是模型真实能力——任何依赖本地部署评测结果做选型或做论文对比的团队，都需要先确认评测框架本身是否引入了这种系统性偏差。
+
+Paper4 | arXiv 2609.26760 — Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents
+时间：2026-09-23 01:40
+链接：https://arxiv.org/abs/2609.26760v1
+问题：LLM agent 在处理一连串同类任务时，是否必须每次都在当前任务的上下文里重新"想清楚"该怎么控制流程，还是可以把这些重复出现的控制逻辑沉淀成可复用的代码，只把语义推理部分留给模型？
+方法：研究者提出 Growing Harness——从一个不含任务控制逻辑、只暴露模型和工具接口的"策略无关脚手架"出发，用函数级执行轨迹定位每次失败对应的代码范围，由优化器针对一批失败联合修复，并用"成功优先"的留出集门槛回滚会损害已有能力的修复；在 BrowseComp-Plus 和 WebArena-Verified 上，用 4B 到 120B 三种规模的部署模型做测试。
+结果：在六种"基准+模型"组合中的五种里，Growing Harness 取得最高平均成功率，在第六种里也仅落后最优结果 0.7 个百分点；相比纯靠工具调用（Tool-Calling）的 agent，它把 LLM 调用次数减少 76.0%-91.8%，部署后的推理成本降低 74.4%-98.6%；在 WebArena-Verified 上，不同模型规模下它的成功率始终保持在 44.7%-45.3%，而 Tool-Calling 方案换成 4B 模型后成功率骤降到 6.7%。
+为什么重要：这组数字直接回答了企业部署 agent 时最现实的顾虑——能不能用更小、更便宜的模型跑出接近大模型的效果：把重复性控制逻辑"长"成代码而不是每次重新推理，能同时把推理成本压低一个数量级、还让小模型的表现不再随规模崩塌，这对降低 agent 规模化部署的边际成本是一条可复现的具体路径。
+
+Paper5 | arXiv 2609.26779 — CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents
+时间：2026-09-23 01:55
+链接：https://arxiv.org/abs/2609.26779v1
+问题：长周期编码 agent 需要处理数以百万 token 计的上下文，受限于上下文窗口必须跨会话做"压缩（compaction）"，但常见压缩方法往往在压低成本的同时损伤性能——能不能在有限上下文预算下把压缩做得既省钱又不掉性能？
+方法：研究者提出 CliffCompaction，一种自动压缩技术，关键做法是只对压缩后信息做"忠实截断"而非有损摘要，在 Terminal-Bench 和 KernelBench 上评测，并测试了并行 test-time scaling 场景下不同底层模型的表现。
+结果：CliffCompaction 在受限上下文预算下把成本降低最多 50%，同时维持或提升 Terminal-Bench 上的表现，并在 KernelBench 上刷新效率纪录；在并行 test-time scaling 下，它能以低于两次"全上下文"运行的成本，给 Terminal-Bench 带来超过 10 个百分点的提升，并让 Kimi K2.6 在效果上追平 Opus 4.7，同时以更低成本超过 Opus 4.6 和 GPT-5.3 Codex。
+为什么重要：压缩技术能不能不牺牲性能，直接决定长周期编码 agent 大规模部署的真实成本曲线——"用压缩技术让更便宜的模型打平甚至打过更贵的旗舰模型"这个结果，给"该买贵模型还是花精力优化 harness"这个企业采购决策提供了一个具体的效率-成本参照系。
+
+Paper6 | arXiv 2609.26781 — Agensh: Scaling Organizational Intelligence to 1,024 Agents
+时间：2026-09-23 01:56
+链接：https://arxiv.org/abs/2609.26781v1
+问题：多 agent 系统能靠并发执行降低复杂任务的延迟，但现有多 agent harness 大多依赖中心化的编排者（orchestrator）来分配任务、协调各个 worker，这种架构在扩展到成百上千个 agent 时是否会遇到瓶颈？
+方法：研究者提出 Agensh，一个不依赖中心编排者、由并发 worker 自组织协作的多 agent harness——worker 持续获取上下文、自行认领和分配子任务、执行并共享发现、互相验证结果、异步合并进度，支撑这套循环的是共享工作区、消息接口和共享上下文三个基础设施组件；在 ProgramBench 最难的五个任务上用 GPT-5.6-sol（high）做测试，把 agent 数量从 1 扩展到 128，再到 1,024。
+结果：agent 数量从 1 扩到 128 时，平均最终测试通过率从 19.31% 提升到 28.78%，相对提升约 49%；规模更大的组织能更早达到同等通过率；在 pandoc 任务上，把 agent 数量从 1 扩到 1,024，最终测试通过率从 33.89% 提升到 55.06%；worker 的协作方式会随组织规模扩大逐渐形成并标准化。
+为什么重要：这篇论文第一次把"agent 数量"本身证明为一个独立、可复现的 scaling 维度——在硬延迟约束或时间预算之下，单纯堆多 agent 数量（而不是换更强的底层模型）就能带来接近 50% 的相对性能提升，这对如何分配"多花钱买更强模型"还是"多花钱堆更多 agent 实例"这类算力预算决策，提供了一个新的参照维度。
+
+Paper7 | arXiv 2609.26708 — Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning
+时间：2026-09-23 01:01
+链接：https://arxiv.org/abs/2609.26708v1
+问题：量化感知蒸馏（QAD）能挽回低于 3-bit 量化模型在短答案问答上损失的大部分性能，但在数学和代码这类需要长链条推理的任务上依然表现很差（容易陷入重复循环、耗尽解码预算也给不出答案）——问题出在哪，能不能修复？
+方法：研究者将这个差距归因于"量化放大的暴露偏差（exposure bias）"：QAD 只在固定的语料前缀上训练，而量化带来的偏差会随模型自己的自回归轨迹不断累积、放大。为此，他们在 QAD 检查点基础上引入"在策略蒸馏（on-policy distillation, OPD）"阶段——学生模型沿部署时实际使用的量化前向路径自己生成内容，再由一个冻结的全精度教师模型对学生自己生成的前缀给出反馈，同时结合逐 token 的密集指导和基于任务验证器的奖励；在 4 个模型、2.79-bit 和 1.88-bit 两个有效比特数下做测试。
+结果：OPD 把 MATH-500 上相对 BF16 基准的性能保留率从 35% 提升到 70%，把 HumanEval 上的保留率从 66% 提升到 91%，同时不损害短答案任务的表现，推理能力的提升明显超过同等训练预算下继续做"教师强制"QAD 训练的效果。
+为什么重要：sub-3-bit 量化是把大模型塞进更便宜硬件、降低推理成本的关键路径，但此前这类极端量化会让模型在数学/代码这类真正体现"智能"的长链推理任务上明显变笨——这篇论文把长推理能力的保留率几乎翻倍，直接影响"能不能把旗舰模型量化到消费级硬件还保留推理能力"这个成本-性能权衡的可行边界。
+
+🗂 其余速览
+- OpenAI extends cyber access to Ukraine for civilian defense https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense
+- Grab and OpenAI bring practical AI skills to Southeast Asia https://openai.com/index/grab-openai-ai-skills-southeast-asia
+- Amjad Masad on Rethinking College for the AI Era https://a16z.simplecast.com/episodes/amjad-masad-on-rethinking-college-for-the-ai-era-sOmuMQGQ
+- Why Dario Amodei and Sam Altman Are Faking the AI Doomsday Crisis | The Weekly Wrap https://www.youtube.com/watch?v=Q1jSJG1iBL8
+- Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs https://arxiv.org/abs/2609.26796v1
+- SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue https://arxiv.org/abs/2609.26780v1
+- SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving https://arxiv.org/abs/2609.26777v1
+- Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It https://arxiv.org/abs/2609.26758v1
+- Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen https://arxiv.org/abs/2609.26749v1
+- The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence https://arxiv.org/abs/2609.26718v1
+- TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits https://arxiv.org/abs/2609.26711v1
+- Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning https://arxiv.org/abs/2609.26704v1
+- Detecting GPT-Assisted Writing Using Interpretable Stylometric Features https://arxiv.org/abs/2609.26687v1
+- From Alignment to Access Control: A Framework for GenAI Policy Enforcement https://arxiv.org/abs/2609.26682v1
+- A Spectral Theory of Grokking: Weight Decay induces Feature Learning https://arxiv.org/abs/2609.26679v1
+- MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning https://arxiv.org/abs/2609.26667v1
+- Discovery-Driven Integration of Disjoint Tables via Text https://arxiv.org/abs/2609.26658v1
+- The Delegation Blind Spot: Auditing Product Decisions from Agent Choices https://arxiv.org/abs/2609.26642v1
+
+想深读某一条，直接说"展开 Paper1"之类即可。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
