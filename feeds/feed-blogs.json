@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "published": "2026-09-23T13:00:00+00:00",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
+    },
+    {
+      "id": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?",
+      "url": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
+      "published": "2026-09-23T10:00:00+00:00",
+      "summary": "Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?"
+    },
+    {
+      "id": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "published": "2026-09-23T00:00:00+00:00",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia."
+    },
+    {
       "id": "https://openai.com/index/better-prompt-caching-for-gpt-6",
       "source": "openai",
       "source_name": "OpenAI",
@@ -35,35 +62,8 @@
       "url": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
       "published": "2026-09-22T10:00:00+00:00",
       "summary": "Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat."
-    },
-    {
-      "id": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Priorities and principles for effective third party assessments",
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards."
-    },
-    {
-      "id": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "published": "2026-09-21T12:00:00+00:00",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
-    },
-    {
-      "id": "https://stratechery.com/2026/frontier-overhangs/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "Frontier Overhangs",
-      "url": "https://stratechery.com/2026/frontier-overhangs/",
-      "published": "2026-09-21T10:00:00+00:00",
-      "summary": "Pacing the frontier may be sincere, but it would also be strategically useful for the frontier labs to have time to reduce overhangs caused by model advancement."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-22T23:59:00.585113+00:00"
+  "generated_at": "2026-09-23T14:46:18.368825+00:00"
 }
