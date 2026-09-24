@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-09-23T14:47:03.361983+00:00",
+  "generated_at": "2026-09-24T00:13:47.943689+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "cbcb6353-9937-4c25-9f83-93e1f096d3e6",
+      "link": "https://allinchamathjason.libsyn.com/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying-product-market-fit-why-private-equity-cant-compete",
+      "channel": "All-In Podcast",
+      "title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+      "pub_date": "2026-09-23T23:00:00+00:00",
+      "transcript_path": "feeds/transcripts/ec87f3def3ee728ba19c456a.txt",
+      "transcript_chars": 4210,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-09-24T00:13:47.943689+00:00",
+      "last_seen_at": "2026-09-24T00:13:47.943689+00:00",
+      "expires_at": "2026-10-08T00:13:47.943689+00:00"
+    },
     {
       "guid": "ebe0e737-5995-476f-8d20-673400e3ec13",
       "link": "https://allinchamathjason.libsyn.com/blake-scholl-why-plane-speed-stalled-supersonic-commercial-flight-revolutionizing-the-engine",
@@ -12,8 +25,8 @@
       "transcript_chars": 3882,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-22T14:28:08.827935+00:00",
-      "last_seen_at": "2026-09-23T14:47:03.361983+00:00",
-      "expires_at": "2026-10-07T14:47:03.361983+00:00"
+      "last_seen_at": "2026-09-24T00:13:47.943689+00:00",
+      "expires_at": "2026-10-08T00:13:47.943689+00:00"
     },
     {
       "guid": "053073fc-e856-48e9-9312-74082d4761ee",
@@ -25,8 +38,8 @@
       "transcript_chars": 3819,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-22T00:35:46.780192+00:00",
-      "last_seen_at": "2026-09-23T14:47:03.361983+00:00",
-      "expires_at": "2026-10-07T14:47:03.361983+00:00"
+      "last_seen_at": "2026-09-24T00:13:47.943689+00:00",
+      "expires_at": "2026-10-08T00:13:47.943689+00:00"
     },
     {
       "guid": "a2a542d5-2feb-441a-a523-910e16c2d193",

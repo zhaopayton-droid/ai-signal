@@ -1,6 +1,43 @@
 {
   "podcasts": [
     {
+      "channel": "All-In Podcast",
+      "domain": "ai",
+      "guid": "cbcb6353-9937-4c25-9f83-93e1f096d3e6",
+      "title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+      "pub_date": "2026-09-23T23:00:00+00:00",
+      "link": "https://allinchamathjason.libsyn.com/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying-product-market-fit-why-private-equity-cant-compete",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/Luca_Ferrari_AIS26_AUDIO_v88.mp3?dest-id=1928300",
+      "audio_bytes": 36752704,
+      "duration": "25:30",
+      "description": "<p dir=\"ltr\">(0:00) Luca Ferrari joins the Besties!</p> <p dir=\"ltr\">(1:56) Crashing an AI startup, the $40,000 restart & buying product market fit</p> <p dir=\"ltr\">(4:59) The in-house tech stack, shrinking the teams & the 10 out of 10 standard</p> <p dir=\"ltr\">(9:55) Debt as an accelerant, what happens if rates rise & who else is bidding</p> <p dir=\"ltr\">(14:58) Inside the deal desk: what gets acquired, why they don't build & the founder question</p> <p dir=\"ltr\">(20:22) Building a tech giant out of Milan, Europe's talent pool & the outsider advantage</p> <p><strong> </strong></p> <p dir=\"ltr\">Thanks to our partners for making this possible!</p> <p dir=\"ltr\">IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p dir=\"ltr\">Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. http://oracle.com/ai</p> <p dir=\"ltr\">EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p dir=\"ltr\">Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href= \"http://www.meta.com\">http://www.meta.com</a></p> <p dir=\"ltr\">Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href=\"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p dir=\"ltr\">Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwallex.com\">http://airwallex.com</a></p> <p dir=\"ltr\">PayPal has been revolution",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://allinchamathjason.libsyn.com/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying-product-market-fit-why-private-equity-cant-compete",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/ec87f3def3ee728ba19c456a.txt",
+      "transcript_chars": 4210
+    },
+    {
+      "channel": "SemiAnalysis",
+      "domain": "ai",
+      "guid": "d5619c2f-7fe2-4523-bc0d-d15a03dbfbb1",
+      "title": "Ep. 033 - ClusterMAX 3.0 Is Here! Neoclouds Ranked (Neoclouds, GPUs) | Sam Harshe, Pratt Bhatt, Jordan Nanos",
+      "pub_date": "2026-09-23T22:50:00+00:00",
+      "link": "https://podcasters.spotify.com/pod/show/jordan-nanos/episodes/Ep--033---ClusterMAX-3-0-Is-Here--Neoclouds-Ranked-Neoclouds--GPUs--Sam-Harshe--Pratt-Bhatt--Jordan-Nanos-e3pa84t",
+      "audio_url": "https://anchor.fm/s/10fbee758/podcast/play/126213725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-23%2F432540098-44100-2-2061fb4efe4a.mp3",
+      "audio_bytes": 65862425,
+      "duration": "01:08:36",
+      "description": "<p>ClusterMAX 3.0 is here. Sam Harshe (@sharshe02) and Pratt Bhatt (@PrathmeshBhat19) join Jordan Nanos (@jordannanos) after months of testing 77 GPU clouds. Some moved up, some moved down. </p><p>Health checks, cache hit rates, NCCL recipes, agentic coding on clusters, a Linux kernel bug, neocloud security, SLAs and financing, NVIDIA&#39;s backstops, five-year-old H100s, and hosted RL training.<br></p><p>Read the full ClusterMAX 3.0 report: https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard<br>ClusterMAX inquiries: <a href=\"mailto:clustermax@semianalysis.com\">clustermax@semianalysis.com</a></p><p><br></p><p>0:00 Cold Open</p><p>1:32 The Rankings</p><p>6:58 Health Checks</p><p>13:26 Endpoint Cache Misses</p><p>16:40 Networking and NCCL</p><p>22:52 Vibe-Coded Infra</p><p>31:27 Bug Hunting</p><p>38:36 Security</p><p>45:43 Financing Neoclouds</p><p>56:33 Hosted Training and RL</p>\n",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "a16z",
       "domain": "ai",
       "guid": "ad703a5b-581f-4220-a4aa-55ad60535ace",
@@ -183,25 +220,6 @@
       "transcript_chars": 0
     },
     {
-      "channel": "All-In Podcast",
-      "domain": "ai",
-      "guid": "a2a542d5-2feb-441a-a523-910e16c2d193",
-      "title": "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
-      "pub_date": "2026-09-20T20:49:00+00:00",
-      "link": "https://allinchamathjason.libsyn.com/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml-10-the-50b-game-ad-market",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/Adam_Foroughi_AIS26_AUDIO_v88.mp3?dest-id=1928300",
-      "audio_bytes": 34403871,
-      "duration": "23:52",
-      "description": "<p dir=\"ltr\">(0:00) Adam Foroughi joins the Besties!</p> <p dir=\"ltr\">(3:07) Discovery vs search & is your phone listening?</p> <p dir=\"ltr\">(10:04) IPO tumble & becoming your own best investor</p> <p dir=\"ltr\">(16:00) Privacy rules, Apple's crackdown & how agents change people's shopping</p> <p dir=\"ltr\">(20:00) How a lean team beats the giants, margin moats & building in China</p> <p dir=\"ltr\"> </p> <p dir=\"ltr\">Thanks to our partners for making this possible!</p> <p dir=\"ltr\">IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p dir=\"ltr\">Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. <a href=\"http://oracle.com/ai\">http://oracle.com/ai</a></p> <p dir=\"ltr\">EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p dir=\"ltr\">Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href= \"http://www.meta.com\">http://www.meta.com</a></p> <p dir=\"ltr\">Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href=\"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p dir=\"ltr\">Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwallex.com\">http://airwallex.com</a></p> <p dir=\"ltr\">PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, personalized, a",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://allinchamathjason.libsyn.com/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml-10-the-50b-game-ad-market",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/5d492beca082beab6a0326ff.txt",
-      "transcript_chars": 3959
-    },
-    {
       "channel": "SemiAnalysis",
       "domain": "ai",
       "guid": "fd07af4b-4e94-4e1b-8b19-10a1d811e550",
@@ -271,28 +289,6 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "WisdomX",
-      "domain": "ai",
-      "person": "Naval Ravikant",
-      "search_query": "Naval Ravikant AI interview",
-      "guid": "yt:VjgvfXRCn24",
-      "title": "Walk Alone Build Yourself! | Powerful Motivational Naval Ravikant | Discipline Self Growth & Success",
-      "pub_date": "",
-      "pub_date_source": "unverified",
-      "publish_date_unverified": true,
-      "first_seen": "2026-09-17T00:03:44.277622+00:00",
-      "link": "https://www.youtube.com/watch?v=VjgvfXRCn24",
-      "audio_url": "",
-      "duration": "19:28",
-      "description": "NavalRavikant, #WalkAlone, #SelfDiscipline, #SelfImprovement, #BuildYourself, #PersonalGrowth This powerful motivational ...",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": "VjgvfXRCn24",
-      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=VjgvfXRCn24! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
     },
     {
@@ -470,11 +466,33 @@
       "transcript_video_id": "Q1jSJG1iBL8",
       "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Q1jSJG1iBL8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
+    },
+    {
+      "channel": "Think School",
+      "domain": "ai",
+      "person": "Sam Altman",
+      "search_query": "Sam Altman interview",
+      "guid": "yt:ky6jesFvIqY",
+      "title": "The AI Race Must Stop | Why Elon Musk, Sam Altman & Dario Amodei Are Warning the World?",
+      "pub_date": "",
+      "pub_date_source": "unverified",
+      "publish_date_unverified": true,
+      "first_seen": "2026-09-24T00:13:23.388344+00:00",
+      "link": "https://www.youtube.com/watch?v=ky6jesFvIqY",
+      "audio_url": "",
+      "duration": "19:11",
+      "description": "I use Vested to invest in US Stocks. EXCLUSIVE $10 bonus on 1st Deposit if you sign up using this link: ...",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "ky6jesFvIqY",
+      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ky6jesFvIqY! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nWays to work around this are explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_chars": 0
     }
   ],
   "errors": [
     "Latent Space: https://api.substack.com/feed/podcast/1084089.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-23T14:46:18.368825+00:00"
+  "generated_at": "2026-09-24T00:13:17.569657+00:00"
 }
