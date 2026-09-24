@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg",
+      "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
+      "published": "2026-09-24T10:00:00+00:00",
+      "summary": "An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures."
+    },
+    {
       "id": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
@@ -80,17 +89,8 @@
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "published": "2026-09-23T00:00:00+00:00",
       "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown."
-    },
-    {
-      "id": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "Amazon Blocks Muse, Amazon’s Moat, Aggregator v Aggregator",
-      "url": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
-      "published": "2026-09-22T10:00:00+00:00",
-      "summary": "Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-24T00:13:17.569657+00:00"
+  "generated_at": "2026-09-24T14:41:49.587211+00:00"
 }
