@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "published": "2026-09-24T16:20:39+00:00",
+      "summary": "Gemini 3.8 Live with Live Avatar brings near real-time visual presence to Gemini’s conversational AI."
+    },
+    {
       "id": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
       "source": "stratechery",
       "source_name": "Stratechery (Ben Thompson)",
@@ -8,6 +17,15 @@
       "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
       "published": "2026-09-24T10:00:00+00:00",
       "summary": "An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures."
+    },
+    {
+      "id": "https://www.anthropic.com/research/project-swap",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Project Swap: What happens when agents trade for us?",
+      "url": "https://www.anthropic.com/research/project-swap",
+      "published": "2026-09-24T00:00:00+00:00",
+      "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes."
     },
     {
       "id": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
@@ -92,5 +110,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-24T14:41:49.587211+00:00"
+  "generated_at": "2026-09-25T00:15:39.697931+00:00"
 }
