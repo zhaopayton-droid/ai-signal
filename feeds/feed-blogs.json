@@ -55,51 +55,6 @@
       "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet."
     },
     {
-      "id": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "published": "2026-09-23T13:00:00+00:00",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure."
-    },
-    {
-      "id": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "published": "2026-09-23T12:00:00+00:00",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-    },
-    {
-      "id": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "published": "2026-09-23T12:00:00+00:00",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy."
-    },
-    {
-      "id": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "published": "2026-09-23T12:00:00+00:00",
-      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day."
-    },
-    {
-      "id": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?",
-      "url": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
-      "published": "2026-09-23T10:00:00+00:00",
-      "summary": "Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?"
-    },
-    {
       "id": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -110,5 +65,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-25T00:15:39.697931+00:00"
+  "generated_at": "2026-09-25T15:03:17.591584+00:00"
 }

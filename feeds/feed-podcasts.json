@@ -1,6 +1,42 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "domain": "ai",
+      "guid": "c61919bb-5988-4aef-825f-ae983752f1fe",
+      "title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
+      "pub_date": "2026-09-25T14:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/the-reputation-graph-of-silicon-valley-introducing-cosign-qLcU00IT",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/8edd75ff-d524-4b42-805a-b2a89a86f10d/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=8edd75ff-d524-4b42-805a-b2a89a86f10d&feed=JGE3yC0V",
+      "audio_bytes": 48383060,
+      "duration": "00:50:23",
+      "description": "<p>a16z’s Erik Torenberg sits down with Josh Elman, Olivia Moore, and David Booth to introduce Cosign, a new product built around professional reputation and the people, companies, and products you’re willing to put your name behind.</p><p>They unpack a simple idea at the heart of Silicon Valley: some of the most valuable professional signals aren’t credentials, but who believes in you. From the mentor who shaped your career to the colleague you’d work with anywhere or the young builder you think everyone should be watching, Cosign is an attempt to make those signals more visible and durable.</p><p>They also discuss why human endorsements may become more valuable as AI makes outreach and information abundant, what existing professional networks get right and miss, and how making reputation more legible could help talented people get discovered earlier, find collaborators, and carry the work they’ve done behind the scenes into whatever they do next.</p><p><br>Resources:</p><p>Follow Josh Elman on X:<a href=\"https://x.com/joshelman\" rel=\"noopener noreferrer\"> <u>https://x.com/joshelman</u></a></p><p>Follow Olivia Moore on X: <a href=\"https://x.com/omooretweets\" rel=\"noopener noreferrer\"><u>https://x.com/omooretweets</u></a></p><p>Follow David Booth on X: <a href=\"https://x.com/david__booth\" rel=\"noopener noreferrer\"><u>https://x.com/david__booth</u></a></p><p>Follow Cosign: <a href=\"https://x.com/cosign_build\" rel=\"noopener noreferrer\"><u>https://x.com/cosign_build</u></a></p><p>Read more about Cosign: <a href=\"https://www.a16z.news/how-silicon-valley-knows-its-people\" rel=\"noopener noreferrer\"><u>https://www.a16z.news/how-silicon-valley-knows-its-people</u></a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.s",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Sharp Tech with Ben Thompson",
+      "domain": "ai",
+      "guid": "https://sharptech.fm/member/episode/preview-three-weeks-of-meta-momentum-the-ultimate-muse-upside-a-king-kong-vs-godzilla-aggregator-war",
+      "title": "(Preview) Three Weeks of Meta Momentum, The Ultimate Muse Upside, A King Kong vs. Godzilla Aggregator War",
+      "pub_date": "2026-09-25T08:59:14+00:00",
+      "link": "https://sharptech.fm/member/episode/preview-three-weeks-of-meta-momentum-the-ultimate-muse-upside-a-king-kong-vs-godzilla-aggregator-war",
+      "audio_url": "https://sharptech.fm/assets/sharptech0293_preview.mp3?access_token=WtLvUDEHgB7rE4MbAfmDVT",
+      "audio_bytes": 25761066,
+      "duration": "00:26:18",
+      "description": "Ben and Andrew begin with the Meta Connect keynote and a simple question: is this the first time since 2021 that Meta has been cool? From there, new VR glasses, the Muse Charm, a basketball analogy for Meta Connect in 2026, and the infrastructure and talent investments that have helped Muse resonate over the past few weeks. Then: An emailer shares his Muse epiphany, a potential secondary effect of agents saving users money, why Muse is not sharing user data with Meta, and the ultimate “aggregator of aggregators” upside. Then: Extended thoughts on the Muse vs. Amazon tensions, why Meta’s Walmart deal was potentially crucial, and Amazon’s moat in logistics (and returns) that may prove durable in the agents era. At the end: A CarPlay victory lap, and a round of AI Show and Tell with a wedding planner, a SunOS coder, and a fantasy football league. ",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "No Priors",
       "domain": "ai",
       "guid": "e2eb4b88-b7c1-11f1-a5c5-4b2557d321bc",
@@ -125,61 +161,6 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: text too sparse to be a transcript (4358 chars for 55 min); youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "a16z",
-      "domain": "ai",
-      "guid": "25d19aed-44c4-4885-8cdb-0b5226cf930d",
-      "title": "Why a16z is Building a New School for the AI Era | Ben Horowitz",
-      "pub_date": "2026-09-22T12:05:00+00:00",
-      "link": "https://a16z.simplecast.com/episodes/why-a16z-is-building-a-new-school-for-the-ai-era-ben-horowitz-yv3mnCj_",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/53980240-caa0-48e0-a6c5-3a16498749e9/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=53980240-caa0-48e0-a6c5-3a16498749e9&feed=JGE3yC0V",
-      "audio_bytes": 41314955,
-      "duration": "00:43:02",
-      "description": "<p>Ben Horowitz and Erik Torenberg sit down with Gagan Biyani to introduce the Horowitz and Andreessen Academy and discuss a bigger question: what should education look like when AI is rapidly changing the skills people need to build, work, and create?</p><p>Ben and Gagan explain why they believe learning should be more focused on doing rather than studying about doing, with students building real projects, developing people skills, and working alongside companies and builders in San Francisco. The goal isn’t to replace college for everyone, but to create a different path for young people who already know they want to build.</p><p>They also discuss why AI could make this an unusually powerful time to be young, how project-based learning changes when everyone has access to powerful tools, why failure can be valuable when it produces real learning, and what it takes to develop the judgment and people skills that can't simply be learned from a textbook.</p><p><br>Resources:</p><p>Follow Gagan Biyani on X: <a href=\"https://x.com/gaganbiyani\" rel=\"noopener noreferrer\"><u>https://x.com/gaganbiyani</u></a></p><p>Follow Ben Horowitz on X:<a href=\"https://x.com/bhorowitz\" rel=\"noopener noreferrer\"> <u>https://x.com/bhorowitz</u></a><br>&nbsp;</p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\">Spotify</a></p><p>Listen to the a16z Show on <a href=\"https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\">Apple Podcasts</a></p><p>Follow our host: <a href=\"https://twitter.com/eriktorenberg\">https://twitter.com/eriktorenberg</a></p><p> </p><p>Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "All-In Podcast",
-      "domain": "ai",
-      "guid": "ebe0e737-5995-476f-8d20-673400e3ec13",
-      "title": "Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
-      "pub_date": "2026-09-22T09:00:00+00:00",
-      "link": "https://allinchamathjason.libsyn.com/blake-scholl-why-plane-speed-stalled-supersonic-commercial-flight-revolutionizing-the-engine",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/Blake_Scholl_AIS26_AUDIO_v99.mp3?dest-id=1928300",
-      "audio_bytes": 25462076,
-      "duration": "17:40",
-      "description": "<p dir=\"ltr\">(0:00) Welcome Blake Scholl!</p> <p dir=\"ltr\">(5:11) Solving the sonic boom & legalizing supersonic flight</p> <p dir=\"ltr\">(7:59)  The pivot to powering data centers</p> <p dir=\"ltr\">(10:38) Jason joins: data center demand, private jets & what winning looks like</p> <p><strong> </strong></p> <p dir=\"ltr\">Thanks to our partners for making this possible!</p> <p dir=\"ltr\">IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p dir=\"ltr\">Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. http://oracle.com/ai</p> <p dir=\"ltr\">EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p dir=\"ltr\">Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href= \"http://www.meta.com\">http://www.meta.com</a></p> <p dir=\"ltr\">Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href=\"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p dir=\"ltr\">Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwallex.com\">http://airwallex.com</a></p> <p dir=\"ltr\">PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, personalized, and secure, PayPal empowers consumers and businesses in approximately 200 markets to join and thrive in the global economy. For more i",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://allinchamathjason.libsyn.com/blake-scholl-why-plane-speed-stalled-supersonic-commercial-flight-revolutionizing-the-engine",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/081340fbc09826d3d23f00bf.txt",
-      "transcript_chars": 3882
-    },
-    {
-      "channel": "Invest Like the Best",
-      "domain": "invest",
-      "guid": "ea3567a0-b511-11f1-b31a-f738f618d5f9",
-      "title": "Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]",
-      "pub_date": "2026-09-22T08:00:00+00:00",
-      "link": "",
-      "audio_url": "https://traffic.megaphone.fm/CLS7922860814.mp3",
-      "audio_bytes": 0,
-      "duration": "3864",
-      "description": "Gabe Stengel is the co-founder and CEO of Rogo, the AI platform for finance. He believes the best investors will spend the next several years reinventing their firms around AI, and Rogo is trying to build the infrastructure that allows them to do it.\n\nWe discuss how Rogo evolved alongside the frontier models, why the last mile and the harness around the models matter so much, what happens when every portfolio manager can deploy thousands of agents against a problem, and how AI could transform the way capital is raised, assets are priced, and deals get done.\n\nWe also cover which investing skills become more valuable as AI improves, the move from seat-based to outcome-based pricing, Rogo’s internal company brain called Shrek, the 40 investor rejections Gabe received before his Series A, why building in applied AI requires extraordinary aggression, and what it takes to become a black hole for talent and capital.\n\nPlease enjoy my conversation with Gabe Stengel.\n\nFor the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠.&nbsp;\n\n-----\n\nBecome a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠.\n\n-----\n\n⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus.\n\n-----\n\nTrusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠.&nbsp;\n\n-----\n\nWorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything ente",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: No episode link; youtube: No YouTube video id in link",
       "transcript_chars": 0
     },
     {
@@ -567,5 +548,5 @@
     "Latent Space: https://api.substack.com/feed/podcast/1084089.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/1084089.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/1084089.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Lenny's Podcast: https://api.substack.com/feed/podcast/10845.rss attempt 1/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 2/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | https://api.substack.com/feed/podcast/10845.rss attempt 3/3: Client error '403 Forbidden' for url 'https://api.substack.com/feed/podcast/10845.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-25T00:15:39.697931+00:00"
+  "generated_at": "2026-09-25T15:03:17.591584+00:00"
 }

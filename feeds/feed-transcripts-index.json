@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T00:16:39.245045+00:00",
+  "generated_at": "2026-09-25T15:04:21.485003+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 4210,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-24T00:13:47.943689+00:00",
-      "last_seen_at": "2026-09-25T00:16:39.245045+00:00",
-      "expires_at": "2026-10-09T00:16:39.245045+00:00"
+      "last_seen_at": "2026-09-25T15:04:21.485003+00:00",
+      "expires_at": "2026-10-09T15:04:21.485003+00:00"
     },
     {
       "guid": "ebe0e737-5995-476f-8d20-673400e3ec13",
@@ -144,19 +144,6 @@
       "cached_at": "2026-09-09T23:49:51.195448+00:00",
       "last_seen_at": "2026-09-12T13:25:15.622612+00:00",
       "expires_at": "2026-09-26T13:25:15.622612+00:00"
-    },
-    {
-      "guid": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
-      "link": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
-      "channel": "Dwarkesh Patel",
-      "title": "Pretraining progress is mostly coming from data",
-      "pub_date": "2026-09-08T16:10:16+00:00",
-      "transcript_path": "feeds/transcripts/aa99a0237aab2b167d04c5cb.txt",
-      "transcript_chars": 17992,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-08T23:50:05.397749+00:00",
-      "last_seen_at": "2026-09-11T14:08:21.125938+00:00",
-      "expires_at": "2026-09-25T14:08:21.125938+00:00"
     }
   ]
 }
