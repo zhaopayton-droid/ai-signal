@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T00:22:15.184651+00:00",
+  "generated_at": "2026-09-26T14:13:35.998702+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 4210,
       "transcript_source": "episode_page",
       "cached_at": "2026-09-24T00:13:47.943689+00:00",
-      "last_seen_at": "2026-09-26T00:22:15.184651+00:00",
-      "expires_at": "2026-10-10T00:22:15.184651+00:00"
+      "last_seen_at": "2026-09-26T14:13:35.998702+00:00",
+      "expires_at": "2026-10-10T14:13:35.998702+00:00"
     },
     {
       "guid": "ebe0e737-5995-476f-8d20-673400e3ec13",
@@ -131,19 +131,6 @@
       "cached_at": "2026-09-11T23:52:43.541391+00:00",
       "last_seen_at": "2026-09-15T14:42:27.511916+00:00",
       "expires_at": "2026-09-29T14:42:27.511916+00:00"
-    },
-    {
-      "guid": "fcc44f37-f242-4730-a77c-5f3d83c24fa9",
-      "link": "https://deepmind.com/podcast",
-      "channel": "Google DeepMind Podcast",
-      "title": "Can AI help us better predict the weather?",
-      "pub_date": "2026-09-09T16:08:26+00:00",
-      "transcript_path": "feeds/transcripts/5b7d7af06b5c1eff5d3cddd4.txt",
-      "transcript_chars": 18655,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-09T23:49:51.195448+00:00",
-      "last_seen_at": "2026-09-12T13:25:15.622612+00:00",
-      "expires_at": "2026-09-26T13:25:15.622612+00:00"
     }
   ]
 }
