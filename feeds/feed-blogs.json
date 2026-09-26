@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://openai.com/index/proaction",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "published": "2026-09-25T19:00:00+00:00",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
+    },
+    {
+      "id": "https://stratechery.com/2026/begun-the-aggregator-wars-have/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "2026.39: Begun, the Aggregator Wars Have",
+      "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have/",
+      "published": "2026-09-25T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of September 21, 2026, including Meta vs. Amazon, GM bending the knee to CarPlay, and profiling the profiler."
+    },
+    {
+      "id": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "published": "2026-09-25T00:00:00+00:00",
+      "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills"
+    },
+    {
       "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
@@ -26,44 +53,8 @@
       "url": "https://www.anthropic.com/research/project-swap",
       "published": "2026-09-24T00:00:00+00:00",
       "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes."
-    },
-    {
-      "id": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "published": "2026-09-23T16:00:57+00:00",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI."
-    },
-    {
-      "id": "https://openai.com/index/two-years-of-openai-academy",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "published": "2026-09-23T16:00:00+00:00",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities."
-    },
-    {
-      "id": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "published": "2026-09-23T15:25:14+00:00",
-      "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet."
-    },
-    {
-      "id": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Claude discovers a novel enzyme system",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "published": "2026-09-23T00:00:00+00:00",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown."
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-25T15:03:17.591584+00:00"
+  "generated_at": "2026-09-26T00:21:19.213483+00:00"
 }
