@@ -1,0 +1,28 @@
+🛫 起飞了 | AI Signal - 2026年9月28日
+⚠️ X/Twitter 数据源已 27 小时未更新，相关条目可能滞后。
+
+今天数据源更新很薄，够格的新信号只有两条，但正好接成一条线：从Guillermo Rauch对"AI生成的slop正在稀释人类理解力"的警告，到YC播客里"robot-use agents"——通用大模型不靠专用训练就能操控不同机器人——的新框架，同一个通用性正在从写代码蔓延到操控物理世界，而"我们到底理解不理解AI在做什么"的问题也跟着从代码审查蔓延到了物理安全。
+
+💬 X/Twitter
+
+X1 | Guillermo Rauch (Vercel) (@rauchg) — Reject non-understanding.
+时间：2026-09-27 04:08
+链接：https://x.com/rauchg/status/2103939888513274147
+信息：Rauch提出"slop grenades"（垃圾内容手雷）的说法，警告低质量、未经核实的AI生成文字正在让人产生阅读疲劳，进而让"读"这件事本身被系统性打折；他举例说有一条关于"性能提升"的推文在网上传疯了，被归因于某次编译器改动，但那条PR描述里AI自己写明真正原因是算法和数据结构变了、跟编译器无关，暗示同样的收益换个办法也能拿到——传播者根本没读PR描述就把结论传开了。他强调希望AI是用来增进人类对世界的理解和认知，而不是被拿来当作免检的结论生成器。
+为什么重要：这是一条少见的、把"AI生成内容的可信度"问题落到具体案例（一次被传错因的性能优化PR）上的分析，指出的风险不是AI写错代码，而是人已经放弃核实AI给出的因果解释——对判断AI辅助开发/AI辅助传播的真实风险，这比空喊"AI会产生幻觉"更具体。
+
+🎙️ 播客
+
+P1 | Y Combinator Startup Podcast (Decoded) — Robot-Use Agents: Why General-Purpose Models May Win in Robotics
+时间：2026-09-26 23:10
+链接：https://podcasters.spotify.com/pod/show/ycombinator/episodes/Robot-Use-Agents-Why-General-Purpose-Models-May-Win-in-Robotics-e3pe354
+要点：节目援引MIT教授Philip Isola的一篇文章，提出"robot-use agents"概念——即通用大模型不需要针对特定机器人做大量专用训练，就能控制不同硬件、编写控制策略、学会新的物理任务，类比的是coding agent"写代码能力可以泛化到软件之外"这件事的物理世界版本。对谈嘉宾来自Waddle Labs和RoboCurve两家初创，他们做的"code-as-policies"和视觉-语言-动作（VLA）模型demo被认为是这个说法兴起的直接推动力；讨论也涉及要让这类系统在真实世界里可用，需要什么样的harness（执行框架）和评测体系。
+为什么重要：如果"通用模型泛化到机器人控制"这个判断站得住，意味着机器人赛道的护城河可能从"专用机器人模型/数据"转移到"通用大模型+轻量适配层"，这对机器人初创的估值逻辑和大模型厂商往物理世界扩张的战略都有直接影响，值得持续跟踪Waddle Labs、RoboCurve这类公司后续是否有更具体的产品/融资数字。
+
+🗂 其余速览
+- In 2025 a misaligned Anthropic model hacked the US Government looking for the Furry NSA chat https://x.com/dylan522p/status/2103631387287052757
+- Rubin HBM Despec = Nvidia cutting coke https://x.com/dylan522p/status/2103883333067485599
+
+可以在 Claude Code 里说「展开 P1」或「展开 X1」深读。
+
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
