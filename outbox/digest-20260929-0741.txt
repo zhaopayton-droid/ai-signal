@@ -1,0 +1,63 @@
+🛫 起飞了 | AI Signal - 2026年9月29日
+⚠️ X/Twitter 数据源已 51 小时未更新，相关条目可能滞后。
+
+今天最实的一条数字来自一档投资播客而不是发布会：Instinct创始人Noah Shinn透露，这个一年前还是邀请制demo的"个人agent"，现在每年有超过10亿美元资金按抽成模式流经它，且完全靠口碑保持日环比约10%的增长，创始人本人近40%的时间花在想compute基础设施。这恰好和同一天Stratechery抛出的判断对上了——agent才是终极的聚合者(Aggregator)，App只是手段不是目的；当一个agent真的开始替用户下单、订票、管理信箱，理论和真实收入表在同一天碰到了一起。
+
+🎙️ 播客
+
+P1 | Invest Like the Best — Noah Shinn - Building Instinct: The Personal Agent - [Invest Like the Best, EP.493]
+时间：2026-09-28 20:05
+链接：https://colossus.com/episode/instinct-the-personal-agent/
+要点：Noah Shinn是个人agent产品Instinct的创始人，这个agent能像人一样接收用户的短信、电话、邮件指令，拥有自己的手机号和电脑，几乎能替用户完成线上能做的所有事情。Instinct上线约一年，目前仍是邀请制，完全靠口碑保持约10%的日环比增长，不投放营销。对谈中他谈到不同用户建立起对agent的信任（把信用卡、邮箱、日历交给它）需要多长时间、两个用户的agent之间如何通过"可信网络"直接互相协调，以及为什么他明确拒绝做广告模式，坚持agent不能被诱导做违背用户利益的推荐。
+关键数字：
+- 按抽成模式（take rate）结算的平台资金流水已超过每年10亿美元
+- 日环比增长约10%，且不投放营销
+- 创始人本人约40%的时间花在思考compute基础设施上
+为什么重要：这是少数披露具体"资金流水"规模的个人agent创业公司，说明"agent替人办事+抽成"这个商业模式已经跑出真实现金流，而不只是demo；创始人把近半时间花在算力规划上，也侧面印证个人agent这类高频、长尾调用的产品对推理算力成本结构提出了不同于聊天机器人的新要求，值得持续关注这类"agent即服务"公司的算力采购和成本曲线。
+
+📰 官方博客
+
+B1 | Stratechery (Ben Thompson) — Apps, Agents, and Aggregation
+时间：2026-09-28 18:25
+链接：https://stratechery.com/2026/apps-agents-and-aggregation/
+要点：Ben Thompson提出一个核心论断：agent才是终极的聚合者（Aggregator）——过去App是聚合供给、分发注意力的载体，而agent一旦足够强大，会让App本身变成手段而非目的，真正值钱的是"帮用户完成事情"的那一层入口。他把这个变化放进自己一贯的Aggregation理论框架里，认为这是科技行业当下最大的一块奖赏。
+为什么重要：这篇文章给当下"agent抢App"的叙事提供了一个结构化框架，而不是就事论事讨论某个产品；结合同一天Instinct披露的真实资金流水看，理论和数据在同一天对上了——如果agent真的成为新的聚合层，控制agent入口的公司将重新分配整个消费互联网的利润分成，这对"该看平台还是看应用层"的投资框架有直接影响。
+
+📄 论文
+
+Paper1 | arXiv — EAServe: Encode-Aware Disaggregated Serving for Multimodal Large Language Models
+时间：2026-09-26 01:20
+链接：https://arxiv.org/abs/2609.31551v1
+问题：多模态大模型（MLLM）服务把Prefill/Decode两阶段分离已是标准做法，但MLLM多了一个把图像/视频/音频转成embedding的Encode阶段，现有框架要么没有Encode阶段，要么把它当独立服务但不管控下游请求流，导致Encode GPU利用率低、下游Prefill/Decode经常挨饿。
+方法：EAServe把Encode阶段作为整个Encode-Prefill-Decode流水线的控制点，做负载自适应的微批处理、限速式的部分offload到同机prefill worker、以及动态SM分区实现可预测的共置；配置层HAS先按阶段容量画像剪枝掉不均衡配置，再用TPE贝叶斯优化搜索GPU分配、encode批大小、offload比例的联合空间。
+结果：在覆盖图像、视频、音频三种MLLM架构的评测中，相同SLO约束下比NVIDIA Dynamo和vLLM分别高出最多4.3倍和1.7倍的goodput（有效吞吐），GPU利用率更均衡，且比基线搜索方法更快找到接近最优的配置。
+为什么重要：这是少见的、给多模态推理服务标出具体倍数收益的系统论文——随着多模态agent铺开，Encode阶段正成为GPU算力浪费的新瓶颈，谁能把三阶段调度做对，直接决定多模态推理的单位算力成本，是AI基建里一个还没被充分讨论的降本方向。
+
+Paper2 | arXiv — Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer
+时间：2026-09-26 01:42
+链接：https://arxiv.org/abs/2609.31587v1
+问题：业界普遍假设"给coding agent喂高质量的自然语言文档"能帮它更好地解决真实代码库的issue，这篇论文想验证这个假设是否成立。
+方法：作者先造了一个roundtrip基准——用"从描述重新生成代码能否通过原测试"衡量文档描述的保真度，发现完整性而非长度决定保真度；再用这个基准作为优化信号，搜索出一个能达到满分保真度、且能泛化到未见过文件的文档撰写prompt，最后在两个模型家族、十个代码仓库上测试documentation是否真的帮agent解决issue，并用一个正对照确认评测方法本身能识别出真实的提升。
+结果：当issue本身已经给出源码上下文时，无论是静态的精简文档还是检索到的上下文，都没有比"只给issue本身"表现更好——高质量文档在这个设置下不产生增益，作者把这个负结果连同基准和优化器一起公开，并刻画了文档真正起作用的边界条件。
+为什么重要：这是一个会改变直觉的负结果——很多团队在给coding agent做"文档/RAG增强"的投入，可能在源码已可见时收益为零；它划定了文档到底在什么条件下才值得做，对coding agent产品的工程优先级是直接参考。
+
+Paper3 | arXiv — Multi-agent Scaling Across Disjunctive and Compensatory Tasks
+时间：2026-09-26 01:11
+链接：https://arxiv.org/abs/2609.31563v1
+问题：多智能体LLM系统常被默认"团队越大效果越好"，这篇论文想搞清楚这个缩放规律到底在什么任务结构下成立。
+方法：借用Steiner的群体任务分类法，把独立采样的agent建模为给定题目条件独立，推出大团队极限下两种聚合方式的理论解——多数投票收敛到模型的众数答案，平均收敛到模型的item级偏差；再在13个开源模型、最多30个agent组成的团队上，分别在disjunctive（只要有一个答对就算对）和compensatory（靠平均/聚合）任务上做实测。
+结果：disjunctive任务上，"至少一个agent答对"的概率随团队变大能提升5-20个百分点，但直接投票几乎吃不到这个红利（和模型单独作答的准确率相差不到0.5个百分点）；多轮互评修正能大幅提高准确率，但1个同伴和29个同伴带来的提升几乎一样。compensatory任务（如Fermi估算）上扩大团队收益很小，因为87%的平方误差来自模型自身共享的系统性偏差，averaging只能降低约6%的误差；混合不同模型家族对Fermi估算有帮助，但打不过disjunctive任务里最强的单一模型。
+为什么重要：这篇论文给"多智能体一定更强"的直觉泼了盆冷水——任务结构（是否只需一个人对，还是需要消除系统性偏差）加上聚合机制，才是决定加agent到底有没有用的关键变量，对设计multi-agent产品和评测协议有直接取舍参考。
+
+🗂 其余速览
+- AI Can Write Code. Why Isn't Software Better? https://a16z.simplecast.com/episodes/ai-can-write-code-why-isnt-software-better-je38wEkC
+- The Lenfest Institute grows landmark program with expanded OpenAI support https://openai.com/index/lenfest-ai-collaborative-expansion
+- Mark Zuckerberg's Vision For the Future! https://www.youtube.com/watch?v=voGz8FBR-7k
+- Nancy Zimmerman – People, Process, and Fixed Income Arbitrage at Bracebridge (EP.517) https://tedseides.libsyn.com/nancy-zimmerman-people-process-and-fixed-income-arbitrage-at-bracebridge-ep517
+- New LoRA Skills Should Read but Never Write https://arxiv.org/abs/2609.31600v1
+- Generalization behavior of OPTQ and the role of regularization https://arxiv.org/abs/2609.31560v1
+- Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency https://arxiv.org/abs/2609.31619v1
+- Can You Check That? The Checkability Boundary for Local LLM Network Automation https://arxiv.org/abs/2609.31540v1
+
+可以在 Claude Code 里说「展开 P1」「展开 B1」或「展开 Paper1」深读。
+Generated through AI Signal: https://github.com/Benboerba620/ai-signal
