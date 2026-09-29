@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "One More Note on Agents, Meta Connect, Meta Enterprise Platform",
+      "url": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
+      "published": "2026-09-29T10:00:00+00:00",
+      "summary": "Meta has the chance to own the consumer agentic space; going for enterprise is a big mistake."
+    },
+    {
+      "id": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "published": "2026-09-28T19:00:00+00:00",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+    },
+    {
+      "id": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "published": "2026-09-28T19:00:00+00:00",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
+    },
+    {
       "id": "https://stratechery.com/2026/apps-agents-and-aggregation/",
       "source": "stratechery",
       "source_name": "Stratechery (Ben Thompson)",
@@ -38,5 +65,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-09-29T01:27:36.919291+00:00"
+  "generated_at": "2026-09-29T16:22:40.122801+00:00"
 }
