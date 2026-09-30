@@ -1,13 +1,40 @@
 {
   "articles": [
     {
-      "id": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "id": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "published": "2026-09-30T15:03:07+00:00",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
+    },
+    {
+      "id": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
       "source": "openai",
       "source_name": "OpenAI",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "published": "2026-09-29T10:00:00+00:00",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "published": "2026-09-30T10:00:00+00:00",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI."
+    },
+    {
+      "id": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT",
+      "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
+      "published": "2026-09-30T10:00:00+00:00",
+      "summary": "OpenAI's Dev Day showcased a product that is, frankly, pretty confusing. However, there is more vision here than it might seem."
+    },
+    {
+      "id": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "Can we predict the jobs robots will do?",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "What work can robots do? Anthropic's robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%."
     },
     {
       "id": "https://openai.com/index/devday-2026-recap",
@@ -19,6 +46,33 @@
       "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
     },
     {
+      "id": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "published": "2026-09-29T10:00:00+00:00",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+    },
+    {
+      "id": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "One More Note on Agents, Meta Connect, Meta Enterprise Platform",
+      "url": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
+      "published": "2026-09-29T10:00:00+00:00",
+      "summary": "Meta has the chance to own the consumer agentic space; going for enterprise is a big mistake."
+    },
+    {
+      "id": "https://www.anthropic.com/research/your-thoughts-on-ai",
+      "source": "anthropic",
+      "source_name": "Anthropic",
+      "title": "What do you want from AI?",
+      "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+      "published": "2026-09-29T00:00:00+00:00",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+    },
+    {
       "id": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -26,15 +80,6 @@
       "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
       "published": "2026-09-29T00:00:00+00:00",
       "summary": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse."
-    },
-    {
-      "id": "https://www.anthropic.com/research/your-thoughts-on-ai",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "What Do You Want from AI?",
-      "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
     },
     {
       "id": "https://openai.com/index/introducing-dots",
@@ -53,19 +98,8 @@
       "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
       "published": "2026-09-28T19:00:00+00:00",
       "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
-    },
-    {
-      "id": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "published": "2026-09-28T19:00:00+00:00",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
     }
   ],
-  "errors": [
-    "Stratechery (Ben Thompson): Client error '429 Too Many Requests' for url 'https://stratechery.com/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-  ],
-  "generated_at": "2026-09-30T01:02:37.464105+00:00"
+  "errors": null,
+  "generated_at": "2026-09-30T16:18:20.356422+00:00"
 }
