@@ -36,6 +36,7 @@ from urllib.parse import quote_plus, urljoin, urlparse
 import httpx
 
 from podcast_transcripts import externalize_transcripts, hydrate_transcripts
+from local_podcast_import import load_local, merge_local
 
 SCRIPT_DIR = Path(__file__).parent
 ROOT_DIR = SCRIPT_DIR.parent
@@ -45,6 +46,13 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML,
 MIN_TRANSCRIPT_CHARS = 600
 MAX_TRANSCRIPT_CHARS = int(os.environ.get("MAX_TRANSCRIPT_CHARS", "500000"))
 MIN_TRANSCRIPT_CHARS_PER_MIN = int(os.environ.get("MIN_TRANSCRIPT_CHARS_PER_MIN", "150"))
+
+# Twitter/X 抓取的总时间上限。正常整轮跑完不到 2 分钟，这个数是给故障态兜底的。
+# 由来：2026-09-04 与 09-05 两次云端跑，X 对 feed_bot 返回 403 → twscrape 锁账号
+# 15 分钟并**阻塞轮询**等解锁 → 循环耗尽 workflow 的 75 分钟 job 上限被 cancel →
+# Commit feeds 步骤压根没跑到，podcasts / arXiv / blogs 三个跟 X 无关的源
+# **跟着一起断更两天**。单个源的故障不允许再占用整轮预算。
+TWITTER_BUDGET_SEC = int(os.environ.get("TWITTER_BUDGET_SEC", "900"))
 
 DEFAULT_TWEET_CORE_KEYWORDS = [
     "ai", "artificial intelligence", "agi", "agent", "agents", "agentic",
@@ -356,7 +364,20 @@ def fetch_rss_with_fallback(channel, attempts=3):
             try:
                 resp = httpx.get(url, headers={"User-Agent": UA}, timeout=45, follow_redirects=True)
                 resp.raise_for_status()
+                if not parse_rss(resp.text):
+                    errors.append(f"{url}: response contains no parseable episodes")
+                    break
+                if errors:
+                    log(f"  ↪ RSS fallback selected: {resp.url}")
                 return resp.text, str(resp.url), None
+            except httpx.HTTPStatusError as e:
+                errors.append(f"{url} attempt {attempt}/{attempts}: {e}")
+                if e.response.status_code in (401, 403, 404, 410):
+                    # Retrying the same rejected route does not help; try the
+                    # configured publisher-owned alternative immediately.
+                    break
+                if attempt < attempts:
+                    time.sleep(1.5 * attempt)
             except Exception as e:
                 errors.append(f"{url} attempt {attempt}/{attempts}: {e}")
                 if attempt < attempts:
@@ -542,16 +563,38 @@ async def fetch_twitter(sources):
         try:
             import twscrape.xclid as _xclid
             from twscrape.http import make_client as _mc
-            _xclid._make_client = lambda cookies=None: _mc(
-                proxy=proxy,
-                headers={"user-agent": "@chrome"},
-                cookies=cookies,
-            )
+
+            def _make_client_via_proxy(proxy=None, cookies=None, **kwargs):
+                """强制让 xclid 的签名请求走我们探测到的代理。
+
+                签名必须跟上 twscrape 的契约（2026-09-06 修）：0.19.2 起 xclid 会把
+                **账号 cookie 连同 proxy** 一路传进来（`_make_client(proxy=..., cookies=...)`）。
+                这里原来是 `lambda cookies=None:`，收到 proxy 关键字就
+                `TypeError: got an unexpected keyword argument 'proxy'`，
+                x-client-transaction-id 生成不出来 → 每个账号都报
+                "No account available"，看起来像 cookie 失效，其实是签名挂了。
+                云端一直没暴露是因为它 proxy=False 走不到这个分支。
+
+                收下 proxy 但忽略它 —— 这个函数存在的意义就是强制换出口。
+                cookies 必须原样透传：X 对登录态和匿名态发的是不同的前端构建，
+                只有登录态那份可靠含有签名 indices。
+                """
+                return _mc(proxy=forced_proxy, cookies=cookies,
+                           headers={"user-agent": "@chrome"}, **kwargs)
+
+            forced_proxy = proxy
+            _xclid._make_client = _make_client_via_proxy
         except Exception:
             pass
 
     db_path = str(SCRIPT_DIR / "twitter_accounts.db")
-    api = API(db_path, proxy=proxy) if proxy else API(db_path)
+    # raise_when_no_account=True 是这里的承重参数（2026-09-06 加）。
+    # twscrape 收到 403 会把账号锁 15 分钟，默认行为是在 get_for_queue_or_wait 里
+    # **阻塞轮询等它解锁**——不抛异常，所以下面每个账号的 try/except 永远不触发。
+    # 只有一个 feed_bot 账号，锁住就等于没账号，等下去没有意义。改成立即抛
+    # NoAccountError，交给下面 per-account 的 except 记进 errors 后继续。
+    api = (API(db_path, proxy=proxy, raise_when_no_account=True) if proxy
+           else API(db_path, raise_when_no_account=True))
     acc = await api.pool.get_account("feed_bot")
     if acc is None:
         await api.pool.add_account_cookies("feed_bot", cookies)
@@ -666,9 +709,12 @@ async def fetch_twitter(sources):
         })
 
     if accounts and accounts_with_raw_results == 0:
+        # 把前两条底层错误拼进消息里：全军覆没时唯一想知道的就是"被 403 了"
+        # 还是"网络挂了"，光说 returned no raw results 等于把原因藏起来。
+        detail = f" (first errors: {'; '.join(errors[:2])})" if errors else ""
         raise RuntimeError(
             f"Twitter health check failed: all {len(accounts)} account queries "
-            "returned no raw results"
+            f"returned no raw results{detail}"
         )
 
     return {"x": results, "errors": errors if errors else None}
@@ -803,7 +849,21 @@ def _youtube_video_id(link):
     return None
 
 
-def _yt_transcript_by_id(vid):
+# Regions whose voices speak Chinese on camera. "cn" = mainland, "tw" = Taiwan
+# supply chain. They skip the foreign-script / English-track gates and ask
+# YouTube for Chinese captions first (Taiwan uploads carry zh-TW / zh-Hant).
+ZH_REGIONS = {"cn", "tw"}
+ZH_CAPTION_LANGS = ("zh-TW", "zh-Hant", "zh", "zh-Hans", "zh-CN", "en")
+
+
+def caption_langs_for(item):
+    """Caption preference for a search entry or channel config."""
+    if item.get("region") in ZH_REGIONS or item.get("language") == "zh":
+        return ZH_CAPTION_LANGS
+    return None
+
+
+def _yt_transcript_by_id(vid, languages=None):
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
         proxy = detect_proxy()
@@ -813,7 +873,7 @@ def _yt_transcript_by_id(vid):
             p = proxy.replace("socks5h://", "socks5://")
             kwargs["proxy_config"] = GenericProxyConfig(http_url=p, https_url=p)
         api = YouTubeTranscriptApi(**kwargs)
-        segs = api.fetch(vid)
+        segs = api.fetch(vid, languages=languages or ("en",))
         text = " ".join(s.text for s in segs)
         if len(text) > 200:
             return {
@@ -876,10 +936,10 @@ def _yt_english_track_status(vid):
         return "no_en" if _no_english_track(str(e)) else "unknown"
 
 
-def get_youtube_transcript(link):
+def get_youtube_transcript(link, languages=None):
     vid = _youtube_video_id(link)
     if vid:
-        result = _yt_transcript_by_id(vid)
+        result = _yt_transcript_by_id(vid, languages)
         if result["text"]:
             return result
         return transcript_result(
@@ -982,7 +1042,7 @@ def transcript_too_sparse(text, duration):
     return len(text) / minutes < MIN_TRANSCRIPT_CHARS_PER_MIN
 
 
-def get_podcast_transcript(ep):
+def get_podcast_transcript(ep, languages=None):
     errors = []
     duration = ep.get("duration")
 
@@ -1017,7 +1077,7 @@ def get_podcast_transcript(ep):
     if usable(page_result, "episode_page"):
         return page_result
 
-    youtube_result = get_youtube_transcript(ep.get("link"))
+    youtube_result = get_youtube_transcript(ep.get("link"), languages)
     if usable(youtube_result, "youtube"):
         return youtube_result
 
@@ -1050,6 +1110,18 @@ def fetch_channel(channel, lookback_hours, transcript_cache):
         if ep["pub_date"] and ep["pub_date"] < since:
             continue
 
+        topics = channel.get("topic_keywords")
+        topic_text = ep.get("title", "")
+        if not channel.get("topic_title_only"):
+            topic_text += " " + ep.get("description", "")
+        if topics and not keyword_match(topic_text, topics):
+            continue
+        # Segment gate: a title must also hit one of these (e.g. only the
+        # guest-interview segment of a show that mixes in news commentary).
+        required = channel.get("require_title_keywords")
+        if required and not keyword_match(ep.get("title", ""), required):
+            continue
+
         cached = transcript_cache.get(ep["guid"]) or transcript_cache.get(ep["link"])
         if cached is not None:
             log(f"  ♻️ {ep['title'][:60]} (transcript reused)")
@@ -1060,8 +1132,12 @@ def fetch_channel(channel, lookback_hours, transcript_cache):
 
         log(f"  🆕 {ep['title'][:60]}...")
 
-        fetched = get_podcast_transcript(ep)
+        fetched = get_podcast_transcript(ep, caption_langs_for(channel))
         transcript = fetched["text"]
+        minimum_chars = int(channel.get("min_transcript_chars", 0))
+        if transcript and len(transcript) < minimum_chars:
+            log(f"    ⏭️ short corporate clip ({len(transcript)} chars)")
+            continue
         if transcript:
             log(f"    ✅ transcript ({len(transcript)} chars, {fetched['source']})")
         else:
@@ -1069,6 +1145,7 @@ def fetch_channel(channel, lookback_hours, transcript_cache):
 
         results.append({
             "channel": name,
+            "speaker_type": channel.get("speaker_type", "channel"),
             "domain": channel.get("domain", "ai"),
             "guid": ep["guid"],
             "title": ep["title"],
@@ -1123,7 +1200,7 @@ CN_TITLE_SKIP_RE = re.compile(
 # recaps, Korean subs) clear the subscriber gate — some have 1M+ subs — but
 # carry no English transcript and aren't real interviews. They give themselves
 # away by naming the channel or writing the title in a non-Latin script.
-# Applied only to overseas people; region:"cn" voices legitimately appear in
+# Applied only to overseas people; ZH_REGIONS voices legitimately appear in
 # Chinese-titled interviews and are handled by CN_TITLE_SKIP_RE instead.
 FOREIGN_SCRIPT_RE = re.compile(
     r"[一-鿿"      # CJK (Chinese / kanji)
@@ -1331,13 +1408,13 @@ def search_person_appearances(search, people_cfg, since, known_ids):
             log(f"  ⏭️ talked about, not appearing: {title[:60]}")
             continue
         if DAILY_BRIEFING_RE.search(title) or (
-                search.get("region") == "cn" and CN_TITLE_SKIP_RE.search(title)):
+                search.get("region") in ZH_REGIONS and CN_TITLE_SKIP_RE.search(title)):
             log(f"  ⏭️ title blacklist: {title[:60]}")
             continue
         # Foreign-audience re-upload / reaction channel: non-Latin channel name
         # or title on an overseas person. These clear the subscriber gate but
         # carry no English transcript and aren't real interviews.
-        if search.get("region") != "cn" and (
+        if search.get("region") not in ZH_REGIONS and (
                 FOREIGN_SCRIPT_RE.search(v.get("channel") or "")
                 or FOREIGN_SCRIPT_RE.search(title)):
             log(f"  ⏭️ foreign re-upload ({v.get('channel')}): {title[:50]}")
@@ -1444,14 +1521,14 @@ def fetch_people(sources, existing_feed, known_video_ids):
             continue
         if not entry.get("transcript") and entry.get("transcript_video_id"):
             vid = entry["transcript_video_id"]
-            if entry.get("region") != "cn" and _yt_english_track_status(vid) == "no_en":
+            if entry.get("region") not in ZH_REGIONS and _yt_english_track_status(vid) == "no_en":
                 # Foreign original/dub that slipped in before the gate, or that a
                 # network fluke let through on an earlier run — drop it from the
                 # carry set so it stops recurring.
                 log(f"  ⏭️ carried foreign entry dropped (no English track): "
                     f"{entry.get('title','')[:50]}")
                 continue
-            retried = _yt_transcript_by_id(vid)
+            retried = _yt_transcript_by_id(vid, caption_langs_for(entry))
             if retried["text"]:
                 entry = dict(entry)
                 entry["transcript"] = clean_transcript_text(retried["text"])
@@ -1503,10 +1580,10 @@ def fetch_people(sources, existing_feed, known_video_ids):
         # a definitive 'no_en' verdict skips; 'unknown' (network/IP block) falls
         # through so a real English interview is never dropped on a fluke. cn
         # voices are exempt (their real interviews are in Chinese).
-        if search.get("region") != "cn" and _yt_english_track_status(vid) == "no_en":
+        if search.get("region") not in ZH_REGIONS and _yt_english_track_status(vid) == "no_en":
             log(f"    ⏭️ no English track (foreign original/dub), skipped: {v['title'][:50]}")
             continue
-        fetched = _yt_transcript_by_id(vid)
+        fetched = _yt_transcript_by_id(vid, caption_langs_for(search))
         transcript = clean_transcript_text(fetched["text"]) if fetched["text"] else None
         if transcript:
             log(f"    ✅ transcript ({len(transcript)} chars)")
@@ -1552,6 +1629,8 @@ def fetch_podcasts(sources, people_only=False):
     transcript_cache = {}
     existing = load_feed("feed-podcasts.json") or {}
     hydrate_transcripts(existing)
+    local_episodes = load_local(ROOT_DIR)
+    existing = merge_local(existing, local_episodes)
     for entry in existing.get("podcasts", []):
         if not entry.get("transcript"):
             continue
@@ -1584,7 +1663,7 @@ def fetch_podcasts(sources, people_only=False):
     errors.extend(people_errors)
 
     all_episodes.sort(key=lambda x: x.get("pub_date", ""), reverse=True)
-    return {"podcasts": all_episodes, "errors": errors if errors else None}
+    return merge_local({"podcasts": all_episodes, "errors": errors if errors else None}, local_episodes)
 
 
 # ── arXiv fetching ───────────────────────────────────────────────────────────
@@ -1915,6 +1994,13 @@ async def main():
     parser.add_argument("--blogs-only", action="store_true")
     parser.add_argument("--people-only", action="store_true",
                         help="refresh person-appearance searches only; keep channel episodes as-is")
+    # X 对 GitHub Actions 的机房 IP 段返回 403（2026-09-06 对照实验确认：同一份
+    # 全新 cookie，住宅 IP 能抓 20 条，云端连跑两次都是 403，变量只剩出口 IP）。
+    # 云端定时班因此永久跳过 X，改由住宅 IP 上的机器跑 `--twitter-only` 后
+    # 单独提交 feed-x.json。留着让云端每晚白撞一次没有好处：拿不到数据，
+    # 还让那个账号每天从机房 IP 吃一次 403。
+    parser.add_argument("--skip-twitter", action="store_true",
+                        help="run every source except Twitter/X (X blocks datacenter IPs)")
     args = parser.parse_args()
 
     sources = load_sources()
@@ -1924,13 +2010,33 @@ async def main():
     run_all = not (args.twitter_only or args.podcasts_only or args.arxiv_only
                    or args.blogs_only or args.people_only)
 
-    if run_all or args.twitter_only:
+    if (run_all and not args.skip_twitter) or args.twitter_only:
         log("\n━━━ Twitter/X ━━━")
-        twitter_feed = await fetch_twitter(sources)
-        twitter_feed["generated_at"] = now.isoformat()
-        write_json(FEEDS_DIR / "feed-x.json", twitter_feed)
-        active = sum(1 for a in twitter_feed["x"] if a["tweets"])
-        log(f"✅ feed-x.json ({active}/{len(twitter_feed['x'])} accounts with content)")
+        # X 是四个源里唯一会被对方主动拒绝的（403 / 锁号 / 封 IP），而且它的拒绝
+        # 方式历史上是"卡住"不是"报错"。所以这里两道闸（2026-09-06 加）：
+        #   ① asyncio.wait_for 总上限 —— 不管卡在哪一层都能回到主流程，保证脚本
+        #      一定跑到最后、workflow 的 Commit feeds 一定执行；
+        #   ② 失败时**不碰 feed-x.json** —— 保留旧文件连同旧 generated_at，
+        #      让下游按"x 桶陈旧"如实标红。不能写一份时间新鲜但零条的 feed，
+        #      那比标红更糟：消费端会以为今天 X 上真的没内容。
+        # 另外三桶照常写盘，单源故障不再拖垮整轮。
+        # `--twitter-only` 是人工调试通路，失败照旧抛出去、退出码非零。
+        try:
+            twitter_feed = await asyncio.wait_for(
+                fetch_twitter(sources), timeout=TWITTER_BUDGET_SEC)
+        except Exception as exc:
+            if args.twitter_only:
+                raise
+            reason = (f"exceeded {TWITTER_BUDGET_SEC}s budget"
+                      if isinstance(exc, asyncio.TimeoutError)
+                      else f"{type(exc).__name__}: {exc}")
+            log(f"⚠️ Twitter fetch failed ({reason})")
+            log("   keeping existing feed-x.json; other feeds continue")
+        else:
+            twitter_feed["generated_at"] = now.isoformat()
+            write_json(FEEDS_DIR / "feed-x.json", twitter_feed)
+            active = sum(1 for a in twitter_feed["x"] if a["tweets"])
+            log(f"✅ feed-x.json ({active}/{len(twitter_feed['x'])} accounts with content)")
 
     if run_all or args.podcasts_only or args.people_only:
         log("\n━━━ Podcasts ━━━")

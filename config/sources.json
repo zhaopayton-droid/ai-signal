@@ -4,7 +4,10 @@
     "max_tweets_per_user": 5,
     "min_engagement": 10,
     "include_replies": false,
-    "judgment_tiers": ["analyst", "exec"],
+    "judgment_tiers": [
+      "analyst",
+      "exec"
+    ],
     "accounts": [
       {
         "handle": "karpathy",
@@ -148,7 +151,17 @@
         "data center",
         "datacenter",
         "robotics",
-        "automation"
+        "automation",
+        "agentic",
+        "agentforce",
+        "slackbot",
+        "copilot",
+        "joule",
+        "aip",
+        "aipcon",
+        "now assist",
+        "agent fabric",
+        "business ai"
       ]
     },
     "people": {
@@ -310,6 +323,66 @@
           "query": "肖弘 Manus 访谈",
           "domain": "ai",
           "region": "cn"
+        },
+        {
+          "person": "Marc Benioff",
+          "query": "Marc Benioff Salesforce AI interview",
+          "domain": "ai"
+        },
+        {
+          "person": "Amit Zavery",
+          "query": "Amit Zavery ServiceNow AI interview",
+          "domain": "ai"
+        },
+        {
+          "person": "Philipp Herzig",
+          "query": "Philipp Herzig SAP AI interview",
+          "domain": "ai"
+        },
+        {
+          "person": "Alex Karp",
+          "query": "Alex Karp Palantir AI interview",
+          "domain": "ai"
+        },
+        {
+          "person": "Lisa Su",
+          "query": "Lisa Su AMD interview",
+          "domain": "ai"
+        },
+        {
+          "person": "Charles Liang",
+          "query": "Charles Liang Supermicro interview",
+          "domain": "ai"
+        },
+        {
+          "person": "潘健成",
+          "query": "潘健成 群聯 專訪",
+          "domain": "ai",
+          "region": "tw"
+        },
+        {
+          "person": "劉揚偉",
+          "query": "劉揚偉 鴻海 專訪",
+          "domain": "ai",
+          "region": "tw"
+        },
+        {
+          "person": "黃欽勇",
+          "query": "黃欽勇 DIGITIMES 專訪",
+          "domain": "ai",
+          "region": "tw"
+        },
+        {
+          "person": "林宏文",
+          "query": "林宏文 今周刊 專訪",
+          "domain": "ai",
+          "region": "tw"
+        },
+        {
+          "person": "楊光磊",
+          "query": "楊光磊 半導體 專訪",
+          "domain": "ai",
+          "region": "tw"
         }
       ]
     },
@@ -328,7 +401,10 @@
         "name": "Latent Space",
         "domain": "ai",
         "rss_url": "https://api.substack.com/feed/podcast/1084089.rss",
-        "transcribe_missing": true
+        "transcribe_missing": true,
+        "fallback_rss_urls": [
+          "https://www.latent.space/feed/podcast/1084089.rss"
+        ]
       },
       {
         "name": "All-In Podcast",
@@ -340,7 +416,37 @@
       {
         "name": "a16z",
         "domain": "ai",
-        "rss_url": "https://feeds.simplecast.com/JGE3yC0V"
+        "rss_url": "https://feeds.simplecast.com/JGE3yC0V",
+        "topic_keywords": [
+          "ai",
+          "artificial intelligence",
+          "llm",
+          "llms",
+          "large language model",
+          "foundation model",
+          "generative",
+          "agentic",
+          "agents",
+          "inference",
+          "openai",
+          "anthropic",
+          "deepmind",
+          "chatgpt",
+          "claude",
+          "gpt",
+          "gemini",
+          "copilot",
+          "vibe coding",
+          "coding agent",
+          "machine learning",
+          "deep learning",
+          "neural network",
+          "superintelligence",
+          "agi",
+          "robotics",
+          "nvidia"
+        ],
+        "topic_title_only": true
       },
       {
         "name": "Naval",
@@ -387,7 +493,10 @@
         "name": "Lenny's Podcast",
         "domain": "ai",
         "rss_url": "https://api.substack.com/feed/podcast/10845.rss",
-        "transcribe_missing": true
+        "transcribe_missing": true,
+        "fallback_rss_urls": [
+          "https://www.lennysnewsletter.com/feed/podcast/10845.rss"
+        ]
       },
       {
         "name": "Invest Like the Best",
@@ -405,6 +514,144 @@
         "name": "The Acquirers Podcast",
         "domain": "invest",
         "rss_url": "https://anchor.fm/s/9603714/podcast/rss"
+      },
+      {
+        "name": "財報狗",
+        "domain": "ai",
+        "language": "zh",
+        "region": "tw",
+        "rss_url": "https://feed.firstory.me/rss/user/clcftm46z000201z45w1c47fi",
+        "require_title_keywords": [
+          "達人聊產業"
+        ],
+        "topic_keywords": [
+          "半導體",
+          "晶片",
+          "晶圓",
+          "封裝",
+          "cowos",
+          "矽光子",
+          "cpo",
+          "光通訊",
+          "記憶體",
+          "hbm",
+          "伺服器",
+          "散熱",
+          "液冷",
+          "電源",
+          "供電",
+          "pcb",
+          "載板",
+          "玻璃基板",
+          "台積電",
+          "設備",
+          "材料",
+          "製程",
+          "化圓為方",
+          "gpu",
+          "cpu",
+          "asic",
+          "資料中心",
+          "算力",
+          "輝達",
+          "網通",
+          "ai",
+          "ssd"
+        ],
+        "topic_title_only": true,
+        "transcribe_missing": true
+      },
+      {
+        "name": "定錨產業筆記",
+        "domain": "ai",
+        "language": "zh",
+        "region": "tw",
+        "rss_url": "https://feeds.soundon.fm/podcasts/06e16cf5-5b45-4863-bcdf-9343aa584f73.xml",
+        "lookback_hours": 336,
+        "transcribe_missing": true
+      },
+      {
+        "name": "科技領航家",
+        "domain": "ai",
+        "language": "zh",
+        "region": "tw",
+        "rss_url": "https://www.ic975.com/feed/creativecaptain/",
+        "topic_keywords": [
+          "半導體",
+          "晶片",
+          "晶圓",
+          "封裝",
+          "cowos",
+          "矽光子",
+          "cpo",
+          "光通訊",
+          "記憶體",
+          "hbm",
+          "伺服器",
+          "散熱",
+          "液冷",
+          "電源",
+          "供電",
+          "pcb",
+          "載板",
+          "玻璃基板",
+          "台積電",
+          "設備",
+          "材料",
+          "製程",
+          "化圓為方",
+          "gpu",
+          "cpu",
+          "asic",
+          "資料中心",
+          "算力",
+          "輝達",
+          "網通"
+        ],
+        "topic_title_only": true,
+        "transcribe_missing": true
+      },
+      {
+        "name": "It's 秀 TIME",
+        "domain": "ai",
+        "language": "zh",
+        "region": "tw",
+        "rss_url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLtFP6bZ75fOVBDVbPVFVYw_g87th2mXmx",
+        "topic_keywords": [
+          "半導體",
+          "晶片",
+          "晶圓",
+          "封裝",
+          "cowos",
+          "矽光子",
+          "cpo",
+          "光通訊",
+          "記憶體",
+          "hbm",
+          "伺服器",
+          "散熱",
+          "液冷",
+          "電源",
+          "供電",
+          "pcb",
+          "載板",
+          "玻璃基板",
+          "台積電",
+          "設備",
+          "材料",
+          "製程",
+          "化圓為方",
+          "gpu",
+          "cpu",
+          "asic",
+          "資料中心",
+          "算力",
+          "輝達",
+          "網通",
+          "ai",
+          "供應鏈"
+        ],
+        "topic_title_only": true
       }
     ]
   },
