@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-01T16:56:10.659314+00:00",
+  "generated_at": "2026-10-02T01:17:31.123577+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "substack:post:218414422",
+      "link": "https://www.latent.space/p/rlm",
+      "channel": "Latent Space",
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "pub_date": "2026-10-02T00:28:04+00:00",
+      "transcript_path": "feeds/transcripts/e99e1cc8035b08d4c9f52523.txt",
+      "transcript_chars": 130709,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-10-02T01:17:31.123577+00:00",
+      "last_seen_at": "2026-10-02T01:17:31.123577+00:00",
+      "expires_at": "2026-10-16T01:17:31.123577+00:00"
+    },
     {
       "guid": "bcecac98-430a-4361-9737-bfebe7ca9ad5",
       "link": "https://deepmind.com/podcast",
@@ -12,8 +25,8 @@
       "transcript_chars": 18566,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-01T16:56:10.659314+00:00",
-      "last_seen_at": "2026-10-01T16:56:10.659314+00:00",
-      "expires_at": "2026-10-15T16:56:10.659314+00:00"
+      "last_seen_at": "2026-10-02T01:17:31.123577+00:00",
+      "expires_at": "2026-10-16T01:17:31.123577+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/si-sheppard",
@@ -25,8 +38,8 @@
       "transcript_chars": 100960,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-01T16:56:10.659314+00:00",
-      "last_seen_at": "2026-10-01T16:56:10.659314+00:00",
-      "expires_at": "2026-10-15T16:56:10.659314+00:00"
+      "last_seen_at": "2026-10-02T01:17:31.123577+00:00",
+      "expires_at": "2026-10-16T01:17:31.123577+00:00"
     },
     {
       "guid": "substack:post:218243619",
@@ -38,8 +51,8 @@
       "transcript_chars": 61916,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-01T16:56:10.659314+00:00",
-      "last_seen_at": "2026-10-01T16:56:10.659314+00:00",
-      "expires_at": "2026-10-15T16:56:10.659314+00:00"
+      "last_seen_at": "2026-10-02T01:17:31.123577+00:00",
+      "expires_at": "2026-10-16T01:17:31.123577+00:00"
     },
     {
       "guid": "substack:post:217893105",
@@ -51,8 +64,8 @@
       "transcript_chars": 118348,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-01T16:56:10.659314+00:00",
-      "last_seen_at": "2026-10-01T16:56:10.659314+00:00",
-      "expires_at": "2026-10-15T16:56:10.659314+00:00"
+      "last_seen_at": "2026-10-02T01:17:31.123577+00:00",
+      "expires_at": "2026-10-16T01:17:31.123577+00:00"
     },
     {
       "guid": "cbcb6353-9937-4c25-9f83-93e1f096d3e6",
