@@ -1,6 +1,63 @@
 {
   "podcasts": [
     {
+      "channel": "a16z",
+      "speaker_type": "channel",
+      "domain": "ai",
+      "guid": "445b8856-0fe0-4b88-bf59-2337bd9d224b",
+      "title": "Why AI Agents Can Beat the Incumbents",
+      "pub_date": "2026-10-02T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/why-ai-agents-can-beat-the-incumbents-fcyhpbT6",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/63755eda-ff93-4095-8822-e8bcb95a06a6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=63755eda-ff93-4095-8822-e8bcb95a06a6&feed=JGE3yC0V",
+      "audio_bytes": 57423101,
+      "duration": "00:59:48",
+      "description": "<p>a16z’s Seema Amble and Elena Burger sit down with Lio co-founder and CEO Vladimir Keil to ask where AI-native startups have an advantage when incumbent software companies already own the customer, the data, and the system of record.</p><p>Their answer comes down to the work that happens outside those systems. In procurement, a final price in an ERP can hide hundreds of emails, spreadsheets, supplier conversations, engineering analyses, and decisions across legal, finance, and operations. Vlad explains how Lio uses multi-agent systems to take on more of that end-to-end work, from sourcing and RFQs to negotiation, shipment tracking, and invoices.</p><p>They also discuss how enterprises learn to trust agents with increasingly consequential decisions, why the last 20% of an internal AI build can require most of the effort, and what happens when both buyers and suppliers have agents working on their behalf.</p><p><br>Resources:</p><p>Follow Vladimir Keil on X: <a href=\"https://x.com/askvladi?lang=en\" rel=\"noopener noreferrer\"><u>https://x.com/askvladi?lang=en</u></a>&nbsp;</p><p>Follow Vladimir Keil on LinkedIn: <a href=\"https://www.linkedin.com/in/vladimir-keil/\" rel=\"noopener noreferrer\"><u>https://www.linkedin.com/in/vladimir-keil/</u></a></p><p>Follow Seema Amble on X: <a href=\"https://x.com/seema_amble\" rel=\"noopener noreferrer\"><u>https://x.com/seema_amble</u></a>&nbsp;</p><p>Learn more about Lio: <a href=\"https://www.lio.ai/\" rel=\"noopener noreferrer\"><u>https://www.lio.ai/</u></a>&nbsp;</p><p>Seema Amble’s “Investing in Lio” article: <a href=\"https://a16z.com/announcement/investing-in-lio/\" rel=\"noopener noreferrer\"><u>https://a16z.com/announcement/investing-in-lio/</u></a></p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a ",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "No Priors",
+      "speaker_type": "channel",
+      "domain": "ai",
+      "guid": "44fa0b1c-be0b-11f1-b00d-cb6a27141e9e",
+      "title": "The Future of Frontier Model Architectures with Walter Goodwin, Fractile Founder and CEO",
+      "pub_date": "2026-10-02T10:00:00+00:00",
+      "link": "",
+      "audio_url": "https://traffic.megaphone.fm/PDP7579412568.mp3",
+      "audio_bytes": 0,
+      "duration": "2138",
+      "description": "Founder and CEO of full-stack AI chip company Fractile, Walter Goodwin, joins Sarah Guo to discuss the bets he’s made on the future of the chip market as other major players like Broadcom, NVIDIA, and AMD try to accelerate their workloads. They discuss the difference in Fractile’s newer approach on model architecture with a full-stack team in the current chip landscape and the technical bets they’re making in that direction. Walter also talks about compressing the gap between the chip design cycle and its payoff period, and making a generational leap in AI inference to realize the bet in volume against the value to be captured.&nbsp;\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @goodwin_ml | @fractile_ai\n\nChapters:\n\n00:46 – Walter Goodwin and Fractile Introduction&nbsp;\n\n02:29 – The Chip Landscape Now\n\n04:56 – Common Handoffs From Architecture-Focused Players\n\n07:18 – Full Stack Approach and Team Setup\n\n09:49 – Fractile’s Most Important Technical Bets&nbsp;\n\n15:32 – Workload Predictions and Compressing the Chip Design Cycle\n\n23:03 – Architect Intent to Output Bottlenecks and Accelerating Trials\n\n28:16 – Workload Bets on Model Architectural Shifts\n\n31:20 – The Future of AI Chip Players and Market Structure&nbsp;&nbsp;\n\n35:14 – Conclusion",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No episode link; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "Sharp Tech with Ben Thompson",
+      "speaker_type": "channel",
+      "domain": "ai",
+      "guid": "https://sharptech.fm/member/episode/preview-all-about-agents-dots-arrive-google-and-apple-questions-muse-follow-ups-super-intelligence-and-the-mandate-of-heaven",
+      "title": "(Preview) All About Agents: Dots Arrive, Google and Apple Questions, Muse Follow-Ups, Super Intelligence, and the Mandate of Heaven",
+      "pub_date": "2026-10-02T08:59:57+00:00",
+      "link": "https://sharptech.fm/member/episode/preview-all-about-agents-dots-arrive-google-and-apple-questions-muse-follow-ups-super-intelligence-and-the-mandate-of-heaven",
+      "audio_url": "https://sharptech.fm/assets/sharptech0294_preview.mp3?access_token=WtLvUDEHgB7rE4MbAfmDVT",
+      "audio_bytes": 22451494,
+      "duration": "00:22:52",
+      "description": "Ben and Andrew begin with a note on VIM and reactions to a confusing product launch from OpenAI at Dev Day earlier this week. Then: Will personal agents be a winner-take-all market? What can Apple and Google do in the consumer agent space? Will normal people take longer than expected to adopt these products? And did Meta’s push into the enterprise break the company’s hot streak? From there: Emails on the future of payments, “super intelligence” branding for AI, America.gov, and firing Dario Amodei. At the end: AI Show & Tell with notes on generational adoption shifts (and Tamagotchis), movie games, a personalized sports page, App Store hell, and going full KGB on messaging. ",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "Latent Space",
       "speaker_type": "channel",
       "domain": "ai",
@@ -136,45 +193,6 @@
       "transcript_video_id": null,
       "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
       "transcript_chars": 0
-    },
-    {
-      "channel": "科技領航家",
-      "speaker_type": "channel",
-      "domain": "ai",
-      "guid": "https://media.blubrry.com/ic975broadcast/ins.blubrry.com/ic975broadcast/icv-20260929-creativecaptain.mp3[Tue, 29 Sep 2026 03:00:00 +0000]",
-      "title": "EP369：AI晶片愈做愈大，先進封裝也迎來一場「化圓為方」的革命！ ft. DIGITIMES分析師 楊仁杰",
-      "pub_date": "2026-09-29T03:00:00+00:00",
-      "link": "https://www.ic975.com/episodes/23783/",
-      "audio_url": "https://media.blubrry.com/ic975broadcast/ins.blubrry.com/ic975broadcast/icv-20260929-creativecaptain.mp3",
-      "audio_bytes": 20838191,
-      "duration": "00:21:42",
-      "description": " 掌握前瞻趨勢與科技脈動，立即訂閱 IC之音電子報：https://pse.is/8wpwwx ------------------------------當GPU、ASIC整合更多HBM與Chiplet，CoWoS為何開始面臨極限？從圓形晶圓走向方形面板的CoPoS，又將如何突破封裝尺寸、產能與成本限制？本集邀請 DIGITIMES分析師楊仁杰，解析CoWoS、FOPLP與CoPoS的技術差異，以及玻璃、TGV、RDL、設備與材料背後的新商機，看懂AI時代下一波先進封裝戰局。---------------------------製作 | 李翊嘉",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: Client error '403 Forbidden' for url 'https://www.ic975.com/episodes/23783/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "Latent Space",
-      "speaker_type": "channel",
-      "domain": "ai",
-      "guid": "substack:post:217893105",
-      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
-      "pub_date": "2026-09-29T01:48:18+00:00",
-      "link": "https://www.latent.space/p/thariq",
-      "audio_url": "https://api.substack.com/feed/podcast/217893105/df59f83c2e6844288112278c28b8e538.mp3",
-      "audio_bytes": 88782965,
-      "duration": "5549",
-      "description": "<p><em>We are excited to have Anthropic share their latest AI x Finance work at </em><a target=\"_blank\" href=\"https://ai.engineer/nyc/2026\"><em>AI Engineer New York</em></a><em>, coming up in 2 weeks!</em></p><p>In case you’ve been under a rock, here’s a non-exhaustive list of what Anthropic has been shipping since closing the <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-anthropic-raises-965b-series\">largest fundraise of all time</a> in May at $47B ARR:</p><p>* June: Launched <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive?utm_source=publication-search\">Claude Tag</a> and <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5?utm_source=publication-search\">Sonnet 5 and Fable 5</a></p><p>* July: <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-claude-opus-5-fable-level?utm_source=publication-search\">Opus 5</a>, <a target=\"_blank\" href=\"https://x.com/bcherny/status/2074997570317779038\">/checkup</a>. crossed $65B ARR</p><p>* Last month: <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-claude-fablemythos-51-new?utm_source=publication-search\">Fable/Mythos 5.1</a>, and <a target=\"_blank\" href=\"https://www.anthropic.com/news/enterprise-frontier-safeguards\">EFS</a> (upcoming pod)</p><p>* IPO target <a target=\"_blank\" href=\"https://cryptobriefing.com/anthropic-2t-valuation-ipo/\">$2T</a>, end 2026 ARR estimated $100B</p><p>* <a target=\"_blank\" href=\"https://news.ycombinator.com/item?id=49729412\">Cowork/chat merged</a> before <competitor> did</p><p>* <a target=\"_blank\" href=\"https://x.com/bcherny/status/2099551291601248485?s=20\">Claude Mods</a></p><p>* <a target=\"_blank\" href=\"https://x.com/DarioAmodei/status/2098773920774074715\">Dario endorses</a> the same <a target=\"_blank\" href=\"https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic?utm_source=publication-search\">Pacing the Frontier</a> message cosigned by all labs</p><p>* Last week: <a target=\"_blank\" href=\"",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.latent.space/p/thariq",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/ca42095ddda56c2f207a1dae.txt",
-      "transcript_chars": 118348
     },
     {
       "channel": "SemiAnalysis",
@@ -501,15 +519,12 @@
       "transcript_chars": 0
     }
   ],
-  "errors": [
-    "It's 秀 TIME: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtFP6bZ75fOVBDVbPVFVYw_g87th2mXmx attempt 1/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?playlist_id=PLtFP6bZ75fOVBDVbPVFVYw_g87th2mXmx'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-    "Naval: https://nav.al/feed attempt 1/3: Client error '429 Too Many Requests' for url 'https://nav.al/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429 | https://nav.al/feed attempt 2/3: Client error '429 Too Many Requests' for url 'https://nav.al/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429 | https://nav.al/feed attempt 3/3: Client error '429 Too Many Requests' for url 'https://nav.al/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-  ],
+  "errors": null,
   "local_import": {
     "candidates": 0,
     "added": 0,
     "filled": 0,
     "reused": 0
   },
-  "generated_at": "2026-10-02T01:16:32.165974+00:00"
+  "generated_at": "2026-10-02T16:08:42.094538+00:00"
 }

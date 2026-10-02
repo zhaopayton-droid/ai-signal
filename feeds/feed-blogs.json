@@ -19,15 +19,6 @@
       "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
     },
     {
-      "id": "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "An Interview with Jason Del Rey About Muse, Amazon, and Walmart",
-      "url": "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
-      "published": "2026-10-01T10:00:00+00:00",
-      "summary": "An interview with Jason Del Rey about Amazon versus Meta, which is a continuation of the oldest battle in retail between Amazon and Walmart."
-    },
-    {
       "id": "https://www.anthropic.com/research/claude-shaped-science",
       "source": "anthropic",
       "source_name": "Anthropic",
@@ -62,53 +53,10 @@
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "published": "2026-09-30T20:01:45+00:00",
       "summary": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon."
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "source": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Introducing SynthID Bio",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "published": "2026-09-30T15:03:07+00:00",
-      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
-    },
-    {
-      "id": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "published": "2026-09-30T10:30:00+00:00",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation."
-    },
-    {
-      "id": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "published": "2026-09-30T10:00:00+00:00",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI."
-    },
-    {
-      "id": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT",
-      "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
-      "published": "2026-09-30T10:00:00+00:00",
-      "summary": "OpenAI's Dev Day showcased a product that is, frankly, pretty confusing. However, there is more vision here than it might seem."
-    },
-    {
-      "id": "https://www.anthropic.com/research/what-work-can-robots-do",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Can we predict the jobs robots will do?",
-      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
-      "published": "2026-09-30T00:00:00+00:00",
-      "summary": "What work can robots do? Anthropic's robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%."
     }
   ],
-  "errors": null,
-  "generated_at": "2026-10-02T01:16:32.165974+00:00"
+  "errors": [
+    "Stratechery (Ben Thompson): Client error '429 Too Many Requests' for url 'https://stratechery.com/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ],
+  "generated_at": "2026-10-02T16:08:42.094538+00:00"
 }
