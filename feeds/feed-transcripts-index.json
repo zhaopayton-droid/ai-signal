@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T00:55:37.399557+00:00",
+  "generated_at": "2026-10-03T14:37:12.465030+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 130709,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-02T01:17:31.123577+00:00",
-      "last_seen_at": "2026-10-03T00:55:37.399557+00:00",
-      "expires_at": "2026-10-17T00:55:37.399557+00:00"
+      "last_seen_at": "2026-10-03T14:37:12.465030+00:00",
+      "expires_at": "2026-10-17T14:37:12.465030+00:00"
     },
     {
       "guid": "bcecac98-430a-4361-9737-bfebe7ca9ad5",
@@ -25,8 +25,8 @@
       "transcript_chars": 18566,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-01T16:56:10.659314+00:00",
-      "last_seen_at": "2026-10-03T00:55:37.399557+00:00",
-      "expires_at": "2026-10-17T00:55:37.399557+00:00"
+      "last_seen_at": "2026-10-03T14:37:12.465030+00:00",
+      "expires_at": "2026-10-17T14:37:12.465030+00:00"
     },
     {
       "guid": "https://www.dwarkesh.com/p/si-sheppard",
@@ -38,8 +38,8 @@
       "transcript_chars": 100960,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-01T16:56:10.659314+00:00",
-      "last_seen_at": "2026-10-03T00:55:37.399557+00:00",
-      "expires_at": "2026-10-17T00:55:37.399557+00:00"
+      "last_seen_at": "2026-10-03T14:37:12.465030+00:00",
+      "expires_at": "2026-10-17T14:37:12.465030+00:00"
     },
     {
       "guid": "substack:post:218243619",
@@ -51,8 +51,8 @@
       "transcript_chars": 61916,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-01T16:56:10.659314+00:00",
-      "last_seen_at": "2026-10-03T00:55:37.399557+00:00",
-      "expires_at": "2026-10-17T00:55:37.399557+00:00"
+      "last_seen_at": "2026-10-03T14:37:12.465030+00:00",
+      "expires_at": "2026-10-17T14:37:12.465030+00:00"
     },
     {
       "guid": "substack:post:217893105",
