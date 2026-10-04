@@ -175,45 +175,6 @@
       "transcript_chars": 0
     },
     {
-      "channel": "Latent Space",
-      "speaker_type": "channel",
-      "domain": "ai",
-      "guid": "substack:post:218243619",
-      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
-      "pub_date": "2026-09-30T22:23:40+00:00",
-      "link": "https://www.latent.space/p/devday-2026",
-      "audio_url": "https://api.substack.com/feed/podcast/218243619/bab92a493c836ce907351acda5d8c2ec.mp3",
-      "audio_bytes": 28224515,
-      "duration": "2352",
-      "description": "<p>Three months ago Dwarkesh, who has been posting <a target=\"_blank\" href=\"https://x.com/search?q=from%3Adwarkesh_sp%20RL&#38;src=typed_query\">incredible blogs and episodes </a>about RL, <a target=\"_blank\" href=\"https://x.com/dwarkesh_sp/status/2070672008946589922\">posted</a> a framing question for his video essay on RLVR which upset a lot of Computer Use folks:</p><p>We are no strangers to <a target=\"_blank\" href=\"https://learninpublic.org/\">learning in public</a> and are no strangers to the stress of getting things wrong when you have a big platform. However, we were <a target=\"_blank\" href=\"https://x.com/swyx/status/1852786783710539972\">at Anthropic for the Computer Use launch</a>, there for <a target=\"_blank\" href=\"https://x.com/swyx/status/2016899888718442842\">Claude Cowork</a> with the first <a target=\"_blank\" href=\"https://www.latent.space/p/felix-anthropic\">big podcast</a> on it, organized <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=1UmZHb_E_SM&#38;list=PLEz0frWjePik&#38;pp=sAgC\">the first Computer Use track at AIE</a> presenting the state of the art, and were close to the <a target=\"_blank\" href=\"https://openai.com/index/openai-acquires-software-applications-incorporated/\">OpenAI-Sky Software acquisition</a> that now powers the complete domination of computer use that Codex enjoys today. This is why we’re excited to bring you today’s first guest, <a target=\"_blank\" href=\"https://x.com/AriX/status/2088364788984217753\"><strong>Ari Weinstein</strong></a>, cofounder of Sky and now leading all the amazing CUA progress that casuals might miss:</p><p>Ari explains why Computer Use is now <strong>“180 degrees different”</strong> from where it was months ago, how agents are learning to debug and recover from failures, why combining screenshots with accessibility data, the DOM, Playwright, and generated code changes the speed equation, and why the next frontier is making agents literally superhuman at using software.</p><p></p><p>OpenAI clones Jev</p><p>",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.latent.space/p/devday-2026",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/15a84a2062d8d4b2bb7ce821.txt",
-      "transcript_chars": 61916
-    },
-    {
-      "channel": "All-In Podcast",
-      "speaker_type": "channel",
-      "domain": "ai",
-      "guid": "1c456716-c38b-472a-9dd0-9d8800f22dd8",
-      "title": "Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
-      "pub_date": "2026-09-30T21:00:00+00:00",
-      "link": "https://allinchamathjason.libsyn.com/jake-paul-the-chainsmokers-turning-fame-into-funds-jake-enters-politics-venture-bubble-signs",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/AUDIO_88_PaulChainsmokers_AIS26.mp3?dest-id=1928300",
-      "audio_bytes": 76127300,
-      "duration": "52:49",
-      "description": "<p dir=\"ltr\">(0:00) Jake Paul joins the Chamath!</p> <p dir=\"ltr\">(6:41) Turning an audience into businesses, the boxing playbook & coming for the UFC</p> <p dir=\"ltr\">(11:54) Attention as capital, investing without the celebrity label & why politics is next</p> <p dir=\"ltr\">(20:46) Drew Taggart & Alex Pall join the Besties!</p> <p dir=\"ltr\">(30:35) From artists to investors: picking deals, playing the sixth man & what fame buys</p> <p dir=\"ltr\">(37:33) Advice for famous investors, whether fame helps or hurts & the non-obvious bets</p> <p dir=\"ltr\">(46:10) Riding winners, getting cash back to investors & spotting bubble behavior</p> <p><strong> </strong></p> <p dir=\"ltr\">Thanks to our partners for making this possible!</p> <p dir=\"ltr\">IREN is a vertically integrated AI Cloud platform, delivering data centers, compute and software for AI training and inference. <a href=\"https://iren.com/\">https://iren.com/</a></p> <p dir=\"ltr\">Oracle connects the data, applications, and infrastructure that turn AI into business outcomes—with the flexibility, choice, and control to optimize as AI evolves. http://oracle.com/ai</p> <p dir=\"ltr\">EY helps tech innovators scale from startup to exit to megacap. You build the future. We'll handle the rest. <a href= \"http://www.ey.com\">http://www.ey.com</a></p> <p dir=\"ltr\">Meta believes the future is for everyone. We're focused on giving every person the tools to reach their full potential and making sure the benefits of technology are distributed to all. <a href= \"http://www.meta.com\">http://www.meta.com</a></p> <p dir=\"ltr\">Keel Infrastructure owns the power, land, and connectivity that HPC and AI run on - backed by secured energy assets and established grid interconnections across North America. <a href=\"https://keelinfra.com/\">https://keelinfra.com/</a></p> <p dir=\"ltr\">Airwallex - Agentic Global Business Accounts. Open local accounts in 70+ countries to accept payments, earn yield, pay globally, and manage spend. <a href= \"http://airwa",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (4351 chars for 52 min); youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
       "channel": "SemiAnalysis",
       "speaker_type": "channel",
       "domain": "ai",
@@ -504,5 +465,5 @@
     "filled": 0,
     "reused": 0
   },
-  "generated_at": "2026-10-03T14:36:14.023429+00:00"
+  "generated_at": "2026-10-04T00:20:48.884515+00:00"
 }
