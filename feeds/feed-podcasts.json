@@ -1,6 +1,44 @@
 {
   "podcasts": [
     {
+      "channel": "Lenny's Podcast",
+      "speaker_type": "channel",
+      "domain": "ai",
+      "guid": "substack:post:217274136",
+      "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+      "pub_date": "2026-10-04T12:32:47+00:00",
+      "link": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+      "audio_url": "https://pscrb.fm/rss/p/api.substack.com/feed/podcast/217274136/13e3f49711c936b294b6ef27d4160818.mp3",
+      "audio_bytes": 35885835,
+      "duration": "2243",
+      "description": "<p><strong>Tibo Sottiaux</strong> leads ChatGPT and Codex at OpenAI. Under his stewardship, OpenAI has shipped some of its most consequential consumer launches: Codex, ChatGPT Work, and most recently, the new Dots personal agent platform. He joined me at DevDay, hours after his team launched more than 20 new products, to talk about where things are heading.</p><p></p><p><strong>We discuss:</strong></p><p>1. Dots, OpenAI’s new personal AI assistant</p><p>2. Why most actions on the internet will soon be taken by agents</p><p>3. Why loops, graphs, and fine-tuning agent workflows are a passing phase</p><p>4. Which skills are trending up and down in the AI era</p><p>5. How Tibo’s Dot warned him about a production outage five minutes before the launch</p><p>6. OpenAI’s approach to AI safety</p><p>—</p><p><strong>Brought to you by:</strong></p><p><a target=\"_blank\" href=\"https://workos.com/lenny\"><strong>WorkOS</strong></a>—Make your app enterprise-ready, with SSO, SCIM, RBAC, and more</p><p><a target=\"_blank\" href=\"https://getdx.com/?utm_source=lenny&#38;utm_medium=sponsorship&#38;utm_campaign=q42026\"><strong>DX</strong></a>—Engineering intelligence for the AI era</p><p>—</p><p><strong>Episode transcript:</strong> <a target=\"_blank\" href=\"https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering\">https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering</a></p><p>—</p><p><strong>Archive of all Lenny's Podcast transcripts: </strong><a target=\"_blank\" href=\"https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&#38;st=ahz0fj11&#38;dl=0\">https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0</a></p><p>—</p><p><strong>Where to find Tibo Sottiaux:</strong></p><p>• X: <a target=\"_blank\" href=\"https://x.com/thsottiaux\">https://x.com/thsottiaux</a></p><p>• LinkedIn: <a target=\"_blank\" href=\"https://www.linkedin.com/in/thibault-",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: text too sparse to be a transcript (4060 chars for 37 min); youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "a16z",
+      "speaker_type": "channel",
+      "domain": "ai",
+      "guid": "9c224ca2-3895-43b3-b9de-eb5e45c5d726",
+      "title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "pub_date": "2026-10-04T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/david-george-jack-altman-on-ai-autonomy-and-the-next-25-trillion-bFIBGYtV",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/f7d0e381-40ba-4655-bdfe-afe618282935/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=f7d0e381-40ba-4655-bdfe-afe618282935&feed=JGE3yC0V",
+      "audio_bytes": 52860663,
+      "duration": "00:55:03",
+      "description": "<p>a16z General Partner David George joins Jack Altman on <i>Uncapped</i> to make the case that many of the biggest debates in AI are framed the wrong way. Frontier models or open source? Labs or applications? David’s answer is often “and.” With AI adoption still concentrated among a relatively small group of heavy users, he argues there could be room for multiple layers of the stack to grow at once.&nbsp;</p><p>David and Jack discuss why demand for compute continues to outstrip supply, why applications can thrive even as frontier labs expand into new products, and why consumer AI may still be at the beginning of its biggest shift, from reactive chatbots to proactive assistants that can act on our behalf.&nbsp;</p><p>They also zoom out to autonomy, robotics, healthcare, and the next generation of technology companies, before turning to venture itself: why David believes today’s product cycle is unusually strong, how capital can accelerate AI companies in ways it couldn’t during the SaaS era, and why founders and narrative become increasingly important as companies scale.&nbsp;</p><p><i>This conversation originally appeared on Jack Altman’s</i> Uncapped.</p><p><br>Resources:</p><p>Follow David George on X:<a href=\"https://x.com/DavidGeorge83\" rel=\"noopener noreferrer\"> <u>https://x.com/DavidGeorge83</u></a></p><p>Follow Jack Altman: <a href=\"https://x.com/jaltma\" rel=\"noopener noreferrer\"><u>https://x.com/jaltma</u></a></p><p>Listen to more from <i>Uncapped</i>: <a href=\"https://www.youtube.com/@uncappedpod\" rel=\"noopener noreferrer\"><u>https://www.youtube.com/@uncappedpod</u></a></p><p><br>&nbsp;</p>\n<p><p><strong>Stay Updated:</strong></p><p>Find a16z on YouTube: <a href=\"https://www.youtube.com/@a16z\">YouTube</a></p><p>Find a16z on <a href=\"https://x.com/a16z\">X</a></p><p>Find a16z on<a href=\"https://www.linkedin.com/company/a16z\"> LinkedIn</a></p><p>Listen to the a16z Show on <a href=\"https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX?si=3E8B3qT9TyiwAHJ7JnaKbg\"",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: No YouTube video id in link",
+      "transcript_chars": 0
+    },
+    {
       "channel": "All-In Podcast",
       "speaker_type": "channel",
       "domain": "ai",
@@ -156,25 +194,6 @@
       "transcript_chars": 100960
     },
     {
-      "channel": "The Acquirers Podcast",
-      "speaker_type": "channel",
-      "domain": "invest",
-      "guid": "8d70f94a-a2d7-4472-be22-e0afbb0ab0cb",
-      "title": "Great Companies, Beaten-Down Stocks: Booking & Pool Corp with Jonathan Boyar",
-      "pub_date": "2026-10-01T07:00:00+00:00",
-      "link": "https://podcasters.spotify.com/pod/show/acquirers/episodes/Great-Companies--Beaten-Down-Stocks-Booking--Pool-Corp-with-Jonathan-Boyar-e3pl0jv",
-      "audio_url": "https://traffic.megaphone.fm/APO2122058813.mp3",
-      "audio_bytes": 56996395,
-      "duration": "00:58:44",
-      "description": "<p>Value: After Hours is a podcast about value investing, Fintwit, and all things finance and investment by investors Tobias Carlisle, and Jake Taylor. </p><p><br></p><p>We are live every Tuesday at 1.30pm E / 10.30am P.</p><p>──────────────────────</p><p> <a href=\"https://valueoptionsletter.com/subscribe\">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠VALUE OPTIONS LETTER⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a> </p><p>Three to five curated ideas every week — cash-secured puts, covered calls, and spreads on businesses we&#39;d want to own at strikes we&#39;d be willing to pay. </p><p>Every trade includes the business thesis in plain English, the fair-value estimate and its key assumptions, the specific option trade with target premium, and the pre-identified exit criteria.</p><p>Every idea reviewed and approved by an analyst before it hits your inbox.<a href=\"https://valueoptionsletter.com/subscribe\">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠valueoptionsletter.com/subscribe⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>──────────────────────</p><p>See our latest episodes at https://acquirersmultiple.com/podcast</p><p><br></p><p><strong>About Jake </strong></p><p>Jake&#39;s Twitter: https://twitter.com/farnamjake1</p><p>Jake&#39;s book: The Rebel Allocator https://amzn.to/2sgip3l</p><p><br></p><p><strong>ABOUT THE PODCAST</strong></p><p>Hi, I&#39;m Tobias Carlisle. I launched The Acquirers Podcast to discuss the process of finding undervalued stocks, deep value investing, hedge funds, activism, buyouts, and special situations.We uncover the tactics and strategies for finding good investments, managing risk, dealing with bad luck, and maximizing success.</p><p>SEE LATEST EPISODES</p><p>https://acquirersmultiple.com/podcast/</p><p>SEE OUR FREE DEEP VALUE STOCK SCREENER https://acquirersmultiple.com/screener/</p><p>FOLLOW TOBIAS</p><p>Website: https://acquirersmultiple.com/</p><p>Firm: https://acquirersfunds.com/ </p><p>Twitter: ttps://twitter.com/Greenbackd</p><p>LinkedIn: https://www.linkedin.com/in/tobycarlisle</p><p>Facebook: https://www.facebook.com/tobiascarlisle</p>",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
       "channel": "SemiAnalysis",
       "speaker_type": "channel",
       "domain": "ai",
@@ -191,28 +210,6 @@
       "transcript_url": null,
       "transcript_video_id": null,
       "transcript_error": "episode_page: Spotify/Anchor catalog pages are show notes, not transcripts; youtube: No YouTube video id in link",
-      "transcript_chars": 0
-    },
-    {
-      "channel": "DRM News",
-      "domain": "ai",
-      "person": "Sundar Pichai",
-      "search_query": "Sundar Pichai interview",
-      "guid": "yt:SaaJo1ebcTQ",
-      "title": "Sam Altman, Jensen Huang and Sundar Pichai Arrive for Trump-Xi White House State Dinner | AC1G",
-      "pub_date": "",
-      "pub_date_source": "unverified",
-      "publish_date_unverified": true,
-      "first_seen": "2026-09-27T15:01:18.332085+00:00",
-      "link": "https://www.youtube.com/watch?v=SaaJo1ebcTQ",
-      "audio_url": "",
-      "duration": "18:45",
-      "description": "Some of the world's most powerful technology and business leaders arrived at the White House for the state dinner hosted by ...",
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": "SaaJo1ebcTQ",
-      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=SaaJo1ebcTQ! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
     },
     {
@@ -456,6 +453,28 @@
       "transcript_video_id": "k6YbWRJFoVM",
       "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=k6YbWRJFoVM! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
+    },
+    {
+      "channel": "Bloomberg Television",
+      "domain": "ai",
+      "person": "Sam Altman",
+      "search_query": "Sam Altman interview",
+      "guid": "yt:H2UMDLc_E8Y",
+      "title": "Sam Altman Interview, OpenAI Developer Day | Bloomberg The Close",
+      "pub_date": "",
+      "pub_date_source": "unverified",
+      "publish_date_unverified": true,
+      "first_seen": "2026-10-04T15:11:08.571396+00:00",
+      "link": "https://www.youtube.com/watch?v=H2UMDLc_E8Y",
+      "audio_url": "",
+      "duration": "1:39:28",
+      "description": "The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on ...",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "H2UMDLc_E8Y",
+      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=H2UMDLc_E8Y! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_chars": 0
     }
   ],
   "errors": null,
@@ -465,5 +484,5 @@
     "filled": 0,
     "reused": 0
   },
-  "generated_at": "2026-10-04T00:20:48.884515+00:00"
+  "generated_at": "2026-10-04T15:11:04.927037+00:00"
 }
