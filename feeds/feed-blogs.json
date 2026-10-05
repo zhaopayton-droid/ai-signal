@@ -1,5 +1,26 @@
 {
-  "articles": [],
-  "errors": null,
-  "generated_at": "2026-10-05T00:25:17.850157+00:00"
+  "articles": [
+    {
+      "id": "https://openai.com/index/eu-text-provenance",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "published": "2026-10-05T15:00:00+00:00",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+    },
+    {
+      "id": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "published": "2026-10-05T10:00:00+00:00",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+    }
+  ],
+  "errors": [
+    "Stratechery (Ben Thompson): Client error '429 Too Many Requests' for url 'https://stratechery.com/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ],
+  "generated_at": "2026-10-05T19:07:29.343387+00:00"
 }
