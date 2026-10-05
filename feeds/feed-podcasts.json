@@ -154,46 +154,6 @@
       "transcript_chars": 130709
     },
     {
-      "channel": "Google DeepMind Podcast",
-      "speaker_type": "channel",
-      "domain": "ai",
-      "guid": "bcecac98-430a-4361-9737-bfebe7ca9ad5",
-      "title": "From deepfakes to DNA: the science of watermarking AI",
-      "pub_date": "2026-10-01T16:38:11+00:00",
-      "link": "https://deepmind.com/podcast",
-      "audio_url": "https://afp-920373-injected.calisto.simplecastaudio.com/36cf10bf-f6dd-4a98-96a9-8eda9f59db4f/episodes/83783c09-9840-410b-8653-84a9a446ea98/audio/128/default.mp3?aid=rss_feed&awCollectionId=36cf10bf-f6dd-4a98-96a9-8eda9f59db4f&awEpisodeId=83783c09-9840-410b-8653-84a9a446ea98&feed=JT6pbPkg",
-      "audio_bytes": 36588650,
-      "duration": "00:38:06",
-      "description": "<p>Learn how invisible, mathematical watermarks help trace AI provenance, protect against misuse, and safeguard protein sequence design without impacting biological function.&nbsp;</p><p>Timecodes:</p><p>00:00 Introduction&nbsp;</p><p>00:34 What is a watermark?</p><p>04:35 SynthID</p><p>15:16 Images and video&nbsp;</p><p>19:28 SynthID Bio</p><p>28:00 Future of resilience&nbsp;</p><p>Learn more about SynthID Bio: https://deepmind.google/blog/introducing-synthid-bio/ &nbsp;</p>\n<p><p>Please leave us a review on Spotify or Apple Podcasts if you enjoyed this episode. We always want to hear from our audience whether that's in the form of feedback, new idea or a guest recommendation! </p><p> </p></p><br/> <p>Hosted by Simplecast, an AdsWizz company. See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://deepmind.google/the-podcast/",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/bc702da163310c2a84268fc5.txt",
-      "transcript_chars": 18566
-    },
-    {
-      "channel": "Dwarkesh Patel",
-      "speaker_type": "channel",
-      "domain": "ai",
-      "guid": "https://www.dwarkesh.com/p/si-sheppard",
-      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
-      "pub_date": "2026-10-01T15:28:28+00:00",
-      "link": "https://www.dwarkesh.com/p/si-sheppard",
-      "audio_url": "https://api.substack.com/feed/podcast/218345956/a16d196884ff2477b2958c2fa132858d.mp3",
-      "audio_bytes": 0,
-      "duration": "",
-      "description": "Fall of the Incas & Aztecs.",
-      "transcript_available": true,
-      "transcript_source": "episode_page",
-      "transcript_url": "https://www.dwarkesh.com/p/si-sheppard",
-      "transcript_video_id": null,
-      "transcript_error": null,
-      "transcript_path": "feeds/transcripts/7f72fee2f40583e7417be354.txt",
-      "transcript_chars": 100960
-    },
-    {
       "channel": "SemiAnalysis",
       "speaker_type": "channel",
       "domain": "ai",
@@ -484,5 +444,5 @@
     "filled": 0,
     "reused": 0
   },
-  "generated_at": "2026-10-04T15:11:04.927037+00:00"
+  "generated_at": "2026-10-05T00:25:17.850157+00:00"
 }

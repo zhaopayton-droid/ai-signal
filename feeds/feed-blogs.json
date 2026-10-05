@@ -1,33 +1,5 @@
 {
-  "articles": [
-    {
-      "id": "https://stratechery.com/2026/dots-and-question-marks/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "2026.40: Dots and Question Marks",
-      "url": "https://stratechery.com/2026/dots-and-question-marks/",
-      "published": "2026-10-02T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of September 28, 2026, including Meta's focus, what OpenAI is doing, and Mao and NBA Media Day."
-    },
-    {
-      "id": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "published": "2026-10-02T16:15:00+00:00",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
-    },
-    {
-      "id": "https://www.anthropic.com/news/claude-frontier-academy",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027."
-    }
-  ],
+  "articles": [],
   "errors": null,
-  "generated_at": "2026-10-04T15:11:04.927037+00:00"
+  "generated_at": "2026-10-05T00:25:17.850157+00:00"
 }
