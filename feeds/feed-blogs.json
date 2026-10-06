@@ -17,10 +17,17 @@
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
       "published": "2026-10-05T10:00:00+00:00",
       "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+    },
+    {
+      "id": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "Apple and a Hacker’s Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "published": "2026-10-05T10:00:00+00:00",
+      "summary": "I was happy for years in Apple's walled garden; with AI, however, their protections feel like limitations."
     }
   ],
-  "errors": [
-    "Stratechery (Ben Thompson): Client error '429 Too Many Requests' for url 'https://stratechery.com/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-  ],
-  "generated_at": "2026-10-05T19:07:29.343387+00:00"
+  "errors": null,
+  "generated_at": "2026-10-06T02:02:52.095505+00:00"
 }
