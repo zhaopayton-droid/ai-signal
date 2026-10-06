@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://stratechery.com/2026/game-decompilation-is-this-legal-a-well-trodden-path/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "Game Decompilation, Is This Legal?, A Well-Trodden Path",
+      "url": "https://stratechery.com/2026/game-decompilation-is-this-legal-a-well-trodden-path/",
+      "published": "2026-10-06T10:07:36+00:00",
+      "summary": "Games are being decompiled, but the real risk to gaming is new games and increased personalization."
+    },
+    {
       "id": "https://openai.com/index/eu-text-provenance",
       "source": "openai",
       "source_name": "OpenAI",
@@ -29,5 +38,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-10-06T02:02:52.095505+00:00"
+  "generated_at": "2026-10-06T16:33:33.180024+00:00"
 }
