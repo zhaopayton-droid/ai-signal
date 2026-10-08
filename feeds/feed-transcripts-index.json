@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-08T01:33:46.874236+00:00",
+  "generated_at": "2026-10-08T17:16:36.355769+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "substack:post:219146438",
+      "link": "https://www.latent.space/p/periodic",
+      "channel": "Latent Space",
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+      "pub_date": "2026-10-08T16:27:54+00:00",
+      "transcript_path": "feeds/transcripts/0cfb21fac3f0ed730436af68.txt",
+      "transcript_chars": 109374,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-10-08T17:16:36.355769+00:00",
+      "last_seen_at": "2026-10-08T17:16:36.355769+00:00",
+      "expires_at": "2026-10-22T17:16:36.355769+00:00"
+    },
     {
       "guid": "substack:post:218414422",
       "link": "https://www.latent.space/p/rlm",
@@ -92,19 +105,6 @@
       "cached_at": "2026-09-22T14:28:08.827935+00:00",
       "last_seen_at": "2026-09-25T00:16:39.245045+00:00",
       "expires_at": "2026-10-09T00:16:39.245045+00:00"
-    },
-    {
-      "guid": "053073fc-e856-48e9-9312-74082d4761ee",
-      "link": "https://allinchamathjason.libsyn.com/naveen-rao-4d-computing-ais-energy-wall-beating-biology",
-      "channel": "All-In Podcast",
-      "title": "Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
-      "pub_date": "2026-09-21T21:03:00+00:00",
-      "transcript_path": "feeds/transcripts/1567452536fca84d29226101.txt",
-      "transcript_chars": 3819,
-      "transcript_source": "episode_page",
-      "cached_at": "2026-09-22T00:35:46.780192+00:00",
-      "last_seen_at": "2026-09-24T14:42:57.730994+00:00",
-      "expires_at": "2026-10-08T14:42:57.730994+00:00"
     }
   ]
 }
