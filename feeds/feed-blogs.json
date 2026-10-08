@@ -19,6 +19,24 @@
       "summary": "Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents."
     },
     {
+      "id": "https://openai.com/index/radisson",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "published": "2026-10-07T07:00:00+00:00",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips."
+    },
+    {
+      "id": "https://openai.com/index/gpt-6-for-everyone",
+      "source": "openai",
+      "source_name": "OpenAI",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly."
+    },
+    {
       "id": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
       "source": "deepmind",
       "source_name": "Google DeepMind",
@@ -46,15 +64,6 @@
       "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
     },
     {
-      "id": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "published": "2026-10-06T12:00:00+00:00",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
-    },
-    {
       "id": "https://stratechery.com/2026/game-decompilation-is-this-legal-a-well-trodden-path/",
       "source": "stratechery",
       "source_name": "Stratechery (Ben Thompson)",
@@ -62,15 +71,6 @@
       "url": "https://stratechery.com/2026/game-decompilation-is-this-legal-a-well-trodden-path/",
       "published": "2026-10-06T10:07:36+00:00",
       "summary": "Games are being decompiled, but the real risk to gaming is new games and increased personalization."
-    },
-    {
-      "id": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "published": "2026-10-06T10:00:00+00:00",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work."
     },
     {
       "id": "https://www.anthropic.com/news/cyber-verification-program",
@@ -83,5 +83,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-10-07T17:20:03.984673+00:00"
+  "generated_at": "2026-10-08T01:32:48.972070+00:00"
 }
