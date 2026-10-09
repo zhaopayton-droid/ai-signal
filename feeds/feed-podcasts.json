@@ -437,12 +437,14 @@
       "transcript_chars": 0
     }
   ],
-  "errors": null,
+  "errors": [
+    "Naval: https://nav.al/feed attempt 1/3: Client error '429 Too Many Requests' for url 'https://nav.al/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429 | https://nav.al/feed attempt 2/3: Client error '429 Too Many Requests' for url 'https://nav.al/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429 | https://nav.al/feed attempt 3/3: Client error '429 Too Many Requests' for url 'https://nav.al/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ],
   "local_import": {
     "candidates": 0,
     "added": 0,
     "filled": 0,
     "reused": 0
   },
-  "generated_at": "2026-10-08T17:15:39.280649+00:00"
+  "generated_at": "2026-10-09T01:43:55.762198+00:00"
 }
