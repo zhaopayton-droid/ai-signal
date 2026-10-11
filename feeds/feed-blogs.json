@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://stratechery.com/2026/its-not-you-its-me/",
+      "source": "stratechery",
+      "source_name": "Stratechery (Ben Thompson)",
+      "title": "2026.41: It’s Not You, It’s Me",
+      "url": "https://stratechery.com/2026/its-not-you-its-me/",
+      "published": "2026-10-09T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics."
+    },
+    {
       "id": "https://openai.com/index/sophos",
       "source": "openai",
       "source_name": "OpenAI",
@@ -26,55 +35,8 @@
       "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
       "published": "2026-10-09T00:00:00+00:00",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-    },
-    {
-      "id": "https://openai.com/index/oracle",
-      "source": "openai",
-      "source_name": "OpenAI",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
-      "published": "2026-10-08T16:00:00+00:00",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex."
-    },
-    {
-      "id": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Using Claude Science to produce the first complete map of the sky in UV light",
-      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Claude Science helped produce the first complete map of the sky in UV light"
-    },
-    {
-      "id": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "An opt-in vulnerability-finding service for open-source software",
-      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cost."
-    },
-    {
-      "id": "https://www.anthropic.com/news/anthropic-cyber-mission",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Introducing the Anthropic Cyber Mission",
-      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-    },
-    {
-      "id": "https://www.anthropic.com/news/2026-usage-policy-update",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "2026 Usage Policy update",
-      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
     }
   ],
-  "errors": [
-    "Stratechery (Ben Thompson): Client error '429 Too Many Requests' for url 'https://stratechery.com/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-  ],
-  "generated_at": "2026-10-10T15:46:23.976703+00:00"
+  "errors": null,
+  "generated_at": "2026-10-11T00:39:39.415483+00:00"
 }
