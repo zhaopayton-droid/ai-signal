@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-12T00:57:55.254886+00:00",
+  "generated_at": "2026-10-12T19:41:24.163855+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "df9fe70c-a787-4f9f-b869-ab6bd6758a7b",
+      "link": "https://allinchamathjason.libsyn.com/martin-shkreli-big-pharmas-blind-spot-betting-against-quantum-what-prison-taught-him",
+      "channel": "All-In Podcast",
+      "title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+      "pub_date": "2026-10-12T15:49:00+00:00",
+      "transcript_path": "feeds/transcripts/7453e611f8e3f9581f594d28.txt",
+      "transcript_chars": 3997,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-10-12T19:41:24.163855+00:00",
+      "last_seen_at": "2026-10-12T19:41:24.163855+00:00",
+      "expires_at": "2026-10-26T19:41:24.163855+00:00"
+    },
     {
       "guid": "substack:post:219666029",
       "link": "https://www.latent.space/p/biohub-deepmind",
@@ -12,8 +25,8 @@
       "transcript_chars": 29535,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-10T01:31:21.244936+00:00",
-      "last_seen_at": "2026-10-12T00:57:55.254886+00:00",
-      "expires_at": "2026-10-26T00:57:55.254886+00:00"
+      "last_seen_at": "2026-10-12T19:41:24.163855+00:00",
+      "expires_at": "2026-10-26T19:41:24.163855+00:00"
     },
     {
       "guid": "substack:post:219146438",
