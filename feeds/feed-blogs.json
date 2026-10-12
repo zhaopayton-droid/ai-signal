@@ -1,24 +1,5 @@
 {
-  "articles": [
-    {
-      "id": "https://stratechery.com/2026/its-not-you-its-me/",
-      "source": "stratechery",
-      "source_name": "Stratechery (Ben Thompson)",
-      "title": "2026.41: It’s Not You, It’s Me",
-      "url": "https://stratechery.com/2026/its-not-you-its-me/",
-      "published": "2026-10-09T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics."
-    },
-    {
-      "id": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-      "source": "anthropic",
-      "source_name": "Anthropic",
-      "title": "Investigating unintended model actions in our evaluations and internal use",
-      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-      "published": "2026-10-09T00:00:00+00:00",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-    }
-  ],
+  "articles": [],
   "errors": null,
-  "generated_at": "2026-10-11T16:11:03.965793+00:00"
+  "generated_at": "2026-10-12T00:57:03.680696+00:00"
 }
