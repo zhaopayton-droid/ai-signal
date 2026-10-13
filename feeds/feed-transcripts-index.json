@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T02:50:45.218910+00:00",
+  "generated_at": "2026-10-13T17:26:15.618931+00:00",
   "retention_days": 14,
   "transcripts": [
     {
@@ -12,8 +12,8 @@
       "transcript_chars": 3997,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-12T19:41:24.163855+00:00",
-      "last_seen_at": "2026-10-13T02:50:45.218910+00:00",
-      "expires_at": "2026-10-27T02:50:45.218910+00:00"
+      "last_seen_at": "2026-10-13T17:26:15.618931+00:00",
+      "expires_at": "2026-10-27T17:26:15.618931+00:00"
     },
     {
       "guid": "substack:post:219666029",
