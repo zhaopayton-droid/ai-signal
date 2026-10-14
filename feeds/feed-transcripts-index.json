@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-13T17:26:15.618931+00:00",
+  "generated_at": "2026-10-14T00:51:55.445759+00:00",
   "retention_days": 14,
   "transcripts": [
+    {
+      "guid": "substack:post:220234130",
+      "link": "https://www.latent.space/p/dyna",
+      "channel": "Latent Space",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "pub_date": "2026-10-13T22:25:55+00:00",
+      "transcript_path": "feeds/transcripts/b4595e56b679700e5f38be70.txt",
+      "transcript_chars": 86341,
+      "transcript_source": "episode_page",
+      "cached_at": "2026-10-14T00:51:55.445759+00:00",
+      "last_seen_at": "2026-10-14T00:51:55.445759+00:00",
+      "expires_at": "2026-10-28T00:51:55.445759+00:00"
+    },
     {
       "guid": "df9fe70c-a787-4f9f-b869-ab6bd6758a7b",
       "link": "https://allinchamathjason.libsyn.com/martin-shkreli-big-pharmas-blind-spot-betting-against-quantum-what-prison-taught-him",
@@ -12,8 +25,8 @@
       "transcript_chars": 3997,
       "transcript_source": "episode_page",
       "cached_at": "2026-10-12T19:41:24.163855+00:00",
-      "last_seen_at": "2026-10-13T17:26:15.618931+00:00",
-      "expires_at": "2026-10-27T17:26:15.618931+00:00"
+      "last_seen_at": "2026-10-14T00:51:55.445759+00:00",
+      "expires_at": "2026-10-28T00:51:55.445759+00:00"
     },
     {
       "guid": "substack:post:219666029",

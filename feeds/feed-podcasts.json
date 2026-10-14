@@ -1,6 +1,26 @@
 {
   "podcasts": [
     {
+      "channel": "Latent Space",
+      "speaker_type": "channel",
+      "domain": "ai",
+      "guid": "substack:post:220234130",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "pub_date": "2026-10-13T22:25:55+00:00",
+      "link": "https://www.latent.space/p/dyna",
+      "audio_url": "https://api.substack.com/feed/podcast/220234130/4bb8b18059bcaca59f50b3f1f69eaf8f.mp3",
+      "audio_bytes": 51804346,
+      "duration": "4317",
+      "description": "<p><em>Watch along </em><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=akEqiXFo3GM\"><em>AIE NYC</em></a><em> and join us at </em><a target=\"_blank\" href=\"https://ai.engineer/code/2026\"><em>AIE CODE </em></a><em>in SF next month!</em></p><p>This episode includes a live demo of the Taku robot that <a target=\"_blank\" href=\"https://youtu.be/BHiYomkfoGQ?si=9w38VD0Qs699D-rH&#38;t=4631\">is best enjoyed on YouTube</a>.</p><p>Last month, Dyna made waves by announcing <strong>Dyna-2</strong>, a world-action model pre-trained on one million hours of human video, claiming several new scaling laws on human data across <a target=\"_blank\" href=\"https://x.com/DynaRobotics/status/2086857729105354778\">four orders of magnitude</a>. They have now followed up the model with a physical robot agent, <strong>Dyna-2.1</strong>, that has to be seen to be believed:</p><p>In his talk at AIE this year, Jason talked about how the real challenge for robotics in the real world is <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=Sjfz1TqxzEs\">reliable, long-horizon autonomy</a>, and how Dyna got its models to a 99.4% success rate folding restaurant napkins for 24 hours straight, including recovering after it pulled over the whole stack.</p><p>From training a world-action model on over one million hours of human video to deploying robots that fold thousands of napkins daily at <a target=\"_blank\" href=\"https://x.com/DynaRobotics/status/2093039146357178475\">Din Tai Fung</a>, <a target=\"_blank\" href=\"https://www.dyna.co/\"><strong>Dyna Robotics</strong></a><a target=\"_blank\" href=\"https://www.dyna.co/\"> </a>is pushing physical AI beyond impressive demos and into real-world production. In this episode, Dyna Robotics co-founder and Chief Scientist <a target=\"_blank\" href=\"https://jasonma2016.github.io/\"><strong>Jason Ma</strong></a> joins swyx on-site to unpack how robots can learn new tasks from as little as 45 minutes of demonstrations, why predicting the future of the physical world ma",
+      "transcript_available": true,
+      "transcript_source": "episode_page",
+      "transcript_url": "https://www.latent.space/p/dyna",
+      "transcript_video_id": null,
+      "transcript_error": null,
+      "transcript_path": "feeds/transcripts/b4595e56b679700e5f38be70.txt",
+      "transcript_chars": 86341
+    },
+    {
       "channel": "a16z",
       "speaker_type": "channel",
       "domain": "ai",
@@ -495,14 +515,60 @@
       "transcript_video_id": "05pEkW9WUxc",
       "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=05pEkW9WUxc! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
       "transcript_chars": 0
+    },
+    {
+      "channel": "Lex Fridman",
+      "domain": "ai",
+      "person": "Jensen Huang",
+      "search_query": "Jensen Huang interview",
+      "guid": "yt:FGCP2F_7rQk",
+      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
+      "pub_date": "",
+      "pub_date_source": "unverified",
+      "publish_date_unverified": true,
+      "first_seen": "2026-10-14T00:50:59.828448+00:00",
+      "link": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+      "audio_url": "",
+      "duration": "1:30:18",
+      "description": "I've been traveling the world a bit. One of the most incredible experiences was getting to visit Taiwan with Jensen Huang.",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "FGCP2F_7rQk",
+      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=FGCP2F_7rQk! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_chars": 0
+    },
+    {
+      "channel": "David Senra",
+      "domain": "ai",
+      "person": "Mark Zuckerberg",
+      "search_query": "Mark Zuckerberg AI interview",
+      "guid": "yt:S6l3aRsecuE",
+      "title": "Building Muse, Working with Mark Zuckerberg & The Future of AI | Alexandr Wang, Meta",
+      "pub_date": "",
+      "pub_date_source": "unverified",
+      "publish_date_unverified": true,
+      "first_seen": "2026-10-14T00:50:59.828448+00:00",
+      "link": "https://www.youtube.com/watch?v=S6l3aRsecuE",
+      "audio_url": "",
+      "duration": "1:12:17",
+      "description": "Alexandr Wang is the chief AI officer of Meta and co-founder of Scale AI. We talk about the seven-month effort to build Muse, why ...",
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "S6l3aRsecuE",
+      "transcript_error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=S6l3aRsecuE! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!",
+      "transcript_chars": 0
     }
   ],
-  "errors": null,
+  "errors": [
+    "It's 秀 TIME: https://www.youtube.com/feeds/videos.xml?playlist_id=PLtFP6bZ75fOVBDVbPVFVYw_g87th2mXmx attempt 1/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?playlist_id=PLtFP6bZ75fOVBDVbPVFVYw_g87th2mXmx'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  ],
   "local_import": {
     "candidates": 0,
     "added": 0,
     "filled": 0,
     "reused": 0
   },
-  "generated_at": "2026-10-13T17:25:17.446503+00:00"
+  "generated_at": "2026-10-14T00:50:56.343760+00:00"
 }
